@@ -67,3 +67,8 @@
 .close {
   padding-right: 1em;
 }
+
+app-detail-menu {
+  display: block;
+  margin-bottom: 30px;
+}

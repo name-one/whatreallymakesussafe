@@ -24,6 +24,9 @@ export class DetailComponent implements OnInit {
     this.route.params
       .map((params: Params): string => params['id'])
       .subscribe((sectionTitle: string): void => {
+        if (document.getElementsByTagName('app-detail')[0]) {
+          document.getElementsByTagName('app-detail')[0].scrollTop = 0;
+        }
         for (let section of DATA_MODEL) {
           if (section.navTitle === sectionTitle) {
             this.selectedDetail = section;

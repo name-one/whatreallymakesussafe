@@ -1,17 +1,7 @@
 import { Question } from './data-interfaces';
 
-export const HEADER_MAP: {[key: string]: string} = {
-  'What is ca-tj?:PRAXIS': 'ca-tj-praxis header',
-  'Survivors:PRAXIS': 'Survivors praxis header',
-  'Perpetrators:PRAXIS': 'Perpetrators praxis header',
-  'Community:PRAXIS': 'community praxis header',
-  'Perpetrators/Principles:PRINCIPLE': 'Perpetrators principle header',
-  'Survivors/Principles:PRINCIPLE': 'Community principle header'
-}
-
-
 export const QUESTION_MAP: {[key: string]: Question[]} = {
-  'What is ca-tj?:PRAXIS': [
+  'What is ca-tj?': [
     {
       title: 'Genealogies of the Movement',
       question: 'The last fifteen or twenty years of the community accountability movement have been experiments '

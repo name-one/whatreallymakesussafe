@@ -4,6 +4,17 @@ export class Section {
   header: string;
   questions: Question[];
   type: DataModelType;
+  menu: DetailMenuSection[];
+}
+
+export class DetailMenuSection {
+  sectionHeader: string;
+  menuSections: MenuItem[];
+}
+
+export interface MenuItem {
+  header: string;
+  subs: string[];
 }
 
 export interface Question {

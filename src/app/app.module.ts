@@ -13,12 +13,14 @@ import { DetailComponent } from './detail/detail.component';
 
 // services
 import { PersonService } from './services/person.service';
+import { DetailMenuComponent } from './detail-menu/detail-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    DetailComponent
+    DetailComponent,
+    DetailMenuComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +29,7 @@ import { PersonService } from './services/person.service';
     NgbModule.forRoot(),
     RouterModule.forRoot([
       {  component: DetailComponent, path: 'detail/:id' },
-      {  path: '**', pathMatch: 'full', redirectTo: 'detail/Home' }
+      {  path: '**', pathMatch: 'full', redirectTo: 'detail/About' }
     ]),
   ],
   providers: [
