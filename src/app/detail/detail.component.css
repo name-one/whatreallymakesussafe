@@ -38,8 +38,11 @@
   cursor: pointer;
 }
 
-.initial {
+.initial, .tagline {
   height: 16vw;
+}
+
+.initial {
   line-height: 16vw;
   font-size: 5.5em;
   font-style: italic;
@@ -48,9 +51,17 @@
 }
 
 .tagline {
-  height: 60%;
+  padding: 2em;
   font-size: 1em;
-  visibility: hidden;
+  display: none;
+}
+
+.quote-box:hover > .initial {
+  display: none;
+}
+
+.quote-box:hover .tagline {
+  display: block;
 }
 
 .modal-body > p {
