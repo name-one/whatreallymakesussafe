@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+/*!* You can add global styles to this file, and also import other style files *!*/
+.modal-backdrop.fade {
+  position: fixed;
+  opacity: 0.8 !important;
+  height: 100%;
+  width: 100%;
+  background: black;
+}
+
+.modal {
+  top: 25%;
+}

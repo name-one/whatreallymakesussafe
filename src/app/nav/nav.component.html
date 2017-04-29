@@ -1,0 +1,6 @@
+<div id="logo">
+  <img src="/assets/images/box.jpg" alt="">
+</div>
+<div *ngFor="let title of navTitles" class="nav-section">
+  <div (click)="selectSection(title)" class="title-font"> {{ title }} </div>
+</div>

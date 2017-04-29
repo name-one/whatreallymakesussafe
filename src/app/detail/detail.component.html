@@ -1,0 +1,48 @@
+<div class="header title-font">
+  {{ selectedDetail.navTitle }}
+</div>
+
+<div class="detail-container" *ngIf="selectedDetail.navTitle === 'About'">
+  <div class="homepage-content">
+    This is where the home page shit goes.
+  </div>
+</div>
+
+<div class="detail-container" *ngIf="selectedDetail.navTitle !== 'About'">
+  <div class="question-blocks" *ngFor="let question of selectedDetail.questions">
+    <div class="question-content">
+      <div class="title title-font">
+        {{ question.title }}
+      </div>
+      <div class="question">
+        {{ question.question }}
+      </div>
+    </div>
+    <div class="question-quote-container">
+      <div *ngFor="let quote of question.quotes"
+           class="quote-box"
+           [ngStyle]="{'background-color': getPerson(quote.personId).color, 'color': getPerson(quote.personId).fontColor}"
+           (resize)="onResize($event)"
+           (click)="openQuoteModal(content, quote)">
+        <div class="initial title-font">
+          {{ getPerson(quote.personId).shortName }}
+        </div>
+        <div class="tagline title-font">
+          {{ quote.tagline }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<template #content let-c="close">
+  <div class="modal-header">
+    <h4 class="modal-title title-font">{{ getPerson(selectedQuote.personId).name }}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="c('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <p>{{ selectedQuote.quote }}</p>
+  </div>
+</template>
