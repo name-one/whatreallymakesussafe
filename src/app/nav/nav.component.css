@@ -6,10 +6,23 @@ div#logo > img {
 .nav-section {
   background-color: #08073c;
   width: 100%;
-  height: 50px;
+  height: auto;
   line-height: 50px;
   text-align: center;
   font-size: 1.2em;
+}
+
+.sub-nav {
+  display: block;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+  line-height: 35px;
+  text-decoration: none;
+}
+
+.sub-nav:last-child {
+  margin-bottom: 10px;
 }
 
 .title-font {
@@ -24,9 +37,10 @@ div#logo > img {
   border-top: 0;
 }
 
-.nav-section:hover {
+.title-font:hover, .sub-nav:hover, .selected {
   font-size: 1.1em;
   background-color: pink;
   color: white;
   cursor: pointer;
+  border-top: 1px solid #08073c;
 }

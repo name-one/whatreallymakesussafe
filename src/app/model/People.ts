@@ -3,8 +3,8 @@ import { Person } from './data-interfaces';
 export const PEOPLE: Person[] = [
   {
     id: 0,
-    name: 'Alix Johnson',
-    shortName: 'A',
+    name: 'Melanie Brazzell',
+    shortName: 'M',
     color: '#FF031C',
     fontColor: 'white' },
   {
@@ -57,8 +57,8 @@ export const PEOPLE: Person[] = [
     fontColor: 'white' },
   {
     id: 9,
-    name: 'Philly Stands Up',
-    shortName: 'PSU',
+    name: 'Jenna Peters-Golden & Qui Alenxander',
+    shortName: 'J & Q',
     color: 'grey',
     fontColor: 'white' },
   {
@@ -100,8 +100,8 @@ export const PEOPLE: Person[] = [
   },
   {
     id: 16,
-    name: 'Dr. Sarah Tyson',
-    shortName: 'S',
+    name: 'Alix Johnson',
+    shortName: 'A',
     color: '#777',
     fontColor: 'white'
   },
@@ -114,7 +114,7 @@ export const PEOPLE: Person[] = [
   },
   {
     id: 18,
-    name: 'Leah Todd and Lauren',
+    name: 'Leah Todd and Lauren Spencer',
     shortName: 'L & L',
     color: '#777',
     fontColor: 'white'
@@ -164,7 +164,7 @@ export const PEOPLE: Person[] = [
   {
     id: 25,
     name: 'FIERCE',
-    shortName: 'F',
+    shortName: 'FIERCE',
     color: 'grey',
     fontColor: 'white'
   },
@@ -193,6 +193,13 @@ export const PEOPLE: Person[] = [
     id: 29,
     name: 'Communities United Against Violence',
     shortName: 'CUAV',
+    color: 'grey',
+    fontColor: 'white'
+  },
+  {
+    id: 30,
+    name: 'Bay Area Transformative Justice Collective',
+    shortName: 'BATJC',
     color: 'grey',
     fontColor: 'white'
   }

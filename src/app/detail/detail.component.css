@@ -52,7 +52,8 @@
 
 .tagline {
   padding: 2em;
-  font-size: 1em;
+  font-size: 1.5em;
+  text-align: center;
   display: none;
 }
 
@@ -82,4 +83,10 @@
 app-detail-menu {
   display: block;
   margin-bottom: 30px;
+}
+
+.rollover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
 }

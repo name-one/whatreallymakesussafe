@@ -1,6 +1,12 @@
 <div id="logo">
   <img src="/assets/images/box.jpg" alt="">
 </div>
-<div *ngFor="let title of navTitles" class="nav-section">
-  <div (click)="selectSection(title)" class="title-font"> {{ title }} </div>
+<div *ngFor="let section of nav" class="nav-section">
+  <div (click)="selectSection(section.id, section.title)"
+       class="title-font" [ngClass]="{'selected': selectedNavId === section.id}"> {{ section.title }} </div>
+  <div *ngIf="selectedNavId === section.id">
+    <a *ngFor="let sub of section.menu" class="sub-nav" href="{{routerBase + '#' + sub.sectionHeader}}">
+      {{ sub.sectionHeader }}
+    </a>
+  </div>
 </div>

@@ -3,7 +3,6 @@ export class Section {
   navTitle: SectionType;
   header: string;
   questions: Question[];
-  type: DataModelType;
   menu: DetailMenuSection[];
 }
 
@@ -19,6 +18,7 @@ export interface MenuItem {
 
 export interface Question {
   title: string;
+  nav?: string;
   question: string;
   quotes: Quote[];
 }
@@ -37,6 +37,4 @@ export interface Person {
   fontColor: string;
 }
 
-export type SectionType = 'What is ca-tj?' | 'Survivors' | 'Perpetrators' | 'Community'
-  | 'Survivors/Principles' | 'Perpetrators/Principles' | 'About';
-export type DataModelType = 'PRINCIPLE' | 'PRAXIS';
+export type SectionType = 'Game Changers' | 'Support' | 'Accountability' | 'Community' | 'Principles' | 'About' | 'Movement';

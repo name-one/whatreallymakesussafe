@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { DATA_MODEL } from '../model/data-constructor';
-import { Section, SectionType } from '../model/data-interfaces';
+import { Section, SectionType, DetailMenuSection } from '../model/data-interfaces';
+import { NavigationService } from '../services/navigation.service';
 
 @Component({
   selector: 'app-nav',
@@ -11,17 +12,43 @@ import { Section, SectionType } from '../model/data-interfaces';
 })
 
 export class NavComponent implements OnInit {
-  public navTitles: SectionType[];
+  public nav: Nav[] = [];
+  public routerBase: string;
+  public selectedNavId = 0;
 
-  constructor(private router: Router) {}
+  constructor(private navigationService: NavigationService,
+              public router: Router) {}
 
   public ngOnInit() {
-    this.navTitles = DATA_MODEL.map((model: Section): SectionType => {
-      return model.navTitle;
+    let i = 0;
+    DATA_MODEL.forEach((model: Section): void => {
+      this.nav.push({ id: i, menu: model.menu, title: model.navTitle });
+      i++;
+    });
+
+    this.navigationService.navigation$.subscribe((sectionTitle: string): void => {
+      this.routerBase = this.router.routerState.snapshot.url.split('#')[0];
+      this.nav.forEach((nav: Nav): void => {
+        if (nav.title === sectionTitle) {
+          this.selectedNavId = nav.id;
+        }
+      })
     });
   }
 
-  public selectSection(navTitle: SectionType): void {
-    this.router.navigate(['/detail/', navTitle]);
+  public selectSection(navId: number, navTitle: string): void {
+    if (navId !== this.selectedNavId) {
+      console.log('in here');
+      this.router.navigate(['/detail/', navTitle]).then(() => {
+        this.routerBase = this.router.routerState.snapshot.url.split('#')[0];
+      });
+      this.selectedNavId = navId;
+    }
   }
+}
+
+interface Nav {
+  id: number;
+  title: string;
+  menu: DetailMenuSection[];
 }

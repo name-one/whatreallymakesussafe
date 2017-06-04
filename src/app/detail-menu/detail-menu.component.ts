@@ -16,5 +16,6 @@ export class DetailMenuComponent implements OnInit {
 
   public ngOnInit(): void {
     this.routerBase = this.router.routerState.snapshot.url.split('#')[0];
+    console.log('model, ', this.routerBase);
   }
 }

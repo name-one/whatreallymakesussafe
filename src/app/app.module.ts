@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 // components
 import { AppComponent } from './app.component';
@@ -14,6 +15,8 @@ import { DetailComponent } from './detail/detail.component';
 // services
 import { PersonService } from './services/person.service';
 import { DetailMenuComponent } from './detail-menu/detail-menu.component';
+import { RolloverService } from './services/rollover.service';
+import { NavigationService } from './services/navigation.service';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,9 @@ import { DetailMenuComponent } from './detail-menu/detail-menu.component';
     ]),
   ],
   providers: [
-    PersonService
+    NavigationService,
+    PersonService,
+    RolloverService
   ],
   bootstrap: [AppComponent]
 })
