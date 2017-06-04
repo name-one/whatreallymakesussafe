@@ -61,7 +61,7 @@ export const ACCOUNTABILITY_SECTION = [
     question: '',
     quotes: [
       {
-        tagline: 'Is CA the best fit',
+        tagline: 'Is CA the best fit?',
         quote: 'I think I have a lot of questions that are just core to when we\'re doing the work that seem to come up again and again, depending on the situation, that feel like <strong>big unresolved questions that community accountability never got to</strong>. Or you know, where it might actually not be appropriate.  Maybe not appropriate is the wrong word, but just like where it <strong>wouldn\'t be the best fit</strong> or isn\'t.  We need a <strong>different model</strong>.',
         personId: 4
       },
@@ -85,7 +85,7 @@ export const ACCOUNTABILITY_SECTION = [
         personId: 2
       },
       {
-        tagline: 'Differences in types of perpetration',
+        tagline: 'Different types of perpetration',
         quote: 'I think this question is very much about resistance and governance, like we can continue to critique what \'they\' [those who govern] are doing or we can actually try to create something that works, which is going to require us to really wrestle with complexities.'
           + '<br><br>' + 'How do we differentiate between the <strong>perpetrator who is targeting female bodied people whom he perceives to be vulnerable</strong>, tracking them, using weapons like alcohol, drugs, or force to incapacitate, and then committing sexual assault, who is, by the time we\'ve ientified him, has likely sexually assaulted six other women in college, an untold number of women in high school because he learned it somewhere. He has actually been practicing, meaning he\'s actually getting better at doing this, every time he does it, he\'s getting better at it. <strong>How do we differentiate that behavior from someone who thought they had the consent when they didn\'t?</strong>'
           + '<br><br>' +'So in our minds, we have: <strong>there\'s no hierarchy of oppression and violence is violence</strong>, and as first responders we know that we are <strong>never trying to ask somebody to rate their experience of trauma</strong>. And who is to say, in terms of the experience of the person who experiences assault, who is to say how that experience affects him or her in terms of "who is more traumatize" (if that\'s useful).'
@@ -105,7 +105,7 @@ export const ACCOUNTABILITY_SECTION = [
     question: '',
     quotes: [
       {
-        tagline: '<strong>Long-term educational meetings</strong>',
+        tagline: 'Long-term educational meetings',
         quote: 'When it first got started [mid-way through the process], it was super <strong>informal and was happening within this person\'s friend group</strong>. Then at a certain point, people were kind of like, "Oh, this doesn\'t really work for this to be informal. There need to actually be <strong>formal meetings</strong> happening." So they started hammering out more of the \'this is how you\'re going to go about telling other people about what we\'re doing\' and checking in to make sure that people had in fact been informed.'
         + '<br><br>' +'After I joined the process, <strong>we met every two weeks</strong>. Our meetings would run for <strong>two to two & a half hours</strong>. They would usually start with a check-in, what was going on with everyone\'s lives, how people were doing emotionally, various things that had happened. Clearly, mostly with the person who the process was with. But I always felt like it was a good idea for me to do a certain amount of <strong>being emotionally open about my life</strong> and talking about things that were going on in my life too, <strong>as a way of making connections amongst all of us</strong>.'
         + '<br><br>' +'So we would usually talk about some sort of situation that had happened in this person\'s life, and then we tended to have readings. Talk it out, talk it out, that kind of thing. We had different topics that we talked about, <strong>like how to deal with conflict, how to do active listening, what support can look like in different contexts, but then also discussions around consent and sexual assault</strong>. We were going through the questions in the "Learning Good Consent" zine at the end. We would go through one or two of those every week, and be like "Okay, has this happened to you before? Do you wanna talk through a situation where this has happened? Do you think you could have done something different with that situation? What could consent have looked like in that situation?" We were doing different reaidngs and talking through different situations in this person\'s life that they found difficult to deal with, and checking in about how they felt their behavioral patterns were going. [...]'
@@ -114,7 +114,7 @@ export const ACCOUNTABILITY_SECTION = [
         personId: 17
       },
       {
-        tagline: '<strong>Work with survivors & perpetuators</strong>',
+        tagline: 'Work with survivors & perpetuators',
         quote: 'We have <strong>one basic collective that works with both survivors and perpetuators. But we try not to have the same person be the contact for both</strong> the survivor and perpetuator, cuz it just gets really hard to deal with both peoples\' emotions and needs, and we try to separate that as much as we can. But we\'ll have two people, <strong>one person be the point person for the perpetuator, one person be the point person for the survivor</strong>, and then have them talk and figure out what to do.'
         + '<br><br>' +'The basic structure is we usually will do <strong>meetings every two weeks</strong> with somebody and most of the time the structure of the meetings will follow whatever <strong>demands or requests the survivors have put in</strong>. There\'s a lot of variation between people, and we\'ll try to focus on different topics, use whatever readings we can find to get people talking, do personal exercises, etc. We developed a <strong>curriculum</strong>, which is a basic outline of what we do.'
         + '<br><br>' +'A <strong>process always starts after an abusive relationship is over, not while the violence is still going on</strong>. The work involves asking people to think about their socialization, for instance, reading texts written by men about dealing with sexism. <strong>Building a relationship between us and the perpetuator is the start, and talking about sexual violence starts in the middle of a process</strong>.'
@@ -122,7 +122,7 @@ export const ACCOUNTABILITY_SECTION = [
         personId: 18
       },
       {
-        tagline: '<strong>Road map to accountability</strong>',
+        tagline: 'Road map to accountability',
         quote:'<a href="http://www.usprisonculture.com/blog/wp-content/uploads/2012/03/accountabilityroadmap.pdf#page=7">Road Map to Accountability</a>'
         + '<br><br>' +'-Philly Stands Up, The Abolitionist, 2012, p. 7.',
         personId: 9
@@ -136,13 +136,16 @@ export const ACCOUNTABILITY_SECTION = [
       },
       {
         tagline: 'Staircase of Change',
-        quote: '<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=389">Creative Interventions Staircase of Change</a>',
+        quote: '<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=389">Creative Interventions Staircase of Change</a>'
+         + '<br><br>' +'-The Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence',
         personId: 12
       },
       {
         tagline: 'Questions for planning accountability',
-        quote: 'Below are some of the questions involve in developing a plan around accountability.'
-        + '<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=56">generationFIVE Questions for Planning Accountability</a>',
+        quote: 'Below are some of the questions involved in developing a plan around accountability:'
+        + '<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=56">generationFIVE Questions for Planning Accountability</a>'
+        + '<br><br>' +'-Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence'
+        + '<br><br>' +'generationFIVE',
         personId: 11
       },
       {
@@ -157,12 +160,12 @@ export const ACCOUNTABILITY_SECTION = [
     question: '',
     quotes: [
       {
-        tagline: '<strong>Limits & boundaries</strong>',
+        tagline: 'Limits & boundaries',
         quote: 'A lot of our <strong>failures</strong>, we realized over the years, came from an <strong>inability to see our own limits and set boundaries</strong> for ourselves with people who we are working with. We needed to do anything because otherwise why we are doing anything even, you know?',
         personId: 2
       },
       {
-        tagline: '<strong>Paradox of teaching consent but using pressure</strong>',
+        tagline: 'Paradox of teaching consent but using pressure',
         quote: 'It is tough because you are <strong>trying to teach people how to not do coercive behaviors but you use coercive behaviors to teach them how not to do coercive behaviors</strong>. It is really a weird thing that we struggle with all the time and always question, but at the end of the day it is kind of like...  There are different forms of coercion and there are different forms of... I don\'t know, I don\'t have the theory, I will let some academic figure out why the thing that I do is allowed, because that is not my forte. But we use social pressure [on] someone that doesn\'t feel bad for doing something terrible, but they should feel terrible for doing something terrible. What\'s the difference between that and making someone feel like they are not a free love anarchist revolutionary if they don\'t let me stick my hand into their pants? You know, there is social pressure, it\'s a similar notion. I guess one thing is an <strong>indiviual exerting pressure to advance a selfish goal</strong> and the other is when <strong>a group or a community exerting pressure for a broader community goal.</strong>',
         personId: 2
       },
@@ -226,7 +229,7 @@ export const ACCOUNTABILITY_SECTION = [
     ]
   },
   {
-    title: 'What is accountability & How does change happen?',
+    title: 'What is accountability? How does change happen?',
     question: '',
     quotes: [
       {
