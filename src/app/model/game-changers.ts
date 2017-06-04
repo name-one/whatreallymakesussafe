@@ -160,7 +160,7 @@ export const GAME_CHANGERS_SECTION = [
     + '<br><br>' + '… in Durham… <a href="https://iambecauseweare.wordpress.com/">UBUNTU</a>'
     + '<br><br>' + '…in Seattle… <a href="http://www.nwnetwork.org/">Northwest Network of Bi, Trans, Lesbian, and Gay Survivors of Abuse</a>, <a href="http://cara-seattle.blogspot.com/">Communities Against Rape & Abuse</a>, For Crying Out Loud, <a href="https://www.apichaya.org/">Asian Pacific Islander Chaya</a>'
     + '<br><br>' + '…in the Bay Area…<a href="https://batjc.wordpress.com/">Bay Area Transformative Justice Collective</a>, <a href="http://www.sfaws.org/">San Francisco Asian Women’s Shelter</a>, <a href="http://www.cuav.org/">Communities United Against Violence</a>, <a href="http://www.creative-interventions.org/">Creative Interventions</a>, <a href="http://www.generationfive.org/">GenerationFIVE</a>'
-    + '<br><br>' + 'and nationally... <a href="http://www.incite-national.org/">INCITE!,</a>, <a href="http://www.survivedandpunished.org/">#SurvivedAndPunished</a>'
+    + '<br><br>' + 'and nationally... <a href="http://www.incite-national.org/">INCITE!</a>, <a href="http://www.survivedandpunished.org/">#SurvivedAndPunished</a>'
     + '<br><br>' + '& internationally… <a href="http://www.bridgesinstitute.org/">Bridges Institute</a>'
     + '<br><br>' + 'I also spoke to two individuals who have been involved in various forms of accountability work in international settings, including Canada and Australia.'
     + '<br><br>' + 'Describe dynamics and learning processes in your group/organization.',
