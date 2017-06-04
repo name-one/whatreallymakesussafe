@@ -390,7 +390,7 @@ export const ACCOUNTABILITY_SECTION = [
           + '<br><br>' +'We might hit a point where we say, <strong>"Okay, this isn\'t going anywhere."</strong> If we feel we\'re lost. We\'ve also had people who are like, "No, I\'m fine, I\'ll keep meeting, yeah, let\'s do this." But then it doesn\'t feel like they are making a lot of progress. We are not just going to keep hammering it in, wasting our time. Rather just be like, <strong>"Okay, so maybe this isn\'t the best place for you to deal with this."</strong> That\'s another way of ending it and being a little bit more detailed about what was accomplished there and further points to go.'
           + '<br><br>' +'But if it just seems like a failure and the person is totally still denying abuse and just doing the same behaviors, then the response is going to be something that becomes more of a <strong>public call-out</strong>. I feel like there should be <strong>some consequences to not finishing a process.</strong>'
           + '<br><br>' +'So I guess, ideally, you would envision this process of accountability never really ending. It is something that <strong>everybody has to deal with throughout their entire lives but our endpoint is a way of handing it back to the community</strong>. That\'s hard because community is so broad and who knows.',
-        personId: undefined
+        personId: 18
       }
     ]
     // end of questions for Accountability for Persons Causing Harm
