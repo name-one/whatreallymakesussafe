@@ -12,7 +12,7 @@ export const SUPPORT_SECTION = [
       {
         tagline: 'Facilitated model',
         quote: '<strong>Tools to Mix and Match</strong> contains sets of tools organized around activities that can be useful in planning and carrying out community-based interventions to interpersonal violence. They follow basic concerns that many or most groups interested in violence intervention have faced.'
-        + '<br><br>' + 'These sets of tools are organized in the following categories:'
+        + '<br><br>' + 'These <a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=153">sets of tools</a> are organized in the following categories:'
         + '<br>' + '4.A. <strong>Getting Clear</strong>. What Is Going On?'
         + '<br>' + '4.B. <strong>Staying Safe</strong>. How Do We Stay Safe?'
         + '<br>' + '4.C. <strong>Mapping Allies and Barriers</strong>. Who Can Help?'
@@ -21,7 +21,7 @@ export const SUPPORT_SECTION = [
         + '<br>' + '4.F. <strong>Taking Accountability</strong>. How Do We Change Violence?'
         + '<br>' + '4.G. <strong>Working Together</strong>. How Do We Work Together as a Team?'
         + '<br>' + '4.H. <strong>Keeping on Track</strong>. How Do We Move Forward?'
-        + '<br><br>' + '-"<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=153">Creative Interventions Toolkit</a>"',
+        + '<br><br>' + '-The Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence',
         personId: 12
       },
       {
@@ -34,24 +34,31 @@ export const SUPPORT_SECTION = [
       {
         tagline: 'Support Checklists',
         quote: 'Supporting survivors or victims can look many different ways to many different people. This tool offers ideas of possible types of support that survivors or victims have said have been helpful over time.'
-        + '<br><br>' + '"<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=325">What Does the Survivor or Victim Need? Checklist</a>"',
+        + '<br><br>' + '<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=325">What Does the Survivor or Victim Need? Checklist</a>'
+        + '<br><br>' + '-The Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence',
         personId: 12
       },
       {
         tagline: 'Support & Boundary Exercises',
-        quote: '<a href="https://static1.squarespace.com/static/566c7f0c2399a3bdabb57553/t/566c9be29cadb6bf7efc8e1e/1449958370563/It-Takes-A-Village-People-Web-Version.pdf#page=">"a little help from my friends Support Planning Checklist" & "Boundary Setting Exercise"</a>',
+        quote: '<a href="https://static1.squarespace.com/static/566c7f0c2399a3bdabb57553/t/566c9be29cadb6bf7efc8e1e/1449958370563/It-Takes-A-Village-People-Web-Version.pdf#page=">\"a little help from my friends\" Support Planning Checklist & Boundary Setting Exercise</a>'
+        + '<br><br>' + '-\"It Takes A Village, People!\" Friends and Family Toolkit'
+        + '<br><br>' + 'The Northwest Network of Bi, Trans, Lesbian & Gay Survivors of Abuse',
         personId: 26
       },
       {
         tagline: 'Transformative Justice Model',
-        quote: 'This section presents Generation FIVE\'s best thinking on the practices upon which a Transformative Justice model can be built.'
-        + '<br><br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=38">Developing Transformative Justice Practices</a>"',
+        quote: 'This section presents Generation FIVE\'s best thinking on the practices upon which a Transformative Justice model can be built:'
+        + '<br><br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=38">Developing Transformative Justice Practices</a>"'
+        + '<br><br>' + '-Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence'
+        + '<br><br>' + 'generationFIVE',
         personId: 11
       },
       {
         tagline: 'Safety Strategy Questions',
-        quote: 'In order to develop a safety strategy, it is helpful to discuss the following types of questions.'
-        + '<br><br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=50">Developing a Safety Strategy</a>"',
+        quote: 'In order to develop a safety strategy, it is helpful to discuss the following types of questions:'
+        + '<br><br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=50">Developing a Safety Strategy</a>"
+        + '<br><br>' + '-Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence'
+        + '<br><br>' + 'generationFIVE',
         personId: 11
       }
     ]
@@ -83,12 +90,12 @@ export const SUPPORT_SECTION = [
         tagline: 'Liaison with person harmed',
         quote: 'The accountability part, to me [as a facilitator], is this liaison back and forth with the person who\'s been harmed and how they feel about the situation. <strong>Trying to keep their feelings and emotions and healing in your mind [as a facilitator]</strong> at all times when you\'re doing this kind of stuff.'
         + '<br><br>' +'But by the time I got involved, that person was not really around and\/or not super emotionally invested in their relationship to the person who the process was with anymore anyways, and so we almost got this carte blanche.',
-        personId: 20
+        personId: 17
       },
       {
         tagline: 'Define what you want',
         quote: 'The most helpful thing is when people find out and <strong>define what they want</strong> from this process and why it\'s important, and continue to connect with this throughout a process.',
-        personId: 17
+        personId: 9
       }
     ]
   },
