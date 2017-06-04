@@ -13,7 +13,7 @@ export const COMMUNITY_SECTION = [
         personId: 4
       },
       {
-        tagline: 'Personal networks vs. Neighborhoods',
+        tagline: 'Personal networks vs. neighborhoods',
         quote: 'As a group we\'ve always had a commitment to being <strong>majority queer people of color</strong> and to focusing our interventions on the <strong>people who are most impacted by violence in our own communities</strong>. So it\'s been a priority to have our membership reflect that and that to be the community that we intend to serve. The Bay Area is big but the community here is small, so there are a lot of friends of friends going to the same kinds of events and knowing people in the same kinds of circles.'
         + '<br><br>' + 'Which, on the one hand, really benefits our work, because we\'ve always seen our interventions as starting with folks that we know, and starting from contexts that we know, rather than going into some wholly new situation and imposing whatever we think is right there. We\'ve always imagined that at least our first interventions are going to be with <strong>people in our own personal networks</strong>, and so I think it really serves us to have that shared community in that sense.'
         + '<br><br>' + 'This year we\'ve been having conversations about what community means and how do we want to use community and think about community. Lately, we\'ve been having talks around just using <strong>community as a descriptive location</strong> term and like trying to <strong>build more in the places we inhabit</strong>. We are maintaining those connections along lines of identity and interest but what would it mean to really focus our energies on <strong>bringing this work to our neighborhoods</strong> and the people who live down the street and the people who work in our offices?',
@@ -53,13 +53,13 @@ export const COMMUNITY_SECTION = [
         tagline: 'Questions for community',
         quote: 'By \'communities\' of the oppressed we mean communities of shared daily living, or of shared history, or of shared identity, or of shared struggle or of shared resistance, or of shared visions. <strong>We often begin with communities that are at present not united or in solidarity, but fragmented, dispersed, and often not self-aware as communities. Solidarity is born of community investment</strong>. Community members experience degrees and forms of investment in a community: they experience a sense of place, of belonging, of support, of companionship, of shared strategies for survival, and, not infrequently, of shared identity.'
         + '<br><br>' + 'When we think of particular communities as we are in the process of creating Harm Free Zones we ask: How large is the community? Does it have more or less clear boundaries? If someone is mistreated by someone, how easy will it be to determine whether that person is a community member? How easy will it be to get some of the portions of the community together for discussion? Are there places for such gatherings? When was the last time that portions of the community got together for discussion? What is the relation between the community and particular community organizations? Do members of the community form part of the organizations? Do the organizations intervene in community conflicts? Do organizations have their own places for gatherings? Are community members invested in the community? In which ways? Do they rely on each other for help and advice? For childcare? To get things changed in the school, the health care they receive, etc.? Do people have a sense of the economics of the community? Do people know who are the people who hire people for particular kinds of jobs? How is money and other forms of support made? Where do people talk to each other? About what? What concerns them? What do they care about? Do they know that about themselves? To what extent do they think of each other as people they could rely on? What are the present roles of women in the community? Are women more active in community issues than men? How do the different groups making up a community get along? How do people get along with other communities?'
-        + '<br><br>' + '-The Harm Free Zone Collective'
-        + '<br><br>' + 'from "Building Harm Free Zones: An Organizing Booklet," p. 8-9',
+        + '<br><br>' + '-from "Building Harm Free Zones: An Organizing Booklet," p. 8-9',
         personId: 27
       },
       {
         tagline: 'Pod',
-        quote: '"<a href="https://batjc.wordpress.com/pods-and-pod-mapping-worksheet">Pods and Pod Mapping Worksheet</a>"',
+        quote: '"<a href="https://batjc.wordpress.com/pods-and-pod-mapping-worksheet">Pods and Pod Mapping Worksheet</a>"'
+        + '<br><br>' + '-from the Bay Area Transformative Justice Collective Blog',
         personId: 30
       },
       {
@@ -155,7 +155,7 @@ export const COMMUNITY_SECTION = [
     question: '',
     quotes: [
       {
-        tagline: 'Perpetrator is hero',
+        tagline: 'Perpetuator is hero',
         quote: 'I think it\'s realistic to <strong>ask certain people who do a lot of community-based work and are really involved to step down</strong> from that while they work on challenging themselves in an accountability process. That\'s something I\'d like to see be more acceptable and common. But I think that\'s really hard because some people are important: "Oh I have to do this work to." But I mean, that work does really get in the way of a process with people who are already emotionally overwhelmed and busy.'
         + '<br><br>' + 'There\'s a <strong>big struggle when someone is a hero</strong>, because it\'s really hard for organizations to figure out: What do we do? Do we just drop this person? \'Well that\'s not what we [Support New York] are asking for. I keep thinking of Julian Assange, because I see so much of that: people <strong>lionizing a person as such a valuable activist, who\'s "done so much for us," and therefore erasing everything that they\'ve done that\'s harmful</strong>.'
         + '<br><br>' + 'People are not really able to have a parallel analysis. It\'s hard for people around the person causing harm to understand how <strong>people are more complicated than just really, really good or really, really bad</strong>. While the work from a person causing harm might be valuable for an organization, people\'s lives and safety and sexual health are also valuable, and that person has done helpful and harmful things.'
