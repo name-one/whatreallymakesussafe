@@ -21,9 +21,21 @@ export const ACCOUNTABILITY_SECTION = [
         personId: 4
       },
       {
+        tagline: 'Social pressure',
+        quote: 'Most of the people I\'ve worked with have been referred by survivors. In one case, I was working with someone who had an initial meeting with us and was really defensive, like "Fuck this, I don\'t want to be put on trial, blah blah blah." He didn\'t follow up and then left town and <strong>came back to New York to find more of a hostile environment</strong> for him. I think he <strong>burned a lot of bridges</strong> with people he\'d lived with and started to <strong>realize that there are social consequences to not dealing with this and not being accountable</strong>. So I think that <strong>social pressure</strong> is a really big push for people.'
+        + '<br><br>' +'We\'re well aware that a lot of people might be driven to come to Support New York through that, the idea of \'clearing their name,\' and while I wish they were like, "I want to be a better person, and heal someone else," pressure is still <strong>not the worst way to get someone in</strong>. Because hopefully, through that you can talk to them. You can still do enough work once you get them committed, and they\'ll build trust within the process. Hopefully the <strong>intentions will change</strong> through the process. I\'ve seen that change in people.'
+        + '<br><br>' +'<strong>We let perpetuators invite a silent witness to the first meeting with us</strong>, and why I think it\'s so useful is because that\'s a person in the world to check them, that\'s a <strong>person that they trust who encourages them to go this route</strong>. That\'s probably your best bet. You can\'t really trick someone. Maybe you don\'t have the access to them to convince them to do a process, but if their friends do, people that they trust do, that\'s really helpful.',
+        personId: 18
+      },
+      {
         tagline: 'Try with anybody willing',
         quote: '[On working with all kinds of perpetrators] <strong>I would try to do a process with anybody that was willing, but I\'d have some doubts</strong> that some \'bro dude\' would be receptive, you know?',
         personId: 2
+      },
+      {
+        tagline: 'Trust and commitment',
+        quote: '<strong>The perpetuator has to trust you. It\'s really really hard to try to get someone to inadvertently be accountable. They really have to understand that this is an opportunity for them to make a change, be a better, more responsible person</strong>. Having worked on another process where the person causing harm was very resistant, it makes it just very idfficult to get anything to happen.  You also risk a bigger divide between what the person says in the space of the process and what they do in the world. They really have to have this commitment, saying, "I\'m doing this, I\'m going through with this." They have to show up every week or two weeks or whatever it is. They have to step up and do these things. It\'s hard to force people to get there.',
+        personId: 18
       },
       {
         tagline: 'Actions speak louder than words',
@@ -36,22 +48,10 @@ export const ACCOUNTABILITY_SECTION = [
         personId: 2
       },
       {
-        tagline: 'Social pressure',
-        quote: 'Most of the people I\'ve worked with have been referred by survivors. In one case, I was working with someone who had an initial meeting with us and was really defensive, like "Fuck this, I don\'t want to be put on trial, blah blah blah." He didn\'t follow up and then left town and <strong>came back to New York to find more of a hostile environment</strong> for him. I think he <strong>burned a lot of bridges</strong> with people he\'d lived with and started to <strong>realize that there are social consequences to not dealing with this and not being accountable</strong>. So I think that <strong>social pressure</strong> is a really big push for people.'
-        + '<br><br>' +'We\'re well aware that a lot of people might be driven to come to Support New York through that, the idea of \'clearing their name,\' and while I wish they were like, "I want to be a better person, and heal someone else," pressure is still <strong>not the worst way to get someone in</strong>. Because hopefully, through that you can talk to them. You can still do enough work once you get them committed, and they\'ll build trust within the process. Hopefully the <strong>intentions will change</strong> through the process. I\'ve seen that change in people.'
-        + '<br><br>' +'<strong>We let perpetuators invite a silent witness to the first meeting with us</strong>, and why I think it\'s so useful is because that\'s a person in the world to check them, that\'s a <strong>person that they trust who encourages them to go this route</strong>. That\'s probably your best bet. You can\'t really trick someone. Maybe you don\'t have the access to them to convince them to do a process, but if their friends do, people that they trust do, that\'s really helpful.',
-        personId: 18
-      },
-      {
         tagline: 'Perpetuator initiated process?',
         quote: 'I\'ve also had the experience of dealing with some people who were not referred by the survivor, though the survivor had made demands of them. They had met most of the [demands], but then were like "Well, I feel like these are big issues in my life and I want to have somebody to talk to about it." It could just be this particular person, but <strong>it didn\'t really go very well, actually, and made me wary about people who are self-referred. [...]</strong>'
         + '<br><br>' +'We were like "OK, yeah, you have these behaviors that you wanna fix, let\'s work on it." But that particular person, when we weren\'t doing things the way he wanted, he would try to get out of it or be like "I don\'t know, this text doesn\'t apply to me, and blah blah blah." <strong>If the perpetuator\'s the one who initiates the process, then it kind of makes sense that they would feel like they still want the control over it</strong>, you know?'
         + '<br><br>' +'So we talked about having some kind of exchange with people who are self-referred, like "Okay, we\'re gonna come meet with you, even though the survivor doesn\'t care about it, but you need to do the work to find certain readings, you need to do the work." We even talked about barter. Yeah, you do the copying. I think that\'s important to see this work as <strong>a valuable service that we\'re offering, and to see it as an opportunity</strong>. When you have to pay or do some kind of exchange for something, it\'s given more value.',
-        personId: 18
-      },
-      {
-        tagline: 'Trust and commitment',
-        quote: '<strong>The perpetuator has to trust you. It\'s really really hard to try to get someone to inadvertently be accountable. They really have to understand that this is an opportunity for them to make a change, be a better, more responsible person</strong>. Having worked on another process where the person causing harm was very resistant, it makes it just very idfficult to get anything to happen.  You also risk a bigger divide between what the person says in the space of the process and what they do in the world. They really have to have this commitment, saying, "I\'m doing this, I\'m going through with this." They have to show up every week or two weeks or whatever it is. They have to step up and do these things. It\'s hard to force people to get there.',
         personId: 18
       }
     ]
@@ -118,13 +118,13 @@ export const ACCOUNTABILITY_SECTION = [
         quote: 'We have <strong>one basic collective that works with both survivors and perpetuators. But we try not to have the same person be the contact for both</strong> the survivor and perpetuator, cuz it just gets really hard to deal with both peoples\' emotions and needs, and we try to separate that as much as we can. But we\'ll have two people, <strong>one person be the point person for the perpetuator, one person be the point person for the survivor</strong>, and then have them talk and figure out what to do.'
         + '<br><br>' +'The basic structure is we usually will do <strong>meetings every two weeks</strong> with somebody and most of the time the structure of the meetings will follow whatever <strong>demands or requests the survivors have put in</strong>. There\'s a lot of variation between people, and we\'ll try to focus on different topics, use whatever readings we can find to get people talking, do personal exercises, etc. We developed a <strong>curriculum</strong>, which is a basic outline of what we do.'
         + '<br><br>' +'A <strong>process always starts after an abusive relationship is over, not while the violence is still going on</strong>. The work involves asking people to think about their socialization, for instance, reading texts written by men about dealing with sexism. <strong>Building a relationship between us and the perpetuator is the start, and talking about sexual violence starts in the middle of a process</strong>.'
-        + '<br><br>' +'In every process, <strong>there\'s a lot of things that are similar, like tactics people will use to avoid accountability</strong> where you can be like "Oh, you\'re denying something" or "You"re specifically discrediting this," but <strong>peoples\' contexts are so different</strong> that what we do has to vary a lot for each person.',
+        + '<br><br>' +'In every process, <strong>there\'s a lot of things that are similar, like tactics people will use to avoid accountability</strong> where you can be like "Oh, you\'re denying something" or "You\'re specifically discrediting this," but <strong>peoples\' contexts are so different</strong> that what we do has to vary a lot for each person.',
         personId: 18
       },
       {
         tagline: 'Road map to accountability',
-        quote:'<a href="http://www.usprisonculture.com/blog/wp-content/uploads/2012/03/accountabilityroadmap.pdf#page=7">Road Map to Accountability</a>'
-        + '<br><br>' +'-Philly Stands Up, The Abolitionist, 2012, p. 7.',
+        quote:'This <a href="http://www.usprisonculture.com/blog/wp-content/uploads/2012/03/accountabilityroadmap.pdf#page=7">"Road Map to Accountability"</a> was developed by Qui & Jenna\'s collective, Philly Stands Up.'
+        + '<br><br>' +'-The Abolitionist, 2012, p. 7.',
         personId: 9
       },
       {
@@ -165,6 +165,11 @@ export const ACCOUNTABILITY_SECTION = [
         personId: 2
       },
       {
+        tagline: 'Believing in change',
+          quote: 'The hardest thing in general about TJ processes is really <strong>making people believe that people can change</strong>. Believing that people can change is the foundation of everything.',
+        personId: 9
+      },
+      {
         tagline: 'Paradox of teaching consent but using pressure',
         quote: 'It is tough because you are <strong>trying to teach people how to not do coercive behaviors but you use coercive behaviors to teach them how not to do coercive behaviors</strong>. It is really a weird thing that we struggle with all the time and always question, but at the end of the day it is kind of like...  There are different forms of coercion and there are different forms of... I don\'t know, I don\'t have the theory, I will let some academic figure out why the thing that I do is allowed, because that is not my forte. But we use social pressure [on] someone that doesn\'t feel bad for doing something terrible, but they should feel terrible for doing something terrible. What\'s the difference between that and making someone feel like they are not a free love anarchist revolutionary if they don\'t let me stick my hand into their pants? You know, there is social pressure, it\'s a similar notion. I guess one thing is an <strong>indiviual exerting pressure to advance a selfish goal</strong> and the other is when <strong>a group or a community exerting pressure for a broader community goal.</strong>',
         personId: 2
@@ -184,11 +189,6 @@ export const ACCOUNTABILITY_SECTION = [
         quote: 'In general, the question is, <strong>how can people take care of themselves</strong> during this work? It\'s crucial to think about this because people can hold processes in fucked-up ways when they are <strong>stuck in their own trauma</strong>. The goal of every process is healing, dealing with one\'s own trauma, stopping processes when one\'s own stuff is coming up, supporting each other in healing.'
           + '<br><br>' +'Also, it\'s so important to <strong>set boundaries</strong> and say, "This is not working," if that\'s the case. Being able to hold boundaries yourself is important in order to teach people who have harmed how to set boundaries, which is part of the work. Also learning to voice needs is so important: to say what you need, but also leave space for what somebody can give. To leave space for a process to not work.'
           + '<br><br>' +'Also, if you can\'t <strong>forgive</strong> people, you can\'t do this work with perpetrators.',
-        personId: 9
-      },
-      {
-        tagline: 'Believing in change',
-          quote: 'The hardest thing in general about TJ processes is really <strong>making people believe that people can change</strong>. Believing that people can change is the foundation of everything.',
         personId: 9
       },
       {
@@ -238,11 +238,9 @@ export const ACCOUNTABILITY_SECTION = [
         personId: 20
       },
       {
-        tagline: 'Overcoming resistance',
-        quote: 'Of course, there are always lots of hurdles, and no matter how you word or approach some things, <strong>some people will refuse to accept what is being expressed</strong>. It\'s really tough, and can be very frustrating. As I said before, it\'s usually very difficult to communicate with someone that what they have done has upset someone else, especially if they associate themselves with feminism or fights against general, theorised oppression. What occurs very often is that <strong>people involved with a lot of activism find it very difficult to admit to their own destructive or insensitive (or violent or abusive) behaviour</strong>. So that is the initial challenge, and I am still trying to find a nice way to say "This person feels that you\'re a perpetrator." No matter how it\'s communicated, there is usually a pretty aggressive reaction.'
-        + '<br><br>' +'So, with them, while this is happening, <strong>I try to explain it in other terms, in analogies that they can relate to.</strong> If I know something about their lives, I equate it to a situation where they may feel like a victim, like if they are riding a bike, and a car driver cuts them off... I know this sounds trivial and simplistic, but sometimes it has to be an <strong>external example that doesn\'t threaten people, which then you bring back to a real situation of violence, where the stakes are higher, and then people start to understand the feeling of having less power in a dynamic</strong>. Obviously perpetrators usually have more power, and they are unaware of it, or reluctant to admit it. So those are initial steps. Of course, people usually believe they are acting to the best of their knowledge and ability, and to explain to them that there was an oppressive or abusive result regardless of this, can be really difficult. Sometimes, people immediately recognise the situation and are really sorry, which cuts out that step.'
-        + '<br><br>' +'What is good to remember that even in a violent incient, one of intended or accidental assault, there is always a <strong>set of conditions that determined that behaviour</strong>, whether we understadn them or not. And <strong>working through these conditions is the only way to help avoid another similar occurrence</strong>. If there is patience an understanding, then people can really work through their shit if they want to.',
-        personId: 20
+        tagline: 'Accountability tailored to case',
+        quote: 'Accountability ends up being so <strong>tailored</strong> to what specifically happened, so that it\'s not like everyone is necessarily going through the same "Okay you\'ll do ten years in jail," like the State way of dealing with violence.  That is base on a one-size-fits-all form of reform and punishment that is suppose to cause change.  So I think that makes sense, to measure [accountability] in terms of what would be specifically helpful for that person.',
+        personId: 4
       },
       {
         tagline: 'It\’s human, not de-programming Blade Runners…',
@@ -258,6 +256,15 @@ export const ACCOUNTABILITY_SECTION = [
         + '<br><br>' +'Once you have that <strong>switch</strong>, then caring about that and realizing the effects, that the other people\’s experience is really negative, and really wanting to change that.  I think that spurred it on.'
         + '<br><br>' +'With this particular person change happened through them talking to other people in their community and to past partners, and <strong>understanding their behavior as a pattern</strong> and something that they couldn\’t just say happened with this one ex, like, "Oh this was this ridiculous person I dated, who says all this stuff."  I think to really make that connection, it has to come from the person recognizing their own behavior.',
         personId: 17
+      },
+      {
+        tagline: 'Step down from political work',
+        quote: 'I think it\'s realistic to <strong>ask certain people who do a lot of community-based work and are really involved to step own from that while they work on challenging themselves in an accountability process</strong>. That\'s something I\'d like to see be more acceptable and common. But I think that\'s really hard because some people see themselves as necessary to their political work: "Oh, I have to do this work." But I mean, that work does really get in the way of a process with people who are alreay emotionally overwhelmed and busy.'
+          + '<br><br>' +'There\'s a <strong>big struggle when someone is a hero</strong>, because it\'s really hard for organizations to figure out: What do we do? Do we just drop this person?... Well that\'s not what we [Support New York] are asking for. I keep thinking of Julian Assange, because I see so much of that: people lionizing a person as such a valuable activist, who\'s "done so much for us," and therefore erasing everything that they\'ve one that\'s harmful.'
+          + '<br><br>' +'People are not really able to have a parallel analysis. It\'s hard for people around the person causing harm to understand how people are more complicated than just really, really good or really, really bad. While the work from a person causing harm might be valuable for an organization, people\'s lives and safety and sexual health are also valuable, and <strong>that person has done helpful and harmful things</strong>.'
+          + '<br><br>' +'Plus, we hear the request from survivors a lot <strong>to get people causing harm out of mentorship roles</strong>, where they are in situations of power or meeting new people who they might be educating, etc. Some people in the organization are like, "Why is this person being punished, why can\'t they do the work they do?" and we say, "Why don\'t they do the work without mentoring people?'
+          + '<br><br>' +'Then there\'s a whole other conversation about <strong>divisions of work based on gender assignment and feminization of care labor</strong>. It\'s so gendered, who becomes the public face of a group and who gets to do certain \'important\' work and who ends up doing the work that\'s necessary to sustain things and keep it together, the \'shit\' that isn\'t public and respectable: standing at the doorway greeting everybody at the party, tabling, chopping the fucking onions, right? There are things you can do to still get work done and be more behind the scenes. We try to <strong>challenge people causing harm who want to stay involved in their political work to fulfill the less public and getting-all-the-back-patting roles</strong>. For us, it\'s like \'Why don\'t they find a way to do the work a little more behind scenes, why don\'t they find a way to be more supportive?" Because in general, they need to be more supportive.',
+        personId: 18
       },
       {
         tagline: 'Liaison with person harmed',
@@ -277,15 +284,6 @@ export const ACCOUNTABILITY_SECTION = [
         personId: 1
       },
       {
-        tagline: 'Step down from political work',
-        quote: 'I think it\'s realistic to <strong>ask certain people who do a lot of community-based work and are really involved to step own from that while they work on challenging themselves in an accountability process</strong>. That\'s something I\'d like to see be more acceptable and common. But I think that\'s really hard because some people see themselves as necessary to their political work: "Oh, I have to do this work." But I mean, that work does really get in the way of a process with people who are alreay emotionally overwhelmed and busy.'
-          + '<br><br>' +'There\'s a <strong>big struggle when someone is a hero</strong>, because it\'s really hard for organizations to figure out: What do we do? Do we just drop this person?... Well that\'s not what we [Support New York] are asking for. I keep thinking of Julian Assange, because I see so much of that: people lionizing a person as such a valuable activist, who\'s "done so much for us," and therefore erasing everything that they\'ve one that\'s harmful.'
-          + '<br><br>' +'People are not really able to have a parallel analysis. It\'s hard for people around the person causing harm to understand how people are more complicated than just really, really good or really, really bad. While the work from a person causing harm might be valuable for an organization, people\'s lives and safety and sexual health are also valuable, and <strong>that person has done helpful and harmful things</strong>.'
-          + '<br><br>' +'Plus, we hear the request from survivors a lot <strong>to get people causing harm out of mentorship roles</strong>, where they are in situations of power or meeting new people who they might be educating, etc. Some people in the organization are like, "Why is this person being punished, why can\'t they do the work they do?" and we say, "Why don\'t they do the work without mentoring people?'
-          + '<br><br>' +'Then there\'s a whole other conversation about <strong>divisions of work based on gender assignment and feminization of care labor</strong>. It\'s so gendered, who becomes the public face of a group and who gets to do certain \'important\' work and who ends up doing the work that\'s necessary to sustain things and keep it together, the \'shit\' that isn\'t public and respectable: standing at the doorway greeting everybody at the party, tabling, chopping the fucking onions, right? There are things you can do to still get work done and be more behind the scenes. We try to <strong>challenge people causing harm who want to stay involved in their political work to fulfill the less public and getting-all-the-back-patting roles</strong>. For us, it\'s like \'Why don\'t they find a way to do the work a little more behind scenes, why don\'t they find a way to be more supportive?" Because in general, they need to be more supportive.',
-        personId: 18
-      },
-      {
         tagline: 'Trauma histories of persons causing harm',
         quote: 'Most of the persons causing harm that I\'ve worked with have their <strong>own history of trauma</strong>. I haven\'t worked with a single person that\'s been like, "Actually, I\'m trauma-free and that violence was just coming from nowhere." Maybe that\'s just the communities I\'m working with [queer, Asian Pacific Islander]. When that gets translated to a white straight model, I have no idea. I don\'t want to make assumptions, but I just want to acknowledge that hasn\'t mostly been who I\'ve been working with.'
           + '<br><br>' +'I feel like the buzz-word right now in anti-violence worlds is to talk about a <strong>\'trauma- informed\' care around dealing with perpetrators</strong>, or people who cause harm, too. Because all of them have their trauma stories.'
@@ -293,10 +291,11 @@ export const ACCOUNTABILITY_SECTION = [
         personId: 4
       },
       {
-        tagline: 'Accountability tailored to case',
-        quote: 'Accountability ends up being so <strong>tailored</strong> to what specifically happened, so that it\'s not like everyone is necessarily going through the same "Okay you\'ll do ten years in jail," like the State way of dealing with violence.  That is base on a one-size-fits-all form of reform and punishment that is suppose to cause change.  So I think that makes sense, to measure [accountability] in terms of what would be specifically helpful for that person.',
-        personId: 4
-      },
+        tagline: 'Overcoming resistance',
+        quote: 'Of course, there are always lots of hurdles, and no matter how you word or approach some things, <strong>some people will refuse to accept what is being expressed</strong>. It\'s really tough, and can be very frustrating. As I said before, it\'s usually very difficult to communicate with someone that what they have done has upset someone else, especially if they associate themselves with feminism or fights against general, theorised oppression. What occurs very often is that <strong>people involved with a lot of activism find it very difficult to admit to their own destructive or insensitive (or violent or abusive) behaviour</strong>. So that is the initial challenge, and I am still trying to find a nice way to say "This person feels that you\'re a perpetrator." No matter how it\'s communicated, there is usually a pretty aggressive reaction.'
+        + '<br><br>' +'So, with them, while this is happening, <strong>I try to explain it in other terms, in analogies that they can relate to.</strong> If I know something about their lives, I equate it to a situation where they may feel like a victim, like if they are riding a bike, and a car driver cuts them off... I know this sounds trivial and simplistic, but sometimes it has to be an <strong>external example that doesn\'t threaten people, which then you bring back to a real situation of violence, where the stakes are higher, and then people start to understand the feeling of having less power in a dynamic</strong>. Obviously perpetrators usually have more power, and they are unaware of it, or reluctant to admit it. So those are initial steps. Of course, people usually believe they are acting to the best of their knowledge and ability, and to explain to them that there was an oppressive or abusive result regardless of this, can be really difficult. Sometimes, people immediately recognise the situation and are really sorry, which cuts out that step.'
+        + '<br><br>' +'What is good to remember that even in a violent incient, one of intended or accidental assault, there is always a <strong>set of conditions that determined that behaviour</strong>, whether we understadn them or not. And <strong>working through these conditions is the only way to help avoid another similar occurrence</strong>. If there is patience an understanding, then people can really work through their shit if they want to.',
+        personId: 20},
       {
         tagline: 'Contextual, not prescriptive',
         quote: 'We might start from questions like: <strong>What does accountability mean? What does accountability look like? How does accountability feel?</strong> This is not to say that accountability can be anything - we push folks to think about their actions and impact, the amends they owe, and the changes they need to make. We ask people to consider <strong>what they need for their safety and healing</strong>, and what it would take for lasting transformation to take place. We ask them <strong>what might get in the way of accountability</strong> - what experiences or memories they might need to revisit, what beliefs or messaging they might need to unlearn. But it is to acknowlege that accountability means different things to different people, and those specificities shoul shape the process and its goals.'
@@ -312,7 +311,7 @@ export const ACCOUNTABILITY_SECTION = [
         personId: 18
       },
       {
-        tagline: 'Called / calling out',
+        tagline: 'Calling out',
         quote: '<strong>Why is it so scary to be called out?</strong> It\'s not about right or wrong, it just is about accountability. If you stay in the moral right or wrong stuff, you\'ll just get stuck between shame and creating drama.'
           + '<br><br>' +'But on the other hand, <strong>people need to learn how to call somebody out!</strong>'
           + '<br><br>' +'We need to keep in mind when calling out or being called out: what does liberation mean? Where is this supposed to be going? Liberation means people can be themselves, their whole selves.',
@@ -351,6 +350,11 @@ export const ACCOUNTABILITY_SECTION = [
           + '<br><br>' +'[We also did <strong>check-ins] with everyone involved [...]</strong>, which took <strong>2 or 3 months of having one-on-one meetings</strong> with people who were friends with different people involved in the whole thing, and with the person who had caused harm themselves. It just felt like it was at a good place to end things.'
           + '<br><br>' +'<strong>I don\'t feel like I\'ve ever walked away convinced that this person would never cause harm again</strong>. There\'s this intention for the <strong>facilitators of the process to be resources for this person</strong> should they ever need to call somebody and talk about things again. And that\'s where we kind of left things for now, I guess.',
         personId: 17
+       },
+      {
+        tagline: 'Process lasts lifetime, only part of it with us',
+        quote: 'Usually we [the perpetuator accountability team] give feedback to people on the survivor support team, and then have them transfer that [to others]. Right now, we\'re working on ending a process that we feel has gone well. <strong>We are talking to the survivor, asking if they have further demands, if they can meet with the perpetuator accountability team.  In the end, a process lasts a lifetime</strong>, and only part of it happens in the presence of Support New York.',
+        personId: 18     
       },
       {
         tagline: 'What counts as success?',
@@ -361,11 +365,6 @@ export const ACCOUNTABILITY_SECTION = [
       {
         tagline: 'Safer community or survivor',
         quote: 'Even though I\'ve pretty much one unsuccessful processes, you have to think of what your idea of success is, what your goals are, and who you\'re accountable to. <strong>If nothing else works, but the perpetuator stays away from the survivor, that\'s success</strong>. And if that person is more careful with their future dealings - there\'s no guarantee that anything will be what the survivor needs from that person, and that\'s totally their legitimate right to never have faith in anything that person does - but <strong>if they are made safer and the community is made safer in any way, it\'s success</strong>. So I find thinking of it piecemeal is useful. Even <strong>getting people to admit things is useful</strong>. Or getting them to agree not to conduct certain behaviors in the future, even if they aren\'t willing to engage with different perspectives on what happened or really change. <strong>Checking them to extent that it affects the way they behave in the future</strong> is certainly something really valuable.',
-        personId: 18
-      },
-      {
-        tagline: 'Process lasts lifetime, only part of it with us',
-        quote: 'Usually we [the perpetuator accountability team] give feedback to people on the survivor support team, and then have them transfer that [to others]. Right now, we\'re working on ending a process that we feel has gone well. <strong>We are talking to the survivor, asking if they have further demands, if they can meet with the perpetuator accountability team.  In the end, a process lasts a lifetime</strong>, and only part of it happens in the presence of Support New York.',
         personId: 18
       }
     ]
