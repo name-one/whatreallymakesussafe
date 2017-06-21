@@ -124,7 +124,7 @@ export const GAME_CHANGERS_SECTION = [
         personId: 2
       },
       {
-        tagline: 'Disillusioned by mainstream anti-violence',
+        tagline: 'Disillusioned by anti-violence',
         quote: 'I just got increasingly <strong>disillusioned and dissatisfied<strong> with what was happening in the anti-violence organization I was in. I just kept on running up against the barriers of what we were able to offer, specifically because my reading of the history of the <strong>movement to end violence against women<strong> in the United States is that it\'s been <strong>co-opted by the criminal legal system<strong>. To do that work in the U.S. now, especially as a 501c3 or as a non-profit, it feels there are all these ways that it\'s increasingly necessary to be involved with the police and with child welfare and all of those things.'
         + '<br><br>' +'In every case that I would work, there would be real <strong>limitations to what we were able to offer<strong>. That became really clear cut, especially along racial lines and class lines, and in different ways in terms of sexual orientation and gender identity. It felt like over and over again, I had to say to people, "Well, you know your options are to report this to the police or to do nothing at all." Maybe you can have individualized counseling for a certain period of time but that\'s really the only intervention that we have. Either we can take it to trial or we can do this one-on-one step with you, but there\'s nothing else that we can do. For so many people who either didn\'t want to or weren\'t able to report a case to the police, they were like, "What do you mean, that\'s all you can do? You\'re a sexual violence organization, why can you not offer anything else?"'
         + '<br><br>' +'On the one hand, only the <strong>people with the most privilege were able to access our services<strong> and use them well. At the same time, even those people, even the \‘wealthy white straight whatever\’ people, who felt fine about that system, even they weren\'t actually getting what they needed. So even the women for whom everything went as it was supposed to and they talked to the police and went to the hospital and they were able to get a trial and they had a court date, <strong>even those women were not saying that they felt healing or justice or restoration or power<strong> or anything that our rhetoric was telling them that they would get in that process. So feeling that over and over again had me looking for another way of doing things.'
@@ -137,16 +137,16 @@ export const GAME_CHANGERS_SECTION = [
         personId: 8
       },
       {
-        tagline: '\‘Transformation\’ in leadership development',
+        tagline: 'Class in women\’s prison',
+        quote: 'I teach a domestic violence class in the women\’s prison here in Denver. And one of the things that we are really working on in these classes is, "What are you already doing to try to address the violence that\’s happening?" Because there is a lot of domestic violence in women\’s prisons. So, we talk about, "Well, what are we already doing? What\’s effective? What\’s not working? What would need to change?" And then this idea of: what would it look like to explicitly develop those practices as part of community accountability model within the prison?',
+        personId: 3
+      },
+      {
+        tagline: 'Leadership development',
         quote: 'In the <strong>leadership development space<strong>, increasingly people are talking about <strong>transformational work<strong>. I mean, it\’s certainly coming from justice, from the TJ framework, but I think more it\’s coming from transformational being used to mean work that\’s not just social services, work that\’s about whole system change in terms of social change.'
         + '<br><br>' +'It\’s definitely coming from folks who are infusing spirituality through their activism, so the work of folks like the <strong>Movement Strategy Center<strong> […] They have [the report] "Out of the Spiritual Closet" […] So, you have <strong>Generative Somatics<strong> that has come from Staci Haines and they merged with the Strozzi Institute, so they have a particular sort of embodiment approach. And <strong>Forward Stance<strong>, which is really coming from a Tai Chi tradition and Buddhist tradition. In terms of leadership development, when we talk about transformational approaches, it\’s a lot about those two approaches.'
         + '<br><br>' +'Along with folks like <strong>Robert Gass<strong>, who is one of the founders of <strong>Rockwood Institute<strong>, who is increasingly talking about transformation – "The Art of Transformation" is his leadership development training that he leads – and talking about transforming organizations. And what he means by that is, in a sense, <strong>transformation is about the scale of change<strong>. That transformation is <strong>metamorphosis: when something has transformed, it can\’t go back<strong>. So, that\’s really about the scale of change.',
         personId: 8
-      },
-      {
-        tagline: 'Domestic violence class in women\’s prison',
-        quote: 'I teach a domestic violence class in the women\’s prison here in Denver. And one of the things that we are really working on in these classes is, "What are you already doing to try to address the violence that\’s happening?" Because there is a lot of domestic violence in women\’s prisons. So, we talk about, "Well, what are we already doing? What\’s effective? What\’s not working? What would need to change?" And then this idea of: what would it look like to explicitly develop those practices as part of community accountability model within the prison?',
-        personId: 3
       }
     ]
   },
