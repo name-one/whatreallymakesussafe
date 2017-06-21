@@ -25,6 +25,13 @@ export const SUPPORT_SECTION = [
         personId: 12
       },
       {
+        tagline: 'Transformative Justice Model',
+        quote: 'This section presents Generation FIVE\'s best thinking on the practices upon which a Transformative Justice model can be built:'
+        + '<br><br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=38">Developing Transformative Justice Practices</a>"'
+        + '<br><br>' + '-Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence'
+        + '<br><br>' + 'generationFIVE',
+        personId: 11  },
+      {
         tagline: 'Healing Circle',
         quote: 'A group of people connected with Women and Girls CAN formed a healing circle of trusted friends and colleagues to support a member of our community who had been sexually assaulted by someone in the social justice community. The healing circle created a communal space for her to tell her story and for the group to talk about its impact on us. The healing circle process was very powerful. The group recognized that it wasn\'t just an individual problem, but a community problem, and that the community as a whole could take action on it. As the survivor says, "Until we were all in the room, I kept thinking it was just my problem and I wasn\'t sure what steps to take to make sure other people would be safe. This circle was empowering for all of us, but especially for me, in large part because we took action together." Through our healing circle, we came up with strategies to create accountability for the violence. We wrote a collective letter to the perpetrator and we alerted people who might be working with him about the incident and the potential for future violence.'
         + '<br><br>' + '-Melissa Spatz & Ann Russo'
@@ -44,14 +51,6 @@ export const SUPPORT_SECTION = [
         + '<br><br>' + '-\"It Takes A Village, People!\" Friends and Family Toolkit'
         + '<br><br>' + 'The Northwest Network of Bi, Trans, Lesbian & Gay Survivors of Abuse',
         personId: 26
-      },
-      {
-        tagline: 'Transformative Justice Model',
-        quote: 'This section presents Generation FIVE\'s best thinking on the practices upon which a Transformative Justice model can be built:'
-        + '<br><br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=38">Developing Transformative Justice Practices</a>"'
-        + '<br><br>' + '-Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence'
-        + '<br><br>' + 'generationFIVE',
-        personId: 11
       },
       {
         tagline: 'Safety Strategy Questions',
