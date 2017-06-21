@@ -7,7 +7,7 @@ export const GAME_CHANGERS_SECTION = [
     quotes: [
       {
         tagline: 'Dr. Alexis Pauline Gumbs',
-        quote: 'is a queer black troublemaker, a black feminist love evangelist, a prayer poet priestess and has a PhD in English, African and African-American Studies, and Women and Gender Studies from Duke University. Alexis has been living in Durham, NC for more than a decade and has been transformed and enriched by holistic organizing to end gendered violence and to replace it with sustaining transformative love. Locally she is a founding member of <a href="https://iambecauseweare.wordpress.com/">UBUNTU</a>, a women of color and survivor-led coalition to end sexual violence.',
+        quote: 'is a queer black troublemaker, a black feminist love evangelist, a prayer poet priestess and has a PhD in English, African and African-American Studies, and Women and Gender Studies from Duke University. <a href="http://alexispauline.com/">Alexis</a> has been living in Durham, NC for more than a decade and has been transformed and enriched by holistic organizing to end gendered violence and to replace it with sustaining transformative love. Locally she is a founding member of <a href="https://iambecauseweare.wordpress.com/">UBUNTU</a>, a women of color and survivor-led coalition to end sexual violence.',
         personId: 1
       },
       {
@@ -31,7 +31,7 @@ export const GAME_CHANGERS_SECTION = [
         personId: 7
       },
       {
-        tagline: 'Dr. Hediana Utarti, Ph.D',
+        tagline: 'Dr. Hediana Utarti',
         quote: 'Currently its Community Projects Coordinator, Hediana has dedicated almost 17 years to <a href="http://www.sfaws.org/">San Francisco Asian Women\'s Shelter</a>.  Besides serving as the point person for Anti-Trafficking Program and Services, like her co-workers, she also takes crisis line weekly and is involved in AWS Community Building programs. Previously she lived and worked in Honolulu, Hawai\’i where she obtained her Ph. D in political science.  She started her community based anti-violence work in 1995, when she joined Family Peace Center in Honolulu as a Support Group Facilitator for survivors of domestic violence.',
         personId: 19
       },
@@ -47,12 +47,12 @@ export const GAME_CHANGERS_SECTION = [
       },
       {
         tagline: 'Maura M. Bairley',
-        quote: ', MA, is a social change facilitator, consultant, and coach. Her approach to transformative leadership development is rooted in her 20-year commitment to anti-violence and social justice movements. She has worked with myriad projects and organizations, including <a href="http://www.movetoendviolence.org/">Move to End Violence</a>, <a href="http://www.corealign.org/">Core Align</a>, the <a href="https://avp.org/">NYC Gay and Lesbian Anti-Violence Project</a>, and the <a href="https://health.columbia.edu/sexual-violence-response">Sexual Violence Prevention and Response Program</a> at Barnard/Columbia.',
+        quote: '(MA) is a social change facilitator, consultant, and coach. Her approach to transformative leadership development is rooted in her 20-year commitment to anti-violence and social justice movements. She has worked with myriad projects and organizations, including <a href="http://www.movetoendviolence.org/">Move to End Violence</a>, <a href="http://www.corealign.org/">Core Align</a>, the <a href="https://avp.org/">NYC Gay and Lesbian Anti-Violence Project</a>, and the <a href="https://health.columbia.edu/sexual-violence-response">Sexual Violence Prevention and Response Program</a> at Barnard/Columbia.',
         personId: 8
       },
       {
         tagline: 'Melanie Brazzell',
-        quote: 'initiated and designed the "What would really make us safe?" research project, serving as primary interviewer, researcher, and creator of this website. She has worked in the field of anti-sexual violence education for over a decade. Inspired by the visionary work of the community accountability and transformative justice movement, she co-founded the <a href="https://www.transformativejustice.eu/en/">Transformative Justice Kollektiv</a> in Berlin. Currently, she is exploring participatory action research as a movement building tool as a graduate student in sociology at University of California, Santa Barbara.',
+        quote: 'initiated and designed the "What really makes us safe?" research project, serving as primary interviewer, researcher, and creator of this website. She has worked in the field of anti-sexual violence education for over a decade. Inspired by the visionary work of the community accountability and transformative justice movement, she co-founded the <a href="https://www.transformativejustice.eu/en/">Transformative Justice Kollektiv</a> in Berlin. Currently, she is exploring participatory action research as a movement building tool as a graduate student in sociology at University of California, Santa Barbara.',
         personId: 0
       },
       {
@@ -69,7 +69,7 @@ export const GAME_CHANGERS_SECTION = [
         tagline: 'Qui Alexander & Jenna Peters-Golden',
         quote: '<strong>Jenna Peters-Golden<strong> is a queer anti-zionist Jew based in Philadelphia. She was a member of the <a href="https://phillystandsup.wordpress.com/">Philly Stands Up Collective</a> for 8 years and continues to be inspired by transformative justice that envisions community safety without police or prisons. Jenna is a founding worker-owner of <a href="http://aorta.coop/">AORTA [the Anti Oppression Resource and Training Alliance]</a> and also is a lover of science fiction and comic books.'
         + '<br><br>' +'<strong>Qui Alexander<strong> is a queer, trans, Black Latinx educator, organizer, yoga teacher and consultant based in Philadelphia. His work centers the intersections of gender, sexuality and racial justice; healing justice and transformative/restorative justice anti-violence work. Believing the personal is political, his work strives to focus on personal liberation and healing to make movement work more sustainable.'
-        + '<br><br>' +'The <a href="https://phillystandsup.wordpress.com/">Philly Stands Up Collective</a> is a small collective of individuals working in Philadelphia to confront sexual assault in our various communities using a transformative justice framework. We believe in restoring trust and justice within our community by working with both survivors and perpetrators of sexual assault. We work with people who have assaulted others to hold them accountable to the survivor(s) and restore their relationships within their communities.',
+        + '<br><br>' +'Qui and Jenna are members of the <a href="https://phillystandsup.wordpress.com/">Philly Stands Up Collective</a>, a small collective of individuals working in Philadelphia to confront sexual assault in our various communities using a transformative justice framework. We believe in restoring trust and justice within our community by working with both survivors and perpetrators of sexual assault. We work with people who have assaulted others to hold them accountable to the survivor(s) and restore their relationships within their communities.',
         personId: 9
       },
       {
@@ -158,9 +158,9 @@ export const GAME_CHANGERS_SECTION = [
     + '<br><br>' + '…in New York… <a href="http://alp.org/safe-outside-system-sos-collective">Safe OUTside the System Collective</a> at the Audre Lorde Project, <a href="https://supportny.org/">Support New York</a>, <a href="http://challengingmalesupremacy.org/">Challenging Male Supremacy Project</a>, <a href="http://www.fiercenyc.org/">FIERCE</a>, <a href="http://criticalresistance.org/wp-content/uploads/2014/05/HFZ-NY.pdf">Harm Free Zone Project</a>t, & <a href="https://avp.org/">Anti-Violence Project</a>'
     + '<br><br>' + '…in Philadelphia… <a href="https://phillystandsup.wordpress.com/">Philly Stands Up</a>'
     + '<br><br>' + '… in Durham… <a href="https://iambecauseweare.wordpress.com/">UBUNTU</a>'
-    + '<br><br>' + '…in Seattle… <a href="http://www.nwnetwork.org/">Northwest Network of Bi, Trans, Lesbian, and Gay Survivors of Abuse</a>, <a href="http://cara-seattle.blogspot.com/">Communities Against Rape & Abuse</a>, For Crying Out Loud, <a href="https://www.apichaya.org/">Asian Pacific Islander Chaya</a>'
+    + '<br><br>' + '…in Seattle… <a href="http://www.nwnetwork.org/">Northwest Network of Bi, Trans, Lesbian, and Gay Survivors of Abuse</a>, <a href="http://cara-seattle.blogspot.com/">Communities Against Rape & Abuse</a>, <a href="https://forcryingoutloud206.wordpress.com/about/">For Crying Out Loud</a>, <a href="https://www.apichaya.org/">Asian Pacific Islander Chaya</a>'
     + '<br><br>' + '…in the Bay Area…<a href="https://batjc.wordpress.com/">Bay Area Transformative Justice Collective</a>, <a href="http://www.sfaws.org/">San Francisco Asian Women’s Shelter</a>, <a href="http://www.cuav.org/">Communities United Against Violence</a>, <a href="http://www.creative-interventions.org/">Creative Interventions</a>, <a href="http://www.generationfive.org/">GenerationFIVE</a>'
-    + '<br><br>' + 'and nationally... <a href="http://www.incite-national.org/">INCITE!</a>, <a href="http://www.survivedandpunished.org/">#SurvivedAndPunished</a>'
+    + '<br><br>' + '...nationally... <a href="http://www.incite-national.org/">INCITE!</a>, <a href="http://www.survivedandpunished.org/">#SurvivedAndPunished</a>'
     + '<br><br>' + '& internationally… <a href="http://www.bridgesinstitute.org/">Bridges Institute</a>'
     + '<br><br>' + 'I also spoke to two individuals who have been involved in various forms of accountability work in international settings, including Canada and Australia.'
     + '<br><br>' + 'Describe dynamics and learning processes in your group/organization.',
@@ -172,14 +172,14 @@ export const GAME_CHANGERS_SECTION = [
         personId: 2
       },
       {
-        tagline: 'Build base for diversity',
-        quote: 'Often [community accountability] work happens in these really small settings, a <strong>small group of people, often like-minded, maybe with similarities in education and access<strong>. We\'re not getting jarred as much, we\'re not having enough different experiences. And I get the idea of small collectives because you can get the work done and be very productive, but it doesn\'t mean we\'re <strong>building base or community<strong>, and <strong>I feel super dedicated to the belief that we can\'t do this work without building a community for it<strong>.',
-        personId: 7
-      },
-      {
         tagline: 'Relationship-building',
         quote: 'The <strong>most important thing that we\'ve done as a group<strong>, across the board, is really <strong>work hard to build relationships with one another<strong>. The first year of our work was mostly building relationships, also doing collective structure stuff, but really the bulk of it was building relationships and learning how to have conflict with one another and learning how to trust one another. At this point, I really feel like <strong>these are my people<strong>, you know, you feel like almost family with these folks, and I would have their backs and I know that they have mine. And I know that we\'re able to talk about whatever comes up and support each other in all these different ways. I think that when those relationships started feeling solid and falling into place is when doing TJ work actually started to feel possible for me. But I think that <strong>we\'ve always seen relationship-building as not being the precursor to the work but actually being the work itself<strong>. And being the tissue that\'s going to hold the work together. So that to me is the most important groundwork that we\'ve done, as far as emotional capacity but also just as far as being able to imagine these things happening logistically.',
         personId: 16
+      },
+      {
+        tagline: 'Build base for diversity',
+        quote: 'Often [community accountability] work happens in these really small settings, a <strong>small group of people, often like-minded, maybe with similarities in education and access<strong>. We\'re not getting jarred as much, we\'re not having enough different experiences. And I get the idea of small collectives because you can get the work done and be very productive, but it doesn\'t mean we\'re <strong>building base or community<strong>, and <strong>I feel super dedicated to the belief that we can\'t do this work without building a community for it<strong>.',
+        personId: 7
       },
       {
         tagline: 'Accountability within group',
@@ -188,16 +188,16 @@ export const GAME_CHANGERS_SECTION = [
         personId: 16
       },
       {
+        tagline: 'Working in partners',
+        quote: 'Now we\'ve become a rather <strong>loose group<strong> where people work more intensively in <strong>teams as partners<strong>. The skills needed for doing the work are learned by experience, talking with your partner and internal education from more experienced members.',
+        personId: 9
+      },
+      {
         tagline: 'Which communities?',
         quote: 'As a group we\'ve always had a commitment to being <strong>majority queer people of color<strong> and to focusing our interventions on the <strong>people who are most impacted by violence in our own communities<strong>. So it\'s been a priority to have our membership reflect that and that to be the community that we intend to serve. The Bay Area is big but the community here is small, so there are a lot of friends of friends going to the same kinds of events and knowing people in the same kinds of circles.'
         + '<br><br>' +'Which, on the one hand, really benefits our work, because we\'ve always seen our interventions as starting with folks that we know, and starting from contexts that we know, rather than going into some wholly new situation and imposing whatever we think is right there. We\'ve always imagined that at least our first interventions are going to be with <strong>people in our own personal networks<strong>, and so I think it really serves us to have that shared community in that sense.'
         + '<br><br>' +'This year we\'ve been having conversations about what community means and how do we want to use community and think about community. Lately, we\'ve been having talks around just using <strong>community as a descriptive location<strong> term and like trying to <strong>build more in the places we inhabit<strong>. We are maintaining those connections along lines of identity and interest but what would it mean to really focus our energies on bringing this work to our neighborhoods and the people who live down the street and the people who work in our offices?',
         personId: 16
-      },
-      {
-        tagline: 'Working in partners',
-        quote: 'Now we\'ve become a rather <strong>loose group<strong> where people work more intensively in <strong>teams as partners<strong>. The skills needed for doing the work are learned by experience, talking with your partner and internal education from more experienced members.',
-        personId: 9
       }
     ]
   },
@@ -218,6 +218,11 @@ export const GAME_CHANGERS_SECTION = [
         personId: 4
       },
       {
+        tagline: 'Believing in change',
+        quote: 'The hardest thing in general about TJ processes is really <strong>making people believe that people can change<strong>. Believing that people can change is the foundation of everything',
+        personId: 9
+      },
+      {
         tagline: 'Our shit don\'t stink',
         quote: 'It\'s easy to distance ourselves, like we\'ve never fucked up, our shit doesn\'t stink, you know? It\'s weird that there\'s a big gap. We\'ve all had experiences where we acted in ways we didn\'t want to, or we weren\'t really showing up for our people in the ways we felt we should be. I\'ll reference Shannon [Perez-Darby] from the [Northwest] Network again because she\'s so about <strong>self-accountability. How do we all just start with ourselves<strong> and make sure that we\'re doing our best to be accountable ourselves? Then it\'s a lot easier to connect with folks. You can actually identify and have some personal relationship to what it means to be accountable rather than, "You fucked up, I\'ve never fucked up."',
         personId: 4
@@ -228,6 +233,11 @@ export const GAME_CHANGERS_SECTION = [
         + '<br><br>' + 'So, I tried to fix my own bathtub, not too long time ago [...] The highest possible cost for me to do my own plumbing and fuck up is measured in dollars, hundreds of dollars maybe, but in dollars nonetheless. With the Support New York work and the kind of amateur entry-level fumbling through doing mental health stuff with people, that <strong>cost is much greater if we fail<strong>. A lot of our failures that we realized over the years came from <strong> our inability to see our own limits and set boundaries<strong> for ourselves with people who we are working with. We needed to do anything because otherwise, why we are doing anything even, you know? And so, I guess, we hurt a lot of people, we let a lot of people down.'
         + '<br><br>' +'I just have to... it is not about me. I was just about to say "I just have to live with that, <strong>but it is not about me that we let those people down, it\'s about them<strong>. And I don\'t know how to best be accountable to those people since... you tell a million perpetrators during accountability processes, "Hey, <strong>it doesn\'t matter what your intentions were, the outcome is that you harmed somebody<strong> and now you have to accept that and address that." <strong>So how do we accept that and address that?<strong>',
         personId: 2
+      },
+      {
+        tagline: 'Shitstorm',
+        quote: 'There are a couple cases in Canada and the U.S. where someone\'s been called out and it\'s gone really, really badly. All the <strong>rifts<strong> that get created and the secondary conflict that ends up happening because of the way that people deal with the situation itself, as a whole, causes <strong>secondary harm<strong> that causes more rifts that then causes basically shitstorms.',
+        personId: 17
       },
       {
         tagline: 'Hypocrite?',
@@ -269,19 +279,9 @@ export const GAME_CHANGERS_SECTION = [
         personId: 9
       },
       {
-        tagline: 'Believing in change',
-        quote: 'The hardest thing in general about TJ processes is really <strong>making people believe that people can change<strong>. Believing that people can change is the foundation of everything',
-        personId: 9
-      },
-      {
         tagline: 'People refusing accountability',
         quote: 'Of course, there are always lots of hurdles, and no matter how you word or approach some things, <strong>some people will refuse to accept<strong> what is being expressed. It\'s really tough, and can be very frustrating. As I said before, it\'s usually very difficult to communicate with someone that what they have done has upset someone else, especially if they associate themselves with feminism or fights against general, theorised oppression. What occurs very often is that <strong>people involved with a lot of activism find it very difficult to admit to their own destructive or insensitive (or violent or abusive) behaviour<strong>. So that is the initial challenge, and I am still trying to find a nice way to say "this person feels that you\'re a perpetrator." <strong>No matter how its communicated, there is usually a pretty aggressive reaction<strong>.',
         personId: 20
-      },
-      {
-        tagline: 'Shitstorm',
-        quote: 'There are a couple cases in Canada and the U.S. where someone\'s been called out and it\'s gone really, really badly. All the <strong>rifts<strong> that get created and the secondary conflict that ends up happening because of the way that people deal with the situation itself, as a whole, causes <strong>secondary harm<strong> that causes more rifts that then causes basically shitstorms.',
-        personId: 17
       }
     ]
   }
