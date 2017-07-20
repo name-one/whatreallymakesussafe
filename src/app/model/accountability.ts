@@ -91,6 +91,34 @@ export const ACCOUNTABILITY_SECTION = [
           + '<br><br>' +'So in our minds, we have: <strong>there\'s no hierarchy of oppression and violence is violence</strong>, and as first responders we know that we are <strong>never trying to ask somebody to rate their experience of trauma</strong>. And who is to say, in terms of the experience of the person who experiences assault, who is to say how that experience affects him or her in terms of "who is more traumatize" (if that\'s useful).'
           + '<br><br>' +'But at the same time, <strong>somebody is going to make that determination [between different kinds of behaviors], and is it going to be us, or is it going to be them [those who govern]?</strong> And I\'d rather it be us, I\'d rather wrestle with those complexities and do our best, than take the position that "it\'s an impossible choice, but whatever they\'re doing is wrong."',
         personId: 8
+      },
+      {
+        tagline: 'Assessing Danger, Capacity, & Opportunity',
+        quote: 'Questions to ask when assessing danger, capacity, and opportunity toward action.'
+          + '<br><br>' + '<strong>Danger<strong>:'
+          + 'Danger can be assessed based on the following criteria:'
+          + '•	Gravity of offence - what is the level of risk of physical, sexual, emotional, relational, economic, etc. harm?'
+          + '•	Potential for further offending - what is the level of risk of continued targeting of the survivors, protective adults, and allies?'
+          + '•	Capacity of person or people who are violent to mobilize defense, denial and collusion - what is the level of risk of collusion and active protection of those who are violent?'
+          + '•	Potential for targeting those who are accused based on homophobia, racism, sexism, ability discrimination, class, and notions of deviance — what is the nature of the concerns being raised? Are those raising the concernable to name specific behavior or is the concern mostly in reference to general characteristics that are based on prejudice and oppression?'
+          + 'It may also be important to consider:'
+          + '•	Levels of privilege'
+          + '•	Access to and control over State power'
+          + '•	Resistance to accountability and transformation'
+          + '<br><br>' + '<strong>Capacity<strong>:'
+          + 'Capacity refers to the capacity of the Collective – its skills, availability, know-how and resources. Some good questions to use in assessing capacity include:'
+          + '•	What are the capacities and skill sets of those currently concerned or involved to respond?'
+          + '•	What is possible and what is not possible based on our capacities and skill sets?'
+          + '•	What is our ability to stay involved over time? Can we sustain action over time, or can we mobilize others for whom engagement is possible over time?'
+          + '•	What are the resources and relationships available to us? What resources and relationships can we mobilize over time?'
+          + '<br><br>' + '<strong>Opportunity<strong>:
+          + 'Opportunity refers to the window of opportunity that the Collective has to respond._ Some good questions to use in assessing opportunity include:'
+          + '•	Is there a window of time within which it is necessary to act?'
+          + '•	If we miss this opportunity will another arise in the near future?'
+          + '•	If we take this opportunity in the short term, what are the long-term consequences and how can we prepare for them?'
+          + '•	If we do not take this opportunity, what are the consequences?'
+          + '<br><br>' + '-<a href="http://www.blackandpink.org/wp-content/upLoads/G5_Toward_Transformative_Justice-1.pdf#page=47">\"Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\", p. 41',
+        personId: 11
       }
     ]
   },
@@ -108,8 +136,8 @@ export const ACCOUNTABILITY_SECTION = [
         tagline: 'Long-term educational meetings',
         quote: 'When it first got started [mid-way through the process], it was super <strong>informal and was happening within this person\'s friend group</strong>. Then at a certain point, people were kind of like, "Oh, this doesn\'t really work for this to be informal. There need to actually be <strong>formal meetings</strong> happening." So they started hammering out more of the \'this is how you\'re going to go about telling other people about what we\'re doing\' and checking in to make sure that people had in fact been informed.'
         + '<br><br>' +'After I joined the process, <strong>we met every two weeks</strong>. Our meetings would run for <strong>two to two & a half hours</strong>. They would usually start with a check-in, what was going on with everyone\'s lives, how people were doing emotionally, various things that had happened. Clearly, mostly with the person who the process was with. But I always felt like it was a good idea for me to do a certain amount of <strong>being emotionally open about my life</strong> and talking about things that were going on in my life too, <strong>as a way of making connections amongst all of us</strong>.'
-        + '<br><br>' +'So we would usually talk about some sort of situation that had happened in this person\'s life, and then we tended to have readings. Talk it out, talk it out, that kind of thing. We had different topics that we talked about, <strong>like how to deal with conflict, how to do active listening, what support can look like in different contexts, but then also discussions around consent and sexual assault</strong>. We were going through the questions in the "Learning Good Consent" zine at the end. We would go through one or two of those every week, and be like "Okay, has this happened to you before? Do you wanna talk through a situation where this has happened? Do you think you could have done something different with that situation? What could consent have looked like in that situation?" We were doing different reaidngs and talking through different situations in this person\'s life that they found difficult to deal with, and checking in about how they felt their behavioral patterns were going. [...]'
-        + '<br><br>' +'We had a bunch of talks around sex and I have a background as a <strong>sex eucator</strong> in high schools, so I was giving basic STI transmission information, cuz it seemed like some knowlege was missing there and so we were trying to fill that gap. I actually gave a <strong>mini-workshop</strong> at one of our meetings about STI\'s and STI transmission, and one about conflict and different ways to be more embodied while dealing with conflict, since that\'s a big thing that kept coming up.'
+        + '<br><br>' +'So we would usually talk about some sort of situation that had happened in this person\'s life, and then we tended to have readings. Talk it out, talk it out, that kind of thing. We had different topics that we talked about, <strong>like how to deal with conflict, how to do active listening, what support can look like in different contexts, but then also discussions around consent and sexual assault</strong>. We were going through the questions in the "Learning Good Consent" zine at the end. We would go through one or two of those every week, and be like "Okay, has this happened to you before? Do you wanna talk through a situation where this has happened? Do you think you could have done something different with that situation? What could consent have looked like in that situation?" We were doing different readings and talking through different situations in this person\'s life that they found difficult to deal with, and checking in about how they felt their behavioral patterns were going.'
+        + '<br><br>' +'We had a bunch of talks around sex and I have a background as a <strong>sex educator</strong> in high schools, so I was giving basic STI transmission information, cuz it seemed like some knowledge was missing there and so we were trying to fill that gap. I actually gave a <strong>mini-workshop</strong> at one of our meetings about STI\'s and STI transmission, and one about conflict and different ways to be more embodied while dealing with conflict, since that\'s a big thing that kept coming up.'
         + '<br><br>' +'We would have logistical stuff either at the very end of the meeting or over email, around planning this <strong>bigger community meeting and checking in with various people who wanted to talk to us about the process</strong>.',
         personId: 17
       },
@@ -124,7 +152,7 @@ export const ACCOUNTABILITY_SECTION = [
       {
         tagline: 'Road map to accountability',
         quote:'This <a href="http://www.usprisonculture.com/blog/wp-content/uploads/2012/03/accountabilityroadmap.pdf#page=7">"Road Map to Accountability"</a> was developed by Qui & Jenna\'s collective, Philly Stands Up.'
-        + '<br><br>' +'-The Abolitionist, 2012, p. 7.',
+        + '<br><br>' +'-The Abolitionist newspaper, 2012, p. 7',
         personId: 9
       },
       {
@@ -136,16 +164,53 @@ export const ACCOUNTABILITY_SECTION = [
       },
       {
         tagline: 'Staircase of Change',
-        quote: '<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=389">Creative Interventions Staircase of Change</a>'
-         + '<br><br>' +'-The Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence',
+        quote: 'This Toolkit refers to one way of understanding the process of change as a staircase.
+          + 'The image of a <strong>staircase<strong> tells us that:'
+          + '•	Change may come one step a time'
+          + '•	Each step is significant'
+          + '•	We can aim for the top of the staircase, but we may not be able to reach it'
+          + '•	For every situation, each step will mean different actions and different changes'
+          + '•	Any one of us may not be able to see the next step until the step just below is reached'
+          + 'Step 6 Create a healthier community'
+          + 'Step 5 Change harmful attitudes and behaviors so that violence is not repeated'
+          + 'Step 4 Make repairs for the harm'
+          + 'Step 3 Recognize the consequences of violence without excuses, even if unintended'
+          + 'Step 2 Recognize the violence'
+          + 'Step 1 Stop immediate violence or stop it enough to go to next step'
+          + '<br><br>' +'<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=389">-\"The Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence\", p. 4F-57</a>',
         personId: 12
       },
       {
         tagline: 'Questions for planning accountability',
-        quote: 'Below are some of the questions involved in developing a plan around accountability:'
-        + '<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=56">generationFIVE Questions for Planning Accountability</a>'
-        + '<br><br>' +'-Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence'
-        + '<br><br>' +'generationFIVE',
+        quote: 'Planning accountability for people who abuse'
+          + 'Below are some of the questions involved in developing a plan around accountability.'
+          + '<strong>Intimate Networks: extended family, family friends and relations, natural allies<strong>'
+          + '•	Who in the family, extended family, etc. is likely to defend, deny, or mobilize to protect the person who is abusing or who has abused?'
+          + '•	What are the dynamics of power at play in the intimate network of the person who is abusing or has abused?'
+          + '•	What power and influence does that person have over others?'
+          + '•	What risks are people taking to hold that person accountable?'
+          + '•	Who can be mobilized to support accountability and transformation?'
+          + '•	Who has influence over or with the person who is abusing?
+          + '<br><br>' + '<strong>Community: community reputation, institutions, roles<strong>'
+          + '•	What is the reputation of the person who is abusing in the community?'
+          + '•	How can this be leveraged for accountability?'
+          + '•	How may it be leveraged for denial and non-accountability?'
+          + '•	What are the dynamics of power at play in the community?'
+          + '•	What power and influence does the person who is abusing have over others?'
+          + '•	What risks are people taking to facilitate accountability (i.e. economic, reputation, housing, etc.)?'
+          + '•	Who can be mobilized by the Transformative Justice response within in the community to support accountability and transformation?
+          + '<br><br>' + '<strong>Social Status and Power: systemic privilege, positions of power, decision making power or influence, resources<strong>:'
+          + 'Does the person who is abusing or has abused hold any title or positions of power in the workplace, politically, or economically that can be used to deny or avoid accountability? For example, is the person a doctor, lawyer, police officer, politician, priest, or have \"friends in high places?\" Can this position also be used to support accountability and transformation?'
+          + '•	How may systemic privilege (i.e. gender, race, class, etc.) be used to avoid accountability?'
+          + '•	Who else does the person who is abusing or has abused have influence over because of their privilege?'
+          + '•	Who else could be mobilized to avoid accountability because of their privilege?'
+          + '•	Who can be mobilized in the workplace to support accountability and transformation?'
+          + '•	Who has to be involved in accountability?'
+          + '<br><br>' + '<strong>General<strong>:'
+          + '• In what ways could any of these things be mobilized to discredit, attack, or harm the survivor, allies and/or a commitment to a Transformative Justice response?'
+          + '• Who or what else could the Transformative Justice collective mobilize to create relationships of accountability and support transformation?'
+          + '• What can the Transformative Justice Collective do with people who abuse and who have not shown a commitment to any level of accountability?'
+          + '<br><br>' + '-<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=56">\"Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\", p. 50',
         personId: 11
       },
       {
