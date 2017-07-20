@@ -241,11 +241,11 @@ export const ACCOUNTABILITY_SECTION = [
       },
       {
         tagline: 'Confidentiality issues',
-        quote: 'To maintain confidentiality, <strong>I try to remain as general as possible, and share experiences that can be transferred to other situations</strong>, eg. a member of a touring hardcore band takes advantage of his/her position of power and has non-consensual sex with another person. Unfortunately this is a common enough occurrence that it should be shared with other people in order to benefit them in future situations, and should be made public if it is in danger of happening again. It isn\'t necessary to state the origin or the genders or the details of the incient; and if it can be resolved privately, then that is ideal. But <strong>the importance of sharing some aspects far outweigh complete privacy</strong>.',
+        quote: 'To maintain confidentiality, <strong>I try to remain as general as possible, and share experiences that can be transferred to other situations</strong>, eg. a member of a touring hardcore band takes advantage of his/her position of power and has non-consensual sex with another person. Unfortunately this is a common enough occurrence that it should be shared with other people in order to benefit them in future situations, and should be made public if it is in danger of happening again. It isn\'t necessary to state the origin or the genders or the details of the incident; and if it can be resolved privately, then that is ideal. But <strong>the importance of sharing some aspects far outweigh complete privacy</strong>.',
         personId: 20
       },
       {
-        tagline: 'Confidentiality and Transparency Guidelines',
+        tagline: 'Confidentiality & Transparency Guidelines',
         quote: 'These guidelines around confidentiality and transparency were developed as part of a process with a person who caused harm.',
         personId: 17
       },
@@ -334,7 +334,7 @@ export const ACCOUNTABILITY_SECTION = [
       {
         tagline: 'Liaison with person harmed',
         quote: 'The accountability part, to me [as a facilitator], is this liaison back and forth with the person who\'s been harmed and how they feel about the situation. <strong>Trying to keep their feelings and emotions and healing in your mind [as a facilitator] at all times</strong> when you\'re doing this kind of stuff.'
-        + '<br><br>' +'But by the time I got involved, that person was not really around and/or not super emotionally invested in their relationship to the person who the process was with anymore anyways, and so we almost got this carte blanche.',
+        + '<br><br>' +'But by the time I got involved, the person who\'d been harmed was not really around and/or not super emotionally invested in their relationship to the person who the process was with anymore anyways, and so we almost got this carte blanche.',
         personId: 17
       },
       {
@@ -366,8 +366,8 @@ export const ACCOUNTABILITY_SECTION = [
         quote: 'We might start from questions like: <strong>What does accountability mean? What does accountability look like? How does accountability feel?</strong> This is not to say that accountability can be anything - we push folks to think about their actions and impact, the amends they owe, and the changes they need to make. We ask people to consider <strong>what they need for their safety and healing</strong>, and what it would take for lasting transformation to take place. We ask them <strong>what might get in the way of accountability</strong> - what experiences or memories they might need to revisit, what beliefs or messaging they might need to unlearn. But it is to acknowlege that accountability means different things to different people, and those specificities shoul shape the process and its goals.'
           + '<br><br>' +'For example: I have heard <strong>survivors of violence</strong> express that accountability would mean having their experiences valiated; feeling a shift in their community spaces; having a coherent narrative of what happened to them. <strong>Sometimes, it is important for these things to work in relation to the person who did the violence; other times, it\'s not. Sometimes it is, but that isn\'t possible</strong> - or at least not in the way they envision, right now. But sometimes there are other ways to get a piece of what they need. Having supported or facilitated conversations with loved ones might feel validating. Having a meeting at their work, school, or organizing space might start to shift dynamics that allowed violence to take place. Exchanging letters or other mediate communication with the person who did violence might allow a survivor to articulate their experience in a helpful way. These are actions all of us are capable of supporting right now. I have heard <strong>people who bore witness to violence</strong> describe accountability as expressing support for survivors; holding clear and consistent boundaries amongst themselves; learning the skills they need to better intervene. An organization might show their support for survivors through a collective statement, or simply through daily actions of interdependent care. A family might learn to express and respect boundaries by practicing open communication and consent. A group of friends might prepare themselves to prevent and stop violence by taking a course in mediation, de-escalation, or medical care. These, too, are things that many of us can do.'
           + '<br><br>' +'<strong>This doesn\'t mean that everyone is always satisfied</strong> - sometimes folks don\'t get what they want - or what they want changes - and it can be painful and unfair. But starting from a <strong>contextual, not a prescriptive<strong> understanding of what accountability means and looks like gets us closer to making it in real, if imperfect ways.'
-          + '<br><br>' +'-from the article "Healing and Justice, Together and Apart: Accountability Beyond the \'Process\'" featured on the <a href="https://batjc.wordpress.com/2016/08/11/healing-and-justice-together-and-apart-accountability-beyond-the-process">Bay Area Transformative Justice Collective blog</a>.',
-        personId: 30
+          + '<br><br>' +'-<a href="https://batjc.wordpress.com/2016/08/11/healing-and-justice-together-and-apart-accountability-beyond-the-process">"Healing and Justice, Together and Apart: Accountability Beyond the \'Process\'"</a>.',
+        personId: 16
       },
       {
         tagline: 'Change beyond the cognitive',
