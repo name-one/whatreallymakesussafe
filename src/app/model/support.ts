@@ -12,7 +12,7 @@ export const SUPPORT_SECTION = [
       {
         tagline: 'Facilitated model',
         quote: '<strong>Tools to Mix and Match</strong> contains sets of tools organized around activities that can be useful in planning and carrying out community-based interventions to interpersonal violence. They follow basic concerns that many or most groups interested in violence intervention have faced.'
-        + '<br><br>' + 'These <a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=153">sets of tools</a> are organized in the following categories:'
+        + '<br><br>' + 'These sets of tools are organized in the following categories:'
         + '<br>' + '4.A. <strong>Getting Clear</strong>. What Is Going On?'
         + '<br>' + '4.B. <strong>Staying Safe</strong>. How Do We Stay Safe?'
         + '<br>' + '4.C. <strong>Mapping Allies and Barriers</strong>. Who Can Help?'
@@ -21,15 +21,23 @@ export const SUPPORT_SECTION = [
         + '<br>' + '4.F. <strong>Taking Accountability</strong>. How Do We Change Violence?'
         + '<br>' + '4.G. <strong>Working Together</strong>. How Do We Work Together as a Team?'
         + '<br>' + '4.H. <strong>Keeping on Track</strong>. How Do We Move Forward?'
-        + '<br><br>' + '-The Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence',
+        + '<br><br>' + '-<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=153">\"The Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence\"</a>',
         personId: 12
       },
       {
         tagline: 'Transformative Justice Model',
         quote: 'This section presents Generation FIVE\'s best thinking on the practices upon which a Transformative Justice model can be built:'
-        + '<br><br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=38">Developing Transformative Justice Practices</a>"'
-        + '<br><br>' + '-Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence'
-        + '<br><br>' + 'generationFIVE',
+        + '<br>' + '•	Practices of Transformative Justice include:
+        + '<br>' + '•	Building a Collective
+        + '<br>' + '•	Preparation and capacity building
+        + '<br>' + '•	Naming and defining child sexual abuse
+        + '<br>' + '•	Conducting assessment: level of concern, opportunity, and capacity
+        + '<br>' + '•	Developing a safety strategy
+        + '<br>' + '•	Supporting healing and resilience
+        + '<br>' + '•	Holding accountability
+        + '<br>' + '•	Working for community transformation
+        + '<br>' + '•	Strengthening collective resistance
+        + '<br><br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=38">-\"Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\", p. 32</a>'
         personId: 11  },
       {
         tagline: 'Healing Circle',
@@ -42,22 +50,48 @@ export const SUPPORT_SECTION = [
         tagline: 'Support Checklists',
         quote: 'Supporting survivors or victims can look many different ways to many different people. This tool offers ideas of possible types of support that survivors or victims have said have been helpful over time.'
         + '<br><br>' + '<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=325">What Does the Survivor or Victim Need? Checklist</a>'
-        + '<br><br>' + '-The Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence',
+        + '<br><br>' + '-\"The Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence\", p. 4.E-24',
         personId: 12
       },
       {
         tagline: 'Support & Boundary Exercises',
-        quote: '<a href="https://static1.squarespace.com/static/566c7f0c2399a3bdabb57553/t/566c9be29cadb6bf7efc8e1e/1449958370563/It-Takes-A-Village-People-Web-Version.pdf#page=">\"a little help from my friends\" Support Planning Checklist & Boundary Setting Exercise</a>'
-        + '<br><br>' + '-\"It Takes A Village, People!\" Friends and Family Toolkit'
-        + '<br><br>' + 'The Northwest Network of Bi, Trans, Lesbian & Gay Survivors of Abuse',
+        quote: + '<br><br>' + '<ahref="https://static1.squarespace.com/static/566c7f0c2399a3bdabb57553/t/566c9be29cadb6bf7efc8e1e/1449958370563/It-Takes-A-Village-People-Web-Version.pdf#page=15">Click here for the \"a little help from my friends\" checklists and exercises</a>'
+        + '<br><br>' + '-\"It Takes A Village, People! Advocacy, Friends & Family, and LGBT Survivors of Abuse\", p. 15',
         personId: 26
       },
       {
         tagline: 'Safety Strategy Questions',
-        quote: 'In order to develop a safety strategy, it is helpful to discuss the following types of questions:'
-        + '<br><br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=50">Developing a Safety Strategy</a>"
-        + '<br><br>' + '-Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence'
-        + '<br><br>' + 'generationFIVE',
+        quote: 'DEVELOPING A SAFETY STRATEGY'
+        + '<br>' + 'In order to develop a safety strategy, it is helpful to discuss the following types of questions.'
+        + '<br><br>' + '<strong>Survivor<strong>'
+        + '<br>' + '• Where is the victim/survivor safe and how is that person at risk based on the aspects of safety?'
+        + '<br>' + '• Which aspects of safety need to be addressed immediately?'
+        + '<br>' + '• Which over time?'
+        + '<br>' + '• What will support resilience, agency, and safety?'
+        + '<br><br>' + '<strong>Other Children<strong>'
+        + '<br>' + '• Are other potential victims safe/at risk based on the aspects of safety? In what ways?'
+        + '<br>' + '• Which aspects of safety need to be addressed immediately?' 
+        + '<br>' + '• Which over time?'
+        + '<br><br>' + '<strong>Bystanders<strong>'
+        + '<br>' + '• In what ways are bystanders safe/at risk based on the aspects of safety?'
+        + '<br>' + '• Which aspects of safety need to be addressed immediately? Which over time?'
+        + '<br>' + '• What will support the intimate network’s resilience, positive involvement, change, and safety?'
+        + '<br><br>' + '<strong>Allies<strong>'
+        + '<br>' + '• In what ways are allies connected to this Transformative Justice organizing safe/at risk based on the safety factors?'
+        + '<br>' + '• Which aspects of safety need to be addressed immediately? Which over time?'
+        + '<br>' + '• What will support the allies’ resilience, ongoing involvement, and collective power?'
+        + '<br><br>' + '<strong>People who abuse<strong>'
+        + '<br>' + '• Is the person who has abused (or are the people who have abused) likely to be targeted by a vigilante reaction physically, economically, emotionally, or through the criminal legal system?'
+        + '<br>' + '• If so, which aspects of safety need to be addressed immediately? Over time?'
+        + '<br>' + '• What will support their accountability and fundamental safety, while changing their behaviors and misuse of power?'
+        + '<br><br>' + '<strong>General<strong>'
+        + '<br>' + '• Who may collude with the violence or those who committed it?'
+        + '<br>' + '• Might people organize against the survivor or Transformative Justice support team?'
+        + '<br>' + '• If so, which aspects of safety are most at risk?'
+        + '<br><br>' + '<strong>Resources<strong>'
+        + '<br>' + '• What resources are needed that may not be available within this intimate network or community to help develop safety? (This could include: healing and support resources, housing and job resources, other economic support, free legal services, offender treatment, community organizing support and organizations, etc.)'
+        + '<br>' + '• What organizations, community institutions, or people can be allied with to access these needs or help to meet them?' 
+        + '<br><br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=50">-\"Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\", p. 44</a>',
         personId: 11
       }
     ]
@@ -107,9 +141,7 @@ export const SUPPORT_SECTION = [
         tagline: 'Political values conflict',
         quote: 'We see the responsibility for intervening in and preventing child sexual abuse and other forms of violence to be our collective responsibility. More broadly, no matter what the age of the survivor, we do not believe intervention and prevention should be solely the responsibility of survivors. However, there may be times when the desires of any given survivor contradict our political commitments. Such times require <strong>supporting the power and self-determination of the survivor in a way that does not compromise our political commitments</strong>.'
         + '<br><br>' + 'An example of this might be that the (adult or child) survivor does not want to address child sexual abuse and would rather "move on". On the other hand, the community may feel it is critical to confront the offending behavior in the interests of the safety of other children and the community. Thus, supporting the survivor\'s safety and their self-determination while moving toward broader transformation and collective self-determination <strong>might mean that the survivor is not involved in the intervention</strong> themselves. It could mean that they remain informed about the intervention but not involved. Either way, Transformative Justice requires that the survivor\'s interests be central to an intervention and prevention plan; however, in the aforementioned case, intervention is happening on behalf of the survivor but in the interest of the Collective.'
-        + '<br><br>' + '-generationFIVE'
-        + '<br>' + 'J. Carr, A. Greig, S. Haines, G. Harking, M. Kim, S. Kershnar, M. Levy, P. Shah, C. Wiesner,'
-        + '<br><br>' + 'from "Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence." p. 28.',
+        + '<br><br>' + '-\"Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\", p. 28.',
         personId: 11
       },
       {
@@ -118,8 +150,7 @@ export const SUPPORT_SECTION = [
         + '<br><br>' + 'The <strong>survivor or victim may be a child</strong> - while a child should be supported to talk about their wishes, their fears, their goals - adults may have to take on the responsibility for driving the intervention, deciding the process and determining the goals. Adults are encouraged to take into consideration the perspectives and ongoing needs of the child including those resulting from the complex impact of an intervention as they move forward with the intervention.'
         + '<br><br>' + 'The <strong>process and goals may be decided collectively</strong>, meaning that the team of allies brought together and any other key people who are affected by the violence may discuss these together, coming up with a collective response. In this situation, the survivor\'s or victim\'s wishes may be those that are taken most into consideration. However, there may be room for people to raise their own wishes or concerns or raise more community- wide concerns so that they can all be taken into account when coming up with group process and goals.'
         + '<br><br>' + 'The <strong>survivor or victim (or others in the group) may choose goals that are not in line with the values of the model</strong> in this Toolkit or of the group. For example, these might include revenge, shaming for the sake of public humiliation, violence - or, on the other hand, they may include doing little or nothing. Discrepancy between survivor or victim approaches and goals and those of allies is a common issue and one that can often be resolved through openness, honesty and thoughtful discussion.'
-        + '<br><br>' + '-Creative Interventions'
-        + '<br>' + 'from "Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence (pre-release version)." p. 3-12.',
+        + '<br><br>' + '-\"Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence\", p. 3-12.',
         personId: 12
       },
       {
@@ -166,7 +197,8 @@ export const SUPPORT_SECTION = [
       {
         tagline: 'Survivor Participation Chart',
         quote: 'While Creative Interventions encourages active survivor or victim participation, this can happen at different levels. This chart helps you sort out what level of survivor or victim participation best describes your intervention process – or – which level best describes what you would like your process to look like.'
-        + '<br><br>' + '<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=330">Survivor or Victim Participation in an Intervention Chart</a>',
+        + '<br><br>' + '<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=330">Survivor or Victim Participation in an Intervention Chart</a>'
+        + '<br><br>' + '-\"The Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence\", p. 4.E-29',
         personId: 12
       }
     ]
