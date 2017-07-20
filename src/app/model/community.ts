@@ -52,8 +52,9 @@ export const COMMUNITY_SECTION = [
       {
         tagline: 'Questions for community',
         quote: 'By \'communities\' of the oppressed we mean communities of shared daily living, or of shared history, or of shared identity, or of shared struggle or of shared resistance, or of shared visions. <strong>We often begin with communities that are at present not united or in solidarity, but fragmented, dispersed, and often not self-aware as communities. Solidarity is born of community investment</strong>. Community members experience degrees and forms of investment in a community: they experience a sense of place, of belonging, of support, of companionship, of shared strategies for survival, and, not infrequently, of shared identity.'
-        + '<br><br>' + 'When we think of particular communities as we are in the process of creating Harm Free Zones we ask: How large is the community? Does it have more or less clear boundaries? If someone is mistreated by someone, how easy will it be to determine whether that person is a community member? How easy will it be to get some of the portions of the community together for discussion? Are there places for such gatherings? When was the last time that portions of the community got together for discussion? What is the relation between the community and particular community organizations? Do members of the community form part of the organizations? Do the organizations intervene in community conflicts? Do organizations have their own places for gatherings? Are community members invested in the community? In which ways? Do they rely on each other for help and advice? For childcare? To get things changed in the school, the health care they receive, etc.? Do people have a sense of the economics of the community? Do people know who are the people who hire people for particular kinds of jobs? How is money and other forms of support made? Where do people talk to each other? About what? What concerns them? What do they care about? Do they know that about themselves? To what extent do they think of each other as people they could rely on? What are the present roles of women in the community? Are women more active in community issues than men? How do the different groups making up a community get along? How do people get along with other communities?'
-        + '<br><br>' + '-from "Building Harm Free Zones: An Organizing Booklet," p. 8-9',
+        + '<br><br>' + 'When we think of particular communities as we are in the process of creating Harm Free Zones we ask: 
+        + '<br><br>' + 'How large is the community? Does it have more or less clear boundaries? If someone is mistreated by someone, how easy will it be to determine whether that person is a community member? How easy will it be to get some of the portions of the community together for discussion? Are there places for such gatherings? When was the last time that portions of the community got together for discussion? What is the relation between the community and particular community organizations? Do members of the community form part of the organizations? Do the organizations intervene in community conflicts? Do organizations have their own places for gatherings? Are community members invested in the community? In which ways? Do they rely on each other for help and advice? For childcare? To get things changed in the school, the health care they receive, etc.? Do people have a sense of the economics of the community? Do people know who are the people who hire people for particular kinds of jobs? How is money and other forms of support made? Where do people talk to each other? About what? What concerns them? What do they care about? Do they know that about themselves? To what extent do they think of each other as people they could rely on? What are the present roles of women in the community? Are women more active in community issues than men? How do the different groups making up a community get along? How do people get along with other communities?'
+        + '<br><br>' + '-\"Building Harm Free Zones: An Organizing Booklet\", p. 8-9',
         personId: 27
       },
       {
@@ -66,8 +67,10 @@ export const COMMUNITY_SECTION = [
       },
       {
         tagline: 'Pods',
-        quote: '"<a href="https://batjc.wordpress.com/pods-and-pod-mapping-worksheet">Pods and Pod Mapping Worksheet</a>"'
-        + '<br><br>' + '-from the Bay Area Transformative Justice Collective Blog',
+        quote: 'During the spring of 2014 the Bay Area Transformative Justice Collective (BATJC) began using the term \"pod\" to refer to a specific type of relationship within transformative justice (TJ) work. We needed a term to describe the kind of relationship between people who would turn to each other for support around violent, harmful and abusive experiences, whether as survivors, bystanders or people who have harmed. These would be the people in our lives that we would call on to support us with things such as our immediate and on-going safety, accountability and transformation of behaviors, or individual and collective healing and resiliency.'
+        + '<br><br>' + 'Prior to this, we had been using the term \"community\" when we talked about transformative justice, but we found that, not surprisingly, many people do not feel connected to a \"community\" and, even more so, most people did not know what \"community\" meant or had wildly different definitions and understandings of \"community.\"
+        + '<br><br>' + '"<a href="https://batjc.wordpress.com/pods-and-pod-mapping-worksheet">Pod Mapping Worksheet</a>"'
+        + '<br><br>' + '-Bay Area Transformative Justice Collective Blog',
         personId: 30
       },
       {
@@ -230,7 +233,7 @@ export const COMMUNITY_SECTION = [
         personId: 8
       },
       {
-        tagline: 'queer Black state',
+        tagline: 'Queer Black state',
         quote: 'If we are here and we are clear that <strong>recognition from an existing state is not getting our needs met, then that state fails</strong>. But <strong>what is a unit that counts itself and meets its needs? Is that a state?</strong> It might not be like nation-state. But is that a state?'
         + '<br><br>' +'These calls for community, to the \'this community,\' to the \'that community,\' the queer community, it makes me want to ask: <strong>Is what we are really desiring and creating a state?</strong> Are we creating an alternative state?'
         + '<br><br>' +'There\'s something very challenging in that for me, because, I mean, <strong>that\'s terrible news!</strong> (laughs) Every state I\'ve ever heard about is violent, the form of the state is violent.'
