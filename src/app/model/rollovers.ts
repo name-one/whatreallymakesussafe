@@ -618,14 +618,14 @@ export const ROLLOVERS: Rollover[] = [
   {
     id: 73,
     title: 'Community response in Jim Crow South',
-    quote: 'Mom, when you were growing up, did you ever call the police?'
-    + '<\/br>' + 'I can\'t remember any time that we did.'
-    + '<\/br>' + 'What did you do if something violent happened?'
-    + '<\/br>' + 'It depended on the situation. Often <strong>we could send for the uncles, brothers, fathers, or other family members of people involved to interrupt violence</strong>. However there was this time when we had this family that lived on our block, where the husband was attacking his wife. And people were fed up, so some men in the community with standing - a minister, teacher, doctor, etc. - decided to intervene. Those <strong>men stopped by the house to let the husband know that they wouldn\'t tolerate his behavior</strong> and it needed to stop.'
+    quote: '\"Mom, when you were growing up, did you ever call the police?\"'
+    + '<\/br>' + '\"I can\'t remember any time that we did.\"'
+    + '<\/br>' + '\"What did you do if something violent happened?\"'
+    + '<\/br>' + '\"It depended on the situation. Often <strong>we could send for the uncles, brothers, fathers, or other family members of people involved to interrupt violence</strong>. However there was this time when we had this family that lived on our block, where the husband was attacking his wife. And people were fed up, so some men in the community with standing - a minister, teacher, doctor, etc. - decided to intervene. Those <strong>men stopped by the house to let the husband know that they wouldn\'t tolerate his behavior</strong> and it needed to stop.\"'
     + '<br><br>' + 'My mom grew up in New Orleans in the 1940s, 1950s and 1960s. Her entire life was marked by <strong>experiences of state violence and Jim Crow segregation</strong>. The police, white citizens councils and the Klan intermingled and formed the backbone of a racist political and economic system. Her experiences were not unique. Historically and currently most marginalized communities - including Black people, poor people, queer and trans people, and people with disabilities - have experienced <strong>violence and discrimination from police, emergency services and the legal system</strong>.'
     + '<br><br>' + 'Just as the use of state violence against Black communities is <strong>not new</strong>, neither are the ideas of transformative justice or community accountability.'
     + '<br><br>' + '-Ejeris Dixon'
-    + '<\/br>' + '"<a herf="http://www.truth-out.org/opinion/item/32489-building-community-safety-practical-steps-toward-liberatory-transformation">\"Building Community Safety: Steps Towards Liberatory Transformation\"</a>" in Truthout, Aug. 15, 2015.'
+    + '<\/br>' + '"<a href="http://www.truth-out.org/opinion/item/32489-building-community-safety-practical-steps-toward-liberatory-transformation">\"Building Community Safety: Steps Towards Liberatory Transformation\"</a>" in Truthout, Aug. 15, 2015'
   },
   {
     id: 74,
@@ -665,7 +665,7 @@ export const ROLLOVERS: Rollover[] = [
   },
   {
     id: 79,
-    title: 'Survival sex with funders to keep the lights on',
+    title: '\'Survival sex\' with funders',
     quote: 'It is interesting because part of what I see [in my work as a consultant], in particular <strong>folks of color and queer folks and women</strong> who are working inside of the <strong>non-profit industrial complex</strong>, is a <strong>very perverse relationship with money and with authority</strong>. So a very perverse relationship with funders in which we are not allowed to make any demands on funders, in which we both hate them and need them, and both of those things go unspoken. So there is all of this sort of very shadowy under the table stuff that we do around money and funding. We have very, very few transparent conversations about where philanthropic dollars come from, how decisions are made, how philanthropy increasingly as an industry has a particular relationship with the kinds of work that can get funded, both the most radical work and the most regressive, limited work. I just listened to a really wonderful podcast about philanthropy\’s role in the Civil Right\'s Movement that really did a beautiful job of describing the power of being able to move money to people on the ground. If there were 30,000 mimeographs that were required to create the bus strike, someone wrote a check that made those mimeographs possible and got the check to the right person at the right moment. So <strong>philanthropy is not the enemy</strong>, but there is a way in which we are not having a conversation about money that I think it\’s getting in our way. And <strong>I see, in particular women and queer folks, doing what looks like survival sex with their funders in order to keep the lights on</strong>. And there is no other way to describe it.'
     + '<br><br>' + '-Maura M. Bairley'
   },
@@ -701,7 +701,7 @@ export const ROLLOVERS: Rollover[] = [
   },
   {
     id: 84,
-    title: 'Sexual violence as "most extreme crime"',
+    title: 'People want punishment and jails the most',
     quote: 'People would always ask, "You know, well <strong>what happens to the rapist and the murderers?</strong>" It seemed like there was a moment where Critical Resistance and other anti-prison abolitionists wanted to respond to that question. I think it\’s easy to get folks to buy into ending mass incarceration but that extra step to being an abolitionist is somewhere where some folks get caught up on, "Well maybe we need to lock away rapists." So <strong>doing anti-violence work, you\'re working with what is being labelled as the most extreme crime where people want punishment and jails the most</strong>.'
     + '<br><br>' + 'Also, it seemed like a big gap in the anti-violence world, where most of the mainstream organizations that I\'ve known about have been really pushing for more of a carceral or prison- and policing-based solution to ending violence. They are like, "Well, if we have stricter punishments on this, if we can get things to go through the prosecution system, then we\'ll be better off." But what I\'ve seen and the way that I understand it is that <strong>most survivors don\'t get justice from the legal system</strong>. So if they\'re already not getting justice from the legal system, it\'s also this moment of survivors being like, <strong>"Well, what else is out there?" and finding transformative justice work or community accountability work</strong>.'
     + '<br><br>' + '-Kiyomi Fujikawa
@@ -738,23 +738,21 @@ export const ROLLOVERS: Rollover[] = [
     title: 'Mediation ignores power relations',
     quote: 'Mediation between the survivor or victim and person doing harm is not recommended. The <strong>assumption that there is equal power</strong> does not match our assumptions about the types of interpersonal violence that this Toolkit has been created to address – <strong>domestic violence and sexual assault generally take place within or create a relationship of unequal power</strong>. This model of intervention, not mediation, takes this inequality into account. Mediation has been known to equally fault the survivor or victim and potentially place them in a situation of danger.'
     + '<br><br>' + '-Creative Interventions'
-    + '<\/br>' + '"<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf">\"Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence\"</a>" p. 3-10'
+    + '<\/br>' + '"<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=122">\"Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence\"</a>" p. 3-10'
   },
   {
     id: 89,
     title: 'Mediation retraumatizing',
     quote: 'Our work <strong>departed from traditional RJ [restorative justice] practice mainly in that we never asked the survivor to sit down with the person who caused harm</strong>. In the aftermath of a sexual assault, this experience would be tremendously <strong>retraumatizing and unproductive</strong>.'
     + '<br><br>' + '-Esteban Lance Kelly of Philly Stands Up'
-    + '<\/br>' + '"<a href="https://communityaccountability.files.wordpress.com/2012/06/philly-stands-up.pdf">\"Philly Stands Up: Inside the Politics and Poetics of Transformative Justice and Community Accountability in Sexual Assault Situations\"</a>"'
-    + '<\/br>' + 'in "Community Accountability: Emerging Movements to Transform Violence" issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 49'
+    + '<\/br>' + '"<a href="https://communityaccountability.files.wordpress.com/2012/06/philly-stands-up.pdf">\"Philly Stands Up: Inside the Politics and Poetics of Transformative Justice and Community Accountability in Sexual Assault Situations\"</a>" in "Community Accountability: Emerging Movements to Transform Violence" issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 49'
   },
   {
     id: 90,
     title: 'Misuses of RJ model',
     quote: 'These [restorative justice] models have been particularly well developed by many Native communities, especially in Canada, where the sovereign status of Native nations offers them an opportunity to develop community-based justice programs. […] <strong>These models only work when the community unites in holding perpetrators accountable. Yet in cases of sexual and domestic violence, the community often sides with the perpetrator rather than the victim</strong>. As Deer (2009:156) argues, in many Native American communities, these <strong>models are often pushed on domestic violence survivors to pressure them</strong> to reconcile with their families and "restore" the community without sufficient concern for their personal safety. In addition, Native American domestic violence advocates have been critical that some restorative justice processes <strong>co-opt "traditional" forms of governance</strong> to address domestic violence. They argue that Native communities have been pressured to adopt "circle sentencing" because it is a traditional indigenous practice. Some advocates contend that no such traditional practice exists in their communities. […] Deer contests the tendency to <strong>romanticize and homogenize</strong> "traditional" (i.e. Native) alternatives to incarceration.'
     + '<br><br>' + '-Andrea Smith'
-    + '<\/br>' + '"<a href="https://communityaccountability.files.wordpress.com/2012/06/decolonizing-antirape-law.pdf">\"Decolonizing Anti-Rape Law and Strategizing Accountability in Native American Communities\"</a>,"'
-    + '<\/br>' + 'in "<a href="https://communityaccountability.wordpress.com/social-justice-journal-issue/editors-introduction/">Community Accountability: Emerging Movements to Transform Violence</a>" issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 40'
+    + '<\/br>' + '"<a href="https://communityaccountability.files.wordpress.com/2012/06/decolonizing-antirape-law.pdf">\"Decolonizing Anti-Rape Law and Strategizing Accountability in Native American Communities\"</a>," in "<a href="https://communityaccountability.wordpress.com/social-justice-journal-issue/editors-introduction/">Community Accountability: Emerging Movements to Transform Violence</a>" issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 40'
   },
   {
     id: 91,
@@ -762,20 +760,20 @@ export const ROLLOVERS: Rollover[] = [
     quote: 'One such alternative that has developed out of this recognition of the problems of criminal legal responses is commonly referred to as Restorative Justice. Restorative Justice models aim to <strong>restore intimate relationships and community bonds</strong> that have been damaged by interpersonal violence, through practices of <strong>community dialog and appeals to collective values</strong>. Restorative justice approaches seek to increase the involvement of community stakeholders, more fully address survivor\’s rights in the judicial process, and identify means to repair harm and restore balance in the community. Many of the most powerful Restorative Justice approaches in the U.S. and Canada have long been practiced within <strong>indigenous communities</strong> that seek justice and conflict resolution using shared values and systems of accountability distinct from State systems.'
     + '<br><br>' + 'Outside of these communities, the Restorative Justice approach has largely been <strong>co-opted by the State</strong> for use in coercive contexts in which the integrity of such a model is put into question. Some faith-based Restorative Justice projects have partnered with the State and become service providers in tandem with State-based systems of accountability. Other Restorative Justice models are offered as post-incarceration rehabilitation programs intended to "restore" the community standing of the person or people that are abusive. To a greater or lesser extent, these models do <strong>expand the possibilities of accountability and transformation</strong> through engaging and educating members of the intimate and/or community networks in which the abuse occurs. But such models have been <strong>appropriated by the criminal legal system</strong> as a way to involve the community in punishing the person that has been violent and then \‘restoring\’ the conditions that already existed when the abuse originally took place.'
     + '<br><br>' + '-generationFIVE: J. Carr, A. Greig, S. Haines, G. Harking, M. Kim, S. Kershnar, M. Levy, P. Shah, & C. Wiesner'
-    + '<\/br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf">\"Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\"</a>" p. 20'
+    + '<\/br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=26">\"Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\"</a>" p. 20'
   },
   {
     id: 92,
     title: 'Transform not restore',
     quote: 'Across the different communities applying the Restorative Justice approach, we question the degree to which this approach allows for <strong>challenges to dominant power hierarchies</strong> within any given community. Shared, collective values that perpetuate violence may go unchallenged. Restorative Justice models have been <strong>critiqued</strong> for paying insufficient attention to:'
-    + '<\/br>' + 'Family and community power relations;'
-    + '<\/br>' + 'The subordination of survivor needs and agency for the sake of "the restoration of the community";'
-    + '<\/br>' + 'Shared values that may be sexist and homophobic; and'
-    + '<\/br>' + 'Patterns of racial or economic disempowerment within a community.'
+    + '<\/br>' + '•	Family and community power relations;'
+    + '<\/br>' + '•	The subordination of survivor needs and agency for the sake of "the restoration of the community";'
+    + '<\/br>' + '•	Shared values that may be sexist and homophobic; and'
+    + '<\/br>' + '•	Patterns of racial or economic disempowerment within a community.'
     + '<br><br>' + 'The demand to <strong>"restore" the wholeness of the community might come at the expense of genuine accountability</strong> of the person who is violent or the safety of the survivor(s) or others in the community. Interventions based on such models risk colluding with violence they are intended to end.'
     + '<br><br>' + 'At the same time, the <strong>emphasis on restoration assumes the conditions that existed prior to an individual incident of abuse are desirable</strong> and should be restored. This ignores the common lack of rights for children, abuses of power, gender inequality, legacies of slavery and colonization, and other types of violence that pre-date and co-exist with ongoing incidents of violence. As such, these models often focus on the <strong>restoration of the status quo</strong> and ignore the challenge of transforming the conditions of social, economic and political injustice that are the context for, and cause of, violence.'
     + '<br><br>' + '-generationFIVE: J. Carr, A. Greig, S. Haines, G. Harking, M. Kim, S. Kershnar, M. Levy, P. Shah, & C. Wiesner'
-    + '<\/br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf">Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence.</a>" p. 21.'
+    + '<\/br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=27">Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence.</a>" p. 21.'
   },
   {
     id: 93,
