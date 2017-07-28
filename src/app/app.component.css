@@ -5,6 +5,22 @@
 /deep/ .title-font {
   font-family: 'Ubuntu', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/deep/ * {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+/deep/ * {
+  font-family: 'PT Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+/deep/ * {
+  font-family: 'Source Sans Pro', sans-serif;
+}*/
 
 /deep/ .title {
    font-family: 'Ubuntu', sans-serif;

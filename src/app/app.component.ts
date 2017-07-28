@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public breadcrumbs: string = "breadcrumbs/go/here";
+  anchorLink(event){
+    console.log(event)
+  }
 }

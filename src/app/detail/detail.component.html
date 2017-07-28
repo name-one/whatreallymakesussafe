@@ -16,14 +16,14 @@
       <div class="question-quote-container">
         <div *ngFor="let quote of question.quotes"
              class="quote-box"
-             [ngStyle]="{'background-color': getPerson(quote.personId)?.color, 'color': getPerson(quote.personId)?.fontColor}"
+             [ngStyle]="{'background-color': getPerson(quote.personId)?.contrastColor || getPerson(quote.personId)?.color, 'color': getPerson(quote.personId)?.fontColor}"
              (resize)="onResize($event)"
              (click)="openQuoteModal(content, quote)">
           <div class="initial title-font">
             {{ getPerson(quote.personId)?.shortName }}
           </div>
           <div class="tagline title-font">
-            {{ quote.tagline }}
+            «{{ quote.tagline }}»
           </div>
         </div>
       </div>
@@ -423,7 +423,11 @@
 
 <template #content let-c="close">
   <div class="modal-header">
-    <h4 class="modal-title title-font">{{ getPerson(selectedQuote.personId)?.name }}</h4>
+    <h4 class="modal-title title-font">
+      <a href="{{ getPerson(selectedQuote.personId).link }}" target='_blank' *ngIf='getPerson(selectedQuote.personId).link'>{{ getPerson(selectedQuote.personId)?.name }}</a>
+      <span *ngIf='!getPerson(selectedQuote.personId).link'>{{ getPerson(selectedQuote.personId)?.name }}</span>
+    </h4>
+
     <button type="button" class="close" aria-label="Close" (click)="c('Cross click')">
       <span aria-hidden="true">&times;</span>
     </button>

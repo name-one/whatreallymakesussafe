@@ -35,6 +35,8 @@ export interface Person {
   shortName: string;
   color: string;
   fontColor: string;
+  contrastColor?: string;
+  link?: string;
 }
 
 export type SectionType = 'Game Changers' | 'Support' | 'Accountability' | 'Community' | 'Principles' | 'About' | 'Movement';

@@ -26,7 +26,8 @@ div#logo > img {
 }
 
 .title-font:hover, .sub-nav:hover, .selected {
-  background-color: #b5cdcc;
+  font-size: 1.1em;
+  background-color: #ca8e99;
   color: black;
   cursor: pointer;
 }
