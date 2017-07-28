@@ -57,6 +57,11 @@ function createDataModel(name: SectionType): Section {
   return dataModel;
 }
 
+function isNotBoxSection(name: string) {
+  return name === 'About' || name === 'Principles' || name === 'Movement';
+}
+
+
 export const FUTURE_SECTION = [
   {
     title: 'We are Just at the Beginning',
