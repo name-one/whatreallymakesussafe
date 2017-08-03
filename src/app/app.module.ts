@@ -17,13 +17,16 @@ import { PersonService } from './services/person.service';
 import { DetailMenuComponent } from './detail-menu/detail-menu.component';
 import { RolloverService } from './services/rollover.service';
 import { NavigationService } from './services/navigation.service';
+import { SplashComponent } from './splash/splash.component';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     DetailComponent,
-    DetailMenuComponent
+    DetailMenuComponent,
+    SplashComponent
   ],
   imports: [
     BrowserModule,
@@ -31,14 +34,16 @@ import { NavigationService } from './services/navigation.service';
     HttpModule,
     NgbModule.forRoot(),
     RouterModule.forRoot([
+      {  component: SplashComponent, path: 'splash' },
       {  component: DetailComponent, path: 'detail/:id' },
-      {  path: '**', pathMatch: 'full', redirectTo: 'detail/About' }
+      {  path: '**', pathMatch: 'full', redirectTo: 'splash' }
     ]),
   ],
   providers: [
     NavigationService,
     PersonService,
-    RolloverService
+    RolloverService,
+    {provide: LocationStrategy, useClass: HashLocationStrategy}
   ],
   bootstrap: [AppComponent]
 })

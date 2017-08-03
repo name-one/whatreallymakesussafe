@@ -1,7 +1,7 @@
 .header {
-  font-style: italic;
-  font-size: 3em;
-  margin: 0 0 5% 0;
+  color: #b5cdcc;
+  font-size: 4.5em;
+  margin: 10px 0 12px 0;
 }
 
 .detail-container {
@@ -12,22 +12,30 @@
   /*margin: 0 1.25%;*/
 }
 
+.question-content > .about-title {
+  font-size: 2em;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 1% 0;
+}
+
 .question-content > .title {
   font-size: 2em;
+  font-style: italic;
+  color: #b5cdcc;
   margin: 1% 0;
 }
 
 .question-content > .question {
   font-size: 1.1em;
-  line-height: 2.5em;
+  line-height: 2em;
   margin: 2.5%;
 }
 
 .quote-box {
-  width: 25%;
-  height: 16vw;
+  width: 20%;
+  height: 13vw;
   margin: 2.5%;
-  border: 1px solid #888;
+  border: 1px solid #c1c1c1;
   display: inline-block;
   overflow: hidden;
 }
@@ -39,20 +47,19 @@
 }
 
 .initial, .tagline {
-  height: 16vw;
+  height: 13vw;
 }
 
 .initial {
-  line-height: 16vw;
-  font-size: 5.5em;
+  line-height: 13vw;
+  font-size: 3.35em;
   font-style: italic;
   text-align: center;
-
 }
 
 .tagline {
-  padding: 2em;
-  font-size: 1.5em;
+  padding: 1em;
+  font-size: 1em;
   text-align: center;
   display: none;
 }
@@ -86,7 +93,24 @@ app-detail-menu {
 }
 
 .rollover {
-  color: blue;
-  text-decoration: underline;
+  color: #014C8C;
+  text-decoration: none;
   cursor: pointer;
+}
+
+.rollover:hover {
+  text-decoration: underline;
+}
+
+a {
+  color: #014C8C;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.unitalic {
+  font-style: normal !important;
 }

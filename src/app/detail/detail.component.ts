@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import 'rxjs/add/operator/map';
@@ -9,13 +9,14 @@ import { PersonService } from '../services/person.service';
 import { Rollover } from '../model/rollovers';
 import { RolloverService } from '../services/rollover.service';
 import { NavigationService } from '../services/navigation.service';
+import { escape } from 'querystring';
 
 @Component({
   selector: 'app-detail',
   templateUrl: './detail.component.html',
   styleUrls: ['./detail.component.css']
 })
-export class DetailComponent implements OnInit {
+export class DetailComponent implements OnInit, AfterViewInit {
   public futureSection: any;
   public selectedDetail: Section;
   public selectedQuote: Quote;
@@ -35,17 +36,23 @@ export class DetailComponent implements OnInit {
         if (document.getElementsByTagName('app-detail')[0]) {
           document.getElementsByTagName('app-detail')[0].scrollTop = 0;
         }
-        console.log('DATA_MODEL,' , DATA_MODEL);
         for (let section of DATA_MODEL) {
           if (section.navTitle === sectionTitle) {
             this.selectedDetail = section;
-            console.log('this.selectedDetail,', this.selectedDetail);
             break;
           }
         }
       });
 
     this.futureSection = FUTURE_SECTION;
+  }
+
+  public ngAfterViewInit() {
+    this.route.fragment.subscribe ( f => {
+      const element = document.querySelector ( "#" + this.flattenFragmentId(f) );
+      console.log('fragment, ', element);
+      if ( element ) element.scrollIntoView ()
+    });
   }
 
   public isBoxSection(title: string): boolean {
@@ -70,9 +77,9 @@ export class DetailComponent implements OnInit {
     this.selectedQuote = quote;
     this.modalService.open(content,
       {backdrop: true,
-       keyboard: true,
-       size: 'lg',
-       windowClass: 'show'}).result.then((result) => {
+        keyboard: true,
+        size: 'lg',
+        windowClass: 'show'}).result.then((result) => {
       console.log('Closed with: ${result}');
     }, (reason) => {
       this.selectedQuote = undefined;
@@ -82,5 +89,32 @@ export class DetailComponent implements OnInit {
 
   public getPerson(personId: number): Person {
     return this.personService.getPersonById(personId);
+  }
+
+  private flattenFragmentId(fragment: string): string {
+    if (!fragment) {
+      return fragment;
+    }
+    let fragments = fragment.split(" >> ");
+    if (fragments.length > 1) {
+      console.log("x : ", fragments[0] + fragments[1]);
+      return fragments[0].trim() + fragments[1].trim();
+    } else {
+      fragments = fragment.split(" & ");
+      if (fragments.length > 1) {
+        return fragments[0].trim() + fragments[1].trim();
+      } else {
+        if (fragment === 'How to Support') {
+          return 'HowtoSupport';
+        } else {
+          if (fragment === 'The Project') {
+            return 'TheProject';
+          } else {
+            return fragment;
+          }
+        }
+      }
+    }
+
   }
 }

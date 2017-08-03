@@ -52,10 +52,15 @@ export const COMMUNITY_SECTION = [
       {
         tagline: 'Questions for community',
         quote: 'By \'communities\' of the oppressed we mean communities of shared daily living, or of shared history, or of shared identity, or of shared struggle or of shared resistance, or of shared visions. <strong>We often begin with communities that are at present not united or in solidarity, but fragmented, dispersed, and often not self-aware as communities. Solidarity is born of community investment</strong>. Community members experience degrees and forms of investment in a community: they experience a sense of place, of belonging, of support, of companionship, of shared strategies for survival, and, not infrequently, of shared identity.'
-        + '<br><br>' + 'When we think of particular communities as we are in the process of creating Harm Free Zones we ask: 
-        + '<br><br>' + 'How large is the community? Does it have more or less clear boundaries? If someone is mistreated by someone, how easy will it be to determine whether that person is a community member? How easy will it be to get some of the portions of the community together for discussion? Are there places for such gatherings? When was the last time that portions of the community got together for discussion? What is the relation between the community and particular community organizations? Do members of the community form part of the organizations? Do the organizations intervene in community conflicts? Do organizations have their own places for gatherings? Are community members invested in the community? In which ways? Do they rely on each other for help and advice? For childcare? To get things changed in the school, the health care they receive, etc.? Do people have a sense of the economics of the community? Do people know who are the people who hire people for particular kinds of jobs? How is money and other forms of support made? Where do people talk to each other? About what? What concerns them? What do they care about? Do they know that about themselves? To what extent do they think of each other as people they could rely on? What are the present roles of women in the community? Are women more active in community issues than men? How do the different groups making up a community get along? How do people get along with other communities?'
-        + '<br><br>' + '-\"Building Harm Free Zones: An Organizing Booklet\", p. 8-9',
+        + '<br><br>' + 'When we think of particular communities as we are in the process of creating Harm Free Zones we ask: How large is the community? Does it have more or less clear boundaries? If someone is mistreated by someone, how easy will it be to determine whether that person is a community member? How easy will it be to get some of the portions of the community together for discussion? Are there places for such gatherings? When was the last time that portions of the community got together for discussion? What is the relation between the community and particular community organizations? Do members of the community form part of the organizations? Do the organizations intervene in community conflicts? Do organizations have their own places for gatherings? Are community members invested in the community? In which ways? Do they rely on each other for help and advice? For childcare? To get things changed in the school, the health care they receive, etc.? Do people have a sense of the economics of the community? Do people know who are the people who hire people for particular kinds of jobs? How is money and other forms of support made? Where do people talk to each other? About what? What concerns them? What do they care about? Do they know that about themselves? To what extent do they think of each other as people they could rely on? What are the present roles of women in the community? Are women more active in community issues than men? How do the different groups making up a community get along? How do people get along with other communities?'
+        + '<br><br>' + '-from "Building Harm Free Zones: An Organizing Booklet," p. 8-9',
         personId: 27
+      },
+      {
+        tagline: 'Pod',
+        quote: '"<a href="https://batjc.wordpress.com/pods-and-pod-mapping-worksheet">Pods and Pod Mapping Worksheet</a>"'
+        + '<br><br>' + '-from the Bay Area Transformative Justice Collective Blog',
+        personId: 30
       },
       {
         tagline: 'Building relationships in scary times',
@@ -64,14 +69,6 @@ export const COMMUNITY_SECTION = [
         + '<br><br>' + '<strong>Some of the folks I met turned out to be some folks who lived next door</strong>. Who then were like, "You\'re cool, so I\'m cool with you." And those guys looked out for us and even intervened in some harassment that occurred against one of my roommates.'
         + '<br><br>' + 'So I think sometimes there\'s a piece around <strong>solidarity work</strong>. How are we building in spaces where it\'s not necessarily directly around our self interest? <strong>People show up if you show up</strong>. Those guys were doing the same thing [using threats as a community-based strategy], they were letting people know if they fucked with me, they were fucking with them. But I do think there\'s a piece around the relationship building that we do, and <strong>building even the scary relationships</strong>.',
         personId: 7
-      },
-      {
-        tagline: 'Pods',
-        quote: 'During the spring of 2014 the Bay Area Transformative Justice Collective (BATJC) began using the term \"pod\" to refer to a specific type of relationship within transformative justice (TJ) work. We needed a term to describe the kind of relationship between people who would turn to each other for support around violent, harmful and abusive experiences, whether as survivors, bystanders or people who have harmed. These would be the people in our lives that we would call on to support us with things such as our immediate and on-going safety, accountability and transformation of behaviors, or individual and collective healing and resiliency.'
-        + '<br><br>' + 'Prior to this, we had been using the term \"community\" when we talked about transformative justice, but we found that, not surprisingly, many people do not feel connected to a \"community\" and, even more so, most people did not know what \"community\" meant or had wildly different definitions and understandings of \"community.\"
-        + '<br><br>' + '"<a href="https://batjc.wordpress.com/pods-and-pod-mapping-worksheet">Pod Mapping Worksheet</a>"'
-        + '<br><br>' + '-Bay Area Transformative Justice Collective Blog',
-        personId: 30
       },
       {
         tagline: 'Navigating class & gender',
@@ -109,6 +106,12 @@ export const COMMUNITY_SECTION = [
         personId: 18
       },
       {
+        tagline: 'Friend supporters',
+        quote: 'We let perpetuators invite a <strong>silent witness</strong> to the first meeting with us, and why I think it\'s so useful is because that\'s a person in the world to check them, that\'s a <strong>person that they trust who encourages them to go this route</strong>. It\'s one way of inviting in other members of the community.'
+        + '<br><br>' + 'As I\'ve said, I think really having people who support that person [is important], but <strong>they have to support that person by wanting them to stop being harmful</strong>. A friend who says, "I\'m going to be with you at the bar and when this person asks you to leave, I\'m going to encourage you to leave. I\'m going to check in and make sure you are going to therapy."',
+        personId: 18
+      },
+      {
         tagline: 'Safe Outside the System training',
         quote: '[At the Audre Lorde Project] We started to organize local businesses and institutions, and recruit them. We didn\'t have a curriculum, we had to create a <strong>"How to Be Safe Outside the System" training</strong>.'
         + '<br><br>' + 'A lot of times these spaces were people who were not anti-LGBT folks, but just not really understanding [LGBT issues]. So the training included some <strong>basics on heterosexism, homophobia, transphobia</strong>, some info on the violence that had been happening in the neighborhood, some info that they were already deeply acquainted with about how police violence is flowing in the neighborhood.'
@@ -117,12 +120,6 @@ export const COMMUNITY_SECTION = [
         + '<br><br>' + 'They already were in many ways [practicing community-based strategies]. It was <strong>community-based strategies but it wasn\'t necessarily transformative</strong>. There was this one space that was like, "Well if things get really bad I call the guy who owns the corner store across the street cuz he owns a machete" (laughs). That\'s a response but its not transformative. It is totally about threatening.'
         + '<br><br>' + '<strong>That\'s one of those questions as a movement we have to [ask ourselves]</strong>. I don\'t think we\'ve fully grappled with the fact that a lot of us deep down, whether or not we say it or not, we think that sometimes de-escalating is about a power play.',
         personId: 7
-      },
-      {
-        tagline: 'Friend supporters',
-        quote: 'We let perpetuators invite a <strong>silent witness</strong> to the first meeting with us, and why I think it\'s so useful is because that\'s a person in the world to check them, that\'s a <strong>person that they trust who encourages them to go this route</strong>. It\'s one way of inviting in other members of the community.'
-        + '<br><br>' + 'As I\'ve said, I think really having people who support that person [is important], but <strong>they have to support that person by wanting them to stop being harmful</strong>. A friend who says, "I\'m going to be with you at the bar and when this person asks you to leave, I\'m going to encourage you to leave. I\'m going to check in and make sure you are going to therapy."',
-        personId: 18
       },
       {
         tagline: 'Relationships are the glue',
@@ -193,6 +190,7 @@ export const COMMUNITY_SECTION = [
   {
     title: 'How are community-based responses transforming our relationship to the State?',
     nav: 'State & Beyond',
+    navId: 'StateBeyond',
     question: '',
     quotes: [
       {
@@ -226,19 +224,25 @@ export const COMMUNITY_SECTION = [
         personId: 1
       },
       {
-        tagline: 'Resist or govern?',
-        quote: 'So one of the ways this came up was when <strong>Move to End Violence\'s first cohort traveled to India to meet with sister organizations organizing around women\'s issues</strong> more broadly, and sex trafficking, violence against women and girls. And one of the things that they came back with that was really interesting was feeling like they\'d been <strong>challenged by their sisters</strong> there, who really challenged them about abandoning the state, and saying "<strong>Why are you not holding the state accountable</strong>?" Again, a human rights frame would say "If these are human rights, we demand them from our state nationally and from our states internationally." That there is actually global power in that frame and that organizing platform. I think there is a lot of truth to that.'
-        + '<br><br>' +'At the same time, I am really with the notion that the <strong>state is so profoundly absent, corrupt... absent or corrupt, these seem to be the options (laughs), that we need alternatives, we need to imagine alternatives</strong>.'
-        + '<br><br>' +'So for me, where the dilemma, <strong>how the dilemma lives is the difference between resistance and government</strong>. I worry sometimes that <strong>on the Left, and even in our most radical queer feminist organizing spaces, that we exercise our muscles around resistance much more than we exercise our muscles around governance</strong>. And I think that it is a worthwhile challenge, and <strong>it will actually be required of us to be able to govern</strong>. So I am <strong>not willing to abandon the state nor do I think we can afford to stop imagining and seeding and living alternatives</strong>, living into those alternatives. And I do really challenge us about are we able only to resist or to govern? When we look at revolutionary movements globally, that is a challenge, that \'all resistance and no government\' doesn\'t actually get you very far.  [\']',
-        personId: 8
-      },
-      {
-        tagline: 'Queer Black state',
+        tagline: 'queer Black state',
         quote: 'If we are here and we are clear that <strong>recognition from an existing state is not getting our needs met, then that state fails</strong>. But <strong>what is a unit that counts itself and meets its needs? Is that a state?</strong> It might not be like nation-state. But is that a state?'
         + '<br><br>' +'These calls for community, to the \'this community,\' to the \'that community,\' the queer community, it makes me want to ask: <strong>Is what we are really desiring and creating a state?</strong> Are we creating an alternative state?'
         + '<br><br>' +'There\'s something very challenging in that for me, because, I mean, <strong>that\'s terrible news!</strong> (laughs) Every state I\'ve ever heard about is violent, the form of the state is violent.'
         + '<br><br>' +'But, is that not it? <strong>Do we want a queer community, a Black community or do we want a queer state!? Do we want a Black state?!</strong> Is it possible to actually create a sustainable alternative state of being without doing state-type stuff?',
         personId: 1
+      },
+      {
+        tagline: 'Question of scale',
+        quote: 'On what <strong>scale</strong> are we willing to do [state-type stuff], on what scale is it appropriate to do that? If we want to create something different, are we willing to say or even experiment with...<strong>what about a state of 7</strong>? What is the <strong>difference between a state and a household</strong>? Are these the scales that we want to operate on?'
+        + '<br><br>' +'And how concrete are we willing to be in what we would want to replace the present state? You know, like what are <strong>future states of being</strong> that we would be willing to imagine concretely enough to commit to? And would we be willing to do that, is it possible to do that, to create a state, in a way that still acknowledges the need for the poetic intervention, the <strong>inevitable insufficiency of a state</strong>.',
+        personId: 1
+      },
+      {
+        tagline: 'Resist or govern?',
+        quote: 'So one of the ways this came up was when <strong>Move to End Violence\'s first cohort traveled to India to meet with sister organizations organizing around women\'s issues</strong> more broadly, and sex trafficking, violence against women and girls. And one of the things that they came back with that was really interesting was feeling like they\'d been <strong>challenged by their sisters</strong> there, who really challenged them about abandoning the state, and saying "<strong>Why are you not holding the state accountable</strong>?" Again, a human rights frame would say "If these are human rights, we demand them from our state nationally and from our states internationally." That there is actually global power in that frame and that organizing platform. I think there is a lot of truth to that.'
+        + '<br><br>' +'At the same time, I am really with the notion that the <strong>state is so profoundly absent, corrupt... absent or corrupt, these seem to be the options (laughs), that we need alternatives, we need to imagine alternatives</strong>.'
+        + '<br><br>' +'So for me, where the dilemma, <strong>how the dilemma lives is the difference between resistance and government</strong>. I worry sometimes that <strong>on the Left, and even in our most radical queer feminist organizing spaces, that we exercise our muscles around resistance much more than we exercise our muscles around governance</strong>. And I think that it is a worthwhile challenge, and <strong>it will actually be required of us to be able to govern</strong>. So I am <strong>not willing to abandon the state nor do I think we can afford to stop imagining and seeding and living alternatives</strong>, living into those alternatives. And I do really challenge us about are we able only to resist or to govern? When we look at revolutionary movements globally, that is a challenge, that \'all resistance and no government\' doesn\'t actually get you very far.  [\']',
+        personId: 8
       },
       {
         tagline: 'Neighborhood replaces the PIC',
@@ -257,12 +261,6 @@ export const COMMUNITY_SECTION = [
         tagline: 'Scale it up',
         quote: 'But if prisons are going to be abolished, if we are going to live in a world without rape and without sexual assault, and I think we can, then we have to <strong>scale it up or we have to articulate it in ways that more people can interact with and understand and buy into</strong>.',
         personId: 3
-      },
-      {
-        tagline: 'Question of scale',
-        quote: 'On what <strong>scale</strong> are we willing to do [state-type stuff], on what scale is it appropriate to do that? If we want to create something different, are we willing to say or even experiment with...<strong>what about a state of 7</strong>? What is the <strong>difference between a state and a household</strong>? Are these the scales that we want to operate on?'
-        + '<br><br>' +'And how concrete are we willing to be in what we would want to replace the present state? You know, like what are <strong>future states of being</strong> that we would be willing to imagine concretely enough to commit to? And would we be willing to do that, is it possible to do that, to create a state, in a way that still acknowledges the need for the poetic intervention, the <strong>inevitable insufficiency of a state</strong>.',
-        personId: 1
       }
     ]
   }

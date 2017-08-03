@@ -4,8 +4,8 @@ export const ROLLOVERS: Rollover[] = [
     title: '"Bad individuals" myth',
     quote: 'The Myth That Violence & Discrimination Are Just About "Bad" Individuals'
     + '<br><br>' + 'Discrimination laws and hate crimes laws encourage us to understand oppression as something that happens when individuals use bias to deny someone a job because of race or sex or some other characteristic, or beat up and kill someone because of such a characteristic. This way of thinking, sometimes called the "<strong>perpetrator perspective</strong>," makes people think about racism, sexism, homophobia, transphobia, and ableism in terms of <strong>individual behaviors and bad intentions rather than wide-scale structural oppression</strong> that often operates without some obvious individual actor aimed at denying an individual person an opportunity. The violence of imprisoning millions of poor people and people of color, for example, can\’t be adequately explained by finding one nasty racist individual, but instead requires looking at a whole web of institutions, policies, and practices that make it <strong>"normal" and "necessary"</strong> to warehouse, displace, discard, and annihilate poor people and people of color. Thinking about violence and oppression as the work of <strong>"a few bad apples"</strong> undermines our ability to analyze our conditions <strong>systematically and intergenerationally</strong>, and to therefore organize for systemic change.'
-    + '<br><br>' + '-Morgan Bassichis, Alexander Lee, & Dean Spade' 
-    + '<\/br>' + '"Building an Abolitionist Trans and Queer Movement with Everything We\’ve Got" in Captive Genders: Trans Embodiment and the Prison Industrial Complex, p. 23'
+    + '<br><br>' + '-Morgan Bassichis, Alexander Lee, & Dean Spade'
+    + '<br><br>' + '"Building an Abolitionist Trans and Queer Movement with Everything We\’ve Got" in Captive Genders: Trans Embodiment and the Prison Industrial Complex. p. 23'
   },
   {
     id: 2,
@@ -21,20 +21,20 @@ export const ROLLOVERS: Rollover[] = [
     title: 'Why are police the only option?',
     quote: 'The question is not, should she call the police. The questions are, why is that her only option, and <strong>can we provide other options</strong> that will keep her truly safe.'
     + '<br><br>' + '-INCITE!'
-    + '<\/br>' + '<a href="http://www.incite-national.org/page/community-accountability-working-document">\"INCITE! Women of Color Against Violence Community Accountability Principles/Concerns/Strategies/Models Working Document\"</a>, p. 1.'
+    + '<br><br>' + '"<a href="http://www.incite-national.org/page/community-accountability-working-document">INCITE! Women of Color Against Violence Community Accountability Principles/Concerns/Strategies/Models Working Document</a>." p. 1.'
   },
   {
     id: 4,
     title: 'Radical vs. liberal anti-violence',
-    quote: 'The challenges that emerged for the anti-violence movement because of the broader political changes became key sources of tension between distinct groups of anti-violence activists during this [the Reagan] era. <strong>One group remained committed to a broader analysis of the systemic causes of violence against women</strong>, arguing as strongly as ever for the need for radical social change work based on an understanding of the role that systems advocacy and coalition politics could play in that. For this group, the problem of persistent gender inequality, as a structural problem, remained at the center of the analytical paradigm that activists remained committed to. <strong>Another group coalesced around a different formation</strong>. Compelled to respond to conservative state tendencies regarding families, gender, and sexuality, <strong>they pursued a safer, less antagonistic strategy</strong> that they expected would be more acceptable to the new conservative national, legislative, and local leadership. This group distanced itself from the former activist-oriented agenda aimed at social change and developed a more professional identity as \‘specialists\’ who worked with women who experienced male violence. Believing that politically they would be better positioned to compete for public support, the feminist activists in this latter group became counselors, community organizers became project administrators, and advocates became apologists for the system.'
-    + '<br><br>' + 'Evidence of the tensions between these two approaches in the anti-violence movement echoed broader feminist debates at the time about social change versus social work and the ideological positions that framed each approach. <strong>Radical, anti-racist feminists argued that power was at the heart of male violence against women and that only through liberation of women would the problem of male violence end. Liberal feminists took a more moderate approach, arguing for expanding political and civil rights rather than creating structural change</strong>. This strategic and analytical divergence became one of the first obvious sources of tension between women of color and radical grassroots activists, and the more affluent mainstream white women who occupied leadership positions at the time [the early 1990s].'
-    + '<br><br>' + '-Beth E. Richie' 
-    + '<\/br>' + '<a href="https://books.google.de/books?id=D6sOdUn-UqAC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false">Arrested Justice: Black Women, Violence, and America\'s Prison Nation</a>, p. 75-6.'
+    quote: 'The challenges that emerged for the anti-violence movement because of the broader political changes became key sources of tension between distinct groups of anti-violence activists during this era. <strong>One group remained committed to a broader analysis of the systemic causes of violence against women</strong>, arguing as strongly as ever for the need for radical social change work based on an understanding of the role that systems advocacy and coalition politics could play in that. For this group, the problem of persistent gender inequality, as a structural problem, remained at the center of the analytical paradigm that activists remained committed to. <strong>Another group coalesced around a different formation</strong>. Compelled to respond to conservative state tendencies regarding families, gender, and sexuality, <strong>they pursued a safer, less antagonistic strategy</strong> that they expected would be more acceptable to the new conservative national, legislative, and local leadership. This group distanced itself from the former activist-oriented agenda aimed at social change and developed a more professional identity as \‘specialists\’ who worked with women who experienced male violence. Believing that politically they would be better positioned to compete for public support, the feminist activists in this latter group became counselors, community organizers became project administrators, and advocates became apologists for the system.'
+    + '<br><br>' + 'Evidence of the tensions between these two approaches in the anti-violence movement echoed broader feminist debates at the time about social change versus social work and the ideological positions that framed each approach. <strong>Radical, anti-racist feminists argued that power was at the heart of male violence against women and that only through liberation of women would the problem of male violence end. Liberal feminists took a more moderate approach, arguing for expanding political and civil rights rather than creating structural change</strong>. This strategic and analytical divergence became one of the first obvious sources of tension between women of color and radical grassroots activists, and the more affluent mainstream white women who occupied leadership positions at the time [the early 1990s]."'
+    + '<br><br>' + '-Beth E. Richie'
+    + '<br><br>' + '<a href="https://books.google.de/books?id=D6sOdUn-UqAC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false">Arrested Justice: Black Women, Violence, and America\'s Prison Nation</a>. p. 75-6.'
   },
   {
     id: 5,
     title: 'Individual & group perspective',
-    quote: 'I apply a <strong>group relations lens</strong>. So, intellectually, it\’s the work of Beyond or the Tavistock Institute in the U.K.; in the United States, it\’s the A.K. Rice Institute. But basically, it\’s applying a group level psychoanalytic lens, and saying that a group behaves as a whole, and <strong>within a group individuals will enact things on behalf of the whole</strong>. And that <strong>has to do both with the individuals</strong> and their valence, their propensity, their own make-up, their social identity, the likelihood of being cast in a particular role, <strong>and the requirements of the group</strong>.'
+    quote: 'I apply a <strong>group relations lens</strong>.So, intellectually, it\’s the work of Beyond or the Tavistock Institute in the U.K.; in the United States, it\’s the A.K. Rice Institute. But basically, it\’s applying a group level psychoanalytic lens, and saying that a group behaves as a whole, and <strong>within a group individuals will enact things on behalf of the whole</strong>. And that <strong>has to do both with the individuals</strong> and their valence, their propensity, their own make-up, their social identity, the likelihood of being cast in a particular role, <strong>and the requirements of the group</strong>.'
     + '<br><br>' + 'So that in a group of young people, one young person might be cast as the bully, and if we could throw that kid out of the school, lo and behold, another kid starts bullying, right? So, we might want to look at bullying as something that\’s happening at a group level rather than just \'who are the individual kids that are bullying and how can we get them out of school.\' So, that\’s the lens that I\’m thinking about that enables us to hold both an <strong>individual and a group level perspective</strong>.'
     + '<br><br>' + 'Yes, there are individuals who are making choices about violence, and this is actually something that our brothers doing batterers intervention work have done really well, to say: <strong>\'Violence is a choice.\' I mean, there are limits to that. But I think there\'s something powerful in that</strong>, that violence is not predetermined. Especially if we imagine that batterers intervention work is working with men who\’ve been marginalized, who\’ve been told that they are criminal because they are black, who\’ve been told that they are criminal because they\’ve been criminalized. So, it is powerful to say, actually, violence is a choice, and we can choose not to be violent. That is something that can be liberating.'
     + '<br><br>' + 'And, at the same time, I think that we can hold the idea that <strong>socially, that on a community level, we use violence instrumentally, and we draft and invite and seduce people into committing violence on all of our behalves</strong>. So, I think both things can be true, right?'
@@ -50,7 +50,7 @@ export const ROLLOVERS: Rollover[] = [
   {
     id: 7,
     title: 'Individuals not problem\’s home',
-    quote: '[A lot of people ask] "Why aren\’t you fixing these individual traumatized women?"'
+    quote: '"Why aren\’t you fixing these individual traumatized women?"'
     + '<br><br>' + 'Well, because that\’s not where the problem is. That is part of the problem, but <strong>that is not the problem\’s home</strong>, where it gets reproduced.'
     + '<br><br>' + '-Dr. Sarah Tyson'
   },
@@ -67,41 +67,41 @@ export const ROLLOVERS: Rollover[] = [
     title: 'Everyone affected',
     quote: 'We acknowledge that when someone is sexually assaulted, <strong>everyone in the community is harmed</strong>; everyone needs to heal; and everyone has a responsibility to support a survivor and hold a perpetrator accountable.'
     + '<br><br>' + '-Esteban Lance Kelly of Philly Stands Up'
-    + '<\/br>' + '<a href="https://communityaccountability.files.wordpress.com/2012/06/philly-stands-up.pdf">\"Philly Stands Up: Inside the Politics and Poetics of Transformative Justice and Community Accountability in Sexual Assault Situations\"</a> in "Community Accountability: Emerging Movements to Transform Violence" Issue of Social Justice: A Journal of Crime, Conflict & World Order. p.50'
+    + '<br><br>' + '"<a href="https://communityaccountability.files.wordpress.com/2012/06/philly-stands-up.pdf">Philly Stands Up: Inside the Politics and Poetics of Transformative Justice and Community Accountability in Sexual Assault Situations</a>" in "Community Accountability: Emerging Movements to Transform Violence" Issue of Social Justice: A Journal of Crime, Conflict & World Order. p.50'
   },
   {
     id: 10,
     title: 'Define safety broadly',
     quote: 'It may be hard to meet immediate needs at the same time as building safety for the longer term but it is critical to avoid stopping after short-term safety is secured. When using a Transformative Justice approach, it can be useful to think of <strong>safety not as a destination but</strong> in terms of <strong>a set of practices</strong>. In addition to practices for addressing the <strong>short- and long-term safety</strong> needs mentioned above, safety practices can operate at a number of <strong>levels: individual, network, community and movement</strong>. On these various levels, it is important for the Collective to make a plan for balancing the minimums of various <strong>kinds of safety</strong>, including:'
-    + '<\/br>' + '•	Physical safety (food, shelter, freedom from physical abuses)'
-    + '<\/br>' + '•	Sexual safety (security from further abuse now and into the future)'
-    + '<\/br>' + '•	Emotional/psychological safety (shaming, support from network, proactive stopping of community blaming)'
-    + '<\/br>' + '•	Political safety (freedom from deportation, sexist backlash, homophobic and racist at- tacks)'
-    + '<\/br>' + '•	Economic safety (access to economic resources)'
-    + '<\/br>' + '•	Public safety (the safety of the broader intimate and community networks from State, intimate and community violence)'
-    + '<br><br>' + '-generationFIVE: J. Carr, A. Greig, S. Haines, G. Harking, M. Kim, S. Kershnar, M. Levy, P. Shah, & C. Wiesner' 
-    + '<\/br>' + '<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=48">\"Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\"</a>, p. 42'
+    + '<\/br>' + 'Physical safety (food, shelter, freedom from physical abuses)'
+    + '<\/br>' + 'Sexual safety (security from further abuse now and into the future)'
+    + '<\/br>' + 'Emotional/psychological safety (shaming, support from network, proactive stopping of community blaming)'
+    + '<\/br>' + 'Political safety (freedom from deportation, sexist backlash, homophobic and racist at- tacks)'
+    + '<\/br>' + 'Economic safety (access to economic resources)'
+    + '<\/br>' + 'Public safety (the safety of the broader intimate and community networks from State, intimate and community violence)'
+    + '<br><br>' + '-generationFIVE: J. Carr, A. Greig, S. Haines, G. Harking, M. Kim, S. Kershnar, M. Levy, P. Shah, & C. Wiesner'
+    + '<br><br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf">Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence</a>." p. 42'
   },
   {
     id: 11,
     title: 'Intimate expertise',
     quote: 'First, the <strong>people closest to the violence</strong> have the <strong>greatest motivation</strong> to end it and the <strong>greatest knowledge</strong> regarding its dynamics, context, and the elements that might lead to change. This <strong>intimate expertise</strong>, coupled with the accumulated knowledge of the antiviolence movement and the innovations of CI [Creative Interventions] and other organizations pursuing community accountability strategies, would serve as the foundation for a community-based approach.'
-    + '<br><br>' + '-Mimi Kim of Creative Interventions' 
-    + '<\/br>' + '<a href="https://communityaccountability.files.wordpress.com/2012/06/moving-beyond-critique.pdf">\"Moving Beyond Critique: Creative Interventions and Reconstructions of Community Accountability\"</a> in "Community Accountability: Emerging Movements to Transform Violence" Issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 20'
+    + '<br><br>' + '-Mimi Kim of Creative Interventions'
+    + '<br><br>' + '"<a href="https://communityaccountability.files.wordpress.com/2012/06/moving-beyond-critique.pdf">Moving Beyond Critique: Creative Interventions and Reconstructions of Community Accountability</a>" in "Community Accountability: Emerging Movements to Transform Violence" Issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 20'
   },
   {
     id: 12,
     title: 'PIC says we can\’t deal alone',
     quote: 'The <strong>PIC [prison industrial complex] teaches us</strong> that <strong>we do not have the tools or intelligence to deal with violence</strong> ourselves. And unfortunately we are often dealing with so much crisis that we don\’t have time to reflect on our habitual responses. This is why we created our Safety Lab series, to imagine and practice community-based, non-PIC responses to violence.'
-    + '<br><br>' + '-Morgan Bassichis of Communities United Against Violence' 
-    + '<\/br>' + '"Reclaiming Queer and Trans Safety" in The Revolution Starts at Home: Confronting Intimate Violence in Activist Communities, p. 18'
+    + '<br><br>' + '-Morgan Bassichis of Communities United Against Violence'
+    + '<br><br>' + '"Reclaiming Queer and Trans Safety" in The Revolution Starts at Home: Confronting Intimate Violence in Activist Communities. p. 18'
   },
   {
     id: 13,
     title: 'Not colluding or demonizing',
     quote: '<strong>For the person doing harm</strong>, the intervention relies upon consideration of the best ways to support people doing harm to recognize, end and be responsible for their violence (what we also call <strong>accountability</strong>), without giving them excuses (without <strong>colluding</strong>), and without denying their humanity (without <strong>demonizing</strong>).'
-    + '<br><br>' + '-Creative Interventions' 
-    + '<\/br>' + '<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/1.CI-Toolkit-Introduction-FAQ-Pre-Release-Version-06.2012.pdf#page=5">\"Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence\"</a>. p. 1-5'
+    + '<br><br>' + '-Creative Interventions'
+    + '<br><br>' + '"<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/1.CI-Toolkit-Introduction-FAQ-Pre-Release-Version-06.2012.pdf">Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence (pre-release version)</a>." p. 1-5'
   },
   {
     id: 14,
@@ -116,24 +116,24 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'It is <strong>natural, and even healthy, to feel rage</strong> at the aggressor for assaulting another person, especially a person that we care about. However, it is critical that we are grounded in a value of <strong>recognizing the complexity of each person</strong>, including ourselves. Given the needs and values of a particular community, an accountability process for the aggressor can be confrontational, even angry, but it should not be de-humanizing.'
     + '<br><br>' + '<strong>Dehumanization of aggressors contributes to a larger context of oppression</strong> for everyone. For example, alienation and dehumanization of the offending person <strong>increases a community\’s vulnerability to being targeted</strong> for disproportional criminal justice oppression through heightening the "monster-ness" of another community member. This is especially true for marginalized communities (such as people of color, people with disabilities, poor people, and queer people) who are already targeted by the criminal system because of their "<strong>Other-ness</strong>." When one person in our community is identified as a "monster," that identity is often generalized to everyone in the community. This generalization can even be made by other members of the marginalized community because of internalized oppression.'
     + '<br><br>' + 'Also, dehumanizing the aggressor undermines the process of accountability for the whole community. <strong>If we separate ourselves</strong> from the offenders by stigmatizing them then <strong>we fail to see how we contributed</strong> to conditions that allow violence to happen.'
-    + '<br><br>' + '-Communities Against Rape and Abuse: A. Bierria, O. Carrillo, E. Colbert, X. Ibarra, T. Kigvamasud\’Vashti, & S Maulana. 
-    + '<\/br>' + '"<a href="https://solidarity-us.org/files/Implementing Grassroots Accountability Strategies.pdf">\"taking risks: implementing grasroots community accountability strategies\"</a> in The Revolution Starts at Home: Confronting Partner Abuse in Activist Communities, p. 64-65'
+    + '<br><br>' + '-Communities Against Rape and Abuse: A. Bierria, O. Carrillo, E. Colbert, X. Ibarra, T. Kigvamasud\’Vashti, & S Maulana. '
+    + '<br><br>' + '"<a href="https://solidarity-us.org/files/Implementing Grassroots Accountability Strategies.pdf">taking risks: implementing grassroots community accountability strategies</a>" in The Revolution Starts at Home: Confronting Partner Abuse in Activist Communities. p. 64-65'
   },
   {
     id: 16,
     title: 'Sex offender registries',
     quote: '<strong>Sex offender registries (SORs)</strong> and accompanying <strong>community notification laws</strong> are the newest facet of our expanding prison nation in the United States (Simon 2000; Levine 2002; Davey and Goodnough 2007; Long 2008). Scaffolded by hyperbolic media coverage of child abductions and sexual assaults by strangers, restrictions for convicted child sex offenders continue to escalate. Civil commitment laws, enacted in over a dozen states by 2008 and upheld by the Supreme Court in a 2005 decision, aim to geographically detain and segregate certain categories of sex offenders, indefinitely, after release (Feuer 2005; Davey and Goodnough 2007). In several states, laws have been passed to require surgical or chemical castration for repeat offenders after they have served their sentences so they can avoid civil commitment or achieve a conditional release (Rondeaux 2006). […]<strong>While sexual violence against children (and women) is by any measure a global epidemic, \"stranger danger,\" as this article documents, is the least significant risk</strong> (Bureau of Justice Statistics 2000). […]'
     + '<br><br>' + 'National, visible feminist organizations that work on issues related to violence against women and children have not publicly challenged the expansion of SORs, or, more broadly, directly addressed the way that <strong>strategies that turn to the state to protect women and children do not make our communities, or children and women, any safer</strong>. Criminalizing men who assault their intimate partners, for example, has led to a rise in the incarceration (and deportation) of poor men of color, not a decline in the number of women who are assaulted (Wittner 1998; Sen 1999; Richie 2000). In addition, despite the <strong>criminalization of queers, a population historically defined as sex offenders</strong>, national lesbian, gay, bisexual, and transgendered (LGBT) organizations have not documented how current SORs potentially impact those who identify as LGBT or non-heteronormative. LGBT organizations have been silent about the fact that SORs do not reduce violence against queers, and they have not initiated any public campaigns or research about how SORs could potentially <strong>augment \"fear of the queer\" by recirculating public discourses on \"sex offenders.\"</strong>'
-    + '<br><br>' + 'Through the start of the twenty-first century in urban centers across the U.S., \"registries\" tracked those perceived to engage in \"sex offenses\" and collected information on <strong>same-sex sexual activity</strong>, generally by men (Jacobson 1999; Eskridge 2008). […] In the 1980s, as the tracking and harassment of \"known homosexuals\" waned, <strong>sexual offender registries found a new use: registration of child predators</strong>.'
-    + '<br><br>' + '-Erica Meiners' 
-    + '<\/br>' + '"Never Innocent: Feminist Trouble with Sex Offender Registries and Protection in a Prison Nation" in Meridians: feminism, race, transnationalism 2009, vol. 9, no. 2, p. 31-62'
+    + '<br><br>' + 'Through the start of the twenty-first century in urban centers across the U.S., \"registries\" tracked those perceived to engage in \"sex offenses\" and collected information on <strong>same-sex sexual activity</strong>, generally by men (Jacobson 1999; Eskridge 2008). […] In the 1980s, as the tracking and harassment of \"known homosexuals\" waned, <strong>sexual offender registries found a new use: registration of child predators</strong>. […]'
+    + '<br><br>' + '-Erica Meiners'
+    + '<br><br>' + '"Never Innocent: Feminist Trouble with Sex Offender Registries and Protection in a Prison Nation" in Meridians: feminism, race, transnationalism 2009, vol. 9, no. 2, p. 31-62'
   },
   {
     id: 17,
     title: 'Survivors perfect, batterers evil?',
     quote: 'The domestic violence movement has claimed many victories. Through decades of tireless work, we\’ve drawn increased mainstream attention to victim-blaming, and dramatically changed the way society views survivors of domestic violence. But in our ongoing quest for legitimacy and safety for survivors, the domestic violence movement has too often boiled complex concepts down to easily digestible one-liners. Many activists and other members of my communities imagine survivors of domestic violence as perfect angels who can do no wrong; we think of every action they\’ve taken as noble and necessary. When tackling such a complex, difficult problem in what remains such a hostile climate, it is understandable that organizers might reach for a <strong>\‘simplifying\’ logic that states: If survivors are perfect, then people who batter are evil monsters, barely human. This binary allows us to think of batterers as people who exist somewhere else, in fantasy and stories but not in our lives, communities, and homes</strong>. Our fear of what surviving really means compels us to grossly oversimplify the experiences of both survivors and people who batter. Put on the defensive, we react to victim-blaming – like \‘it\’s all your fault\’ and \‘she was asking for it\’ – by <strong>drawing borders around who we think survivors are (and are not)</strong>. We\’re careful not to let it any scary, wicked, nasty words. By creating systems that can\’t hold complexity, <strong>we are unable to see all the things survivors do in the context of surviving abuse</strong>. These things aren\’t always beautiful and noble. And we\’re killing each other by not talking about it.'
     + '<br><br>' + '-Shannon Perez-Darby of the Northwest Network of Bisexual, Trans, Lesbian and Gay Survivors of Abuse'
-    + '<\/br>' + '"The Secret Joy of Accountability: Self-Accountability as a Building Block for Change" in The Revolution Starts at Home: Confronting Intimate Violence in Activist Communities, p. 101'
+    + '<br><br>' + '"The Secret Joy of Accountability: Self-Accountability as a Building Block for Change" in The Revolution Starts at Home: Confronting Intimate Violence in Activist Communities. p. 101'
   },
   {
     id: 18,
@@ -142,15 +142,15 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'Similarly, the idealized story of domestic and sexual violence features <strong>"innocent" white women</strong> — as in <strong>women who are both racially and behaviorally non-threatening and do not engage in self-defense, self-medication with controlled substances, commercial sex, gender non-conformity, lesbian sexuality, and other deviation from gender norms</strong> — as the primary sympathetic victim. Because the Jersey 7 are Black, lesbian, and gender non-conforming, they are not perceived as legitimate targets of anti-woman sexual violence. Indeed, the jury that convicted the group of friends consisted entirely of women, but the defense attorney faced an uphill battle presenting the women as "average women" who were just hanging out with friends when they were subjected to sexual harassment and the very real threat of rape. […]'
     + '<br><br>' + 'A critical aspect of the silence around the NJ7 case is the central role played by police in acting on and enforcing <strong>myths that portray people of color as dangerous and violent, women of color as incapable of being violated, and queer and gender non-conforming women as both</strong>. […] In the case of the NJ7, law enforcement officers\’ perceptions and roles as enforcers of race, gender, and class systems immediately <strong>framed the women as perpetrators rather than targets of violence</strong> — pre-determining how they would be perceived by the press, the public, the courts, and the punishment system.'
     + '<br><br>' + '-INCITE! and FIERCE!'
-    + '<\/br>' + '"Critical Lessons from the New Jersey 7: Re-Thinking \‘The Norm\’ In Police/Prison Violence & Gender Violence" in <a href="http://incite-national.org/sites/default/files/incite_files/resource_docs/3696_toolkit-final.pdf#page=69">\"Law Enforcement Violence Against Women of Color and Trans People of Color: A Critical Intersection of Gender Violence and State Violence. An Organizer\'s Resource and Toolkit\"</a>, p. 65-66'
+    + '<br><br>' + '"Critical Lessons from the New Jersey 7: Re-Thinking \‘The Norm\’ In Police/Prison Violence & Gender Violence" in <a href="http://incite-national.org/sites/default/files/incite_files/resource_docs/3696_toolkit-final.pdf">Law Enforcement Violence Against Women of Color and Trans People of Color: A Critical Intersection of Gender Violence and State Violence. An Organizer\'s Resource and Toolkit</a>. p. 65-66'
   },
   {
     id: 19,
     title: '"Good Victim" vs. "Non-victim Criminal"',
     quote: '<strong>The Survived And Punished Project demands the immediate release of survivors of domestic and sexual violence and other forms of gender violence who are imprisoned for survival actions</strong>, including: self-defense, "failure to protect," migration, removing children from abusive people, being coerced into acting as an \"accomplice,\" and securing resources needed to live. <strong>Furthermore, we demand that these same survivors are swiftly reunified with their families</strong>. […]'
     + '<br><br>' + 'In the face of epidemic rates of domestic and sexual violence, anti-violence advocates have partnered with police and district attorneys to try to find protection for survivors, and to institutionalize gender violence as a "crime." However, this pro-criminalization approach to addressing violence has created a racial divide between "good victims" and non-victim "criminals." A "good victim" is one who readily accesses and cooperates with the criminal legal system in order to prosecute and incarcerate their batterer or rapist. But when a survivor of sexual or domestic violence is only supported when seen as a "victim of crime," survivors who are already criminalized are not recognized as people in need of support and advocacy. <strong>Survivors are criminalized for being Black, undocumented, poor, transgender, queer, disabled, women or girls of color, in the sex industry, or for having a past "criminal record."</strong> Their experience of violence is diminished, distorted, or disappeared, and they are instead simply seen as criminals who should be punished. They face hostility from police, prosecutors and judges, and they are often denied the support "good victims" receive from anti-violence advocates. These "criminal" survivors are then particularly vulnerable when racist pro-criminalization policies (such as mandatory minimums, the war on drugs, "Felons not Families" deportation enforcement, and increased police authority) are waged against our communities because those policies facilitate and reinforce domestic and sexual violence.'
-    + '<br><br>' + '-#SurvivedAndPunished' 
-    + '<\/br>' + '<a href="http://www.survivedandpunished.org/analysis--vision.html">"Analysis and Vision"</a>, #SurvivedAndPunished Website,'
+    + '<br><br>' + '-#SurvivedAndPunished'
+    + '<br><br>' + '#SurvivedAndPunished Website, <a href="http://www.survivedandpunished.org/analysis--vision.html">"Analysis and Vision"</a>'
   },
   {
     id: 20,
@@ -169,14 +169,14 @@ export const ROLLOVERS: Rollover[] = [
     id: 22,
     title: 'How to see perpetrators',
     quote: 'Let\’s take an inter-personal situation in which one person has harmed another, that is has acted in a harmful or violent manner towards another person. The <strong>actor needs to be thought by the community</strong>'
-    + '<\/br>' + '•	as inseparable from the community,'
-    + '<\/br>' + '• as affected by a history and present of oppression that affect the person\’s beliefs, character, desires, sense of self and of relation,'
-    + '<\/br>' + '• as not passive with respect to oppression,'
-    + '<\/br>' + '• as capable of acting, desiring, believing differently and thus as capable of resisting oppression,'
-    + '<\/br>' + '• as a mirror for the community,'
-    + '<\/br>' + '• as holding promise for the community'
+    + '<\/br>' + 'as inseparable from the community,'
+    + '<\/br>' + 'as affected by a history and present of oppression that affect the person\’s beliefs, character, desires, sense of self and of relation,'
+    + '<\/br>' + 'as not passive with respect to oppression,'
+    + '<\/br>' + 'as capable of acting, desiring, believing differently and thus as capable of resisting oppression,'
+    + '<\/br>' + 'as a mirror for the community,'
+    + '<\/br>' + 'as holding promise for the community'
     + '<br><br>' + '-The Harm Free Zone Collective'
-    + '<\/br>' + '"Building Harm Free Zones: An Organizing Booklet," p. 13',
+    + '<br><br>' + 'from "Building Harm Free Zones: An Organizing Booklet," p. 8-9'
   },
   {
     id: 23,
@@ -185,29 +185,29 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'It is <strong>natural, and even healthy, to feel rage</strong> at the aggressor for assaulting another person, especially a person that we care about. However, it is critical that we are grounded in a value of <strong>recognizing the complexity of each person</strong>, including ourselves. Given the needs and values of a particular community, an accountability process for the aggressor can be confrontational, even angry, but it should not be de-humanizing.'
     + '<br><br>' + '<strong>Dehumanization of aggressors contributes to a larger context of oppression</strong> for everyone. For example, alienation and dehumanization of the offending person <strong>increases a community\’s vulnerability to being targeted</strong> for disproportional criminal justice oppression through heightening the "monster-ness" of another community member. This is especially true for marginalized communities (such as people of color, people with disabilities, poor people, and queer people) who are already targeted by the criminal system because of their "<strong>Other-ness</strong>." When one person in our community is identified as a "monster," that identity is often generalized to everyone in the community. This generalization can even be made by other members of the marginalized community because of internalized oppression.'
     + '<br><br>' + 'Also, dehumanizing the aggressor undermines the process of accountability for the whole community. <strong>If we separate ourselves</strong> from the offenders by stigmatizing them then <strong>we fail to see how we contributed</strong> to conditions that allow violence to happen.'
-    + '<br><br>' + '-Communities Against Rape and Abuse: A. Bierria, O. Carrillo, E. Colbert, X. Ibarra, T. Kigvamasud\’Vashti, & S Maulana. 
-    + '<\/br>' + '<a href="https://solidarity-us.org/files/Implementing Grassroots Accountability Strategies.pdf">\"taking risks: implementing grassroots community accountability strategies\"</a> in The Revolution Starts at Home: Confronting Partner Abuse in Activist Communities, p. 64-65'
+    + '<br><br>' + '-Communities Against Rape and Abuse: A. Bierria, O. Carrillo, E. Colbert, X. Ibarra, T. Kigvamasud\’Vashti, & S Maulana. '
+    + '<br><br>' + '"<a href="https://solidarity-us.org/files/Implementing Grassroots Accountability Strategies.pdf">taking risks: implementing grassroots community accountability strategies</a>" in The Revolution Starts at Home: Confronting Partner Abuse in Activist Communities. p. 64-65'
   },
   {
     id: 24,
     title: 'See myself in perpetrators or survivors',
     quote: 'I couldn\’t do this work if I wasn\’t able to <strong>see myself in perpetrators</strong>. That\’s why I can\’t do survivor support right now because, and I haven\’t been able to for a while, because <strong>seeing myself in the survivors</strong> is too... is <strong>not something I can handle</strong>. And it goes both ways, people can\’t do perpetrator work because they can\’t empathize with the perpetrator, and there is nothing wrong with that.'
     + '<br><br>' + 'I can empathize... and also I get to be a \‘bad cop\’ a lot of times – I hate that I just said \‘cop,\’ [but] you know what I mean. I would be the one being really mean in the meetings. I am not just like, "Oh, I am compassionate to you."'
-    + '<br><br>' + '-Colin Atrophy Hagendorf'
+    + '<br><br>' + 'Colin Atrophy Hagendorf'
   },
   {
     id: 25,
     title: 'Perpetuators',
     quote: 'We’re accessible to those who are impacted by and those who have <strong>perpetuated</strong> violence. Some youth may be <strong>both survivors and perpetrators</strong>.'
-    + '<br><br>' + '-Lara Brooks of The Broadway Youth Center'
-    + '<\/br>' + 'quoted in <a href="http://www.usprisonculture.com/blog/wp-content/uploads/2012/03/communities_engaged.pdf#page=14">Communities Engaged in Resisting Violence</a>, by Melissa Spatz & Ann Russo, p. 12'
+    + '<\/br>' + '-Lara Brooks of The Broadway Youth Center, quoted by Melissa Spatz & Ann Russo'
+    + '<\/br>' + 'in "<a href="http://www.womenandgirlscan.org/communities_engaged.pdf">Communities Engaged in Resisting Violence</a>," p. 12'
   },
   {
     id: 26,
     title: 'Cycle of violence',
     quote: 'Having gotten to know all these people in prison that I\'ve been organizing with for five years now, [it\'s clear] <strong>violence is a cycle</strong>, and no one that I have ever met who has caused harm to someone else has had the kind of childhood where they have not had harm caused to them.'
     + '<br><br>' + 'I think there\'s some good for both viewpoints: some good for the reminder of "<strong>You caused someone harm</strong>! Do you understand the weight and gravity and intensity of that?" And there\'s the "Okay <strong>this is a cycle</strong>, you\'ve had shit done to you too. That doesn\'t outweigh what you did, but it\'s totally a factor and we totally have to keep it in mind when we\'re talking about change."'
-    + '<br><br>' + '-Veronica'
+    + '<br><br>' + 'Veronica'
   },
   {
     id: 27,
@@ -224,7 +224,7 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'Talking about <strong>Joshua\’s past experiences of victimization and injustice does not create excuses, justify, or mitigate Joshua\’s responsibility</strong> for choosing to sexually abuse his daughter. Joshua\’s own childhood abuse did not cause him to sexually abuse others. Most people who are sexually abused do not abuse others. The meaning Joshua made of his having been abused, however, informed his choices to sexually abuse. Through being sexually abused, Joshua was recruited into believing that he was "dirty," "bad," and "disgusting," and, therefore, he acted accordingly. As a result, investigating this meaning he made about himself for having been sexually abused is important to interrupting Joshua\’s perpetration of sexual abuse.'
     + '<br><br>' + 'Previously, dichotomous thinking led me to believe I needed to work with a <strong>man as either a perpetrator or a victim</strong>. Furthermore, to <strong>acknowledge he was a victim</strong> an any way meant that <strong>somehow he was no longer responsible</strong> for his actions. By moving way from dichotomous thinking, I have been able to work with Joshua as someone who is both <strong>powerful and powerless</strong>, who has both <strong>perpetrated abuse and been abused</strong>, and who <strong>is still responsible for his actions</strong> (August-Scott, 2003).'
     + '<br><br>' + 'Tod Augusta-Scott'
-    + '<\/br>' + '<a href="https://www.transformativejustice.eu/wp-content/uploads/2010/02/Letters-From-Prison.pdf">\"Letters from Prison: Re-authoring Identity With Men Who Have Perpetrated Sexual Violence\"</a> from Narrative Therapy: Making Meaning, Making Lives. Ed.s Catrina Brown & Tod Augusta-Scott, p. 253-4.'
+    + '<br><br>' + '"<a href="https://www.transformativejustice.eu/wp-content/uploads/2010/02/Letters-From-Prison.pdf">Letters from Prison: Re-authoring Identity With Men Who Have Perpetrated Sexual Violence</a>" from Narrative Therapy: Making Meaning, Making Lives. Ed.s Catrina Brown & Tod Augusta-Scott. p. 253-4.'
   },
   {
     id: 29,
@@ -235,7 +235,7 @@ export const ROLLOVERS: Rollover[] = [
   {
     id: 30,
     title: 'Survivor/perpetrator dilemma',
-    quote: 'TSIA [Transforming Silence into Action] participants have long struggled with what we call here <strong>\‘the survivor/perpetrator\’ dilemma</strong>. Over time, we have acknowledged myriad complex dynamics that show up in different relationships, and that do not easily fit into dominant analyses in the broader domestic violence movement […]'
+    quote: 'TSIA participants have long struggled with what we call here <strong>\‘the survivor/perpetrator\’ dilemma</strong>. Over time, we have acknowledged myriad complex dynamics that show up in different relationships, and that do not easily fit into dominant analyses in the broader domestic violence movement […]'
     + '<br><br>' + 'Some participants <strong>reject the survivor/perpetrator dichotomy</strong>, asserting any of the following:'
     + '<\/br>' + '1. Everyone is capable of violence in some circumstances.'
     + '<\/br>' + '2. Anyone of us might use various forms of violence at some point in our relationships.'
@@ -248,7 +248,7 @@ export const ROLLOVERS: Rollover[] = [
     + '<\/br>' + '4. This distinction can become crucial if partners must, or choose to, engage certain systems such as social services, shelters, family court, or the criminal legal system.'
     + '<br><br>' + 'The TSIA network\’s challenge is to shift this internal debate by <strong>reframing the question</strong>: When and how are aspects of the <strong>survivor/perpetrator dichotomy (and power/control analysis) useful and appropriate</strong> in understanding domestic violence in queer API [Asian Pacific Islander] communities, and when and how can aspects of these <strong>frameworks be harmful or limiting</strong>?"'
     + '<br><br>' + '-Orchid Pusey & gita mehrotra of Transforming Silence into Action'
-    + '<\/br>' + '"Movement Building Starts With Healthy Relationships: Transforming Silence Into Action (TSIA) in Asian Pacific Islander LBQT Communities" in The Revolution Starts at Home: Confronting Intimate Violence within Activist Communities, p. 241-3.'
+    + '<\/br>' + '"Movement Building Starts With Healthy Relationships: Transforming Silence Into Action (TSIA) in Asian Pacific Islander LBQT Communities" in The Revolution Starts at Home: Confronting Intimate Violence within Activist Communities. p. 241-3.'
   },
   {
     id: 31,
@@ -275,7 +275,8 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'These actions are not abuse AND they matter AND their meaning must be understood in context.'
     + '<br><br>' + 'In order to attempt to meet survivors unflinchingly in their full experience, we have to be able to accept survivors as agents--as people who act, not things only acted upon. We must agree that, as people, it matters what survivors do. Even when the choices of survivors are viciously limited, when survivors are between a rock and a hard place, when the toll of threats and crazymaking turn one\’s understanding of the world upside down, what a person does as a survivor matters. It matters because one\’s humanity—one\’s "person-ness"—matters. When advocates are unable to meet survivors in the full, messy, broken, heroic, petty realness of the actual choices that survivors have made—we reinforce the silence and shame that often haunt survivors of violence.'
     + '<br><br>' + '-Connie Burk of the Northwest Network of Bisexual, Trans, Lesbian and Gay Survivors of Abuse'
-    + '<\/br>' + '"Distinguishing between Violence and Abuse", <a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=557">\"Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence\"</a>, p. 5-63 – 5-78'
+    + '<br><br>' + '"Distinguishing between Violence and Abuse"'
+    + '<\/br>' + 'in "<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/1.CI-Toolkit-Introduction-FAQ-Pre-Release-Version-06.2012.pdf">Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence (pre-release version)</a>." p. 5-63 – 5-78'
   },
   {
     id: 33,
@@ -285,7 +286,7 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'In my process of healing, the question I keep coming back to is this: <strong>What would it look like to take responsibility for the complex choices I made in a grounded, centered, and accountable way? Where are the places I can talk about choices in a manner that contextualizes them within systems of violence?</strong> It\’s not enough to tell me that I had no choice. Time after time, survivors are told you had no choice; you did what you needed to do to survive. Survival is resiliency, and it is necessary. But survival is not without cost. We make choices within a system that\’s meant to turn a powerful person who can act and make choice on their own behalf into someone who becomes an object and is acted upon. People are always resisting objectification. They are fighting pushing, screaming to be people who can act for themselves. Sometimes we fight and scream and we push against the edges of the things that are holding us, and sometimes in the course of trying to be who we are in the world, we do things we never thought we would.'
     + '<br><br>' + '[…] My healing has come in waves, and key to that process has been recognizing the choices I made and the choices I have. Beyond recognizing these choices, I am searching for communities that will lovingly support me as <strong>I take responsibility for the choices I made in the process of surviving that weren\’t aligned with my values</strong>.'
     + '<br><br>' + '-Shannon Perez-Darby of the Northwest Network of Bisexual, Trans, Lesbian and Gay Survivors of Abuse'
-    + '<\/br>' + '"The Secret Joy of Accountability: Self-Accountability as a Building Block for Change" in The Revolution Starts at Home: Confronting Intimate Violence in Activist Communities, p. 105-112'
+    + '<br><br>' + '"The Secret Joy of Accountability: Self-Accountability as a Building Block for Change" in The Revolution Starts at Home: Confronting Intimate Violence in Activist Communities. p. 105-112'
   },
   {
     id: 34,
@@ -305,7 +306,8 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'These actions are not abuse AND they matter AND their meaning must be understood in context.'
     + '<br><br>' + 'In order to attempt to meet survivors unflinchingly in their full experience, we have to be able to accept survivors as agents -- as people who act, not things only acted upon. We must agree that, as people, it matters what survivors do. Even when the choices of survivors are viciously limited, when survivors are between a rock and a hard place, when the toll of threats and crazymaking turn one\’s understanding of the world upside down, what a person does as a survivor matters. It matters because one\’s humanity—one\’s "person-ness"—matters. When advocates are unable to meet survivors in the full, messy, broken, heroic, petty realness of the actual choices that survivors have made—we reinforce the silence and shame that often haunt survivors of violence.'
     + '<br><br>' + '-Connie Burk of the Northwest Network of Bisexual, Trans, Lesbian and Gay Survivors of Abuse'
-    + '<\/br>' + '"Distinguishing between Violence and Abuse", <a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=557">\"Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence\"</a>, p. 5-63 – 5-78'
+    + '<br><br>' + '"Distinguishing between Violence and Abuse"'
+    + '<\/br>' + 'in "<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/1.CI-Toolkit-Introduction-FAQ-Pre-Release-Version-06.2012.pdf">Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence (pre-release version)</a>." p. 5-63 – 5-78'
   },
   {
     id: 35,
@@ -314,15 +316,15 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'In the course of surviving, I cried a lot. In the course of surviving, I lied, manipulated, invaded my partner\’s privacy. In the course of surviving, I hurt and put in harm\’s way my friends, my communities, my partner, myself. In the course of surviving, I hurt my family connections. In the course of surviving, I drank. In the course of surviving, I dated, kissed, and slept with people I did not treat very well.'
     + '<br><br>' + 'In my process of healing, the question I keep coming back to is this: <strong>What would it look like to take responsibility for the complex choices I made in a grounded, centered, and accountable way? Where are the places I can talk about choices in a manner that contextualizes them within systems of violence?</strong> It\’s not enough to tell me that I had no choice. Time after time, survivors are told you had no choice; you did what you needed to do to survive. Survival is resiliency, and it is necessary. But survival is not without cost. We make choices within a system that\’s meant to turn a powerful person who can act and make choice on their own behalf into someone who becomes an object and is acted upon. People are always resisting objectification. They are fighting pushing, screaming to be people who can act for themselves. Sometimes we fight and scream and we push against the edges of the things that are holding us, and sometimes in the course of trying to be who we are in the world, we do things we never thought we would.'
     + '<br><br>' + '[…] My healing has come in waves, and key to that process has been recognizing the choices I made and the choices I have. Beyond recognizing these choices, I am searching for communities that will lovingly support me as <strong>I take responsibility for the choices I made in the process of surviving that weren\’t aligned with my values</strong>.'
-    + '<br><br>' + '-Shannon Perez-Darby of the Northwest Network of Bisexual, Trans, Lesbian and Gay Survivors of Abuse'
-    + '<\/br>' + '"The Secret Joy of Accountability: Self-Accountability as a Building Block for Change" in The Revolution Starts at Home: Confronting Intimate Violence in Activist Communities, p. 105-112'
+    + '<br><br>' + '-Shannon Perez-Darbyof the Northwest Network of Bisexual, Trans, Lesbian and Gay Survivors of Abuse'
+    + '<br><br>' + '"The Secret Joy of Accountability: Self-Accountability as a Building Block for Change" in The Revolution Starts at Home: Confronting Intimate Violence in Activist Communities. p. 105-112'
   },
   {
     id: 36,
     title: 'Victim-blaming',
     quote: 'The intervention team discussed the possibility of creating more opportunities to challenge survivors to articulate how they may have contributed to the dynamics of violence within their relationships. [...] Of course, creating such opportunities can easily cross the line into victim-blaming or become a dangerous distraction from the process of accountability.'
     + '<br><br>' + '-Mimi Kim of Creative Interventions'
-    + '<\/br>' + '<a href="https://communityaccountability.files.wordpress.com/2012/06/moving-beyond-critique.pdf">\"Moving Beyond Critique: Creative Interventions and Reconstructions of Community Accountability\"</a> in "Community Accountability: Emerging Movements to Transform Violence" Issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 27-28'
+    + '<br><br>' + '"<a href="https://communityaccountability.files.wordpress.com/2012/06/moving-beyond-critique.pdf">Moving Beyond Critique: Creative Interventions and Reconstructions of Community Accountability</a>" in "Community Accountability: Emerging Movements to Transform Violence" Issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 27-28'
   },
   {
     id: 37,
@@ -342,7 +344,8 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'These actions are not abuse AND they matter AND their meaning must be understood in context.'
     + '<br><br>' + 'In order to attempt to meet survivors unflinchingly in their full experience, we have to be able to accept survivors as agents--as people who act, not things only acted upon. We must agree that, as people, it matters what survivors do. Even when the choices of survivors are viciously limited, when survivors are between a rock and a hard place, when the toll of threats and crazymaking turn one\’s understanding of the world upside down, what a person does as a survivor matters. It matters because one\’s humanity—one\’s "person-ness"—matters. When advocates are unable to meet survivors in the full, messy, broken, heroic, petty realness of the actual choices that survivors have made—we reinforce the silence and shame that often haunt survivors of violence.'
     + '<br><br>' + '-Connie Burk of the Northwest Network of Bisexual, Trans, Lesbian and Gay Survivors of Abuse'
-    + '<\/br>' + '"Distinguishing between Violence and Abuse", <a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=557">\"Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence\"</a>, p. 5-63 – 5-78'
+    + '<\/br>' + '"Distinguishing between Violence and Abuse"'
+    + '<\/br>' + 'in "<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/1.CI-Toolkit-Introduction-FAQ-Pre-Release-Version-06.2012.pdf">Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence (pre-release version)</a>." p. 5-63 – 5-78'
   },
   {
     id: 381,
@@ -351,27 +354,27 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'In this chapter, I illustrate some of the processes of <strong>inviting Joshua to re-author his identity to help him take responsibility and make amends</strong> for sexually abusing his daughter. This process has involved him naming his <strong>preferred identity</strong>, which has been supported by noticing the various times in his life—the unique outcomes—when he acted according to his preferred values and commitments. Furthermore, re-authoring has involved noticing the <strong>traumatic experiences in his life in which he was recruited into a negative story</strong> about himself. This <strong>negative story has contributed to and reinforced his destructive behavior</strong>. The re-authoring process has also involved Joshua facing shame both for perpetrating sexual abuse and for the other self-centered destructive ways he used to avoid shame.'
     + '<br><br>' + 'Through Joshua\'s letters to me, I also share Joshua\'s attempts at making amends that have, in turn, created an audience for his re-authored identity. This process of re-authoring identity has helped create a context in which Joshua can continue the work of making amends to his wife and his children."'
     + '<br><br>' + '-Tod Augusta-Scott'
-    + '<\/br>' + '<a href="https://www.transformativejustice.eu/wp-content/uploads/2010/02/Letters-From-Prison.pdf">\"Letters from Prison: Re-authoring Identity With Men Who Have Perpetrated Sexual Violence\"</a> from Narrative Therapy: Making Meaning, Making Lives, p. 251-2'
+    + '<\/br>' + '"<a href="https://www.transformativejustice.eu/wp-content/uploads/2010/02/Letters-From-Prison.pdf">Letters from Prison: Re-authoring Identity With Men Who Have Perpetrated Sexual Violence</a>" from Narrative Therapy: Making Meaning, Making Lives. Ed.sCatrina Brown &Tod Augusta-Scott. 2006. 251-2.'
   },
   {
     id: 382,
     title: 'Definition of accountability',
     quote: 'Accountability at a minimum requires:'
-    + '<\/br>' + '•	Acknowledging the harm done even if it is unintended;'
-    + '<\/br>' + '•	Acknowledging its negative impact on individuals and the community;'
-    + '<\/br>' + '•	Making appropriate reparations for this harm to individuals and the community;'
-    + '<\/br>' + '•	Transforming attitudes and behaviors to prevent further violence and contribute toward liberation;'
-    + '<\/br>' + '•	Engaging bystanders to hold individuals accountable, and toward shifting community institutions and conditions that perpetuate and allow violence; and'
-    + '<\/br>' + '•	Building movements that can shift social conditions to prevent further harm and promote liberation, including holding the State accountable for the violence it perpetrates and condones.'
+    + '<\/br>' + 'Acknowledging the harm done even if it is unintended;'
+    + '<\/br>' + 'Acknowledging its negative impact on individuals and the community;'
+    + '<\/br>' + 'Making appropriate reparations for this harm to individuals and the community;'
+    + '<\/br>' + 'Transforming attitudes and behaviors to prevent further violence and contribute toward liberation;'
+    + '<\/br>' + 'Engaging bystanders to hold individuals accountable, and toward shifting community institutions and conditions that perpetuate and allow violence; and'
+    + '<\/br>' + 'Building movements that can shift social conditions to prevent further harm and promote liberation, including holding the State accountable for the violence it perpetrates and condones.'
     + '<br><br>' + '-generationFIVE: J. Carr, A. Greig, S. Haines, G. Harking, M. Kim, S. Kershnar, M. Levy, P. Shah, & C. Wiesner'
-    + '<\/br>' + '<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=35">\"Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\"</a>, p. 29'
+    + '<\/br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf">Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence</a>." p. 29'
   },
   {
     id: 39,
     title: 'Definition of accountability',
     quote: 'Accountability is a process. It involves listening, learning, taking responsibility, and changing. It involves conscientiously creating opportunities in our families and communities for direct communication, understanding and repairing of harm, readjustment of power toward empowerment and equal sharing of power, and rebuilding of relationships and communities toward safety, respect, and happiness.'
     + '<br><br>' + '-Creative Interventions'
-    + '<\/br>' + '<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/1.CI-Toolkit-Introduction-FAQ-Pre-Release-Version-06.2012.pdf">\"Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence\"</a>, p 1-32'
+    + '<br><br>' + '"<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/1.CI-Toolkit-Introduction-FAQ-Pre-Release-Version-06.2012.pdf">Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence (pre-release version)</a>." p 1-32.'
   },
   {
     id: 40,
@@ -392,19 +395,19 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'For example: I have heard <strong>survivors of violence</strong> express that accountability would mean having their experiences validated; feeling a shift in their community spaces; having a coherent narrative of what happened to them. <strong>Sometimes, it is important for these things to work in relation to the person who did the violence; other times, it\’s not. Sometimes it is, but that isn\’t possible</strong> – or at least not in the way they envision, right now. But sometimes there are other ways to get a piece of what they need. Having supported or facilitated conversations with loved ones might feel validating. Having a meeting at their work, school, or organizing space might start to shift dynamics that allowed violence to take place. Exchanging letters or other mediated communication with the person who did violence might allow a survivor to articulate their experience in a helpful way. These are actions all of us are capable of supporting right now. I have heard <strong>people who bore witness to violence</strong> describe accountability as expressing support for survivors; holding clear and consistent boundaries amongst themselves; learning the skills they need to better intervene. An organization might show their support for survivors through a collective statement, or simply through daily actions of interdependent care. A family might learn to express and respect boundaries by practicing open communication and consent. A group of friends might prepare themselves to prevent and stop violence by taking a course in mediation, de-escalation, or medical care. These, too, are things that many of us can do.'
     + '<br><br>' + '<strong>This doesn\’t mean that everyone is always satisfied</strong> – sometimes folks don\’t get what they want – or what they want changes – and it can be painful and unfair. But starting from a <strong>contextual, not a prescriptive</strong> understanding of what accountability means and looks like gets us closer to making it in real, if imperfect ways.'
     + '<br><br>' + '-Alix Johnson'
-    + '<\/br>' + '<a href="https://batjc.wordpress.com/2016/08/11/healing-and-justice-together-and-apart-accountability-beyond-the-process/">\"Healing and Justice, Together and Apart: Accountability Beyond the \‘Process\’\"</a>, Bay Area Transformative Justice Collective blog.'
+    + '<br><br>' + 'from the article "<a href="https://batjc.wordpress.com/2016/08/11/healing-and-justice-together-and-apart-accountability-beyond-the-process/">Healing and Justice, Together and Apart: Accountability Beyond the \‘Process\’</a>" featured on the Bay Area Transformative Justice Collective blog.'
   },
   {
     id: 43,
     title: 'Giving an account',
     quote: 'I have really been very literal about accountability [...] I have tied it back to, for myself, being able to <strong>give an account</strong>. You know, that kind of very literal sense of: <strong>can we tell each other what\'s going on</strong>. When it comes to community accountability, responding to the spectrum of sexual violence and gendered violence in our culture, that becomes really important to me because <strong>silencing</strong> is such a major factor in sexual violence […] I think that often it is like "Oh, accountability is doing the right thing." But there has to be <strong>communication</strong>, there actually has to be a way that we can <strong>witness and be a record and share</strong> with each other.'
-    + '<br><br>' + '-Dr. Alexis Pauline Gumbs'
+    + '<br><br>' + 'Dr. Alexis Pauline Gumbs'
   },
   {
     id: 44,
     title: 'Toxic socialization',
     quote: 'Ultimately, there is a certain amount of unhealthy, fucked-up shit that is endemic in our culture that everybody is healing from. It is hard to explain that everybody is <strong>still 100% responsible for everything they do but also the way we are all socialized is super toxic</strong> and super traumatizing, and people act out this trauma in different ways.'
-    + '<br><br>' + '-Colin Atrophy Hagendorf'
+    + '<br><br>' + 'Colin Atrophy Hagendorf'
   },
   {
     id: 45,
@@ -413,7 +416,7 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'So that in a group of young people, one young person might be cast as the bully, and if we could throw that kid out of the school, lo and behold, another kid starts bullying, right? So, we might want to look at bullying as something that\’s happening at a group level rather than just \'who are the individual kids that are bullying and how can we get them out of school.\' So, that\’s the lens that I\’m thinking about that enables us to hold both an <strong>individual and a group level perspective</strong>.'
     + '<br><br>' + 'Yes, there are individuals who are making choices about violence, and this is actually something that our brothers doing batterers intervention work have done really well, to say: <strong>\'Violence is a choice.\' I mean, there are limits to that. But I think there\'s something powerful in that</strong>, that violence is not predetermined. Especially if we imagine that batterers intervention work is working with men who\’ve been marginalized, who\’ve been told that they are criminal because they are black, who\’ve been told that they are criminal because they\’ve been criminalized. So, it is powerful to say, actually, violence is a choice, and we can choose not to be violent. That is something that can be liberating.'
     + '<br><br>' + 'And, at the same time, I think that we can hold the idea that <strong>socially, that on a community level, we use violence instrumentally, and we draft and invite and seduce people into committing violence on all of our behalves</strong>. So, I think both things can be true, right?'
-    + '<br><br>' + '-Maura M. Bairley'
+    + '<br><br>' + 'Maura M. Bairley'
   },
   {
     id: 46,
@@ -421,7 +424,7 @@ export const ROLLOVERS: Rollover[] = [
     quote: '[…I] can see <strong>common patterns or processes of behaviour</strong> in myself and the people around me. And when I see negative ones, I try to constructively avoid them by communicating to myself or others that that is what I would like, for those things to not happen again. Sorry if this is too vague or abstract. But what I\'m talking about is passive aggressiveness, defensiveness, shame, blame, victimisation, accusing language, extreme language, black and white concepts, ultimatums, threats, avoidance, dismissiveness, unnecessary conflict, misdirected anger, lack of communication, self-righteousness, authoritarianism, patriarchy or sexism, feelings of powerlessness, lack of assertiveness, lack of accountability or responsibility, lack of recognition of privilege, and other feelings and behaviour that are conditioned in all of us, through television and movies, and the people around us when we were growing up. Like many, there was a lot of violence, aggression, and absence of communication in my family and it is difficult to wean these patterns out.'
     + '<br><br>' + 'Generally speaking, my ultimate goal is to make people aware of how they behave, and how it affects other people. Mutual aid, active care, and co-operation.'
     + '<br><br>' + 'When will every single person drop their pride and ego for long enough to accept that they have an <strong>effect on others</strong>? And that sometimes it is a very, very negative effect. I just hope somehow, one day, people learn a little bit more <strong>empathy</strong>, and drop their defensiveness, and that will make it easier for everyone to <strong>take responsibility</strong> for their actions! And then these processes won\'t be necessary anymore!'
-    + '<br><br>' + '-Anna Vo'
+    + '<br><br>' + 'Anna Vo'
   },
   {
     id: 47,
@@ -430,15 +433,15 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'In this chapter, I illustrate some of the processes of <strong>inviting Joshua to re-author his identity to help him take responsibility and make amends</strong> for sexually abusing his daughter. This process has involved him naming his <strong>preferred identity</strong>, which has been supported by noticing the various times in his life—the unique outcomes—when he acted according to his preferred values and commitments. Furthermore, re-authoring has involved noticing the <strong>traumatic experiences in his life in which he was recruited into a negative story</strong> about himself. This <strong>negative story has contributed to and reinforced his destructive behavior</strong>. The re-authoring process has also involved Joshua facing shame both for perpetrating sexual abuse and for the other self-centered destructive ways he used to avoid shame.'
     + '<br><br>' + 'Through Joshua\'s letters to me, I also share Joshua\'s attempts at making amends that have, in turn, created an audience for his re-authored identity. This process of re-authoring identity has helped create a context in which Joshua can continue the work of making amends to his wife and his children."'
     + '<br><br>' + '-Tod Augusta-Scott'
-    + '<\/br>' + '<a href="https://www.transformativejustice.eu/wp-content/uploads/2010/02/Letters-From-Prison.pdf">\"Letters from Prison: Re-authoring Identity With Men Who Have Perpetrated Sexual Violence\"</a> from Narrative Therapy: Making Meaning, Making Lives, p. 251-2'
+    + '<\/br>' + '"<a href="https://www.transformativejustice.eu/wp-content/uploads/2010/02/Letters-From-Prison.pdf">Letters from Prison: Re-authoring Identity With Men Who Have Perpetrated Sexual Violence</a>" from Narrative Therapy: Making Meaning, Making Lives. Ed.sCatrina Brown & Tod Augusta-Scott. 2006. 251-2.'
   },
   {
     id: 48,
     title: 'Radical vs. liberal anti-violence',
-    quote: 'The challenges that emerged for the anti-violence movement because of the broader political changes became key sources of tension between distinct groups of anti-violence activists during this [the Reagan] era. <strong>One group remained committed to a broader analysis of the systemic causes of violence against women</strong>, arguing as strongly as ever for the need for radical social change work based on an understanding of the role that systems advocacy and coalition politics could play in that. For this group, the problem of persistent gender inequality, as a structural problem, remained at the center of the analytical paradigm that activists remained committed to. <strong>Another group coalesced around a different formation</strong>. Compelled to respond to conservative state tendencies regarding families, gender, and sexuality, <strong>they pursued a safer, less antagonistic strategy</strong> that they expected would be more acceptable to the new conservative national, legislative, and local leadership. This group distanced itself from the former activist-oriented agenda aimed at social change and developed a more professional identity as \‘specialists\’ who worked with women who experienced male violence. Believing that politically they would be better positioned to compete for public support, the feminist activists in this latter group became counselors, community organizers became project administrators, and advocates became apologists for the system.'
+    quote: 'The challenges that emerged for the anti-violence movement because of the broader political changes became key sources of tension between distinct groups of anti-violence activists during this era. <strong>One group remained committed to a broader analysis of the systemic causes of violence against women</strong>, arguing as strongly as ever for the need for radical social change work based on an understanding of the role that systems advocacy and coalition politics could play in that. For this group, the problem of persistent gender inequality, as a structural problem, remained at the center of the analytical paradigm that activists remained committed to. <strong>Another group coalesced around a different formation</strong>. Compelled to respond to conservative state tendencies regarding families, gender, and sexuality, <strong>they pursued a safer, less antagonistic strategy</strong> that they expected would be more acceptable to the new conservative national, legislative, and local leadership. This group distanced itself from the former activist-oriented agenda aimed at social change and developed a more professional identity as \‘specialists\’ who worked with women who experienced male violence. Believing that politically they would be better positioned to compete for public support, the feminist activists in this latter group became counselors, community organizers became project administrators, and advocates became apologists for the system.'
     + '<br><br>' + 'Evidence of the tensions between these two approaches in the anti-violence movement echoed broader feminist debates at the time about social change versus social work and the ideological positions that framed each approach. <strong>Radical, anti-racist feminists argued that power was at the heart of male violence against women and that only through liberation of women would the problem of male violence end. Liberal feminists took a more moderate approach, arguing for expanding political and civil rights rather than creating structural change</strong>. This strategic and analytical divergence became one of the first obvious sources of tension between women of color and radical grassroots activists, and the more affluent mainstream white women who occupied leadership positions at the time [the early 1990s]."'
     + '<br><br>' + '-Beth E. Richie'
-    + '<\/br>' + '<a href="https://books.google.de/books?id=D6sOdUn-UqAC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false">Arrested Justice: Black Women, Violence, and America\'s Prison Nation</a>, p. 75-6'
+    + '<br><br>' + '<a href="https://books.google.de/books?id=D6sOdUn-UqAC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false">Arrested Justice: Black Women, Violence, and America\'s Prison Nation</a>. p. 75-6.'
   },
   {
     id: 49,
@@ -448,29 +451,32 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'The <strong>"good" man</strong> is one who keeps vigilant watch over the safety of his family and readily risks himself in the face of threats from the outside in order to protect the subordinate members of his household. The logic of masculinist protection, then, includes the image of the selfish aggressor who wishes to invade the lord\’s property and sexually conquer his women. These are the <strong>bad men</strong>. Good men can only appear in their goodness if we assume that lurking outside the warm familial walls are aggressors who wish to attack them. <strong>The dominative masculinity in this way constitutes protective masculinity as its other</strong>. […]'
     + '<br><br>' + 'Central to the logic of masculinist protection is the <strong>subordinate relation of those in the protected position</strong>. In return for male protection, the woman concedes critical distance from decision-making autonomy. […]'
     + '<br><br>' + 'What I call a <strong>security state</strong> is one whose rulers subordinate citizens to ad hoc surveillance, search, or detention, and which represses criticism of such arbitrary power, justifying such measures as within the prerogative of those authorities whose primary duty is to maintain security and protect the people. Through the logic of protection the state demotes <strong>members of a democracy to dependents</strong>. State officials adopt the stance of masculinist protector, telling us to entrust our lives to them, not to question their decisions about what will keep us safe. Their protector position puts the citizens and residents who depend on their strength and vigilance in the position of women and children under the charge of a male protector (cf. Berlant 1997).'
-    + '<br><br>' + '-Iris Marion Young' 
-    + '<\/br>' + '\"The Logic of Masculinist Protection: Reflections on the Current Security State\" in Global Challenges: War, Self-Determination, and Responsibility for Justice. p. 121-125'
+    + '<br><br>' + '-Iris Marion Young'
+    + '<br><br>' + 'The Logic of Masculinist Protection: Reflections on the Current Security State. In Global Challenges: War, Self-Determination, and Responsibility for Justice. p. 121-125'
   },
   {
     id: 50,
     title: 'Self-generating safety',
-    quote: 'The <strong>PIC [prison industrial complex] teaches us that "safety" is a commodity</strong> — something that we come to believe can be given, taken away, valued, or devalued. And we internalize and embody this understanding—"you make me feel unsafe, that\’s an unsafe neighborhood, we need someone to keep us safe"— <strong>as if safety is something that is done to us</strong>. We might instead think about "safety" as a <strong>self-generating process</strong> over time that is impacted by external conditions but not dictated by them. We will not look to people, spaces, policies, or institutions to "make us safe" but will instead <strong>look to the resources that rest in ourselves and our communities</strong> that can decrease our vulnerability to harm and increase our ability to make grounded choices that will foster our wellness. Some of these resources include being able to have loving, direct conversations, being able to ask ourselves and others open-ended questions instead of assuming we already know the answer, and being able to center ourselves in intense times. We will see fostering safety as a shared practice that we are all in together, not a destination or set recipe. We will come to understand <strong>safety less as a product and more as localized experiments</strong> in interdependence.'
+    quote: 'The <strong>PIC [prison industrial complex] teaches us that "safety" is a commodity</strong> — something that we come to believe can be given, taken away, valued, or devalued. And we internalize and embody this understanding—"you make me feel unsafe, that\’s an unsafe neighborhood, we need someone to keep us safe"— <strong>as if safety is something that is done to us</strong>. We might instead think about "safety" as a <strong>self-generating process</strong> over time that is impacted by external conditions but not dictated by them. We will not look to people, spaces, policies, or institutions to "make us safe" but will instead <strong>look to the resources that rest in ourselves and our communities</strong> that can decrease our vulnerability to harm and increase our ability to make grounded choices that will foster our wellness. Some of these resources include being able to have loving, direct conversations, being able to ask ourselves and others open-ended questions'
+    + '<br><br>' + 'instead of assuming we already know the answer, and being able to center ourselves in intense times. We will see fostering safety as a shared practice that we are all in together, not a destination or set recipe. We will come to understand <strong>safety less as a product and more as localized experiments</strong> in interdependence.'
     + '<br><br>' + '-Morgan Bassichis of Communities United Against Violence'
-    + '<\/br>' + 'in a group dialogue: <a href="http://www.usprisonculture.com/blog/wp-content/uploads/2012/03/worldofwalls.pdf">\"A World Without Walls: Stopping Harm and Abolishing the Prison Industrial Complex\"</a> in The Abolitionist Newspaper, p. 5'
+    + '<\/br>' + 'in a group dialogue: "<a href="http://www.usprisonculture.com/blog/wp-content/uploads/2012/03/worldofwalls.pdf">A World Without Walls: Stopping Harm and Abolishing the Prison Industrial Complex</a>" in The Abolitionist. p. 5.'
   },
   {
     id: 51,
-    title: 'Hidden & devalued Knowledge',
+    title: 'Vision',
     quote: 'The vision of Creative Interventions is based upon liberation — the positive, life-affirming, transformative potential within communities.'
     + '<br><br>' + 'All activities and projects of Creative Interventions are meant to unearth and build upon the often hidden and devalued knowledge and skills expressed by generations of people who have courageously defied violence and created new spaces for safety and self-determination.'
-    + '<br><br>' + '-<a href="http://www.creative-interventions.org/vision/">Creative Interventions Vision Statement</a>'
+    + '<br><br>' + '-Creative Interventions'
+    + '<br><br>' + '<a href="http://www.creative-interventions.org/vision/">Creative Interventions Vision Statement</a>'
   },
   {
     id: 52,
     title: 'Self-generating safety',
-    quote: 'The <strong>PIC [prison industrial complex] teaches us that "safety" is a commodity</strong> — something that we come to believe can be given, taken away, valued, or devalued. And we internalize and embody this understanding—"you make me feel unsafe, that\’s an unsafe neighborhood, we need someone to keep us safe"— <strong>as if safety is something that is done to us</strong>. We might instead think about "safety" as a <strong>self-generating process</strong> over time that is impacted by external conditions but not dictated by them. We will not look to people, spaces, policies, or institutions to "make us safe" but will instead <strong>look to the resources that rest in ourselves and our communities</strong> that can decrease our vulnerability to harm and increase our ability to make grounded choices that will foster our wellness. Some of these resources include being able to have loving, direct conversations, being able to ask ourselves and others open-ended questions instead of assuming we already know the answer, and being able to center ourselves in intense times. We will see fostering safety as a shared practice that we are all in together, not a destination or set recipe. We will come to understand <strong>safety less as a product and more as localized experiments</strong> in interdependence.'
+    quote: 'The <strong>PIC [prison industrial complex] teaches us that "safety" is a commodity</strong> — something that we come to believe can be given, taken away, valued, or devalued. And we internalize and embody this understanding—"you make me feel unsafe, that\’s an unsafe neighborhood, we need someone to keep us safe"— <strong>as if safety is something that is done to us</strong>. We might instead think about "safety" as a <strong>self-generating process</strong> over time that is impacted by external conditions but not dictated by them. We will not look to people, spaces, policies, or institutions to "make us safe" but will instead <strong>look to the resources that rest in ourselves and our communities</strong> that can decrease our vulnerability to harm and increase our ability to make grounded choices that will foster our wellness. Some of these resources include being able to have loving, direct conversations, being able to ask ourselves and others open-ended questions'
+    + '<br><br>' + 'instead of assuming we already know the answer, and being able to center ourselves in intense times. We will see fostering safety as a shared practice that we are all in together, not a destination or set recipe. We will come to understand <strong>safety less as a product and more as localized experiments</strong> in interdependence.'
     + '<br><br>' + '-Morgan Bassichis of Communities United Against Violence'
-    + '<\/br>' + 'in a group dialogue: <a href="http://www.usprisonculture.com/blog/wp-content/uploads/2012/03/worldofwalls.pdf">\"A World Without Walls: Stopping Harm and Abolishing the Prison Industrial Complex\"</a> in The Abolitionist Newspaper, p. 5'
+    + '<\/br>' + 'in a group dialogue: "<a href="http://www.usprisonculture.com/blog/wp-content/uploads/2012/03/worldofwalls.pdf">A World Without Walls: Stopping Harm and Abolishing the Prison Industrial Complex</a>" in The Abolitionist. p. 5.'
   },
   {
     id: 53,
@@ -484,7 +490,7 @@ export const ROLLOVERS: Rollover[] = [
     title: 'Resistance requires risk',
     quote: 'We recognize that absolute safety is not something that we can guarantee people. <strong>Resistance to abuses of power and exploitation— in both individual and collective manifestations— will inevitably <strong>require some risk</strong> to our safety. However, taking these risks are essential to transforming our relationships, communities, and movements. Risks are also an act of courage and self-determination when taken on with full consciousness of both the consequences and the potential for liberation. We realize safety is relative. Engaging in Transformative Justice means that individuals and collectives may <strong>risk the short-term safety</strong> that accompanies not challenging or colluding with violence. But, <strong>in the long run</strong>, we believe taking these risk will lead us closer to long-term liberation from abuses of power, exploitation, and oppression. However, the decision to take these risks can only be made by those individuals and communities most likely to suffer the consequences of inaction—not by those less impacted."'
     + '<br><br>' + '-generationFIVE: J. Carr, A. Greig, S. Haines, G. Harking, M. Kim, S. Kershnar, M. Levy, P. Shah, & C. Wiesner'
-    + '<br><br>' + '<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=34">\"Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\"</a>, p. 28-9'
+    + '<br><br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf">Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence</a>." p. 28-9'
   },
   {
     id: 55,
@@ -495,7 +501,7 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'After working at several domestic violence shelters on various capacities, I realized that my thinking has changed. While I still believe that there can be better rules, better trainings and better volunteer screening procedures for domestic violence shelters than those currently employed, I now feel that <strong>these reforms do not fundamentally change the dynamic of power and control</strong> within the shelter system. […]'
     + '<br><br>' + 'The focus of my activism began to <strong>shift from domestic violence to the domestic violence industry.</strong>'
     + '<br><br>' + '-Emi Koyama'
-    + '<\/br>' + '\"Disloyal to Feminism: Abuse of Survivors within the Domestic Violence Shelter System\" in Color of Violence: An INCITE! Anthology, p. 209-210'
+    + '<br><br>' + '"Disloyal to Feminism: Abuse of Survivors within the Domestic Violence Shelter System" in Color of Violence: An INCITE! Anthology, p. 209-210'
   },
   {
     id: 56,
@@ -520,7 +526,7 @@ export const ROLLOVERS: Rollover[] = [
     quote: '[Judith] Butler\’s recent work on precariousness and precarity illuminates why attempting to <strong>eliminate those who are seen as sources of threat</strong> to a community is <strong>ineffective at making us safer</strong>. She writes: "Loss and vulnerability seem to follow from our being socially constituted bodies, attached to others, at risk of losing those attachments, exposed to others, at risk of violence by virtue of that exposure." Those attachments and this exposure arise from the bodily nature of our existence. Butler notes: "This disposition of ourselves outside ourselves seems to follow from bodily life, from its vulnerability and its exposure." Thus, responses that seek to eliminate vulnerability seek to destroy an ineliminable disposition. This futile attempt to <strong>eliminate the ineliminable vulnerabilities</strong> comes at a heavy cost. […]'
     + '<br><br>' + '<strong>Responsibility</strong> must be thought of in terms of our <strong>mutual susceptibility</strong>, for that is its wellspring on Butler\’s account. Such mutual susceptibility is the resource, Butler argues, for becoming <strong>responsive</strong> to the Other, even though it is a relation we do not choose or will. Thus, we must see that <strong>revenge is not possible because we cannot sever our relation to the Other</strong>, a fact which injury by the Other (or of the Other, for that matter) avows. <strong>Revenge attempts to master the injury</strong>, settling the score, but the very fact that we can be acted upon and act upon—our mutual susceptibility—forecloses the possibility of mastering injury or our vulnerability to it.'
     + '<br><br>' + '-Dr. Sarah Tyson'
-    + '<\/br>' + '\"Experiments in Responsibility: Pocket Parks, Radical Anti-Violence Work, and the Social Ontology of Safety\" in Radical Philosophy Review, 17(2). p. 426 & 429'
+    + '<br><br>' + '"Experiments in Responsibility: Pocket Parks, Radical Anti-Violence Work, and the Social Ontology of Safety." in Radical Philosophy Review, 17(2). p. 426 & 429'
   },
   {
     id: 60,
@@ -529,7 +535,7 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'Similarly, the idealized story of domestic and sexual violence features <strong>"innocent" white women</strong> — as in <strong>women who are both racially and behaviorally non-threatening and do not engage in self-defense, self-medication with controlled substances, commercial sex, gender non-conformity, lesbian sexuality, and other deviation from gender norms</strong> — as the primary sympathetic victim. Because the Jersey 7 are Black, lesbian, and gender non-conforming, they are not perceived as legitimate targets of anti-woman sexual violence. Indeed, the jury that convicted the group of friends consisted entirely of women, but the defense attorney faced an uphill battle presenting the women as "average women" who were just hanging out with friends when they were subjected to sexual harassment and the very real threat rape. […]'
     + '<br><br>' + 'A critical aspect of the silence around the NJ7 case is the central role played by police in acting on and enforcing <strong>myths that portray people of color as dangerous and violent, women of color as incapable of being violated, and queer and gender non-conforming women as both</strong>. […] In the case of the NJ7, law enforcement officers\’ perceptions and roles as enforcers of race, gender, and class systems immediately <strong>framed the women as perpetrators rather than targets of violence</strong> — pre-determining how they would be perceived by the press, the public, the courts, and the punishment system.'
     + '<br><br>' + '-INCITE! & FIERCE'
-    + '<\/br>' + '\"Critical Lessons from the New Jersey 7: Re-Thinking \‘The Norm\’ In Police/Prison Violence & Gender Violence\" in <a href="http://incite-national.org/sites/default/files/incite_files/resource_docs/3696_toolkit-final.pdf#page=69">\"Law Enforcement Violence Against Women of Color and Trans People of Color: A Critical Intersection of Gender Violence and State Violence. An Organizer\'s Resource and Toolkit\"</a>, p. 65-66'
+    + '<br><br>' + '"Critical Lessons from the New Jersey 7: Re-Thinking \‘The Norm\’ In Police/Prison Violence & Gender Violence" in <a href="http://incite-national.org/sites/default/files/incite_files/resource_docs/3696_toolkit-final.pdf">Law Enforcement Violence Against Women of Color and Trans People of Color: A Critical Intersection of Gender Violence and State Violence. An Organizer\'s Resource and Toolkit.</a> p. 65-66'
   },
   {
     id: 61,
@@ -543,7 +549,7 @@ export const ROLLOVERS: Rollover[] = [
     quote: '[Judith] Butler\’s recent work on precariousness and precarity illuminates why attempting to <strong>eliminate those who are seen as sources of threat</strong> to a community is <strong>ineffective at making us safer</strong>. She writes: "Loss and vulnerability seem to follow from our being socially constituted bodies, attached to others, at risk of losing those attachments, exposed to others, at risk of violence by virtue of that exposure." Those attachments and this exposure arise from the bodily nature of our existence. Butler notes: "This disposition of ourselves outside ourselves seems to follow from bodily life, from its vulnerability and its exposure." Thus, responses that seek to eliminate vulnerability seek to destroy an ineliminable disposition. This futile attempt to <strong>eliminate the ineliminable vulnerabilities</strong> comes at a heavy cost. […]'
     + '<br><br>' + '<strong>Responsibility</strong> must be thought of in terms of our <strong>mutual susceptibility</strong>, for that is its wellspring on Butler\’s account. Such mutual susceptibility is the resource, Butler argues, for becoming <strong>responsive</strong> to the Other, even though it is a relation we do not choose or will. Thus, we must see that <strong>revenge is not possible because we cannot sever our relation to the Other</strong>, a fact which injury by the Other (or of the Other, for that matter) avows. <strong>Revenge attempts to master the injury</strong>, settling the score, but the very fact that we can be acted upon and act upon—our mutual susceptibility—forecloses the possibility of mastering injury or our vulnerability to it.'
     + '<br><br>' + '-Dr. Sarah Tyson'
-    + '<\/br>' + '\"Experiments in Responsibility: Pocket Parks, Radical Anti-Violence Work, and the Social Ontology of Safety\" in Radical Philosophy Review, 17(2). p. 426 & 429'
+    + '<br><br>' + '"Experiments in Responsibility: Pocket Parks, Radical Anti-Violence Work, and the Social Ontology of Safety." in Radical Philosophy Review, 17(2). p. 426 & 429'
   },
   {
     id: 63,
@@ -552,14 +558,14 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'We acknowledge that in a world where violence against queer and gender queer young people of color is common, security is not a light matter. We have also decided, however, that <strong>security is not enough</strong>. Our intention is for <strong>our journey to be SAFE</strong>.'
     + '<br><br>' + 'Safety, to us, means being able to be <strong>comfortable in our skin</strong>, having the <strong>freedom to move</strong>, being able to <strong>sleep restfully and wake renewed</strong> and excited about the journey.  Safety comes from knowing that <strong>we are held by a community</strong> that <strong>has our backs</strong>. Safety comes from knowing that all along the road there are home-spaces with comrades who will welcome us and who will answer if we call on them. <strong>Safety comes from relationships and people</strong>.'
     + '<br><br>' + '-Dr. Alexis Pauline Gumbs'
-    + '<\/br>' + '<a href="http://www.mobilehomecoming.org/about-2/safety-an-abolitionist-vision/">\"Safety: An Abolitionist Vision\"</a>'
+    + '<br><br>' + '"<a href="http://www.mobilehomecoming.org/about-2/safety-an-abolitionist-vision/">Safety: An Abolitionist Vision</a>" from the Mobile Homecoming Website.'
   },
   {
     id: 65,
-    title: 'Saved by relationships',
-    quote: '<strong>Violence and oppression break community ties and breed fear and distrust. At its core, the work of creating safety is to build meaningful, accountable relationships within our neighborhoods and communities<strong>. Within the S.O.S. Collective, we made it a point to do outreach in the immediate area after incidents of violence. While it often felt terrifying to talk about the work of preventing and ending violence against LGBTQ people of color, we built strong allies and had life-changing conversations. Time and time again I\'ve known peoplee who were saved by the relationships they built. […]'
+    title: 'Relationships are the glue',
+    quote: 'We should focus more on the <strong>relationship building and the base building</strong> aspects of the work before we delve into incidents. Granted, sometimes that\'s a luxury and sometimes that means a lot of really hard "no\'s" or really hard shifts if you\'re the only ones [providing services or support].'
+    + '<br><br>' + 'I think that building those relationships makes our incident-based work much better. I think it <strong>makes our processes better</strong>, because if you have strong relationships, it is actually the <strong>glue that helps hold someone</strong>. It gives somebody a community that holds them accountable, beyond the organization or collective working on the process. So coming in to working with someone who has harmed, you know their parents, their cousins, where they go – you have this range of relationships, <strong>the information you get is different, the support that they get is different, and the folks who are holding them accountable is broader</strong>.'
     + '<br><br>' + '-Ejeris Dixon'
-    + '<\/br>' + '<a href="http://www.truth-out.org/opinion/item/32489-building-community-safety-practical-steps-toward-liberatory-transformation>\"Building Community Safety: Steps Towards Liberatory Transformation\"</a> in Truthout, Aug. 15, 2015. 
   },
   {
     id: 66,
@@ -610,19 +616,19 @@ export const ROLLOVERS: Rollover[] = [
     title: 'Unnamed legacies',
     quote: 'Despite their inconsistent and at times ineffective responses to domestic and sexual violence, <strong>communities have left a meaningful legacy</strong>. Such responses have persevered and are far more common than criminal responses are. Community accountability practices are revealed in <strong>family oral histories</strong> and in intimate <strong>kitchen-table and backroom storytelling</strong>. […] That <strong>community work remains unnamed, unwritten, and outside the boundaries of political institutions</strong>. […]The last decade of intentional collective thinking and organizing has been a process of <strong>recovering the legacy</strong> of this work and assessing what can be done within a more sustained, broad-based movement. Generative practices such as imagining, brainstorming, storytelling, inventing, planning, testing, critiquing, archiving, and circulating have <strong>reinvigorated processes</strong> formerly deemed impractical and ineffectual due to the cultural and epistemological domination of prisons.'
     + '<br><br>' + '-Ana Clarissa Rojas Durazo, Alisa Bierria, & Mimi Kim'
-    + '<\/br>' + '\"Editor’s Introduction\" for <a href="https://communityaccountability.wordpress.com/social-justice-journal-issue/editors-introduction/">\"Community Accountability: Emerging Movements to Transform Violence\"</a>, special issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 5'
+    + '<br><br>' + '"Editor’s Introduction" for "<a href="https://communityaccountability.wordpress.com/social-justice-journal-issue/editors-introduction/">Community Accountability: Emerging Movements to Transform Violence</a>," special issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 5.'
   },
   {
     id: 73,
     title: 'Community response in Jim Crow South',
-    quote: '\"Mom, when you were growing up, did you ever call the police?\"'
-    + '<\/br>' + '\"I can\'t remember any time that we did.\"'
-    + '<\/br>' + '\"What did you do if something violent happened?\"'
-    + '<\/br>' + '\"It depended on the situation. Often <strong>we could send for the uncles, brothers, fathers, or other family members of people involved to interrupt violence</strong>. However there was this time when we had this family that lived on our block, where the husband was attacking his wife. And people were fed up, so some men in the community with standing - a minister, teacher, doctor, etc. - decided to intervene. Those <strong>men stopped by the house to let the husband know that they wouldn\'t tolerate his behavior</strong> and it needed to stop.\"'
+    quote: 'Mom, when you were growing up, did you ever call the police?'
+    + '<\/br>' + 'I can\'t remember any time that we did.'
+    + '<\/br>' + 'What did you do if something violent happened?'
+    + '<\/br>' + 'It depended on the situation. Often <strong>we could send for the uncles, brothers, fathers, or other family members of people involved to interrupt violence</strong>. However there was this time when we had this family that lived on our block, where the husband was attacking his wife. And people were fed up, so some men in the community with standing - a minister, teacher, doctor, etc. - decided to intervene. Those <strong>men stopped by the house to let the husband know that they wouldn\'t tolerate his behavior</strong> and it needed to stop.'
     + '<br><br>' + 'My mom grew up in New Orleans in the 1940s, 1950s and 1960s. Her entire life was marked by <strong>experiences of state violence and Jim Crow segregation</strong>. The police, white citizens councils and the Klan intermingled and formed the backbone of a racist political and economic system. Her experiences were not unique. Historically and currently most marginalized communities - including Black people, poor people, queer and trans people, and people with disabilities - have experienced <strong>violence and discrimination from police, emergency services and the legal system</strong>.'
     + '<br><br>' + 'Just as the use of state violence against Black communities is <strong>not new</strong>, neither are the ideas of transformative justice or community accountability.'
     + '<br><br>' + '-Ejeris Dixon'
-    + '<\/br>' + '<a href="http://www.truth-out.org/opinion/item/32489-building-community-safety-practical-steps-toward-liberatory-transformation>\"Building Community Safety: Steps Towards Liberatory Transformation\"</a> in Truthout, Aug. 15, 2015'
+    + '<br><br>' + 'from "<a herf="http://www.truth-out.org/opinion/item/32489-building-community-safety-practical-steps-toward-liberatory-transformation">Building Community Safety: Steps Towards Liberatory Transformation</a>." In Truthout, Aug. 15, 2015.'
   },
   {
     id: 74,
@@ -662,9 +668,9 @@ export const ROLLOVERS: Rollover[] = [
   },
   {
     id: 79,
-    title: '\'Survival sex\' with funders',
+    title: 'Survival sex with funders to keep the lights on',
     quote: 'It is interesting because part of what I see [in my work as a consultant], in particular <strong>folks of color and queer folks and women</strong> who are working inside of the <strong>non-profit industrial complex</strong>, is a <strong>very perverse relationship with money and with authority</strong>. So a very perverse relationship with funders in which we are not allowed to make any demands on funders, in which we both hate them and need them, and both of those things go unspoken. So there is all of this sort of very shadowy under the table stuff that we do around money and funding. We have very, very few transparent conversations about where philanthropic dollars come from, how decisions are made, how philanthropy increasingly as an industry has a particular relationship with the kinds of work that can get funded, both the most radical work and the most regressive, limited work. I just listened to a really wonderful podcast about philanthropy\’s role in the Civil Right\'s Movement that really did a beautiful job of describing the power of being able to move money to people on the ground. If there were 30,000 mimeographs that were required to create the bus strike, someone wrote a check that made those mimeographs possible and got the check to the right person at the right moment. So <strong>philanthropy is not the enemy</strong>, but there is a way in which we are not having a conversation about money that I think it\’s getting in our way. And <strong>I see, in particular women and queer folks, doing what looks like survival sex with their funders in order to keep the lights on</strong>. And there is no other way to describe it.'
-    + '<br><br>' + '-Maura M. Bairley'
+    + '<br><br>' + 'Maura M. Bairley'
   },
   {
     id: 80,
@@ -676,17 +682,17 @@ export const ROLLOVERS: Rollover[] = [
   {
     id: 81,
     title: 'Radical vs. liberal anti-violence',
-    quote: 'The challenges that emerged for the anti-violence movement because of the broader political changes became key sources of tension between distinct groups of anti-violence activists during this [the Reagan] era. <strong>One group remained committed to a broader analysis of the systemic causes of violence against women</strong>, arguing as strongly as ever for the need for radical social change work based on an understanding of the role that systems advocacy and coalition politics could play in that. For this group, the problem of persistent gender inequality, as a structural problem, remained at the center of the analytical paradigm that activists remained committed to. <strong>Another group coalesced around a different formation</strong>. Compelled to respond to conservative state tendencies regarding families, gender, and sexuality, <strong>they pursued a safer, less antagonistic strategy</strong> that they expected would be more acceptable to the new conservative national, legislative, and local leadership. This group distanced itself from the former activist-oriented agenda aimed at social change and developed a more professional identity as \‘specialists\’ who worked with women who experienced male violence. Believing that politically they would be better positioned to compete for public support, the feminist activists in this latter group became counselors, community organizers became project administrators, and advocates became apologists for the system.'
+    quote: 'The challenges that emerged for the anti-violence movement because of the broader political changes became key sources of tension between distinct groups of anti-violence activists during this era. <strong>One group remained committed to a broader analysis of the systemic causes of violence against women</strong>, arguing as strongly as ever for the need for radical social change work based on an understanding of the role that systems advocacy and coalition politics could play in that. For this group, the problem of persistent gender inequality, as a structural problem, remained at the center of the analytical paradigm that activists remained committed to. <strong>Another group coalesced around a different formation</strong>. Compelled to respond to conservative state tendencies regarding families, gender, and sexuality, <strong>they pursued a safer, less antagonistic strategy</strong> that they expected would be more acceptable to the new conservative national, legislative, and local leadership. This group distanced itself from the former activist-oriented agenda aimed at social change and developed a more professional identity as \‘specialists\’ who worked with women who experienced male violence. Believing that politically they would be better positioned to compete for public support, the feminist activists in this latter group became counselors, community organizers became project administrators, and advocates became apologists for the system.'
     + '<br><br>' + 'Evidence of the tensions between these two approaches in the anti-violence movement echoed broader feminist debates at the time about social change versus social work and the ideological positions that framed each approach.  <strong>Radical, anti-racist feminists argued that power was at the heart of male violence against women and that only through liberation of women would the problem of male violence end. Liberal feminists took a more moderate approach, arguing for expanding political and civil rights rather than creating structural change</strong>. This strategic and analytical divergence became one of the first obvious sources of tension between women of color and radical grassroots activists, and the more affluent mainstream white women who occupied leadership positions at the time [the early 1990s]."'
     + '<br><br>' + '-Beth E. Richie'
-    + '<\/br>' + '<a href="https://books.google.com/books/about/Arrested_Justice.html?id=D6sOdUn-UqAC">Arrested Justice: Black Women, Violence, and America\'s Prison Nation</a>, p. 75-6'
+    + '<\/br>' + '<a href="https://books.google.com/books/about/Arrested_Justice.html?id=D6sOdUn-UqAC">Arrested Justice: Black Women, Violence, and America\'s Prison Nation</a>. p. 75-6.'
   },
   {
     id: 82,
     title: 'Shelter model breaks connections',
     quote: 'This is what mainstream anti-violence work gets so wrong, the idea that ... people have to leave abusive situations, and <strong>shelters are the model [for] individualizing people and breaking their connections</strong>.'
     + '<br><br>' + 'When somebody says, "<strong>I don\’t want to leave the person that is abusive in my life, I need to change that relationship</strong>, that situation needs to change and my conditions of it need to change," mainstream anti-violence work is like, "You are pathological, your form of life is degenerate, this is trauma speaking." I think it is really hard in the face of that to actually listen to people and say <strong>there might be something to the idea of not always severing connection as the answer</strong> to those issues.'
-    + '<br><br>' + '-Dr. Sarah Tyson'
+    + '<br><br>' + 'Dr. Sarah Tyson'
   },
   {
     id: 83,
@@ -698,10 +704,10 @@ export const ROLLOVERS: Rollover[] = [
   },
   {
     id: 84,
-    title: 'People want punishment and jails the most',
+    title: 'Sexual violence as "most extreme crime"',
     quote: 'People would always ask, "You know, well <strong>what happens to the rapist and the murderers?</strong>" It seemed like there was a moment where Critical Resistance and other anti-prison abolitionists wanted to respond to that question. I think it\’s easy to get folks to buy into ending mass incarceration but that extra step to being an abolitionist is somewhere where some folks get caught up on, "Well maybe we need to lock away rapists." So <strong>doing anti-violence work, you\'re working with what is being labelled as the most extreme crime where people want punishment and jails the most</strong>.'
     + '<br><br>' + 'Also, it seemed like a big gap in the anti-violence world, where most of the mainstream organizations that I\'ve known about have been really pushing for more of a carceral or prison- and policing-based solution to ending violence. They are like, "Well, if we have stricter punishments on this, if we can get things to go through the prosecution system, then we\'ll be better off." But what I\'ve seen and the way that I understand it is that <strong>most survivors don\'t get justice from the legal system</strong>. So if they\'re already not getting justice from the legal system, it\'s also this moment of survivors being like, <strong>"Well, what else is out there?" and finding transformative justice work or community accountability work</strong>.'
-    + '<br><br>' + '-Kiyomi Fujikawa
+    + '<br><br>' + '-Kiyomi Fujikawa'
   },
   {
     id: 85,
@@ -735,21 +741,23 @@ export const ROLLOVERS: Rollover[] = [
     title: 'Mediation ignores power relations',
     quote: 'Mediation between the survivor or victim and person doing harm is not recommended. The <strong>assumption that there is equal power</strong> does not match our assumptions about the types of interpersonal violence that this Toolkit has been created to address – <strong>domestic violence and sexual assault generally take place within or create a relationship of unequal power</strong>. This model of intervention, not mediation, takes this inequality into account. Mediation has been known to equally fault the survivor or victim and potentially place them in a situation of danger.'
     + '<br><br>' + '-Creative Interventions'
-    + '<\/br>' + '<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf#page=122">\"Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence\"</a>, p. 3-10'
+    + '<\/br>' + '"<a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/CI-Toolkit-Complete-Pre-Release-Version-06.2012-.pdf">Creative Interventions Toolkit: A Practical Guide to Stop Interpersonal Violence (pre-release version).</a>" p. 3-10.'
   },
   {
     id: 89,
     title: 'Mediation retraumatizing',
     quote: 'Our work <strong>departed from traditional RJ [restorative justice] practice mainly in that we never asked the survivor to sit down with the person who caused harm</strong>. In the aftermath of a sexual assault, this experience would be tremendously <strong>retraumatizing and unproductive</strong>.'
     + '<br><br>' + '-Esteban Lance Kelly of Philly Stands Up'
-    + '<\/br>' + '<a href="https://communityaccountability.files.wordpress.com/2012/06/philly-stands-up.pdf">\"Philly Stands Up: Inside the Politics and Poetics of Transformative Justice and Community Accountability in Sexual Assault Situations\"</a> in "Community Accountability: Emerging Movements to Transform Violence" issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 49'
+    + '<\/br>' + '"<a href="https://communityaccountability.files.wordpress.com/2012/06/philly-stands-up.pdf">Philly Stands Up: Inside the Politics and Poetics of Transformative Justice and Community Accountability in Sexual Assault Situations</a>"'
+    + '<\/br>' + 'in "Community Accountability: Emerging Movements to Transform Violence" issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 49.'
   },
   {
     id: 90,
     title: 'Misuses of RJ model',
     quote: 'These [restorative justice] models have been particularly well developed by many Native communities, especially in Canada, where the sovereign status of Native nations offers them an opportunity to develop community-based justice programs. […] <strong>These models only work when the community unites in holding perpetrators accountable. Yet in cases of sexual and domestic violence, the community often sides with the perpetrator rather than the victim</strong>. As Deer (2009:156) argues, in many Native American communities, these <strong>models are often pushed on domestic violence survivors to pressure them</strong> to reconcile with their families and "restore" the community without sufficient concern for their personal safety. In addition, Native American domestic violence advocates have been critical that some restorative justice processes <strong>co-opt "traditional" forms of governance</strong> to address domestic violence. They argue that Native communities have been pressured to adopt "circle sentencing" because it is a traditional indigenous practice. Some advocates contend that no such traditional practice exists in their communities. […] Deer contests the tendency to <strong>romanticize and homogenize</strong> "traditional" (i.e. Native) alternatives to incarceration.'
     + '<br><br>' + '-Andrea Smith'
-    + '<\/br>' + '<a href="https://communityaccountability.files.wordpress.com/2012/06/decolonizing-antirape-law.pdf">\"Decolonizing Anti-Rape Law and Strategizing Accountability in Native American Communities\"</a>, in "<a href="https://communityaccountability.wordpress.com/social-justice-journal-issue/editors-introduction/">Community Accountability: Emerging Movements to Transform Violence</a>" issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 40'
+    + '<\/br>' + '"<a href="https://communityaccountability.files.wordpress.com/2012/06/decolonizing-antirape-law.pdf">Decolonizing Anti-Rape Law and Strategizing Accountability in Native American Communities</a>,"'
+    + '<\/br>' + 'in "<a href="https://communityaccountability.wordpress.com/social-justice-journal-issue/editors-introduction/">Community Accountability: Emerging Movements to Transform Violence</a>" issue of Social Justice: A Journal of Crime, Conflict & World Order. p. 40.'
   },
   {
     id: 91,
@@ -757,20 +765,20 @@ export const ROLLOVERS: Rollover[] = [
     quote: 'One such alternative that has developed out of this recognition of the problems of criminal legal responses is commonly referred to as Restorative Justice. Restorative Justice models aim to <strong>restore intimate relationships and community bonds</strong> that have been damaged by interpersonal violence, through practices of <strong>community dialog and appeals to collective values</strong>. Restorative justice approaches seek to increase the involvement of community stakeholders, more fully address survivor\’s rights in the judicial process, and identify means to repair harm and restore balance in the community. Many of the most powerful Restorative Justice approaches in the U.S. and Canada have long been practiced within <strong>indigenous communities</strong> that seek justice and conflict resolution using shared values and systems of accountability distinct from State systems.'
     + '<br><br>' + 'Outside of these communities, the Restorative Justice approach has largely been <strong>co-opted by the State</strong> for use in coercive contexts in which the integrity of such a model is put into question. Some faith-based Restorative Justice projects have partnered with the State and become service providers in tandem with State-based systems of accountability. Other Restorative Justice models are offered as post-incarceration rehabilitation programs intended to "restore" the community standing of the person or people that are abusive. To a greater or lesser extent, these models do <strong>expand the possibilities of accountability and transformation</strong> through engaging and educating members of the intimate and/or community networks in which the abuse occurs. But such models have been <strong>appropriated by the criminal legal system</strong> as a way to involve the community in punishing the person that has been violent and then \‘restoring\’ the conditions that already existed when the abuse originally took place.'
     + '<br><br>' + '-generationFIVE: J. Carr, A. Greig, S. Haines, G. Harking, M. Kim, S. Kershnar, M. Levy, P. Shah, & C. Wiesner'
-    + '<\/br>' + '<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=26">\"Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\"</a>, p. 20'
+    + '<\/br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf">Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence.</a>" p. 20.'
   },
   {
     id: 92,
     title: 'Transform not restore',
     quote: 'Across the different communities applying the Restorative Justice approach, we question the degree to which this approach allows for <strong>challenges to dominant power hierarchies</strong> within any given community. Shared, collective values that perpetuate violence may go unchallenged. Restorative Justice models have been <strong>critiqued</strong> for paying insufficient attention to:'
-    + '<\/br>' + '•	Family and community power relations;'
-    + '<\/br>' + '•	The subordination of survivor needs and agency for the sake of "the restoration of the community";'
-    + '<\/br>' + '•	Shared values that may be sexist and homophobic; and'
-    + '<\/br>' + '•	Patterns of racial or economic disempowerment within a community.'
+    + '<\/br>' + 'Family and community power relations;'
+    + '<\/br>' + 'The subordination of survivor needs and agency for the sake of "the restoration of the community";'
+    + '<\/br>' + 'Shared values that may be sexist and homophobic; and'
+    + '<\/br>' + 'Patterns of racial or economic disempowerment within a community.'
     + '<br><br>' + 'The demand to <strong>"restore" the wholeness of the community might come at the expense of genuine accountability</strong> of the person who is violent or the safety of the survivor(s) or others in the community. Interventions based on such models risk colluding with violence they are intended to end.'
     + '<br><br>' + 'At the same time, the <strong>emphasis on restoration assumes the conditions that existed prior to an individual incident of abuse are desirable</strong> and should be restored. This ignores the common lack of rights for children, abuses of power, gender inequality, legacies of slavery and colonization, and other types of violence that pre-date and co-exist with ongoing incidents of violence. As such, these models often focus on the <strong>restoration of the status quo</strong> and ignore the challenge of transforming the conditions of social, economic and political injustice that are the context for, and cause of, violence.'
     + '<br><br>' + '-generationFIVE: J. Carr, A. Greig, S. Haines, G. Harking, M. Kim, S. Kershnar, M. Levy, P. Shah, & C. Wiesner'
-    + '<\/br>' + '<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=27">\"Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\"</a>, p. 21'
+    + '<\/br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf">Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence.</a>" p. 21.'
   },
   {
     id: 93,
@@ -785,20 +793,6 @@ export const ROLLOVERS: Rollover[] = [
     title: 'Batterer intervention work by Black men',
     quote: 'I actually think there has been <strong>really transformational work that\’s been hidden in batterers intervention work for years</strong>, that <strong>wasn\’t named or valued</strong> in part <strong>because the people who were doing it were Black men</strong>, who were doing it with and for other Black men, and were not using language around transformation, were using out of necessity criminal justice language, because that\’s how they were able to get funded. And the work that they are doing is about loving one another […] back into health and wholeness. And loving one another back into loving relationships with women.'
     + '<br><br>' + '-Maura M. Bairley'
-  },
-  {
-    id: 95,
-    title: 'Accountability & slavery / & love',
-    quote: 'I increasingly, I want to say almost like \'recreasingly,\'am thinking about the contribution of <strong>American chattel slavery<strong> to how we think about women and how we think about <strong>sexual violence and violence against women, or gender justice,<strong> and just how deeply engrained the dehumanizing, commodifying, capitalizing impulse is in that experience. And how it shows up in contemporary images and discourse around women, around whose bodies are valuable, about what value means. It shows up all the time in leadership and human resources work. The notion of <strong>\'human capital\'<strong> comes from slavery, and yet we use that term as if it were, you know, appropriate. 
-    + '<br><br>' + '[What is accountability?] Maybe it is <strong>common sense, maybe it is capitalism, maybe it is love<strong>, who knows? Because being called to account is very much <strong>about an accounting ledger and about that chatteral system<strong>. And at the same time, I continue to think about accountability as a form of love. We only hold people... or maybe we best hold people accountable whom we love.' 
-    + '<br><br>' + '-Maura M. Bairley'
-  },
-  {
-    id: 96,
-    title: 'Managing the risks of disclosure',
-    quote: 'When encouraging disclosure, it is essential to prioritize the safety of child victims in ways that prevent exposure to further abuse while helping victims start to heal. This will involve paying attention to the importance of maintaining relationships of trust with safe adults in the child\'s life as well as to managing the relationship between the survivor(s) and the person or people that sexually abused them. This also means putting in place protections from backlash. Survivors, those who are sexually abusive and those who are in relationship with either or both, may likely face such backlash during any process of identifying child sexual abuse. Preventing backlash involves creating a thoughtful process for public naming and disclosure, which include considering issues of confidentiality.'
-    + '<br><br>' + '-generationFIVE: J. Carr, A. Greig, S. Haines, G. Harking, M. Kim, S. Kershnar, M. Levy, P. Shah, & C. Wiesner' 
-    + '<\/br>' + '<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=44">\"Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\"</a>, p. 38'
   }
 ];
 

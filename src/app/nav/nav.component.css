@@ -1,15 +1,34 @@
 div#logo > img {
-  width: 50%;
-  margin: 50px 25% 30px 25%;
+  width: 70%;
+  pading-top: -5px;
+  margin: 30px 15% 0px 15%;
 }
 
 .nav-section {
-  background-color: #08073c;
+  background-color: #CBDBDD;
   width: 100%;
   height: auto;
   line-height: 50px;
   text-align: center;
   font-size: 1.2em;
+}
+
+.title-font {
+  color: black;
+}
+
+.title-font:hover {
+  color: black;
+}
+
+.nav-section:first-child {
+  border-top: 0;
+}
+
+.title-font:hover, .sub-nav:hover, .selected {
+  background-color: #b5cdcc;
+  color: black;
+  cursor: pointer;
 }
 
 .sub-nav {
@@ -23,24 +42,4 @@ div#logo > img {
 
 .sub-nav:last-child {
   margin-bottom: 10px;
-}
-
-.title-font {
-  color: white;
-}
-
-.title-font:hover {
-  color: black;
-}
-
-.nav-section:first-child {
-  border-top: 0;
-}
-
-.title-font:hover, .sub-nav:hover, .selected {
-  font-size: 1.1em;
-  background-color: pink;
-  color: white;
-  cursor: pointer;
-  border-top: 1px solid #08073c;
 }
