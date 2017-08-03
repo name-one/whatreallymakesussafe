@@ -68,7 +68,7 @@ export const COMMUNITY_SECTION = [
       {
         tagline: 'Pods',
         quote: 'During the spring of 2014 the Bay Area Transformative Justice Collective (BATJC) began using the term \"pod\" to refer to a specific type of relationship within transformative justice (TJ) work. We needed a term to describe the kind of relationship between people who would turn to each other for support around violent, harmful and abusive experiences, whether as survivors, bystanders or people who have harmed. These would be the people in our lives that we would call on to support us with things such as our immediate and on-going safety, accountability and transformation of behaviors, or individual and collective healing and resiliency.'
-        + '<br><br>' + 'Prior to this, we had been using the term \"community\" when we talked about transformative justice, but we found that, not surprisingly, many people do not feel connected to a \"community\" and, even more so, most people did not know what \"community\" meant or had wildly different definitions and understandings of \"community.\"'
+        + '<br><br>' + 'Prior to this, we had been using the term \"community\" when we talked about transformative justice, but we found that, not surprisingly, many people do not feel connected to a \"community\" and, even more so, most people did not know what \"community\" meant or had wildly different definitions and understandings of \"community.\" '
         + '<br><br>' + '"<a href="https://batjc.wordpress.com/pods-and-pod-mapping-worksheet">Pod Mapping Worksheet</a>"'
         + '<br><br>' + '-Bay Area Transformative Justice Collective Blog',
         personId: 30

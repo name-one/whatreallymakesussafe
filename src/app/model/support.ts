@@ -26,18 +26,18 @@ export const SUPPORT_SECTION = [
       },
       {
         tagline: 'Transformative Justice Model',
-        quote: `This section presents Generation FIVE's best thinking on the practices upon which a Transformative Justice model can be built:
-        •	Practices of Transformative Justice include:
-        •	Building a Collective
-        •	Preparation and capacity building
-        •	Naming and defining child sexual abuse
-        •	Conducting assessment: level of concern, opportunity, and capacity
-        •	Developing a safety strategy
-        •	Supporting healing and resilience
-        •	Holding accountability
-        •	Working for community transformation
-        •	Strengthening collective resistance
-        "<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=38">-\"Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\", p. 32</a>`,
+        quote: 'This section presents Generation FIVE\'s best thinking on the practices upon which a Transformative Justice model can be built:'
+        + '<br>' + '•	Practices of Transformative Justice include:'
+        + '<br>' + '•	Building a Collective'
+        + '<br>' + '•	Preparation and capacity building'
+        + '<br>' + '•	Naming and defining child sexual abuse'
+        + '<br>' + '•	Conducting assessment: level of concern, opportunity, and capacity'
+        + '<br>' + '•	Developing a safety strategy'
+        + '<br>' + '•	Supporting healing and resilience'
+        + '<br>' + '•	Holding accountability'
+        + '<br>' + '•	Working for community transformation'
+        + '<br>' + '•	Strengthening collective resistance'
+        + '<br><br>' + '"<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=38">-\"Toward Transformative Justice: A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\", p. 32</a>',
         personId: 11  },
       {
         tagline: 'Healing Circle',
