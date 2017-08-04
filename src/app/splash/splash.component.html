@@ -1,10 +1,11 @@
-<div class="container vm" (click)="goHome()">
-  <div class="title-font splash-text splash-text-en"> What Really Makes Us Safe? </div>
+<div class="container vm" (click)="showNav()">
+  <div class="title-font splash-text splash-text-en"> What <em>Really</em> Makes Us Safe? </div>
   <div class="splash-logo">
     <img src="/assets/images/logo_LG.jpg" alt="">
     <span class="logo-author">© Andrea Marcos</span>
   </div>
 </div>
-<div class="container" (click)='goGermHome()'>
-  <div class="title-font splash-text splash-text-de">Was macht uns wirklich sicher?</div>
+<div class="container" (click)='goGermHome()' *ngIf='!subtitle'>
+  <div class="title-font splash-text splash-text-de">Was macht uns <em>wirklich</em> sicher?</div>
 </div>
+<p class='subtitle' *ngIf='subtitle'>Interviews with activists about <br> community alternatives to the criminal legal system <br> for addressing sexual & intimate partner violence</p>

@@ -6,27 +6,44 @@
   margin: 0 auto;
 }
 .splash-logo > img {
-  max-width: 80%;
+  max-width: 100%;
   display: block;
-  margin: 0 auto;
 }
 .splash-logo{
   text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+  position: relative;
 }
 .logo-author{
   font-size: 12px;
+  position: absolute;
+  right: 26%;
+  bottom: 10%;
+  transform: rotate(-15deg)
 }
 .splash-text {
 font-size: 3.1em;
-width: 70%;
+width: 100%;
+text-align: center;
 margin-bottom: 50px;
+transition: all .3s;
+text-transform: lowercase;
+}
+.splash-text em {
+  color: #709a98;
+  font-family: 'Ubuntu', sans-serif;
+}
+.splash-text::first-letter{
+  text-transform: uppercase;
 }
 .splash-text-de{
-  text-align: right;
   width: 100%;
   margin-bottom: 0;
   margin-top: 50px;
 }
-.container.vm{
-  margin-top: 9vh;
+.subtitle{
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
 }

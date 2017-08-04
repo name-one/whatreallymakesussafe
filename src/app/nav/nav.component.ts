@@ -37,7 +37,9 @@ export class NavComponent implements OnInit {
   }
 
   public selectSection(navId: number, navTitle: string): void {
-    if (navId !== this.selectedNavId) {
+    let pageAddress = location.href;
+    console.log(pageAddress)
+    if (navId !== this.selectedNavId || pageAddress.indexOf('plash') != -1) {
       console.log('in here');
       this.router.navigate(['/detail/', navTitle]).then(() => {
         this.routerBase = this.router.routerState.snapshot.url.split('#')[0];

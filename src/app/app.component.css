@@ -39,7 +39,7 @@
    font-family: 'Ubuntu', sans-serif;
 }
 
-app-nav {
+/deep/ app-nav {
   position: fixed;
   overflow-y: auto;
   left: 0;
@@ -47,6 +47,7 @@ app-nav {
   height: 100%;
   background-color: #CBDBDD;
   box-shadow: 1px 1px 15px rgba(0,0,0,.7);
+  transition: all .3s;
 }
 
 /deep/ app-detail {
@@ -59,10 +60,28 @@ app-nav {
 }
 
 /deep/ app-splash {
-   position: fixed;
-   height: 100%;
+   min-height: 100vh;
+   /*height: 100%;*/
+   display: block;
    width: 100%;
    padding: 3%;
+   padding-top: 14vh;
    z-index: 1000;
    overflow-y: scroll;
+   transition: all .3s;
+   margin-left: 20%;
+   width: 80%
+ }
+ /deep/ .nav-hidden app-splash{
+  width: 100%;
+  margin-left: 0;
+ }
+/deep/ .nav-hidden .splash-text{
+  text-align: left !important;
+}
+/deep/ .nav-hidden .splash-text.splash-text-de{
+  text-align: right !important;
+}
+ /deep/ .nav-hidden app-nav{
+  transform: translateX(-100%);
  }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -6,8 +6,8 @@ import { Router } from '@angular/router';
   templateUrl: './splash.component.html',
   styleUrls: ['./splash.component.css']
 })
-export class SplashComponent {
-
+export class SplashComponent implements OnInit {
+  subtitle: boolean= false;
   constructor(private router: Router) { }
 
   public goHome() {
@@ -15,5 +15,15 @@ export class SplashComponent {
   }
   public goGermHome(){
     this.router.navigate(['de/detail/About']);
+  }
+  public showNav(){
+    document.body.classList.toggle('nav-hidden')
+    this.subtitle = !this.subtitle;
+  }
+  public hideNav(){
+    document.body.classList.add('nav-hidden')
+  }
+  ngOnInit(){
+    this.hideNav()
   }
 }
