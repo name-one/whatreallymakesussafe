@@ -19,6 +19,7 @@ import { RolloverService } from './services/rollover.service';
 import { NavigationService } from './services/navigation.service';
 import { SplashComponent } from './splash/splash.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { GermanComponent } from './german/german.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
     NavComponent,
     DetailComponent,
     DetailMenuComponent,
-    SplashComponent
+    SplashComponent,
+    GermanComponent
   ],
   imports: [
     BrowserModule,
@@ -36,6 +38,7 @@ import { LocationStrategy, HashLocationStrategy } from '@angular/common';
     RouterModule.forRoot([
       {  component: SplashComponent, path: 'splash' },
       {  component: DetailComponent, path: 'detail/:id' },
+      {  component: GermanComponent, path: 'de' },
       {  path: '**', pathMatch: 'full', redirectTo: 'splash' }
     ]),
   ],

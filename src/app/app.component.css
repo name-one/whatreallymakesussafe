@@ -23,7 +23,7 @@
 }*/
 
 /*Oswald alt to Lorimer No 2*/
-@import url('https://fonts.googleapis.com/css?family=Oswald&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400&subset=latin-ext');
 /deep/ *{
   font-family: 'Oswald', sans-serif;
 }

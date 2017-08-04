@@ -17,3 +17,11 @@
   color: black;
   text-decoration: underline;
 }
+/**{
+  font-weight: 300;
+}*/
+.modal-body *,
+.modal-title,
+.modal-title * {
+  font-family: 'Ubuntu', sans-serif;
+}

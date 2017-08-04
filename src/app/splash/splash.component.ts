@@ -14,7 +14,7 @@ export class SplashComponent implements OnInit {
     this.router.navigate(['/detail/About']);
   }
   public goGermHome(){
-    this.router.navigate(['de/detail/About']);
+    this.router.navigate(['/de']);
   }
   public showNav(){
     document.body.classList.toggle('nav-hidden')
