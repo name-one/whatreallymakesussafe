@@ -10,6 +10,7 @@ import { Rollover } from '../model/rollovers';
 import { RolloverService } from '../services/rollover.service';
 import { NavigationService } from '../services/navigation.service';
 import { escape } from 'querystring';
+import { getElemCoords, iCoords } from '../model/elemCoords';
 
 @Component({
   selector: 'app-detail',
@@ -50,11 +51,15 @@ export class DetailComponent implements OnInit, AfterViewInit {
   public ngAfterViewInit() {
     this.route.fragment.subscribe ( f => {
       const element = document.querySelector ( "#" + this.flattenFragmentId(f) );
-      console.log('fragment, ', element);
-      if ( element ) element.scrollIntoView ()
+      // console.log('fragment, ', element);
+      if ( element ){
+        let parentBlock = document.querySelector('app-detail')
+        // this.smoothScrolling(element, parentBlock)
+        element.scrollIntoView ({ block: "start", behavior: "smooth" })
+      }
     });
   }
-
+  
   public isBoxSection(title: string): boolean {
     return title !== 'About' && title !== 'Principles' && title !== 'Movement';
   }

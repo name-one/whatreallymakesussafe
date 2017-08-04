@@ -22,16 +22,31 @@
   font-family: 'Source Sans Pro', sans-serif;
 }*/
 
+/*Oswald alt to Lorimer No 2*/
+@import url('https://fonts.googleapis.com/css?family=Oswald&subset=latin-ext');
+/deep/ *{
+  font-family: 'Oswald', sans-serif;
+}
+
+/*Montserrat alt to Proxima nova*/
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat&subset=latin-ext');
+/deep/ *{
+  font-family: 'Montserrat', sans-serif;
+}*/
+
+
 /deep/ .title {
    font-family: 'Ubuntu', sans-serif;
 }
 
 app-nav {
   position: fixed;
+  overflow-y: auto;
   left: 0;
   width: 20%;
   height: 100%;
   background-color: #CBDBDD;
+  box-shadow: 1px 1px 15px rgba(0,0,0,.7);
 }
 
 /deep/ app-detail {
@@ -51,4 +66,3 @@ app-nav {
    z-index: 1000;
    overflow-y: scroll;
  }
-

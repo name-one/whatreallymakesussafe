@@ -6,7 +6,7 @@
   <div class="detail-container" *ngIf="isBoxSection(selectedDetail?.navTitle)">
     <div class="question-blocks" *ngFor="let question of selectedDetail.questions">
       <div id="{{ question.navId || question.nav || question.title }}" class="question-content">
-        <div class="title title-font">
+        <div class="title title-font " [class.title-font-bg]=" question.nav " >
           {{ question.title }}
         </div>
         <div class="question">
@@ -101,7 +101,7 @@
 <div class="detail-container" *ngIf="selectedDetail?.navTitle === 'Principles'">
   <div class="question-blocks">
     <div class="question-content" id="CarceralTransformative">
-      <div class="title title-font">
+      <div class="title title-font title-font-bg">
         From Carceral To Transformative
       </div>
       <div class="question">
@@ -112,13 +112,13 @@
       </div>
     </div>
     <div class="question-content" id="IndividualCollective">
-      <div class="title title-font">
+      <div class="title title-font title-font-bg">
         From Individual to Collective
       </div>
       <div class="question">
       </div>
     </div>
-    <div class="question-content" id="Carceral Approach: Individual Response">
+    <div class="question-content accardion" id="Carceral Approach: Individual Response">
       <div class="title title-font unitalic">
         Carceral Approach: Individual Response
       </div>
@@ -129,7 +129,7 @@
         In the U.S., the State offers us a limited set of responses to sexual violence: the criminal legal system for perpetrators, and professional anti-violence services for survivors. Both of these are largely individualized responses to what is seen as an individual problem. Options like <span class="rollover" (click)="openRollover(rollover, 3)">therapy and women’ s shelters for survivors and restraining orders and pressing charges against perpetrators</span> often exclude political solutions that could organize collective change and <span class="rollover" (click)="openRollover(rollover, 4)">confront the roots of sexual and gender-based violence</span>. This failure to get at the root problem can also explain why these approaches naively rely on the State, rather than recognizing the ways the State participates in and enables violence in the first place.
       </div>
     </div>
-    <div class="question-content" id="Transformative Approach: Collective Response">
+    <div class="question-content accardion" id="Transformative Approach: Collective Response">
       <div class="title title-font unitalic">
         Transformative Approach: Collective Response
       </div>
@@ -144,13 +144,13 @@
       </div>
     </div>
     <div class="question-content" id="CriminalHuman">
-      <div class="title title-font">
+      <div class="title title-font title-font-bg">
         From Criminalization to Humanization
       </div>
       <div class="question">
       </div>
     </div>
-    <div class="question-content" id="Carceral Approach: Criminalization">
+    <div class="question-content accardion" id="Carceral Approach: Criminalization">
       <div class="title title-font unitalic">
         Carceral Approach: Criminalization
       </div>
@@ -167,7 +167,7 @@
         Not only are perpetrators portrayed in oversimplified, moralistic ways, <span class="rollover" (click)="openRollover(rollover, 17)">survivors are often seen</span> as innocent or helpless. But ‘ innocence’  appears to be a commodity not available to every survivor, as many marginalized women who are victims of violence, like sex workers or trans women, do not find protection but rather are themselves <span class="rollover" (click)="openRollover(rollover, 18)">criminalized</span> and <span class="rollover" (click)="openRollover(rollover, 19)">punished by the State</span>.
       </div>
     </div>
-    <div class="question-content" id="Transformative Approach: Humanization">
+    <div class="question-content accardion" id="Transformative Approach: Humanization">
       <div class="title title-font unitalic">
         Transformative Approach: Humanization
       </div>
@@ -185,13 +185,13 @@
       </div>
     </div>
     <div class="question-content" id="BlameAccountability">
-      <div class="title title-font">
+      <div class="title title-font title-font-bg">
         From Blame & Punishment to Accountability
       </div>
       <div class="question">
       </div>
     </div>
-    <div class="question-content" id="Carceral Approach: Blame & Punishment">
+    <div class="question-content accardion" id="Carceral Approach: Blame & Punishment">
       <div class="title title-font unitalic">
         Carceral Approach: Blame & Punishment
       </div>
@@ -205,7 +205,7 @@
         Furthermore, my wrongdoings are seen as the result of my moral failures. My actions say something about my deepest character and ability to govern myself. This “real self” view of our actions is often popularly understood in our climate of retributive sentiment as moral essentialism. From an essentialist perspective, committing sexual violence signals something morally wrong and thus <span class="rollover" (click)="openRollover(rollover, 381)">difficult or impossible to change about a person</span>. This feeds attitudes that certain people (or groups of people) are inherently criminal and cultivates punitive feelings of guilt and shame in people who cause harm. Those feelings often keep people who cause harm focused on themselves (their intentions, deepest character, or moral status) and prevents them from seeing and responding to those who they have harmed.
       </div>
     </div>
-    <div class="question-content" id="Accountability">
+    <div class="question-content accardion" id="Accountability">
       <div class="title title-font unitalic">
         Transformative Approach: Accountability
       </div>
@@ -226,13 +226,13 @@
       </div>
     </div>
     <div class="question-content" id="SecuritySafety">
-      <div class="title title-font">
+      <div class="title title-font title-font-bg">
         From Security to Safety for Survivors
       </div>
       <div class="question">
       </div>
     </div>
-    <div class="question-content" id="Carceral Approach: Security">
+    <div class="question-content accardion" id="Carceral Approach: Security">
       <div class="title title-font unitalic">
         Carceral Approach: Security
       </div>
@@ -250,7 +250,7 @@
         social welfare functions of the State, security is seen as a <span class="rollover" (click)="openRollover(rollover, 50)">commodity or service</span> that only a ‘ powerful outsider’  can provide, for a price.
       </div>
     </div>
-    <div class="question-content" id="Transformative Approach: Safety">
+    <div class="question-content accardion" id="Transformative Approach: Safety">
       <div class="title title-font unitalic">
         Transformative Approach: Safety
       </div>
@@ -265,13 +265,13 @@
       </div>
     </div>
     <div class="question-content" id="DisposalConnection">
-      <div class="title title-font">
+      <div class="title title-font title-font-bg">
         From Containment & Disposal to Connection & Community
       </div>
       <div class="question">
       </div>
     </div>
-    <div class="question-content" id="Carceral Approach: Containment & Disposal">
+    <div class="question-content accardion" id="Carceral Approach: Containment & Disposal">
       <div class="title title-font unitalic">
         Carceral Approach: Containment & Disposal
       </div>
@@ -282,7 +282,7 @@
         Rather than recognize the structural, collective sources that make us feel insecure (like precarious jobs, everyday oppression, or lack of participation in the decision that affect our lives), a sense of danger is projected onto specific scapegoats labeledcriminals and terrorists, which the military or police to try to remove or eliminate from society. Aggression is cast as self-defense (the inverse of how <span class="rollover" (click)="openRollover(rollover, 60)">marginalized women’ s self-defense against violence is often reframed as aggression</span>).
       </div>
     </div>
-    <div class="question-content" id="Transformative Approach: Connection & Community">
+    <div class="question-content accardion" id="Transformative Approach: Connection & Community">
       <div class="title title-font unitalic">
         Transformative Approach: Connection & Community
       </div>
@@ -305,7 +305,7 @@
 <div class="detail-container" *ngIf="selectedDetail?.navTitle === 'Movement'">
   <div class="question-blocks">
     <div class="question-content" id="Definitions">
-      <div class="title title-font">
+      <div class="title title-font title-font-bg">
         What are Community Accountability & Transformative Justice?
       </div>
       <div class="question">
@@ -326,14 +326,14 @@
       </div>
     </div>
     <div class="question-content" id="Genealogies">
-      <div class="title title-font">
+      <div class="title title-font title-font-bg">
         Genealogies of the Movement
       </div>
       <div class="question">
         Over the last twenty years, the community accountability movement has experimented with interventions against violence, and primarily gendered and sexual violence, in activist groups, community organizations, neighborhoods, and families. Activists have recovered and revalued <span class="rollover" (click)="openRollover(rollover, 72)">“kitchen table” stories</span> by digging into their <span class="rollover" (click)="openRollover(rollover, 73)">communities’ histories of responding to violence</span> in times and places where there was no state or the state was not to be trusted. Much of this work has been improvised in self-organized spaces under the radar of formal political organizations, and far too little has been documented or written down. Though it's impossible to tell a single story about the movement, there are <span class="rollover" (click)="openRollover(rollover, 74)">several roots</span> out of which CA-TJ practices emerged: the prison abolition movement, critiques of the anti-violence movement, restorative justice practices, and discourses about transformation.
       </div>
     </div>
-    <div class="question-content" id="prisoncommunity">
+    <div class="question-content accardion" id="prisoncommunity">
       <div class="title title-font unitalic">
         From Prison Abolition to Community Accountability
       </div>
@@ -347,7 +347,7 @@
         Community accountability organizers began experimenting with alternatives to prison and policing for interpersonal harm, and sexual and partner violence in particular. As rape is often framed as the <span class="rollover" (click)="openRollover(rollover, 78)">most extreme test for abolition</span>, INCITE! took on the question of how to address it directly.
       </div>
     </div>
-    <div class="question-content" id="nonprofits">
+    <div class="question-content accardion" id="nonprofits">
       <div class="title title-font unitalic">
         From Non-Profits to Community Organizing
       </div>
@@ -361,7 +361,7 @@
         Rejecting the idea that the State or the non-profit be the primary actor responsible for dealing with violence, many activists focused on the community instead. Activists drew on <span class="rollover" (click)="openRollover(rollover, 85)">community organizing models</span> to develop <span class="rollover" (click)="openRollover(rollover, 86)">strategies to mobilize communities</span> to address sexual violence. They emphasized a <span class="rollover" (click)="openRollover(rollover, 87)">relational, interconnected vision of justice</span>, rather than one of separation, in which the <span class="rollover" (click)="openRollover(rollover, 77)">community embodied those relationships that needed repair</span> after violence.
       </div>
     </div>
-    <div class="question-content" id="restorative">
+    <div class="question-content accardion" id="restorative">
       <div class="title title-font unitalic">
         From Restorative to Transformative Justice
       </div>
@@ -376,7 +376,7 @@
       </div>
     </div>
     <div class="question-content" id="Futures">
-      <div class="title title-font">
+      <div class="title title-font title-font-bg">
         Futures of the Movement
       </div>
       <div class="question">
@@ -394,7 +394,7 @@
       <div class="question-quote-container">
         <div *ngFor="let quote of question.quotes"
              class="quote-box"
-             [ngStyle]="{'background-color': getPerson(quote.personId)?.color, 'color': getPerson(quote.personId)?.fontColor}"
+             [ngStyle]="{'background-color': getPerson(quote.personId)?.contrastColor || getPerson(quote.personId)?.color, 'color': getPerson(quote.personId)?.fontColor}"
              (resize)="onResize($event)"
              (click)="openQuoteModal(content, quote)">
           <div class="initial title-font">

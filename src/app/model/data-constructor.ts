@@ -12,10 +12,10 @@ export const DATA_MODEL: Section[] = [
   createDataModel('About'),
   createDataModel('Game Changers'),
   createDataModel('Movement'),
+  createDataModel('Principles'),
   createDataModel('Support'),
   createDataModel('Accountability'),
-  createDataModel('Community'),
-  createDataModel('Principles'),
+  createDataModel('Community')
 ];
 
 function createDataModel(name: SectionType): Section {

@@ -1,4 +1,32 @@
-:host {  background-color: #D4E1E1;}
-.container {  cursor: pointer;  margin: 0 auto;}
-.splash-logo > img {  width: 70%;  margin-left: 15%;}
-.splash-text {  font-size: 3.1em;  width: 70%;  margin-left: 15%;  margin-bottom: 50px;}
+:host {
+  background-color: #D4E1E1;
+}
+.container {
+  cursor: pointer;
+  margin: 0 auto;
+}
+.splash-logo > img {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.splash-logo{
+  text-align: center;
+}
+.logo-author{
+  font-size: 12px;
+}
+.splash-text {
+font-size: 3.1em;
+width: 70%;
+margin-bottom: 50px;
+}
+.splash-text-de{
+  text-align: right;
+  width: 100%;
+  margin-bottom: 0;
+  margin-top: 50px;
+}
+.container.vm{
+  margin-top: 9vh;
+}

@@ -1,9 +1,21 @@
-div#logo > img {
-  width: 70%;
-  pading-top: -5px;
-  margin: 30px 15% 0px 15%;
+#logo  img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 5px auto 0px;
 }
-
+#logo{
+  cursor: pointer;
+  display: block;
+}
+.logo-text{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.6em;
+}
+.logo-link{
+  display: block;
+}
 .nav-section {
   background-color: #CBDBDD;
   width: 100%;
@@ -12,7 +24,22 @@ div#logo > img {
   text-align: center;
   font-size: 1.2em;
 }
-
+.nav-section_sep{
+  position: relative;
+  margin-bottom: 20px;
+}
+.nav-section_sep::after{
+  content: '~';
+  position: absolute;
+  font-size: 30px;
+  width: 100%;
+  height: 20px;
+  left: 0;
+  right: 0;
+  line-height: 20px;
+  bottom: -20px;
+  margin: auto;
+}
 .title-font {
   color: black;
 }
@@ -24,19 +51,28 @@ div#logo > img {
 .nav-section:first-child {
   border-top: 0;
 }
-
-.title-font:hover, .sub-nav:hover, .selected {
+.selected{
+  background-color: #709a98;
+  box-shadow: -1px 0px 1px 1px rgba(0,0,0,.3);
+}
+.selected:hover{
+  background-color: #709a98;
   font-size: 1.1em;
-  background-color: #ca8e99;
+  color: black;
+  cursor: pointer;
+}
+.title-font:hover, .sub-nav:hover {
+  font-size: 1.1em;
+  background-color: #90c7c5;
   color: black;
   cursor: pointer;
 }
 
 .sub-nav {
   display: block;
-  color: white;
+  color: #928585;
   cursor: pointer;
-  font-size: 1em;
+  font-size: .9em;
   line-height: 35px;
   text-decoration: none;
 }

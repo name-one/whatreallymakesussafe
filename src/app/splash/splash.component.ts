@@ -13,4 +13,7 @@ export class SplashComponent {
   public goHome() {
     this.router.navigate(['/detail/About']);
   }
+  public goGermHome(){
+    this.router.navigate(['de/detail/About']);
+  }
 }
