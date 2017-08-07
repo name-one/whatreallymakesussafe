@@ -27,6 +27,28 @@
 }
 .frames{
   margin-top: 20px;
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 10000px;
+  overflow: hidden;
+}
+.frame{
+  z-index: 0;
+  transform: translateX(100%);
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  transform-origin: top center;
+}
+.frame_visible{
+  transition: all .5s;
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+  transform: translateX(0%);
 }
 .frame__video-container{
   position: relative;
@@ -46,6 +68,9 @@
   width: 100%;
   left: 0;
   top: 0;
+}
+.frame__title{
+  text-align: center;
 }
 .thumbnails{
   margin: 20px auto;
@@ -71,4 +96,54 @@
 }
 .thumbnail__img{
   max-width: 100%;
+}
+.thumbnail_center{
+  float: none;
+  margin: 0 auto;
+}
+.thumbnails_center{
+  justify-content: space-around;
+}
+.organisations{
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin: 30px 0;
+  justify-content: center;
+}
+.organisation{
+  max-width: 30%;
+  margin-bottom: 3%;
+  margin-right: 3%;
+}
+.organisation:nth-of-type(3n){
+  margin-right: 0;
+}
+.organisation img{
+  max-width: 100%;
+}
+.photos{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin: 20px 0;
+}
+.photo{
+  width: 310px;
+  max-width: 100%;
+  margin-right: 20px;
+  height: 180px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.photo:nth-of-type(n+4){
+  margin-top: 20px;
+}
+.photo img{
+  max-width: 100%;
+}
+.modal-body-de img{
+  display: block;
+  margin: 0 auto;
 }

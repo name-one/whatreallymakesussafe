@@ -1,13 +1,13 @@
 <div class="wrapper">
   <div class="container">
     <div class="controll-buttons">
-      <button class="controll-button">Podiumsdiskussion</button>
-      <button class="controll-button">Toolkit</button>
-      <button class="controll-button">Labor für Alternativen</button>
+      <button class="controll-button" (click)='currentFrame = "Podiumsdiskussion" '>Podiumsdiskussion</button>
+      <button class="controll-button" (click)='currentFrame = "Toolkit" '>Toolkit</button>
+      <button class="controll-button" (click)='currentFrame = "Labor" '>Labor für Alternativen</button>
     </div>
   </div>
   <div class="container frames">
-    <div class="frame">
+    <div class="frame" [class.frame_visible]='currentFrame == "Podiumsdiskussion"'>
       <div class="frame__video-container">
         <img src="//img.youtube.com/vi/zuWdof5hJWo/0.jpg" alt="What would really make us safe?" class='frame__video-img'>
         <iframe src="https://www.youtube.com/embed/zuWdof5hJWo?ecver=1" frameborder="0" allowfullscreen class='frame__video-player'></iframe>
@@ -26,6 +26,61 @@
         </li>
       </ul>
     </div>
+    <div class="frame" [class.frame_visible]='currentFrame == "Toolkit"'>
+      <ul class="thumbnails">
+        <li class="thumbnail_center">
+          <a href="/assets/pdf/1.p" target="_blank">
+            <img src="/assets/images/256x256.png" alt="" class='thumbnail__img'>
+          </a>
+        </li>
+      </ul>
+      <h3 class="frame__title">Mit Beiträgen von:</h3>
+      <ul class="organisations">
+        <li class="organisation">
+          <img src="/assets/images/women.png" alt="">
+        </li>
+        <li class="organisation">
+          <img src="/assets/images/Fluechtlingsrat_Brandenburg.jpg" alt="">
+        </li>
+        <li class="organisation">
+          <img src="/assets/images/KOP.png" alt="">
+        </li>
+        <li class="organisation">
+          <img src="/assets/images/lesmigras_logo_oben.jpg" alt="">
+        </li>
+        <li class="organisation">
+          <img src="/assets/images/logo_Hydra_01.jpg" alt="">
+        </li>
+        <li class="organisation">
+          <img src="/assets/images/reach_out_logo_small_1.png" alt="">
+        </li>
+        <li class="organisation">
+          <img src="/assets/images/MSO.png" alt="">
+        </li>
+      </ul>
+    </div>
+
+    <div class="frame" [class.frame_visible]='currentFrame == "Labor"'>
+      <ul class="thumbnails thumbnails_center">
+        <li class="thumbnail" (click)='openModal(content, "/assets/images/final.jpeg")'>
+          <img src="/assets/images/final.jpeg" alt="" class='thumbnail__img'>
+        </li>
+        <li class="thumbnail">
+          <a href="/assets/pdf/lab.pdf" target="_blank">
+            <img src="/assets/images/256x256.png" alt="" class='thumbnail__img'>
+          </a>
+        </li>
+      </ul>
+      <div class="frame__video-container">
+        <img src="//img.youtube.com/vi/9aJLUA0iYFE/0.jpg" alt="What would really make us safe?" class='frame__video-img'>
+        <iframe src="https://www.youtube.com/embed/9aJLUA0iYFE?ecver=1" frameborder="0" allowfullscreen class='frame__video-player'></iframe>
+      </div>
+      <ul class="photos">
+        <li class="photo" *ngFor='let photo of photos' (click)="modalPhoto(photoWindow, photo.src, photo.text)">
+          <img src="/assets/images/{{photo.src}}" alt="{{photo.text}}">
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -38,5 +93,19 @@
   </div>
   <div class="modal-body modal-body-de">
     <img src="{{currentImg}}" alt="">
+  </div>
+</ng-template>
+
+<ng-template #photoWindow let-c="close">
+  <div class="modal-header ">
+    <h4 class="modal-title title-font">
+      {{photo.text}}
+    </h4>
+    <button type="button" class="close" aria-label="Close" (click)="c('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body modal-body-de">
+    <img src="/assets/images/{{photo.src}}" alt="{{photo.text}}">
   </div>
 </ng-template>
