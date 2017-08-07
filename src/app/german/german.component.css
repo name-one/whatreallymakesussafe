@@ -136,6 +136,7 @@
   height: 180px;
   overflow: hidden;
   cursor: pointer;
+  box-shadow: -1px 0px 1px 1px rgba(0,0,0,.3);
 }
 .photo:nth-of-type(n+4){
   margin-top: 20px;

@@ -27,12 +27,16 @@
           </div>
         </div>
       </div>
+      <div class="question" *ngIf='question.endingText'>
+        <p [innerHTML]="question.endingText"></p>
+      </div>
     </div>
   </div>
 
   <div class="detail-container" *ngIf="selectedDetail?.navTitle === 'About'">
     <div class="question-content">
-      <div id="TheProject" class="about-title">“What Would Really Make Us Safe?” Project</div>
+      <div id="TheProject" class="about-title">“the “What <em>really</em> makes us safe?” Project ” Project</div>
+      <p>- Melanie Brazzell</p>
       <div id="Beginnings" class="title">Beginnings</div>
       <div class="question">
         This research project began as an informal exchange between organizers working on community accountability & transformative justice (here abbreviated as CA-TJ) responses to sexual violence. Our fledgling <a href="https://www.transformativejustice.eu/en/">transformative justice collective in Berlin, Germany</a> was geographically far from the mothership of CA-TJ thought and organizing in the U.S. Dialoguing with those who had created and propelled this work became a mode of both giving and taking account of one another.
@@ -62,7 +66,7 @@
       </div>
       <div id="Website" class="about-title">Website</div>
       <div class="accardion accardion-about">
-        <div id="Different approach: Vertical, instead of horizontal" class="title">Different approach: Vertical, instead of horizontal</div>
+        <div id="Different approach: Vertical, instead of horizontal" class="title">Vertical, not horizontal approach</div>
         <div class="question">
           Many accounts of CA-TJ work currently out there offer narratives or models for a single community-based process, following narrative arcs of ups and downs and the interactions between various players as they move through a process.
           This website approaches CA-TJ work differently: by cutting it vertically rather than horizontally. Rather than looking at full stories, the website gathers several voices and hears what they each have to say about the same general question: What is a community after all? How do we get people to change? Where is the movement headed?
@@ -71,7 +75,7 @@
       <div class="accardion accardion-about">
         <div id="How to navigate the site" class="title">How to navigate the site</div>
         <div class="question">
-          To access these questions, you can navigate through various “chapters” inspired by INCITE! Women of Color's four-clover diagram of the <a routerLink="/detail/Movement">community accountability concept</a>.
+          To access these questions, you can navigate through various “chapters”:
           <br>
           <br>
           <ul>
@@ -80,6 +84,9 @@
             </li>
             <li>
               <a routerLink="/detail/Movement">“The Community Accountability & Transformative Justice Movement”</a> section puts the movement in its larger historical and sociological context.
+            </li>
+            <li>
+              <a routerLink="/detail/Movement">“From Carceral to Transformative Principles”</a> focuses on the principles behind the work.
             </li>
           </ul>
           <br>
@@ -434,6 +441,10 @@
 <ng-template #content let-c="close">
   <div class="modal-header">
     <h4 class="modal-title title-font">
+      <div class="person-photo-container">
+        <img src="/assets/images/persons/{{selectedQuote.photo}}" alt="{{ getPerson(selectedQuote.personId)?.name }}" class='person-photo' *ngIf='selectedQuote.photo'>
+        <img src="/assets/images/persons/{{selectedQuote.photo2}}" alt="{{ getPerson(selectedQuote.personId)?.name }}" class='person-photo' *ngIf='selectedQuote.photo2'>
+      </div>
       <a href="{{ getPerson(selectedQuote.personId).link }}" target='_blank' *ngIf='getPerson(selectedQuote.personId).link'>{{ getPerson(selectedQuote.personId)?.name }}</a>
       <span *ngIf='!getPerson(selectedQuote.personId).link'>{{ getPerson(selectedQuote.personId)?.name }}</span>
     </h4>

@@ -2,8 +2,9 @@ export const GAME_CHANGERS_SECTION = [
   {
     title: 'Collaborator Biographies',
     nav: 'Bios',
-    question: 'The following activist-thinkers engaged in community accountability & transformative justice work were interviewed for the "What really makes us safe?" project. '
-    + '<br><br>' + 'Many interviewees have some background in anti-violence work within non-profits and/or self-organized groups. They also hold a range of other roles as community organizers, consultants, academics, and writers. Project participants identified with various communities, particularly queer communities and communities of color, though the project also included a fair number of white anti-racist allies. Most interviewees are from the U.S., with the East and West Coast strongly represented, and two who have worked in Canada, England, and Australia. Most interviews were carried out by Melanie, and several were conducted by comrades from the Transformative Justice Kollektiv Berlin.',
+    question: 'The following activist-thinkers engaged in community accountability & transformative justice work were interviewed for the "What <em>really</em> makes us safe?" project. '
+    +'<br><br> Collaborator Biographies:',
+    endingText: `Many interviewees have some background in anti-violence work within non-profits and/or self-organized groups. They also hold a range of other roles as community organizers, consultants, academics, and writers. Project participants identified with various communities, particularly queer communities and communities of color, though the project also included a fair number of white anti-racist allies. Most interviewees are from the U.S., with the East and West Coast strongly represented, and two who have worked in Canada, England, and Australia. Most interviews were carried out by Melanie, and several were conducted by comrades from the Transformative Justice Kollektiv Berlin.`,
     quotes: [
       {
         tagline: 'Dr. Alexis Pauline Gumbs',
@@ -13,11 +14,13 @@ export const GAME_CHANGERS_SECTION = [
       {
         tagline: 'Alix Johnson',
         quote: 'is a core member of the <a href="https://batjc.wordpress.com/">Bay Area Transformative Justice Collective</a>, working toward building transformative justice responses to child sexual abuse. She also works as a graduate student researcher and instructor at the University of California, Santa Cruz.',
+        photo: 'alix.jpg',
         personId: 16
       },
       {
         tagline: 'Anna Vo',
         quote: 'has done community accountability work, mediation, counseling, education and community work around construction and place-making. This means workshops, inclusive engagement, skill-sharing, building stuff and empowerment. They are also a musician, illustrator and writer and their focus is finding strategies to support and scaffold feminists of colour.',
+        photo: 'Anna.jpg',
         personId: 20
       },
       {
@@ -28,16 +31,19 @@ export const GAME_CHANGERS_SECTION = [
       {
         tagline: 'Ejeris Dixon',
         quote: 'is an organizer and advocate with over 15 years of experience working in racial justice, LGBTQ, anti-violence, and economic justice movements. She is the Founding Director of <a href="http://www.visionchangewin.com/">Vision Change Win Consulting</a>, where she partners with organizations to build their capacity and deepen the impact of their organizing strategies. She is also the former founding program coordinator of the <a href="http://alp.org/safe-outside-system-sos-collective">Safe OUTside the System Collective</a> at the Audre Lorde Project where she worked on creating community based strategies to address hate and police violence.',
+        photo: 'ejeris.JPG',
         personId: 7
       },
       {
         tagline: 'Dr. Hediana Utarti',
         quote: 'Currently its Community Projects Coordinator, Hediana has dedicated almost 17 years to <a href="http://www.sfaws.org/">San Francisco Asian Women\'s Shelter</a>.  Besides serving as the point person for Anti-Trafficking Program and Services, like her co-workers, she also takes crisis line weekly and is involved in AWS Community Building programs. Previously she lived and worked in Honolulu, Hawai\’i where she obtained her Ph. D in political science.  She started her community based anti-violence work in 1995, when she joined Family Peace Center in Honolulu as a Support Group Facilitator for survivors of domestic violence.',
+        photo: 'Hediana.png',
         personId: 19
       },
       {
         tagline: 'Kiyomi Fujikawa',
         quote: 'is a Seattle-based, trans feminine, mixed-race organizer and cultural worker. She has been involved with the anti-violence movement since 2001 in Asian Pacific Islander, Queer and Trans, punk and diy communities. She was formerly  the Queer Network Program Coordinator at <a href="https://www.apichaya.org/">API Chaya</a>.',
+        photo: 'Kiyomi.jpg',
         personId: 4
       },
       {
@@ -70,6 +76,8 @@ export const GAME_CHANGERS_SECTION = [
         quote: '<strong>Jenna Peters-Golden<strong> is a queer anti-zionist Jew based in Philadelphia. She was a member of the <a href="https://phillystandsup.wordpress.com/">Philly Stands Up Collective</a> for 8 years and continues to be inspired by transformative justice that envisions community safety without police or prisons. Jenna is a founding worker-owner of <a href="http://aorta.coop/">AORTA [the Anti Oppression Resource and Training Alliance]</a> and also is a lover of science fiction and comic books.'
         + '<br><br>' +'<strong>Qui Alexander<strong> is a queer, trans, Black Latinx educator, organizer, yoga teacher and consultant based in Philadelphia. His work centers the intersections of gender, sexuality and racial justice; healing justice and transformative/restorative justice anti-violence work. Believing the personal is political, his work strives to focus on personal liberation and healing to make movement work more sustainable.'
         + '<br><br>' +'Qui and Jenna are members of the <a href="https://phillystandsup.wordpress.com/">Philly Stands Up Collective</a>, a small collective of individuals working in Philadelphia to confront sexual assault in our various communities using a transformative justice framework. We believe in restoring trust and justice within our community by working with both survivors and perpetrators of sexual assault. We work with people who have assaulted others to hold them accountable to the survivor(s) and restore their relationships within their communities.',
+        photo: 'jenna.jpg',
+        photo2: 'Qui.png',
         personId: 9
       },
       {
@@ -150,7 +158,7 @@ export const GAME_CHANGERS_SECTION = [
       },
       {
         tagline: 'Lawyer to Community Organizer',
-        quote: 'My background is that I started out as a <strong>legal services lawyer<strong>, providing free legal aid. And most of that work was around domestic violence. I did that for four years and really quickly became really discouraged and frustrated, by the systems and the lack of transformative approach and the lack of even trying to challenge the systems that we were all navigating. It was just all very problematic.' 
+        quote: 'My background is that I started out as a <strong>legal services lawyer<strong>, providing free legal aid. And most of that work was around domestic violence. I did that for four years and really quickly became really discouraged and frustrated, by the systems and the lack of transformative approach and the lack of even trying to challenge the systems that we were all navigating. It was just all very problematic.'
         + '<br><br>' +'And so I became a <strong>community organizer<strong> with the idea of starting a project that would respond to issues of violence against women and girls from an organizing perspective, aimed at systems change rather than providing services alone. So I did organizing for a bunch of years on a pretty wide range of issues and then <strong>started Women and Girls Collective Action Network<strong>, which set out to do that work.'
         + '<br><br>' +'I had been doing community organizing, and when you go <strong>door-knocking and you ask people what their issues are, not surprisingly they never say violence against women and girls and young people<strong>. That\'s just not what they say. They say we need more trash cans or tree-trimming or \"get those gang bangers off the street\" or whatever. These issues aren\'t coming up, so I had questions like – <strong>what would it take for those issues to surface?<strong>  What could organizing groups do differently to start responding to issues that really matter for women and girls, and what could the women\'s movement do differently?'
         + '<br><br>' +'And then Women and Girls CAN became broader than just community organizing and really delved into <strong>community accountability and transformative justice<strong> and a combination of doing grassroots community organizing work and bringing people together to think through different approaches of trying to end violence against women and girls rather than reacting to it. A lot of it was <strong>looking back at old pieces from the 70s, before things in the U.S. got so state-owned<strong>. Before violence against women got silo\'ed into the anti-rape work and the domestic violence work, and all of it funded by the state. You know, there were other ideas of how to approach all of this, and they just kind of got cast aside. So we went back to some of that, but also tried to <strong>tie it into a much more current understanding of racial justice and oppressions<strong>.',

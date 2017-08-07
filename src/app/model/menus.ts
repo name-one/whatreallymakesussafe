@@ -5,7 +5,7 @@ export const ABOUT_MENU: DetailMenuSection[] = [
     menuSections: []
   },
   {
-    sectionHeader: 'Website',
+    sectionHeader: 'The Website',
     menuSections: []
   }
 ];
