@@ -59,7 +59,7 @@ export class DetailComponent implements OnInit, AfterViewInit {
       }
     });
   }
-  
+
   public isBoxSection(title: string): boolean {
     return title !== 'About' && title !== 'Principles' && title !== 'Movement';
   }
@@ -80,6 +80,7 @@ export class DetailComponent implements OnInit, AfterViewInit {
 
   public openQuoteModal(content: any, quote: Quote): void {
     this.selectedQuote = quote;
+    console.log(content)
     this.modalService.open(content,
       {backdrop: true,
         keyboard: true,

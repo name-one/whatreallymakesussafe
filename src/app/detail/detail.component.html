@@ -419,7 +419,7 @@
   </div>
 </div>
 
-<template #rollover let-c="close">
+<ng-template #rollover let-c="close">
   <div class="modal-header">
     <h4 class="modal-title title-font">{{ selectedRollover.title }}</h4>
     <button type="button" class="close" aria-label="Close" (click)="c('Cross click')">
@@ -429,9 +429,9 @@
   <div class="modal-body">
     <p [innerHTML]="selectedRollover.quote"></p>
   </div>
-</template>
+</ng-template>
 
-<template #content let-c="close">
+<ng-template #content let-c="close">
   <div class="modal-header">
     <h4 class="modal-title title-font">
       <a href="{{ getPerson(selectedQuote.personId).link }}" target='_blank' *ngIf='getPerson(selectedQuote.personId).link'>{{ getPerson(selectedQuote.personId)?.name }}</a>
@@ -445,4 +445,4 @@
   <div class="modal-body">
     <p [innerHTML]="selectedQuote.quote"></p>
   </div>
-</template>
+</ng-template>

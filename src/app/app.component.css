@@ -85,3 +85,13 @@
  /deep/ .nav-hidden app-nav{
   transform: translateX(-100%);
  }
+/deep/ .modal-header-de{
+  justify-content: flex-end;
+}
+/deep/ .modal-header-de button{
+  display: inline-block;
+  font-size: 20px;
+}
+/deep/ .modal-body-de img{
+  max-width: 100%;
+}

@@ -13,16 +13,30 @@
         <iframe src="https://www.youtube.com/embed/zuWdof5hJWo?ecver=1" frameborder="0" allowfullscreen class='frame__video-player'></iframe>
       </div>
       <ul class="thumbnails">
-        <li class="thumbnail">
+        <li class="thumbnail" (click)='openModal(content, "/assets/images/poster.jpg")'>
           <img src="/assets/images/poster-thumb.jpg" alt="" class='thumbnail__img'>
         </li>
-        <li class="thumbnail">
+        <li class="thumbnail" (click)='openModal(content ,"/assets/images/poster-de.jpg")'>
           <img src="/assets/images/poster-de-thumb.jpg" alt="" class='thumbnail__img'>
         </li>
         <li class="thumbnail">
-          <img src="/assets/images/256x256.png" alt="" class='thumbnail__img'>
+          <a href="/assets/pdf/1.pdf" target="_blank">
+            <img src="/assets/images/256x256.png" alt="" class='thumbnail__img'>
+          </a>
         </li>
       </ul>
     </div>
   </div>
 </div>
+
+
+<ng-template #content let-c="close">
+  <div class="modal-header modal-header-de">
+    <button type="button" class="close" aria-label="Close" (click)="c('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body modal-body-de">
+    <img src="{{currentImg}}" alt="">
+  </div>
+</ng-template>

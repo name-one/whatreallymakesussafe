@@ -11,7 +11,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { DetailComponent } from './detail/detail.component';
-
+import { GermanComponent } from './german/german.component';
 // services
 import { PersonService } from './services/person.service';
 import { DetailMenuComponent } from './detail-menu/detail-menu.component';
@@ -19,7 +19,7 @@ import { RolloverService } from './services/rollover.service';
 import { NavigationService } from './services/navigation.service';
 import { SplashComponent } from './splash/splash.component';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
-import { GermanComponent } from './german/german.component';
+
 
 @NgModule({
   declarations: [
