@@ -22,7 +22,7 @@ export class DetailComponent implements OnInit, AfterViewInit {
   public selectedDetail: Section;
   public selectedQuote: Quote;
   public selectedRollover: Rollover;
-
+  public pageTitle: string;
   constructor(private route: ActivatedRoute,
               private modalService: NgbModal,
               private navigationService: NavigationService,
@@ -34,6 +34,7 @@ export class DetailComponent implements OnInit, AfterViewInit {
       .map((params: Params): string => params['id'])
       .subscribe((sectionTitle: string): void => {
         this.navigationService.setNavigation(sectionTitle);
+        this.makePageTitle(sectionTitle)
         if (document.getElementsByTagName('app-detail')[0]) {
           document.getElementsByTagName('app-detail')[0].scrollTop = 0;
         }
@@ -46,8 +47,20 @@ export class DetailComponent implements OnInit, AfterViewInit {
       });
 
     this.futureSection = FUTURE_SECTION;
-  }
 
+  }
+  public makePageTitle(title:string){
+    switch(title){
+      case 'Support':
+        this.pageTitle = 'Support for Survivors of Violence';
+        break;
+      case 'Accountability':
+        this.pageTitle = 'Accountability for People Causing Violence';
+        break;
+      default:
+        this.pageTitle = title;
+    }
+  }
   public ngAfterViewInit() {
     this.route.fragment.subscribe ( f => {
       const element = document.querySelector ( "#" + this.flattenFragmentId(f) );
@@ -80,7 +93,6 @@ export class DetailComponent implements OnInit, AfterViewInit {
 
   public openQuoteModal(content: any, quote: Quote): void {
     this.selectedQuote = quote;
-    console.log(content)
     this.modalService.open(content,
       {backdrop: true,
         keyboard: true,
@@ -92,17 +104,25 @@ export class DetailComponent implements OnInit, AfterViewInit {
       console.log('Dismissed ${this.getDismissReason(reason)}');
     });
   }
-  public openModalFromOtherPage(content: any, pageName: string, title: string, personId: number){
-    let section = DATA_MODEL.find( (item: any)=>{
-      return item.navTitle == pageName;
-    })
-    let question = section.questions.find( (item: any)=>{
-      return item.title == title;
-    })
-    let currentQuote = question.quotes.find( (item:any)=>{
-      return item.personId == +personId
-    })
-    this.openQuoteModal(content, currentQuote);
+  public openModalFromOtherPage(content: any, pageName: string, personId: number, title: string, subtitle: string ){
+      let section = DATA_MODEL.find( (item: any)=>{
+        return item.navTitle == pageName;
+      })
+      let question = section.questions.find( (item: any)=>{
+        return item.title == title;
+      })
+      let currentQuote;
+      if(!subtitle){
+        currentQuote = question.quotes.find( (item:any)=>{
+         return item.personId == +personId
+       })
+     }else{
+       currentQuote = question.quotes.find( (item:any)=>{
+        return item.tagline == subtitle
+      })
+     }
+      this.openQuoteModal(content, currentQuote);
+
   }
   public getPerson(personId: number): Person {
     return this.personService.getPersonById(personId);

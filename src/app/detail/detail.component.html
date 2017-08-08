@@ -1,6 +1,6 @@
 <div #container class="container">
-  <div class="header title-font">
-    {{ selectedDetail?.navTitle }}
+  <div class="header title-font" >
+    {{ pageTitle }}
   </div>
 
   <div class="detail-container" *ngIf="isBoxSection(selectedDetail?.navTitle)">
@@ -39,13 +39,13 @@
       <p>- Melanie Brazzell</p>
       <div id="Beginnings" class="title">Beginnings</div>
       <div class="question">
-        This research project began as an informal exchange between organizers working on community accountability & transformative justice (here abbreviated as CA-TJ) responses to sexual violence. Our fledgling <a href="https://www.transformativejustice.eu/en/">transformative justice collective in Berlin, Germany</a> was geographically far from the mothership of CA-TJ thought and organizing in the U.S. Dialoguing with those who had created and propelled this work became a mode of both giving and taking account of one another.
+        This research project began as an informal exchange between organizers working on community accountability & transformative justice (here abbreviated as CA-TJ) responses to sexual violence. Our fledgling <a href="https://www.transformativejustice.eu/en/" target='_blank'>transformative justice collective in Berlin, Germany</a> was geographically far from the mothership of CA-TJ thought and organizing in the U.S. Dialoguing with those who had created and propelled this work became a mode of both giving and taking account of one another.
       </div>
       <div class="accardion accardion-about">
         <div id="Participatory Action Research" class="title">Participatory Action Research</div>
         <div class="question">
           That informal exchange expanded into a participatory research project in 2013 as the foundations of my Master’s thesis. The research explored the theoretical underpinnings of CA-TJ, like what does it mean to be <span style="font-style: italic;">accountable</span> after all? And who or what is <span style="font-style: italic;">a community?</span>
-          <a href="http://www.incite-national.org/page/participatory-action-research">Participatory action research</a> is an approach that understands all participants in a research process to be co-creators of the project’s goals, methods, and outcomes. In my interviews, our dialogues offered an opportunity to collectively think through questions emerging out of our respective practices. Interview partners shared organizational materials, connected me with other activists, and even read parts of my thesis.
+          <a href="http://www.incite-national.org/page/participatory-action-research" target='_blank'>Participatory action research</a> is an approach that understands all participants in a research process to be co-creators of the project’s goals, methods, and outcomes. In my interviews, our dialogues offered an opportunity to collectively think through questions emerging out of our respective practices. Interview partners shared organizational materials, connected me with other activists, and even read parts of my thesis.
           However, this project was not fully participatory from start to finish. Participants were scattered across the U.S. and Canada, so we could not meet at one table and political work put limits on time. The research took the shape of a net weaving from one node of organizing to another, as a set of questions and ideas developed in one conversation was carried into the next. This site allows me to put all those conversations side by side.
         </div>
       </div>
@@ -58,7 +58,7 @@
       <div class="accardion accardion-about">
         <div id="What were the results?" class="title">What were the results?</div>
         <div class="question">
-          Some of the academic results of this research can be found <a href="https://hu-berlin.academia.edu/MelanieBrazzell">on my academia.edu site</a>. Because many interviewees described the need to archive and document this work, this site was built to amplify the oral histories of the CA-TJ movement.
+          Some of the academic results of this research can be found <a href="https://hu-berlin.academia.edu/MelanieBrazzell" target='_blank'>on my academia.edu site</a>. Because many interviewees described the need to archive and document this work, this site was built to amplify the oral histories of the CA-TJ movement.
           <br>
           <br>
           <span style="float: right;">- Melanie Brazzell</span>
@@ -119,31 +119,35 @@
   <div class="question-blocks">
     <div class="question-content" id="CarceralTransformative">
       <div class="title title-font title-font-bg">
-        From Carceral To Transformative
+        1. From Carceral To Transformative
       </div>
       <div class="question">
         While the other sections of this site focus mainly on practice, this section offers a more theoretical view on community accountability. Drawing on both interview excerpts and other resources by movement activist-thinkers, this section proposes several main principles that unite various community accountability & transformative justice responses to violence.
         <br>
         <br>
-        <a href="https://www.youtube.com/watch?v=XDQlW1uJ8uQ">Introduction: What is carceral logic? </a>
+        <div class="video-frame">
+          <img src="//img.youtube.com/vi/XDQlW1uJ8uQ/0.jpg" alt="What would really make us safe?" class='video-frame__img'>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/XDQlW1uJ8uQ?ecver=1" frameborder="0" allowfullscreen class='video-frame__video'></iframe>
+        </div>
+
       </div>
     </div>
     <div class="question-content" id="IndividualCollective">
       <div class="title title-font title-font-bg">
-        From Individual to Collective
+        2. From Individual to Collective
       </div>
       <div class="question">
       </div>
     </div>
     <div class="question-content accardion" id="Carceral Approach: Individual Response">
       <div class="title title-font unitalic">
-        Carceral Approach: Individual Response
+       Carceral Approach: Individual Response
       </div>
       <div class="question">
         Sexual violence is often pathologized in mainstream society as an individual problem caused by a few <span class="rollover" (click)="openRollover(rollover, 1)">‘ bad apples’</span>. The larger structures of oppression that teach <span class="rollover" (click)="openRollover(rollover, 2)">violence as an instrument for asserting power</span> fade into the background, and violence is blamed on moral weakness or mental ‘ illness.’
         <br>
         <br>
-        In the U.S., the State offers us a limited set of responses to sexual violence: the criminal legal system for perpetrators, and professional anti-violence services for survivors. Both of these are largely individualized responses to what is seen as an individual problem. Options like <span class="rollover" (click)="openRollover(rollover, 3)">therapy and women’ s shelters for survivors and restraining orders and pressing charges against perpetrators</span> often exclude political solutions that could organize collective change and <span class="rollover" (click)="openRollover(rollover, 4)">confront the roots of sexual and gender-based violence</span>. This failure to get at the root problem can also explain why these approaches naively rely on the State, rather than recognizing the ways the State participates in and enables violence in the first place.
+        In the U.S., the State offers us a limited set of responses to sexual violence: the criminal legal system for perpetrators, and professional anti-violence services for survivors. Both of these are largely individualized responses to what is seen as an individual problem. Options like therapy and women’ s shelters for survivors and restraining orders and pressing charges against perpetrators often <span class="rollover" (click)="openRollover(rollover, 3)">exclude political solutions</span> that could organize collective change and <span class="rollover" (click)="openRollover(rollover, 4)">confront the roots of sexual and gender-based violence</span>. This failure to get at the root problem can also explain why these approaches naively rely on the State, rather than recognizing the ways the State participates in and enables violence in the first place.
       </div>
     </div>
     <div class="question-content accardion" id="Transformative Approach: Collective Response">
@@ -155,14 +159,12 @@
         <br>
         <br>
         Furthermore, violence has a <span class="rollover" (click)="openRollover(rollover, 9)">ripple effect through a community</span>, impacting everyone in different ways. If violence is rooted in shared conditions, so too must our response mobilize many people to transform both individual behavior and the social conditions behind it. <span class="rollover" (click)="openRollover(rollover, 10)">True safety is defined widely</span> as not just as the safety of single persons, but of entire communities.
-        <br>
-        <br>
         Such a community response mobilizes the <span class="rollover" (click)="openRollover(rollover, 11)">resources, knowledge, and agency of community members</span> to create change, rather than assuming that <span class="rollover" (click)="openRollover(rollover, 12)">professionals know better</span>. It recognizes traditions and skills communities already have for addressing conflict and harm, which may be invisible or undervalued.
       </div>
     </div>
     <div class="question-content" id="CriminalHuman">
       <div class="title title-font title-font-bg">
-        From Criminalization to Humanization
+        3. From Criminalization to Humanization
       </div>
       <div class="question">
       </div>
@@ -192,10 +194,10 @@
         In the face of these moral economies of good & bad guy, victim & perpetrator, a transformative approach offers a different principle that unites us and makes us human: <span class="rollover" (click)="openRollover(rollover, 20)">everyone both experiences and causes harm</span> (both interpersonal violence and structural oppression) to varying degrees in their lives. While structural positioning impacts how vulnerability to harm or be harmed is distributed, this still gives us a humble starting point for what we share.
         <br>
         <br>
-        <span class="rollover" (click)="openRollover(rollover, 21)">The prison abolition</span> and Black Lives Matter movements have encouraged us to hold the <span class="rollover" (click)="openRollover(rollover, 22)">complexity</span> & <span class="rollover" (click)="openRollover(rollover, 23)">humanity</span> of people who cause harm and <span class="rollover" (click)="openRollover(rollover, 24)">see ourselves in them</span>. This can mean understanding acts of harm as <span class="rollover" (click)="openRollover(rollover, 25)">perpetuations</span> of <span class="rollover" (click)="openRollover(rollover, 26)">cycles of violence</span> across time and over generations; for instance, the organization Support New York refers to people who cause harm as ‘ perpetuators’  rather than ‘ perpetrators.’ Itcan mean understanding that some persons who cause harm are survivors of violence themselves in need of <span class="rollover" (click)="openRollover(rollover, 27)">trauma-informed care</span>. As many interviewees emphasized, holding complexity <span class="rollover" (click)="openRollover(rollover, 28)">doesn’ t reduce the responsibility</span> of persons who cause harm; it offers explanations, not excuses.
+        <span class="rollover" (click)="openRollover(rollover, 21)">The prison abolition</span> and Black Lives Matter movements have encouraged us to hold the <span class="rollover" (click)="openRollover(rollover, 22)">complexity</span> & <span class="rollover" (click)="openRollover(rollover, 23)">humanity</span> of people who cause harm and <span class="rollover" (click)="openRollover(rollover, 24)">see ourselves in them</span>. This can mean understanding acts of harm as <span class="rollover" (click)="openRollover(rollover, 25)">perpetuations</span> of <span class="rollover" (click)="openRollover(rollover, 26)">cycles of violence</span> across time and over generations; for instance, the organization Support New York refers to people who cause harm as ‘perpetuators’  rather than ‘perpetrators.’ Itcan mean understanding that some persons who cause harm are survivors of violence themselves in need of <span class="rollover" (click)="openRollover(rollover, 27)">trauma-informed care</span>. As many interviewees emphasized, holding complexity <span class="rollover" (click)="openRollover(rollover, 28)">doesn’ t reduce the responsibility</span> of persons who cause harm; it offers explanations, not excuses.
         <br>
         <br>
-        Allowing for complexity has led community accountability scholar-activists to wrestle with the <span class="rollover" (click)="openRollover(rollover, 29)">victim-perpetrator binary</span>, seeing the division as <span class="rollover" (click)="openRollover(rollover, 30)">useful in some settings and dangerous in others</span>. For instance, some survivors may have used violence as <span class="rollover" (click)="openRollover(rollover, 32)">resistance against their abusers</span>, but those acts of survival may have had <span class="rollover" (click)="openRollover(rollover, 32)">‘ collateral damage’  for others</span> in their lives. Other survivors may have both <span class="rollover" (click)="openRollover(rollover, 31)">experienced and perpetrated violence</span>, converting their history of abuse into violence towards others.
+        Allowing for complexity has led community accountability scholar-activists to wrestle with the <span class="rollover" (click)="openRollover(rollover, 29)">victim-perpetrator binary</span>, seeing the division as <span class="rollover" (click)="openRollover(rollover, 30)">useful in some settings and dangerous in others</span>. For instance, some survivors may have used violence as <span class="rollover" (click)="openRollover(rollover, 32)">resistance against their abusers</span>, but those acts of survival may have had <span class="rollover" (click)="openRollover(rollover, 33)">‘collateral damage’  for others</span> in their lives. Other survivors may have both <span class="rollover" (click)="openRollover(rollover, 31)">experienced and perpetrated violence</span>, converting their history of abuse into violence towards others.
         <br>
         <br>
         Talking about the <span class="rollover" (click)="openRollover(rollover, 37)">“full, messy, broken, heroic, petty realness”</span> of survival disrupts the idealized picture of survivors as innocent and helpless by emphasizing that <span class="rollover" (click)="openRollover(rollover, 34)">survivors do make choices</span>, even in cases of extreme oppression and violence. Support means cultivating the <span class="rollover" (click)="openRollover(rollover, 35)">agency, self-determination, and self-accountability</span> of survivors, without <span class="rollover" (click)="openRollover(rollover, 36)">blaming them</span> for what they experienced.
@@ -203,7 +205,7 @@
     </div>
     <div class="question-content" id="BlameAccountability">
       <div class="title title-font title-font-bg">
-        From Blame & Punishment to Accountability
+        4. From Blame & Punishment to Accountability
       </div>
       <div class="question">
       </div>
@@ -216,7 +218,7 @@
         Because sexual violence is seen as an individual, moral issue, responsibility is framed as guilt or blame. The model of responsibility on which the prison industrial complex and other carceral institutions of society are built is what philosopher Iris Marion Young calls a “liability model” of responsibility, in which I am responsible for actions that I voluntarily, knowingly, and intentionally cause. This model is built on the ‘ sovereign’ subject of liberalist theory. It assumes an atomistic, autonomous individual who has free choice and whose intentions, actions, and their consequences are fully transparent to him (I say ‘ him’  because this free subject has traditionally been male). This concept of the human focuses more on the self and ignores the interpersonal relationships and social structures that co-create the self.
         <br>
         <br>
-        In this model, responsibility is like debt: I create a debt by violating the rights of others, which must be repaid by denying my rights in proportion to my wrongdoing. These are my ‘ just deserts,’  fulfilled through retributive punishment (‘ an eye for an eye’ ). ‘ Taking account’  works like a math equation that determines who owns which misdeeds. Human life is framed in terms of <span class="rollover" (click)="openRollover(rollover, 37)">accounting and property, reminiscent of slavery</span>.
+        In this model, responsibility is like debt: I create a debt by violating the rights of others, which must be repaid by denying my rights in proportion to my wrongdoing. These are my ‘ just deserts,’  fulfilled through retributive punishment (‘ an eye for an eye’ ). ‘ Taking account’  works like a math equation that determines who owns which misdeeds. Human life is framed in terms of <span class="rollover" (click)="openRollover(rollover, 95)">accounting and property, reminiscent of slavery</span>.
         <br>
         <br>
         Furthermore, my wrongdoings are seen as the result of my moral failures. My actions say something about my deepest character and ability to govern myself. This “real self” view of our actions is often popularly understood in our climate of retributive sentiment as moral essentialism. From an essentialist perspective, committing sexual violence signals something morally wrong and thus <span class="rollover" (click)="openRollover(rollover, 381)">difficult or impossible to change about a person</span>. This feeds attitudes that certain people (or groups of people) are inherently criminal and cultivates punitive feelings of guilt and shame in people who cause harm. Those feelings often keep people who cause harm focused on themselves (their intentions, deepest character, or moral status) and prevents them from seeing and responding to those who they have harmed.
@@ -228,12 +230,10 @@
       </div>
       <div class="question">
         In contrast, a community accountability model starts with a radically different concept of the subject: socially constructed both within relationships of intimacy and recognition and through relationships of power and oppression. Drawing on indigenous, disability, feminist, and postcolonial theories, it sees individuals as shaped by different levels of intersubjectivity, ranging from family to community to social structures.
-        <br>
-        <br>
         Violence does not originate in any one of those levels of inter subjectivity but is an interaction between all of them, as <span class="rollover" (click)="openRollover(rollover, 39)">violence at interpersonal levels is enabled and reinforced by violence at structural and State levels</span>.
         <br>
         <br>
-        In this model, responsibility for causing harm is less a <span class="rollover" (click)="openRollover(rollover, 37)">mathematical calculation of ‘ taking account’</span>, than it is a mode of response to my relations with others, relations which constitute me and which I cannot fully master. Harm is understood not primarily as a violation of rights, but of particular human relationships. This calls for a <span class="rollover" (click)="openRollover(rollover, 382)">cycle of prevention, reparation, and transformation</span> in order to address <span class="rollover" (click)="openRollover(rollover, 39)">those relationships</span> and <span class="rollover" (click)="openRollover(rollover, 40)">behaviors</span>.  Rather than the application of universal laws to a particular case, accountability is <span class="rollover" (click)="openRollover(rollover, 41)">tailored to the specifics</span> of the situation and particular needs. As Alix Johnson explains, it is <span class="rollover" (click)="openRollover(rollover, 42)">“contextual rather than prescriptive”</span>
+        In this model, responsibility for causing harm is less a <span class="rollover" (click)="openRollover(rollover, 95)">mathematical calculation of ‘taking account’</span>, than it is a mode of response to my relations with others, relations which constitute me and which I cannot fully master. Harm is understood not primarily as a violation of rights, but of particular human relationships. This calls for a <span class="rollover" (click)="openRollover(rollover, 382)">cycle of prevention, reparation, and transformation</span> in order to address <span class="rollover" (click)="openRollover(rollover, 39)">those relationships</span> and <span class="rollover" (click)="openRollover(rollover, 40)">behaviors</span>.  Rather than the application of universal laws to a particular case, accountability is <span class="rollover" (click)="openRollover(rollover, 41)">tailored to the specifics</span> of the situation and particular needs: <span class="rollover" (click)="openRollover(rollover, 42)">“contextual rather than prescriptive”</span>
         <br>
         <br>
         In this form of response, I give <span class="rollover" (click)="openRollover(rollover, 43)">an account of myself</span> and my actions, a narrative, an explanation. My account of myself is also always an account of all the larger forces that shaped me, but being a social creature <span class="rollover" (click)="openRollover(rollover, 44)">doesn’ t limit my agency or take away my ability to be responsible</span>. Rather, being a social creature is the basis of my agency and the grounds of my response. In fact, responsibility as responding is only possible because I am connected to and shaped by others around me.
@@ -244,7 +244,7 @@
     </div>
     <div class="question-content" id="SecuritySafety">
       <div class="title title-font title-font-bg">
-        From Security to Safety for Survivors
+        5. From Security to Safety for Survivors
       </div>
       <div class="question">
       </div>
@@ -272,18 +272,16 @@
         Transformative Approach: Safety
       </div>
       <div class="question">
-        But what if survivors, and their surrounding communities, are seen as <span class="rollover" (click)="openRollover(rollover, 51)">powerful and full of resources</span>, rather than as ‘ victims’ ? Rather than outsourcing protection, <span class="rollover" (click)="openRollover(rollover, 52)">safety is “self-generated”</span> by recognizing and building survivors’  and their allies’  own capacities to withstand and resist violence and oppression. When safety is understood not as avoidance but engagement with causes of harm, survivors can become advocates and activists, not only for themselves but also for wider social change.
-        <br>
-        <br>
+        But what if survivors, and their surrounding communities, are seen as <span class="rollover" (click)="openRollover(rollover, 51)">powerful and full of resources</span>, rather than as ‘victims’ ? Rather than outsourcing protection, <span class="rollover" (click)="openRollover(rollover, 52)">safety is “self-generated”</span> by recognizing and building survivors’  and their allies’  own capacities to withstand and resist violence and oppression. When safety is understood not as avoidance but engagement with causes of harm, survivors can become advocates and activists, not only for themselves but also for wider social change.
         However, such empowerment calls upon us to <span class="rollover" (click)="openRollover(rollover, 53)">lose our attachment to a ‘ victim’  label</span>, and the forms of both security and dependency it may have made possible for us, in favor of a view of ourselves with agency.
         <br>
         <br>
-        But social change requires risk, a word not often paired with the idea of safety and certainly the inverse of protection.  However, <span class="rollover" (click)="openRollover(rollover, 54)">generationFIVE points out that social change necessarily requires risks</span>.  With enough support, a survivor may decide to take a short-term individual risk by making their case public, because they see it as a valuable efforts towards the long-term safety not only for themselves but for other future partners of their abuser.  Or a survivor may decide to take on an active role in a process and advocate for herself, accepting the risks of exposure, backlash, or gossip, but also offering her the chance to have her truth heard.  Of course, such risks must be chosen by those potentially most affected and made with careful planning to limit negative consequences.
+        But social change requires risk, a word not often paired with the idea of safety and certainly the inverse of protection.  However, <span class="rollover" (click)="openRollover(rollover, 54)">generationFIVE points out that social change necessarily requires risks</span>.  With enough support, a survivor may decide to take a short-term individual risk by making their case public, because they see it as a valuable efforts towards the long-term safety not only for themselves but for other future partners of their abuser.  Or a survivor may decide to take on an active role in a process and advocate for herself, <span class="rollover" (click)="openRollover(rollover, 96)">accepting the risks of exposure, backlash, or gossip</span>, but also offering her the chance to have her truth heard.  Of course, such risks must be chosen by those potentially most affected and made with careful planning to limit negative consequences.
       </div>
     </div>
     <div class="question-content" id="DisposalConnection">
       <div class="title title-font title-font-bg">
-        From Containment & Disposal to Connection & Community
+        6. From Containment & Disposal to Connection & Community
       </div>
       <div class="question">
       </div>
@@ -342,10 +340,14 @@
           <p>© generationFIVE</p>
         </div>
         <br>
+        I use these two terms together to describe approaches to harm that share a visionary core, even as they are applied in diverse concrete strategies. They go by various names (<span class="rollover" (click)="openModalFromOtherPage(content, 'Support', 6,'How do you support survivors?')">like healing circles</span>, focus on different harms (<a href="https://ywepchicago.files.wordpress.com/2011/06/girls-do-what-they-have-to-do-to-survive-a-study-of-resilience-and-resistance.pdf" target="_blank">violence against sex workers</a> , <a href="//www.project-nia.org/" target="_blank">youth criminalization</a> , <a href="https://www.youtube.com/watch?v=TlQ5rVghHuk" target="_blank">police violence</a> ) and are suited to different settings (institutions, families, etc.).
+        <br>
+        My interviewees described work that ranged from reading groups to <span class="rollover" (click)="openModalFromOtherPage(content, 'Accountability', 7 , 'What are different models?', 'Work with survivors & perpetuators')">years-long accountability processes with perpetrators </span>, from <span class="rollover" (click)="openModalFromOtherPage(content, 'Community', 7 , 'How have communities been involved in your work?')"> neighborhood organizing with local businesses for queer and trans safety </span> to survivor support to mediation processes between persons causing and persons experiencing harm. They told stories about what brought them into this work and the learning processes they've been through, including the questions they are still marinating on.
+        <br>
+        <br>
+        “So before all of our meetings as the BATJC [Bay Area Transformative Justice Collective] we do a collective grounding […] and light candles. So we light one candle for the people who came before us, and one candle for the people who are with us now, and one candle for the next generation or the people who are yet to come.”
+        <span class="fl">-Alix Johnson</span>
 
-        I use these two terms together to describe approaches to harm that share a visionary core, even as they are applied in diverse concrete strategies. They go by various names (<span class="rollover" (click)="openModalFromOtherPage(content, 'Support', 'How do you support survivors?', 6)">like healing circles</span>, focus on different harms (<a href="https://ywepchicago.files.wordpress.com/2011/06/girls-do-what-they-have-to-do-to-survive-a-study-of-resilience-and-resistance.pdf" target="_blank">violence against sex workers</a> , <a href="//www.project-nia.org/" target="_blank">youth criminalization</a> , <a href="https://www.youtube.com/watch?v=TlQ5rVghHuk" target="_blank">police violence</a> ) and are suited to different settings (institutions, families, etc.).
-
-      
       </div>
     </div>
     <div class="question-content" id="Genealogies">
@@ -353,7 +355,10 @@
         Genealogies of the Movement
       </div>
       <div class="question">
-        Over the last twenty years, the community accountability movement has experimented with interventions against violence, and primarily gendered and sexual violence, in activist groups, community organizations, neighborhoods, and families. Activists have recovered and revalued <span class="rollover" (click)="openRollover(rollover, 72)">“kitchen table” stories</span> by digging into their <span class="rollover" (click)="openRollover(rollover, 73)">communities’ histories of responding to violence</span> in times and places where there was no state or the state was not to be trusted. Much of this work has been improvised in self-organized spaces under the radar of formal political organizations, and far too little has been documented or written down. Though it's impossible to tell a single story about the movement, there are <span class="rollover" (click)="openRollover(rollover, 74)">several roots</span> out of which CA-TJ practices emerged: the prison abolition movement, critiques of the anti-violence movement, restorative justice practices, and discourses about transformation.
+        Over the last twenty years, activists have worked to recover  <span class="rollover" (click)="openRollover(rollover, 72)">“kitchen table” stories</span> of their <span class="rollover" (click)="openRollover(rollover, 73)">communities’ responses to violence</span>  in times and places where there was no state or the state was not to be trusted. These have become inspirations for workable contemporary alternatives to prison and police. Many of these alternatives have been improvised in self-organized spaces under the radar of formal political organizations. And far too little has been documented or written down, which is why this project offers oral histories of that work.
+        <br>
+        <br>
+        Though it's impossible to tell a single story about the movement, there are several roots out of which CA-TJ practices emerged: prison abolition organizing, critiques of the anti-violence sector, restorative justice practices, and discourses about transformation.”
       </div>
     </div>
     <div class="question-content accardion" id="prisoncommunity">
@@ -361,7 +366,7 @@
         From Prison Abolition to Community Accountability
       </div>
       <div class="question">
-        One key strand of the community accountability & transformative justice genealogy is the prison abolition movement. In the late 1990s, after decades of drastic increases in incarceration, particularly of Black and Latinx people, activists turned from prison reform to more visionary approaches. Drawing on the legacy of abolitionists who fought to end slavery, groups like <a href="//criticalresistance.org/" target='_blank'>Critical Resistance</a> called for an abolition of prisons. By <span class="rollover" (click)="openRollover(rollover, 75)">humanizing incarcerated persons</span> and refusing to see them as disposable, abolitionists argued that <span class="rollover" (click)="openRollover(rollover, 76)">people who cause harm need more networks of support</span> rather than being torn away from their communities. Their analysis of the <a href="//criticalresistance.org/about/not-so-common-language/" target='_blank'>prison industrial complex</a> explained how prisons and carceral logics had infiltrated our institutions and everyday lives.
+         One key strand of the community accountability & transformative justice genealogy is the prison abolition movement. In the late 1990s, after decades of drastic increases in incarceration, particularly of Black and Latinx people, activists turned from prison reform to more visionary approaches. Drawing on the legacy of abolitionists who fought to end slavery, groups like <a href="//criticalresistance.org/" target='_blank'>Critical Resistance</a> called for an abolition of prisons. By <span class="rollover" (click)="openRollover(rollover, 75)">humanizing incarcerated persons</span> and refusing to see them as disposable, abolitionists argued that <span class="rollover" (click)="openRollover(rollover, 76)">people who cause harm need more networks of support</span> rather than being torn away from their communities. Their analysis of the <a href="//criticalresistance.org/about/not-so-common-language/" target='_blank'>prison industrial complex</a> explained how prisons and carceral logics had infiltrated our institutions and everyday lives.
         <br>
         <br>
         Together with INCITE!, a national network of feminists of color, they published a statement calling on movements against policing and prison to wide their focus from state violence to interpersonal violence. Harm isn't only coming from the State but is also circulating within communities, particularly in the form of sexualized and gender violence. Thus, abolitionist visions need to develop alternatives to prison that pay particular attention to the safety of women, queer, trans, and gender non-conforming folks.

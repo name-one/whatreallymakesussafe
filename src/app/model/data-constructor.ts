@@ -65,7 +65,7 @@ function isNotBoxSection(name: string) {
 export const FUTURE_SECTION = [
   {
     title: 'Futures',
-    question: 'We are Just at the Beginning',
+    question: '"We are Just at the Beginning"',
     quotes: [
       {
         tagline: 'INCITE!\'s game plan',
@@ -76,7 +76,7 @@ export const FUTURE_SECTION = [
   },
   {
     title: 'Futures',
-    question: 'Scope & Sustainability',
+    question: '"Scope & Sustainability"',
     quotes: [
       {
         tagline: 'Take 10 blocks & replace PIC',
