@@ -51,10 +51,10 @@
 }
 
 /deep/ app-detail {
-  position: fixed;
-  left: 20%;
-  height: 100%;
+  display: block;
   width: 80%;
+  margin-left: 20%;
+  height: 100%;
   padding: 5%;
   overflow-y: scroll;
 }

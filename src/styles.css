@@ -17,6 +17,9 @@
   color: black;
   text-decoration: underline;
 }
+app-root{
+  display: block;
+}
 /**{
   font-weight: 300;
 }*/
