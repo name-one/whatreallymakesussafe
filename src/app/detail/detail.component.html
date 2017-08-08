@@ -14,11 +14,8 @@
         </div>
       </div>
       <div class="question-quote-container">
-        <div *ngFor="let quote of question.quotes"
-             class="quote-box"
-             [ngStyle]="{'background-color': getPerson(quote.personId)?.contrastColor || getPerson(quote.personId)?.color, 'color': getPerson(quote.personId)?.fontColor}"
-             (resize)="onResize($event)"
-             (click)="openQuoteModal(content, quote)">
+      <div *ngFor="let quote of question.quotes" class='new-quote-box'>
+        <div class="quote-box" [ngStyle]="{'background-color': getPerson(quote.personId)?.contrastColor || getPerson(quote.personId)?.color, 'color': getPerson(quote.personId)?.fontColor}" (resize)="onResize($event)" (click)="openQuoteModal(content, quote)">
           <div class="initial title-font">
             {{ getPerson(quote.personId)?.shortName }}
           </div>
@@ -26,6 +23,9 @@
             {{ quote.tagline }}
           </div>
         </div>
+        <p *ngIf='getPerson(quote.personId)?.name && question.nav == "Bios" ' (click)="openQuoteModal(content, quote)" class='new-quote-box-read'>Read all of  "{{ getPerson(quote.personId)?.name }}" </p>
+      </div>
+
       </div>
       <div class="question" *ngIf='question.endingText'>
         <p [innerHTML]="question.endingText"></p>
@@ -323,23 +323,29 @@
   <div class="question-blocks">
     <div class="question-content" id="Definitions">
       <div class="title title-font title-font-bg">
-        What are Community Accountability & Transformative Justice?
+        What are Community Accountability <br> & Transformative Justice?
       </div>
       <div class="question">
-        In general, ‘community accountability’  and ‘transformative justice’  describe community-based, self-organized responses to violence, particularly sexual violence and intimate partner violence, that support survivor and community safety, prevent future violence, and hold perpetrators and communities accountable for their behaviors and the conditions which allowed violence to occur.
-        Community accountability was first coined and developed by <a href="http://www.incite-national.org/page/community-accountability">INCITE!</a>, national network of feminist of color, and particularly by their member group CARA (Communities Against Rape and Abuse) from Seattle:
+        In general, ‘community accountability’ and ‘transformative justice’ describe self-organized responses to violence, particularly sexual violence and intimate partner violence, in community & cultural organizations, neighborhoods, political groups, and families. These experiments in community-based alternatives to prisons and policing look holistically at <a href="https://www.youtube.com/watch?v=XDQlW1uJ8uQ" target="_blank">“prevention, intervention, reparations, and transformation”</a>. They engage those most involved to support survivor and community safety, prevent future violence, and hold perpetrators accountable for their behaviors and communities accountable for the conditions which allowed violence to occur. Community accountability was first coined and developed by <a href="//www.incite-national.org/page/community-accountability" target='_blank'>INCITE!</a>, national network of feminist of color, and particularly by their member group CARA (<a href="//cara-seattle.blogspot.com/" target="_blank">Communities Against Rape and Abuse </a>) from Seattle. Their diagram explains these ‘zones’ where community accountability work takes place, ranging from the interpersonal to the structural:
         <br>
         <br>
-        <img src="http://bcrw.barnard.edu/blog/wp-content/uploads/2015/02/incite-community-accountability.png">
+        <div class="img-container">
+          <img src="http://bcrw.barnard.edu/blog/wp-content/uploads/2015/02/incite-community-accountability.png">
+          <p>© INCITE!</p>
+        </div>
+        <br>
+        The term “transformative justice” has been developed in particular by <a href="//www.generationfive.org/the-issue/transformative-justice/" target='_blank'>GenerationFIVE</a> in their work to end child sexual abuse in 5 generations in order to describe forms of justice not focused on punishment: 
         <br>
         <br>
-        The term “transformative justice” has been developed in particular by <a href="http://www.generationfive.org/the-issue/transformative-justice/">GenerationFIVE</a> in their work to end child sexual abuse in 5 generations:
+        <div class="img-container">
+          <img src="https://www.transformativejustice.eu/wp-content/uploads/2010/06/Gen5_HomeCenterImage2.png">
+          <p>© generationFIVE</p>
+        </div>
         <br>
-        <br>
-        <img src="https://www.transformativejustice.eu/wp-content/uploads/2010/06/Gen5_HomeCenterImage2.png">
-        <br>
-        <br>
-        These terms describe visionary, new approaches to harm which are applied to many different kinds of work. My interviewees described work that ranged from reading groups to years-long accountability processes with perpetrators, from neighborhood organizing with local businesses for queer and trans safety to mediation processes between persons causing and persons experiencing harm. They told stories about what brought them into this work and the learning processes they've been through in their organizations or communities, including challenges they've faced and questions they are still marinating on.
+
+        I use these two terms together to describe approaches to harm that share a visionary core, even as they are applied in diverse concrete strategies. They go by various names (<span class="rollover" (click)="openModalFromOtherPage(content, 'Support', 'How do you support survivors?', 6)">like healing circles</span>, focus on different harms (<a href="https://ywepchicago.files.wordpress.com/2011/06/girls-do-what-they-have-to-do-to-survive-a-study-of-resilience-and-resistance.pdf" target="_blank">violence against sex workers</a> , <a href="//www.project-nia.org/" target="_blank">youth criminalization</a> , <a href="https://www.youtube.com/watch?v=TlQ5rVghHuk" target="_blank">police violence</a> ) and are suited to different settings (institutions, families, etc.).
+
+      
       </div>
     </div>
     <div class="question-content" id="Genealogies">
@@ -355,7 +361,7 @@
         From Prison Abolition to Community Accountability
       </div>
       <div class="question">
-        One key strand of the community accountability & transformative justice genealogy is the prison abolition movement. In the late 1990s, after decades of drastic increases in incarceration, particularly of Black and Latinx people, activists turned from prison reform to more visionary approaches. Drawing on the legacy of abolitionists who fought to end slavery, groups like <a href="http://criticalresistance.org/">Critical Resistance</a> called for an abolition of prisons. By <span class="rollover" (click)="openRollover(rollover, 75)">humanizing incarcerated persons</span> and refusing to see them as disposable, abolitionists argued that <span class="rollover" (click)="openRollover(rollover, 76)">people who cause harm need more networks of support</span> rather than being torn away from their communities. Their analysis of the <a href="http://criticalresistance.org/about/not-so-common-language/">prison industrial complex</a> explained how prisons and carceral logics had infiltrated our institutions and everyday lives.
+        One key strand of the community accountability & transformative justice genealogy is the prison abolition movement. In the late 1990s, after decades of drastic increases in incarceration, particularly of Black and Latinx people, activists turned from prison reform to more visionary approaches. Drawing on the legacy of abolitionists who fought to end slavery, groups like <a href="//criticalresistance.org/" target='_blank'>Critical Resistance</a> called for an abolition of prisons. By <span class="rollover" (click)="openRollover(rollover, 75)">humanizing incarcerated persons</span> and refusing to see them as disposable, abolitionists argued that <span class="rollover" (click)="openRollover(rollover, 76)">people who cause harm need more networks of support</span> rather than being torn away from their communities. Their analysis of the <a href="//criticalresistance.org/about/not-so-common-language/" target='_blank'>prison industrial complex</a> explained how prisons and carceral logics had infiltrated our institutions and everyday lives.
         <br>
         <br>
         Together with INCITE!, a national network of feminists of color, they published a statement calling on movements against policing and prison to wide their focus from state violence to interpersonal violence. Harm isn't only coming from the State but is also circulating within communities, particularly in the form of sexualized and gender violence. Thus, abolitionist visions need to develop alternatives to prison that pay particular attention to the safety of women, queer, trans, and gender non-conforming folks.
@@ -369,10 +375,10 @@
         From Non-Profits to Community Organizing
       </div>
       <div class="question">
-        Critiques from within the anti-violence movement were another major strand that contributed to community accountability-transformative justice visions. Since the 1970s, the women’s movement has increasingly been institutionalized within what INCITE! has called a <a href="http://www.incite-national.org/page/beyond-non-profit-industrial-complex">non-profit industrial complex</a>, where <span class="rollover" (click)="openRollover(rollover, 79)">funding</span> from both private and State sources has influenced organizations’ political agendas. Particularly women of color and other marginalized folks have criticized non-profits for <span class="rollover" (click)="openRollover(rollover, 81)">channeling energy for radical social change into social services</span>. Such services for survivors of sexual or partner violence can often only offer <span class="rollover" (click)="openRollover(rollover, 82)">limited, individualized, and carceral options</span> like therapy or restraining orders. While these options were <span class="rollover" (click)="openRollover(rollover, 83)">unsatisfying even to some of the privilege women who could access them, for many marginalized women they were irrelevant</span>, leading to negative outcomes for themselves or others in their communities, like arrest, deportation, commitment to psychiatric facilities, or increased surveillance in their neighborhood.
+        Critiques from within the anti-violence movement were another major strand that contributed to community accountability-transformative justice visions. Since the 1970s, the women’s movement has increasingly been institutionalized within what INCITE! has called a <a href="//www.incite-national.org/page/beyond-non-profit-industrial-complex" target='_blank'>non-profit industrial complex</a>, where <span class="rollover" (click)="openRollover(rollover, 79)">funding</span> from both private and State sources has influenced organizations’ political agendas. Particularly women of color and other marginalized folks have criticized non-profits for <span class="rollover" (click)="openRollover(rollover, 81)">channeling energy for radical social change into social services</span>. Such services for survivors of sexual or partner violence can often only offer <span class="rollover" (click)="openRollover(rollover, 82)">limited, individualized, and carceral options</span> like therapy or restraining orders. While these options were <span class="rollover" (click)="openRollover(rollover, 83)">unsatisfying even to some of the privilege women who could access them, for many marginalized women they were irrelevant</span>, leading to negative outcomes for themselves or others in their communities, like arrest, deportation, commitment to psychiatric facilities, or increased surveillance in their neighborhood.
         <br>
         <br>
-        This tendency to <span class="rollover" (click)="openRollover(rollover, 84)">turn to the State as a solution</span> to sexual and gender-based violence, for example by advocating for tougher punishments and more prosecution, has been labeled <a href="https://www.jacobinmag.com/2014/10/against-carceral-feminism/">carceral feminism</a> to emphasize how whitestream approaches that appear progressive nevertheless often contribute to a more carceral society. Activists working with a community accountability lens emphasized, in contrast, how the State upholds systems of oppression that enable interpersonal violence; therefore, it cannot be the solution. Whereas INCITE! pushed abolitionists to consider interpersonal violence and not just state violence (link to section 1 “From Prison Abolition to Community Accountability”), here it did the reverse: it demanded that the anti-violence movement look beyond its focus on interpersonal violence to perceive its participation in State violence.
+        This tendency to <span class="rollover" (click)="openRollover(rollover, 84)">turn to the State as a solution</span> to sexual and gender-based violence, for example by advocating for tougher punishments and more prosecution, has been labeled <a href="https://www.jacobinmag.com/2014/10/against-carceral-feminism/" target='_blank'>carceral feminism</a> to emphasize how whitestream approaches that appear progressive nevertheless often contribute to a more carceral society. Activists working with a community accountability lens emphasized, in contrast, how the State upholds systems of oppression that enable interpersonal violence; therefore, it cannot be the solution. Whereas INCITE! pushed abolitionists to consider interpersonal violence and not just state violence (link to section 1 “From Prison Abolition to Community Accountability”), here it did the reverse: it demanded that the anti-violence movement look beyond its focus on interpersonal violence to perceive its participation in State violence.
         <br>
         <br>
         Rejecting the idea that the State or the non-profit be the primary actor responsible for dealing with violence, many activists focused on the community instead. Activists drew on <span class="rollover" (click)="openRollover(rollover, 85)">community organizing models</span> to develop <span class="rollover" (click)="openRollover(rollover, 86)">strategies to mobilize communities</span> to address sexual violence. They emphasized a <span class="rollover" (click)="openRollover(rollover, 87)">relational, interconnected vision of justice</span>, rather than one of separation, in which the <span class="rollover" (click)="openRollover(rollover, 77)">community embodied those relationships that needed repair</span> after violence.
@@ -441,7 +447,7 @@
 <ng-template #content let-c="close">
   <div class="modal-header">
     <h4 class="modal-title title-font">
-      <div class="person-photo-container">
+      <div class="person-photo-container" *ngIf='selectedQuote.photo || selectedQuote.photo2' [class.person-photo-container_double]='selectedQuote.photo && selectedQuote.photo2'>
         <img src="/assets/images/persons/{{selectedQuote.photo}}" alt="{{ getPerson(selectedQuote.personId)?.name }}" class='person-photo' *ngIf='selectedQuote.photo'>
         <img src="/assets/images/persons/{{selectedQuote.photo2}}" alt="{{ getPerson(selectedQuote.personId)?.name }}" class='person-photo' *ngIf='selectedQuote.photo2'>
       </div>

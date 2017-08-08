@@ -66,7 +66,7 @@ export const PEOPLE: Person[] = [
     fontColor: 'white' },
   {
     id: 9,
-    name: 'Jenna Peters-Golden & Qui Alenxander',
+    name: 'Jenna Peters-Golden & Qui Alexander',
     shortName: 'J&Q',
     color: '#EADADA',
     contrastColor: '#cea9a9',

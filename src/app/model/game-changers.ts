@@ -171,15 +171,15 @@ export const GAME_CHANGERS_SECTION = [
     nav: 'Organizations',
     question: 'This project draws together the organizational wisdom of the many anti-violence, queer, and community-based organizations the interviewees have been involved in. To add perspective and context in some places, I use quotes from published materials (not personal interviews) from scholar-activists affiliated with other organizations. All in all, the website presents quotes from folks who are or have been involved in the following:'
     + '<br><br>' + '...in Chicago… <a href="http://howardbrown.org/wp/byc/">Broadway Youth Center</a> & <a href="http://www.womenandgirlscan.org/?i=1">Women and Girls Collective Action Network</a>'
-    + '<br><br>' + '…in New York… <a href="http://alp.org/safe-outside-system-sos-collective">Safe OUTside the System Collective</a> at the Audre Lorde Project, <a href="https://supportny.org/">Support New York</a>, <a href="http://challengingmalesupremacy.org/">Challenging Male Supremacy Project</a>, <a href="http://www.fiercenyc.org/">FIERCE</a>, <a href="http://criticalresistance.org/wp-content/uploads/2014/05/HFZ-NY.pdf">Harm Free Zone Project</a>t, & <a href="https://avp.org/">Anti-Violence Project</a>'
-    + '<br><br>' + '…in Philadelphia… <a href="https://phillystandsup.wordpress.com/">Philly Stands Up</a>'
-    + '<br><br>' + '… in Durham… <a href="https://iambecauseweare.wordpress.com/">UBUNTU</a>'
-    + '<br><br>' + '…in Seattle… <a href="http://www.nwnetwork.org/">Northwest Network of Bi, Trans, Lesbian, and Gay Survivors of Abuse</a>, <a href="http://cara-seattle.blogspot.com/">Communities Against Rape & Abuse</a>, <a href="https://forcryingoutloud206.wordpress.com/about/">For Crying Out Loud</a>, <a href="https://www.apichaya.org/">Asian Pacific Islander Chaya</a>'
-    + '<br><br>' + '…in the Bay Area…<a href="https://batjc.wordpress.com/">Bay Area Transformative Justice Collective</a>, <a href="http://www.sfaws.org/">San Francisco Asian Women’s Shelter</a>, <a href="http://www.cuav.org/">Communities United Against Violence</a>, <a href="http://www.creative-interventions.org/">Creative Interventions</a>, <a href="http://www.generationfive.org/">GenerationFIVE</a>'
-    + '<br><br>' + '...nationally... <a href="http://www.incite-national.org/">INCITE!</a>, <a href="http://www.survivedandpunished.org/">#SurvivedAndPunished</a>'
-    + '<br><br>' + '& internationally… <a href="http://www.bridgesinstitute.org/">Bridges Institute</a>'
-    + '<br><br>' + 'I also spoke to two individuals who have been involved in various forms of accountability work in international settings, including Canada and Australia.'
-    + '<br><br>' + 'Describe dynamics and learning processes in your group/organization.',
+    + '<br>' + '…in New York… <a href="http://alp.org/safe-outside-system-sos-collective">Safe OUTside the System Collective</a> at the Audre Lorde Project, <a href="https://supportny.org/">Support New York</a>, <a href="http://challengingmalesupremacy.org/">Challenging Male Supremacy Project</a>, <a href="http://www.fiercenyc.org/">FIERCE</a>, <a href="http://criticalresistance.org/wp-content/uploads/2014/05/HFZ-NY.pdf">Harm Free Zone Project</a>t, & <a href="https://avp.org/">Anti-Violence Project</a>'
+    + '<br>' + '…in Philadelphia… <a href="https://phillystandsup.wordpress.com/">Philly Stands Up</a>'
+    + '<br>' + '… in Durham… <a href="https://iambecauseweare.wordpress.com/">UBUNTU</a>'
+    + '<br>' + '…in Seattle… <a href="http://www.nwnetwork.org/">Northwest Network of Bi, Trans, Lesbian, and Gay Survivors of Abuse</a>, <a href="http://cara-seattle.blogspot.com/">Communities Against Rape & Abuse</a>, <a href="https://forcryingoutloud206.wordpress.com/about/">For Crying Out Loud</a>, <a href="https://www.apichaya.org/">Asian Pacific Islander Chaya</a>'
+    + '<br>' + '…in the Bay Area…<a href="https://batjc.wordpress.com/">Bay Area Transformative Justice Collective</a>, <a href="http://www.sfaws.org/">San Francisco Asian Women’s Shelter</a>, <a href="http://www.cuav.org/">Communities United Against Violence</a>, <a href="http://www.creative-interventions.org/">Creative Interventions</a>, <a href="http://www.generationfive.org/">GenerationFIVE</a>'
+    + '<br>' + '...nationally... <a href="http://www.incite-national.org/">INCITE!</a>, <a href="http://www.survivedandpunished.org/">#SurvivedAndPunished</a>'
+    + '<br>' + '& internationally… <a href="http://www.bridgesinstitute.org/">Bridges Institute</a>'
+    + '<br>' + 'I also spoke to two individuals who have been involved in various forms of accountability work in international settings, including Canada and Australia.'
+    + '<br>' + '<em class="pseudo-title">Describe dynamics and learning processes in your group/organization.</em>',
     quotes: [
       {
         tagline: 'Supporting each other',

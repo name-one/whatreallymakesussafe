@@ -92,7 +92,18 @@ export class DetailComponent implements OnInit, AfterViewInit {
       console.log('Dismissed ${this.getDismissReason(reason)}');
     });
   }
-
+  public openModalFromOtherPage(content: any, pageName: string, title: string, personId: number){
+    let section = DATA_MODEL.find( (item: any)=>{
+      return item.navTitle == pageName;
+    })
+    let question = section.questions.find( (item: any)=>{
+      return item.title == title;
+    })
+    let currentQuote = question.quotes.find( (item:any)=>{
+      return item.personId == +personId
+    })
+    this.openQuoteModal(content, currentQuote);
+  }
   public getPerson(personId: number): Person {
     return this.personService.getPersonById(personId);
   }
