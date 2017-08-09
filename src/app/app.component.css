@@ -121,11 +121,35 @@
   height: 2px;
   width: 100%;
   background-color: #fff;
+  position: relative;
 }
 .nav-toggler__line:nth-of-type(2){
   margin: 5px 0;
 }
+@keyframes nav-top-line{
+  from{
 
+  }
+  25%{
+    transform: translateY(7px)
+  }
+  to{
+    transform: translateY(7px) rotate(45deg)
+  }
+
+}
+@keyframes nav-bottom-line{
+  from{
+
+  }
+  25%{
+    transform: translateY(5px)
+  }
+  to{
+    transform: translateY(5px) rotate(-45deg)
+  }
+
+}
  @media only screen and (max-width: 1200px){
   app-nav{
     transform: translateX(-100%);
@@ -139,5 +163,20 @@
   }
   .nav-toggler{
     display: block;
+  }
+  .nav-toggler_visible .nav-toggler__line:nth-of-type(2){
+    display: none;
+  }
+  .nav-toggler_visible .nav-toggler__line:first-of-type{
+    animation-name: nav-top-line;
+    animation-duration: .3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+  .nav-toggler_visible .nav-toggler__line:last-of-type{
+    animation-name: nav-bottom-line;
+    animation-duration: .3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
   }
 }
