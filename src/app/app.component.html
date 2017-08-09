@@ -1,3 +1,8 @@
 <ng-template ngbModalContainer></ng-template>
-<app-nav></app-nav>
+<div class="nav-toggler" (click)="toggleMobileMenu()" [class.nav-toggler_visible]='mobileMenuShow'>
+  <div class="nav-toggler__line"></div>
+  <div class="nav-toggler__line"></div>
+  <div class="nav-toggler__line"></div>
+</div>
+<app-nav  [class.nav_visible]='mobileMenuShow'></app-nav>
 <router-outlet></router-outlet>

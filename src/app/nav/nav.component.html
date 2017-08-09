@@ -4,11 +4,13 @@
   </a>
   <p class='logo-text'>What really make us safe?</p>
 </div>
-<div *ngFor="let section of nav" class="nav-section" [ngClass]='{"nav-section_sep": section.title=="Game Changers" || section.title=="Principles"} '>
-  <div (click)="selectSection(section.id, section.title)" class="title-font" [ngClass]="{'selected': selectedNavId === section.id}"> {{ section.title }} </div>
-  <div *ngIf="selectedNavId === section.id">
-    <a *ngFor="let sub of section.menu" class="sub-nav title-font" routerLink="/detail/{{section.title}}" fragment="{{sub.sectionHeader}}">
-      {{ sub.sectionHeader }}
-    </a>
+<nav class='nav-menu'>
+  <div *ngFor="let section of nav" class="nav-section" [ngClass]='{"nav-section_sep": section.title=="Game Changers" || section.title=="Principles"} '>
+    <div (click)="selectSection(section.id, section.title)" class="title-font" [ngClass]="{'selected': selectedNavId === section.id}"> {{ section.title }} </div>
+    <div *ngIf="selectedNavId === section.id">
+      <a *ngFor="let sub of section.menu" class="sub-nav title-font" routerLink="/detail/{{section.title}}" fragment="{{sub.sectionHeader}}">
+        {{ sub.sectionHeader }}
+      </a>
+    </div>
   </div>
-</div>
+</nav>

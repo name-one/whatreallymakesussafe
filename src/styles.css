@@ -6,6 +6,11 @@
   width: 100%;
   background: black;
 }
+body,
+html{
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 .modal {
   top: 5%;
@@ -19,6 +24,7 @@
 }
 app-root{
   display: block;
+  position: relative;
 }
 /**{
   font-weight: 300;

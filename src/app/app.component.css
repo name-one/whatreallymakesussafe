@@ -38,12 +38,19 @@
 /deep/ .title {
    font-family: 'Ubuntu', sans-serif;
 }
-
+/deep/ app-german{
+  max-width: calc(100% - 300px);
+  margin-left: 300px;
+  max-width: 100%;
+  display: block;
+}
 /deep/ app-nav {
   position: fixed;
   overflow-y: auto;
+  overflow-x: visible;
   left: 0;
-  width: 20%;
+  width: 300px;
+  max-width: 100%;
   height: 100%;
   background-color: #CBDBDD;
   box-shadow: 1px 1px 15px rgba(0,0,0,.7);
@@ -52,25 +59,24 @@
 
 /deep/ app-detail {
   display: block;
-  width: 80%;
-  margin-left: 20%;
+  width: calc(100% - 300px);
+  max-width: 100%;
+  margin-left: 300px;
   height: 100%;
   padding: 5%;
-  overflow-y: scroll;
 }
 
 /deep/ app-splash {
    min-height: 100vh;
    /*height: 100%;*/
    display: block;
-   width: 100%;
+   width: calc(100% - 300px);
    padding: 3%;
    padding-top: 14vh;
    z-index: 1000;
-   overflow-y: scroll;
    transition: all .3s;
-   margin-left: 20%;
-   width: 80%
+   margin-left: 300px;
+   max-width: 100%;
  }
  /deep/ .nav-hidden app-splash{
   width: 100%;
@@ -94,4 +100,44 @@
 }
 /deep/ .modal-body-de img{
   max-width: 100%;
+}
+.nav-toggler{
+  height: 30px;
+  width: 30px;
+  padding: 7px 5px;
+  position: absolute;
+  background-color: #709a98;
+  left: 0;
+  z-index: 10;
+  display: none;
+  top: 0;
+  cursor: pointer;
+  transition: all .3s;
+}
+.nav-toggler_visible{
+  left: 270px;
+}
+.nav-toggler__line{
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+}
+.nav-toggler__line:nth-of-type(2){
+  margin: 5px 0;
+}
+
+ @media only screen and (max-width: 1200px){
+  app-nav{
+    transform: translateX(-100%);
+  }
+  app-nav.nav_visible{
+    transform: translateX(0%);
+  }
+  app-german{
+    width: 100%;
+    margin-left: 0;
+  }
+  .nav-toggler{
+    display: block;
+  }
 }

@@ -7,7 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public breadcrumbs: string = "breadcrumbs/go/here";
+  public mobileMenuShow: boolean = false;
   anchorLink(event){
     console.log(event)
+  }
+  toggleMobileMenu(){
+    this.mobileMenuShow = !this.mobileMenuShow;
   }
 }
