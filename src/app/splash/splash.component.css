@@ -51,4 +51,8 @@ text-transform: lowercase;
   .title-font{
     font-size: 2em;
   }
+  .logo-author{
+    position: static;
+    transform: none;
+  }
 }

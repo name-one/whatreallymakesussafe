@@ -17,7 +17,7 @@ export class SplashComponent implements OnInit {
     this.router.navigate(['/de']);
   }
   public showNav(){
-    if(window.innerWidth >= 1200){
+    if(window.innerWidth <= 1200){
       return false;
     }
     document.body.classList.toggle('nav-hidden')

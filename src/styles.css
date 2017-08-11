@@ -11,7 +11,9 @@ html{
   max-width: 100%;
   overflow-x: hidden;
 }
-
+img{
+  max-width: 100%;
+}
 .modal {
   top: 5%;
 }

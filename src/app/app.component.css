@@ -106,7 +106,7 @@
   height: 30px;
   width: 30px;
   padding: 7px 5px;
-  position: absolute;
+  position: fixed;
   background-color: #709a98;
   left: 0;
   z-index: 10;
@@ -151,6 +151,10 @@
   }
   app-nav.nav_visible{
     transform: translateX(0%);
+  }
+  /deep/app-detail{
+    width: 100%;
+    margin-left: 0;
   }
   /deep/ app-german{
     width: 100%;
