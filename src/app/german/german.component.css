@@ -152,3 +152,32 @@ footer{
   display: block;
   margin: 0 auto;
 }
+@media only screen and (max-width: 1641px){
+  .photo:nth-of-type(n+3){
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 1230px){
+  .photo:nth-of-type(n+3){
+    margin-top: 0px;
+  }
+  .photo{
+    margin-bottom: 20px;
+    height: auto;
+  }
+  .modal-header .modal-title{
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 660px){
+  .controll-button{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .controll-button:nth-of-type(2){
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
