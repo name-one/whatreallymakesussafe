@@ -17,7 +17,13 @@ export class NavComponent implements OnInit {
   public selectedNavId = 0;
 
   constructor(private navigationService: NavigationService,
-              public router: Router) {}
+              public router: Router) {
+                this.router.events.subscribe(e=>{
+                  if(e.constructor.name === "NavigationStart" && (e['url'] === '/splash' || e['url'] === '/de')){
+                    this.routerBase = 'splash'
+                  }
+                })
+              }
 
   public ngOnInit() {
     let i = 0;

@@ -81,3 +81,6 @@
 .sub-nav:last-child {
   margin-bottom: 10px;
 }
+a.title-font{
+  display: block;
+}
