@@ -72,7 +72,7 @@
    /*height: 100%;*/
    display: block;
    width: calc(100% - 300px);
-   padding: 3%;
+   padding: 30px 3%;
    padding-top: 14vh;
    z-index: 1000;
    transition: all .3s;
@@ -145,6 +145,12 @@
   }
 
 }
+  @media only screen and (max-width: 1500px){
+    /deep/ app-splash{
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+    }
+  }
  @media only screen and (max-width: 1200px){
   app-nav{
     transform: translateX(-100%);
