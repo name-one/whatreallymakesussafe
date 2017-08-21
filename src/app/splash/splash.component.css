@@ -31,7 +31,7 @@ transition: all .3s;
 text-transform: lowercase;
 }
 .splash-text em {
-  color: #709a98;
+  /*color: #709a98;*/
   font-family: 'Ubuntu', sans-serif;
 }
 .splash-text::first-letter{
