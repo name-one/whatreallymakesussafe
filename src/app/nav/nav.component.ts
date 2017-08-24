@@ -37,6 +37,7 @@ export class NavComponent implements OnInit {
       this.nav.forEach((nav: Nav): void => {
         if (nav.title === sectionTitle) {
           this.selectedNavId = nav.id;
+
         }
       })
     });

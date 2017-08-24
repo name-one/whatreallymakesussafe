@@ -87,7 +87,7 @@ export const FUTURE_SECTION = [
     ]
   },
   {
-    title: 'We are Just at the Beginning',
+    title: '"We are Just at the Beginning"',
     question: '',
     quotes: [
       {
@@ -200,7 +200,7 @@ export const FUTURE_SECTION = [
     ]
   },
   {
-    title: 'Scope & Sustainability',
+    title: '"Scope & Sustainability"',
     question: '',
     quotes: [
       {
