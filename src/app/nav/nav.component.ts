@@ -17,7 +17,13 @@ export class NavComponent implements OnInit {
   public selectedNavId = 0;
 
   constructor(private navigationService: NavigationService,
-              public router: Router) {}
+              public router: Router) {
+                this.router.events.subscribe(e=>{
+                  if(e.constructor.name === "NavigationStart" && (e['url'] === '/splash' || e['url'] === '/de')){
+                    this.routerBase = 'splash'
+                  }
+                })
+              }
 
   public ngOnInit() {
     let i = 0;
@@ -31,6 +37,7 @@ export class NavComponent implements OnInit {
       this.nav.forEach((nav: Nav): void => {
         if (nav.title === sectionTitle) {
           this.selectedNavId = nav.id;
+
         }
       })
     });

@@ -357,14 +357,14 @@ export const ROLLOVERS: Rollover[] = [
     id: 382,
     title: 'Definition of accountability',
     quote: 'Accountability at a minimum requires:'
-    + '<\/br>' + '•	Acknowledging the harm done even if it is unintended;'
-    + '<\/br>' + '•	Acknowledging its negative impact on individuals and the community;'
-    + '<\/br>' + '•	Making appropriate reparations for this harm to individuals and the community;'
-    + '<\/br>' + '•	Transforming attitudes and behaviors to prevent further violence and contribute toward liberation;'
-    + '<\/br>' + '•	Engaging bystanders to hold individuals accountable, and toward shifting community institutions and conditions that perpetuate and allow violence; and'
-    + '<\/br>' + '•	Building movements that can shift social conditions to prevent further harm and promote liberation, including holding the State accountable for the violence it perpetrates and condones.'
+    + '<br/>' + '•	Acknowledging the harm done even if it is unintended;'
+    + '<br/>' + '•	Acknowledging its negative impact on individuals and the community;'
+    + '<br/>' + '•	Making appropriate reparations for this harm to individuals and the community;'
+    + '<br/>' + '•	Transforming attitudes and behaviors to prevent further violence and contribute toward liberation;'
+    + '<br/>' + '•	Engaging bystanders to hold individuals accountable, and toward shifting community institutions and conditions that perpetuate and allow violence; and'
+    + '<br/>' + '•	Building movements that can shift social conditions to prevent further harm and promote liberation, including holding the State accountable for the violence it perpetrates and condones.'
     + '<br><br>' + '-generationFIVE: J. Carr, A. Greig, S. Haines, G. Harking, M. Kim, S. Kershnar, M. Levy, P. Shah, & C. Wiesner'
-    + '<\/br>' + '<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=35">\"Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\"</a>, p. 29'
+    + '<br/>' + '<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=35">\"Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\"</a>, p. 29'
   },
   {
     id: 39,
@@ -616,9 +616,9 @@ export const ROLLOVERS: Rollover[] = [
     id: 73,
     title: 'Community response in Jim Crow South',
     quote: '\"Mom, when you were growing up, did you ever call the police?\"'
-    + '<\/br>' + '\"I can\'t remember any time that we did.\"'
-    + '<\/br>' + '\"What did you do if something violent happened?\"'
-    + '<\/br>' + '\"It depended on the situation. Often <strong>we could send for the uncles, brothers, fathers, or other family members of people involved to interrupt violence</strong>. However there was this time when we had this family that lived on our block, where the husband was attacking his wife. And people were fed up, so some men in the community with standing - a minister, teacher, doctor, etc. - decided to intervene. Those <strong>men stopped by the house to let the husband know that they wouldn\'t tolerate his behavior</strong> and it needed to stop.\"'
+    + '<br/>' + '\"I can\'t remember any time that we did.\"'
+    + '<br/>' + '\"What did you do if something violent happened?\"'
+    + '<br/>' + '\"It depended on the situation. Often <strong>we could send for the uncles, brothers, fathers, or other family members of people involved to interrupt violence</strong>. However there was this time when we had this family that lived on our block, where the husband was attacking his wife. And people were fed up, so some men in the community with standing - a minister, teacher, doctor, etc. - decided to intervene. Those <strong>men stopped by the house to let the husband know that they wouldn\'t tolerate his behavior</strong> and it needed to stop.\"'
     + '<br><br>' + 'My mom grew up in New Orleans in the 1940s, 1950s and 1960s. Her entire life was marked by <strong>experiences of state violence and Jim Crow segregation</strong>. The police, white citizens councils and the Klan intermingled and formed the backbone of a racist political and economic system. Her experiences were not unique. Historically and currently most marginalized communities - including Black people, poor people, queer and trans people, and people with disabilities - have experienced <strong>violence and discrimination from police, emergency services and the legal system</strong>.'
     + '<br><br>' + 'Just as the use of state violence against Black communities is <strong>not new</strong>, neither are the ideas of transformative justice or community accountability.'
     + '<br><br>' + '-Ejeris Dixon'

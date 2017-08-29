@@ -16,9 +16,9 @@
   position: relative;
 }
 .logo-author{
-  font-size: 12px;
+  font-size: 14px;
   position: absolute;
-  right: 26%;
+  right: 25%;
   bottom: 10%;
   transform: rotate(-15deg)
 }
@@ -31,7 +31,7 @@ transition: all .3s;
 text-transform: lowercase;
 }
 .splash-text em {
-  color: #709a98;
+  /*color: #709a98;*/
   font-family: 'Ubuntu', sans-serif;
 }
 .splash-text::first-letter{
@@ -46,4 +46,23 @@ text-transform: lowercase;
   margin-top: 50px;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
+}
+@media only screen and (max-width: 1500px){
+  .splash-text{
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 1360px){
+  .splash-text{
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 1200px){
+  .title-font{
+    font-size: 2em;
+  }
+  .logo-author{
+    position: static;
+    transform: none;
+  }
 }

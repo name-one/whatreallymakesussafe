@@ -23,7 +23,6 @@
       $(function(){
         $(document).on('click','.accardion .title', function(){
           $(this).closest('.accardion').find('.question').slideToggle();
-          $(this).closest('.accardion').siblings('.accardion').find('.question').slideUp();
         })
         $(document).on('click','.accardion-v2 .title', function(){
           $(this).closest('.accardion-v2').next('.question-quote-container').slideToggle();
