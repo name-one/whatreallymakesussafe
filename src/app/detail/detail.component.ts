@@ -47,7 +47,6 @@ export class DetailComponent implements OnInit, AfterViewInit {
       });
 
     this.futureSection = FUTURE_SECTION;
-
   }
   public makePageTitle(title:string){
     switch(title){

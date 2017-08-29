@@ -97,7 +97,7 @@
   color: #fff;
   color: #fff;
   background-color: #709a98;
-  text-transform: lowercase;
+  /*text-transform: lowercase;*/
   padding: 5px 10px;
   cursor: pointer;
   font-size: 1.8em;
