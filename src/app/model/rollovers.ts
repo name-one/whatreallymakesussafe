@@ -361,7 +361,7 @@ export const ROLLOVERS: Rollover[] = [
     + '<br/>' + '•	Acknowledging its negative impact on individuals and the community;'
     + '<br/>' + '•	Making appropriate reparations for this harm to individuals and the community;'
     + '<br/>' + '•	Transforming attitudes and behaviors to prevent further violence and contribute toward liberation;'
-    + '<br/>' + '•	Engaging bystanders to hold individuals accountable, and toward shifting community institutions and conditions that perpetuate and allow violence; and'
+    + '<br/>' + '•	Engaging bystanders to hold individuals accountable, and toward shifting community institutions and conditions that perpetuate and allow violence;'
     + '<br/>' + '•	Building movements that can shift social conditions to prevent further harm and promote liberation, including holding the State accountable for the violence it perpetrates and condones.'
     + '<br><br>' + '-generationFIVE: J. Carr, A. Greig, S. Haines, G. Harking, M. Kim, S. Kershnar, M. Levy, P. Shah, & C. Wiesner'
     + '<br/>' + '<a href="http://www.generationfive.org/wp-content/uploads/2013/07/G5_Toward_Transformative_Justice-Document.pdf#page=35">\"Toward Transformative Justice. A Liberatory Approach to Child Sexual Abuse and other forms of Intimate and Community Violence\"</a>, p. 29'
