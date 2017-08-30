@@ -1,6 +1,6 @@
 export const COMMUNITY_SECTION = [
   {
-    title: 'What IS a community?',
+    title: 'What <i class="non-italic">is</i> a community?',
     nav: 'Definitions',
     question: '',
     quotes: [

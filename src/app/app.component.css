@@ -72,12 +72,15 @@
    /*height: 100%;*/
    display: block;
    width: calc(100% - 300px);
-   padding: 30px 3%;
-   padding-top: 14vh;
+   padding: 0px 3%;
+   /*padding-top: 14vh;*/
+   display: flex;
    z-index: 1000;
    transition: all .3s;
    margin-left: 300px;
    max-width: 100%;
+   flex-direction: column;
+   justify-content: center;
  }
  /deep/ .nav-hidden app-splash{
   width: 100%;

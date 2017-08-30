@@ -6,8 +6,8 @@
   <div class="detail-container" *ngIf="isBoxSection(selectedDetail?.navTitle)">
     <div class="question-blocks" *ngFor="let question of selectedDetail.questions">
       <div id="{{ question.navId || question.nav || question.title }}" class="question-content" [class.accardion-v2]="question.title=='Who do we invite in an how do we get them to the table?' || question.title== 'How to assess the situation and develop the right process?' || question.title=='What are different models?' || question.title=='What personal challenges have you faced as a facilitator?' || question.title=='What is accountability? How does change happen?' || question.title=='Can we measure success?' || question.title=='What if the process fails?' ">
-        <div class="title title-font " [class.title-font-bg]="question.nav" >
-          {{ question.title }}
+        <div class="title title-font " [class.title-font-bg]="question.nav" [innerHTML]='question.title'>
+
         </div>
         <div class="question">
           <p [innerHTML]="question.question"></p>
@@ -36,7 +36,7 @@
   <div class="detail-container" *ngIf="selectedDetail?.navTitle === 'About'">
     <div class="question-content">
       <div id="TheProject" class="about-title">the “What <em>really</em> makes us safe?” Project</div>
-      <p>- Melanie Brazzell</p>
+      <p (click)="showBio(0, content)">-from Melanie Brazzell</p>
       <div id="Beginnings" class="title">Beginnings</div>
       <div class="question">
         This research project began as an informal exchange between organizers working on community accountability & transformative justice (here abbreviated as CA-TJ) responses to sexual violence. Our fledgling <a href="https://www.transformativejustice.eu/en/" target='_blank'>transformative justice collective in Berlin, Germany</a> was geographically far from the mothership of CA-TJ thought and organizing in the U.S. Dialoguing with those who had created and propelled this work became a mode of both giving and taking account of one another.
@@ -434,6 +434,26 @@
         </div>
       </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </div>
 </div>
 

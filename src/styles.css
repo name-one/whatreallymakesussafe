@@ -36,3 +36,11 @@ app-root{
 .modal-title * {
   font-family: 'Ubuntu', sans-serif;
 }
+em{
+  font-family: inherit;
+}
+.non-italic{
+  /*font-style: normal !important;*/
+  color: #384645;
+  text-decoration: underline;
+}

@@ -31,7 +31,7 @@ export const GAME_CHANGERS_MENU: DetailMenuSection[] = [
 
 export const SUPPORT_MENU: DetailMenuSection[] = [
   {
-    sectionHeader: 'Hot to Support',
+    sectionHeader: 'How to Support',
     menuSections: []
   },
   {

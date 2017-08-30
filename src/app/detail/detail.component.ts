@@ -4,6 +4,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import 'rxjs/add/operator/map';
 
 import { DATA_MODEL, FUTURE_SECTION } from '../model/data-constructor';
+import { GAME_CHANGERS_SECTION } from "../model/game-changers";
 import { Section, Person, Quote } from '../model/data-interfaces';
 import { PersonService } from '../services/person.service';
 import { Rollover } from '../model/rollovers';
@@ -20,6 +21,7 @@ import { getElemCoords, iCoords } from '../model/elemCoords';
 export class DetailComponent implements OnInit, AfterViewInit {
   public futureSection: any;
   public selectedDetail: Section;
+  public gameChangers = DATA_MODEL[1];
   public selectedQuote: Quote;
   public selectedRollover: Rollover;
   public pageTitle: string;
@@ -75,7 +77,6 @@ export class DetailComponent implements OnInit, AfterViewInit {
   public isBoxSection(title: string): boolean {
     return title !== 'About' && title !== 'Principles' && title !== 'Movement';
   }
-
   public openRollover(rollover: any, rolloverId: number): void {
     this.selectedRollover = this.rolloverService.getRolloverById(rolloverId);
     this.modalService.open(rollover,
@@ -103,7 +104,16 @@ export class DetailComponent implements OnInit, AfterViewInit {
       console.log('Dismissed ${this.getDismissReason(reason)}');
     });
   }
-  public openModalFromOtherPage(content: any, pageName: string, personId: number, title: string, subtitle: string ){
+  public showBio(id:number, content){
+    let persons:any = GAME_CHANGERS_SECTION[0].quotes;
+    let person = persons.find( item=>{
+      return item.personId == id
+    })
+    this.openQuoteModal(content, person)
+
+
+  }
+  public openModalFromOtherPage(content: any, pageName: string, personId: number, title: string, subtitle?: string ){
       let section = DATA_MODEL.find( (item: any)=>{
         return item.navTitle == pageName;
       })

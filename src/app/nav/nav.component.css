@@ -25,6 +25,9 @@
   text-align: center;
   font-size: 1.2em;
 }
+.nav-section_hidden{
+  display: none;
+}
 .nav-section_sep{
   position: relative;
   margin-bottom: 20px;

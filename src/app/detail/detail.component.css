@@ -96,6 +96,7 @@
 .accardion-v2 .title-font{
   color: #fff;
   color: #fff;
+  text-align: center;
   background-color: #709a98;
   /*text-transform: lowercase;*/
   padding: 5px 10px;
@@ -125,17 +126,17 @@
   display: none;
 }*/
 .quote-box {
-  width: 20%;
-  height: 13vw;
-  margin: 2.5%;
+  width: 29%;
+  height: 15vw;
+  margin: 2%;
   border: 1px solid #c1c1c1;
   display: inline-block;
   overflow: hidden;
 }
 .new-quote-box{
   display: inline-block;
-  width: 20%;
-  margin: 2.5%;
+  width: 29%;
+  margin: 2%;
   vertical-align: top;
 }
 .new-quote-box-read{
@@ -152,11 +153,11 @@
 }
 
 .initial, .tagline {
-  height: 13vw;
+  height: 15vw;
 }
 
 .initial {
-  line-height: 13vw;
+  line-height: 15vw;
   font-size: 3.35em;
   font-style: italic;
   text-align: center;
