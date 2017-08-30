@@ -21,8 +21,9 @@ img{
   color: #2f2fff;
 }
 .modal-body a{
-  color: black;
-  text-decoration: underline;
+  /*color: black;
+  text-decoration: underline;*/
+  color: #2f2fff;
 }
 app-root{
   display: block;

@@ -4,7 +4,8 @@
   margin: 10px 0 12px 0;
 }
 .person-photo{
-  max-width: 150px;
+  max-width: 250px;
+  display: block;
 }
 .detail-container {
   margin: 0 2.5% 3% 2.5%;
@@ -31,6 +32,13 @@
 }
 .img-container{
   text-align: center;
+  position: relative;
+}
+.img-container p{
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
 }
 /deep/.fl{
   display: block;
@@ -78,7 +86,7 @@
 .modal-title.title-font{
   text-shadow: none;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 .modal-title.title-font a{
   color: black;
@@ -231,6 +239,7 @@ a:hover {
 }
 .person-photo-container{
   margin-right: 10px;
+  float: left;
 }
 .person-photo-container_double{
   display: inline-block;

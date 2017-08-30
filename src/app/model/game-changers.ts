@@ -2,14 +2,14 @@ export const GAME_CHANGERS_SECTION = [
   {
     title: 'Collaborator Biographies',
     nav: 'Bios',
-    question: 'The following activist-thinkers engaged in community accountability & transformative justice work were interviewed for the "What <em>really</em> makes us safe?" project. Click on their bios below.'
-    +'<br><br> Collaborator Biographies:',
+    question: 'The following activist-thinkers engaged in community accountability & transformative justice work were interviewed for the "What <em>really</em> makes us safe?" project. <br>Click on their bios below.',
     endingText: `Many interviewees have some background in anti-violence work within non-profits and/or self-organized groups. They also hold a range of other roles as community organizers, consultants, academics, and writers. Project participants identified with various communities, particularly queer communities and communities of color, though the project also included a fair number of white anti-racist allies. Most interviewees are from the U.S., with the East and West Coast strongly represented, and two who have worked in Canada, England, and Australia. Most interviews were carried out by Melanie, and several were conducted by comrades from the Transformative Justice Kollektiv Berlin.`,
     quotes: [
       {
         tagline: 'Dr. Alexis Pauline Gumbs',
         quote: 'is a queer black troublemaker, a black feminist love evangelist, a prayer poet priestess and has a PhD in English, African and African-American Studies, and Women and Gender Studies from Duke University. <a href="http://alexispauline.com/">Alexis</a> has been living in Durham, NC for more than a decade and has been transformed and enriched by holistic organizing to end gendered violence and to replace it with sustaining transformative love. Locally she is a founding member of <a href="https://iambecauseweare.wordpress.com/">UBUNTU</a>, a women of color and survivor-led coalition to end sexual violence.',
-        personId: 1
+        personId: 1,
+        photo: 'apg-headshot.jpg'
       },
       {
         tagline: 'Alix Johnson',
@@ -26,7 +26,8 @@ export const GAME_CHANGERS_SECTION = [
       {
         tagline:'Colin Atrophy Hagendorf',
         quote: 'is an adult punk rocker and aspiring long-term soberdog. He loves eating pizza, working to dismantle systematic structures of oppression, and carefree afternoon naps. He is the creator of the blog, fanzine, and book <a href="http://www.colinhagendorf.com/book/">Slice Harvester: A Memoir In Pizza</a>, based on his experience reviewing a plain slice from every pizza parlor in Manhattan. He worked with <a href="https://supportny.org/">Support New York</a> for ten years and currently lives in Austin, Texas with his girlfriend, his cats, and her dog.',
-        personId: 2
+        personId: 2,
+        photo: 'wide.jpg'
       },
       {
         tagline: 'Ejeris Dixon',
@@ -49,12 +50,14 @@ export const GAME_CHANGERS_SECTION = [
       {
         tagline: 'Leah Todd and Lauren Spencer',
         quote: 'are members of <a href="https://supportny.org/">Support New York</a>, a collective dedicated to healing the effects of sexual assault and abuse. Our aim is to empower survivors, to hold accountable those who have perpetuated harm, and to maintain a community dialogue about consent, mutual aid, transformative justice, and our society\’s narrow views of abuse. We believe that everyone has a role to play in ending interpersonal violence, and we look to those who have been most affected to guide us.',
-        personId: 18
+        personId: 18,
+        photo: 'snylogo.jpg'
       },
       {
         tagline: 'Maura M. Bairley',
         quote: '(MA) is a social change facilitator, consultant, and coach. Her approach to transformative leadership development is rooted in her 20-year commitment to anti-violence and social justice movements. She has worked with myriad projects and organizations, including <a href="http://www.movetoendviolence.org/">Move to End Violence</a>, <a href="http://www.corealign.org/">Core Align</a>, the <a href="https://avp.org/">NYC Gay and Lesbian Anti-Violence Project</a>, and the <a href="https://health.columbia.edu/sexual-violence-response">Sexual Violence Prevention and Response Program</a> at Barnard/Columbia.',
-        personId: 8
+        personId: 8,
+        photo: 'maura.jpg'
       },
       {
         tagline: 'Melanie Brazzell',
@@ -64,7 +67,8 @@ export const GAME_CHANGERS_SECTION = [
       {
         tagline: 'Melissa Spatz',
         quote: 'brings nearly 25 years experience in the social justice field as a legal services attorney, community organizer, nonprofit director, writer and consultant.  She has directed two awarded-winning community organizing groups in Chicago, and founded the <a href="http://womenandgirlscan.org/?i=1">Women & Girls Collective Action Network</a>. She is currently Director of the <a href="http://www.proteusfund.org/piper">Piper Fund</a>, a Proteus Fund Initiative.',
-        personId: 6
+        personId: 6,
+        photo: 'melisa.jpeg'
       },
       {
         tagline: 'Norma',
@@ -83,12 +87,14 @@ export const GAME_CHANGERS_SECTION = [
       {
         tagline: 'Dr. Sarah Tyson',
         quote: 'is an assistant professor of philosophy at the University of Colorado Denver. Her research has focused on questions of authority, history, and exclusion with a particular interest in the historical exclusion of women from philosophy. Since taking a class with inmates on Death Row, her research has focused on the relationship between feminist theory and activism and mass incarceration with a particular emphasis on feminist resources for prison abolition.',
-        personId: 3
+        personId: 3,
+        photo: 'tyson.jpg'
       },
       {
         tagline: 'Veronica',
         quote: 'is an anarchist and anti-prison organizer.',
-        personId: 17
+        personId: 17,
+        photo: 'cute.jpg'
       }
     ]
   },

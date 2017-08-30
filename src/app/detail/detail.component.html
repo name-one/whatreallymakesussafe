@@ -23,7 +23,7 @@
             {{ quote.tagline }}
           </div>
         </div>
-        <p *ngIf='getPerson(quote.personId)?.name && question.nav == "Bios" ' (click)="openQuoteModal(content, quote)" class='new-quote-box-read'>Read all of  "{{ getPerson(quote.personId)?.name }}" </p>
+        <!-- <p *ngIf='getPerson(quote.personId)?.name && question.nav == "Bios" ' (click)="openQuoteModal(content, quote)" class='new-quote-box-read'>Read all of  "{{ getPerson(quote.personId)?.name }}" </p> -->
       </div>
 
       </div>
@@ -36,10 +36,12 @@
   <div class="detail-container" *ngIf="selectedDetail?.navTitle === 'About'">
     <div class="question-content">
       <div id="TheProject" class="about-title">the “What <em>really</em> makes us safe?” Project</div>
-      <p (click)="showBio(0, content)">-from Melanie Brazzell</p>
-      <div id="Beginnings" class="title">Beginnings</div>
-      <div class="question">
-        This research project began as an informal exchange between organizers working on community accountability & transformative justice (here abbreviated as CA-TJ) responses to sexual violence. Our fledgling <a href="https://www.transformativejustice.eu/en/" target='_blank'>transformative justice collective in Berlin, Germany</a> was geographically far from the mothership of CA-TJ thought and organizing in the U.S. Dialoguing with those who had created and propelled this work became a mode of both giving and taking account of one another.
+      <p (click)="showBio(0, content)" style="cursor:pointer">-from Melanie Brazzell</p>
+      <div class="accardion accardion-about">
+        <div id="Beginnings" class="title">Process</div>
+        <div class="question">
+          This research project began as an informal exchange between organizers working on community accountability & transformative justice (here abbreviated as CA-TJ) responses to sexual violence. Our fledgling <a href="https://www.transformativejustice.eu/en/" target='_blank'>transformative justice collective in Berlin, Germany</a> was geographically far from the mothership of CA-TJ thought and organizing in the U.S. Dialoguing with those who had created and propelled this work became a mode of both giving and taking account of one another.
+        </div>
       </div>
       <div class="accardion accardion-about">
         <div id="Participatory Action Research" class="title">Participatory Action Research</div>
@@ -64,7 +66,7 @@
           <span style="float: right;">- Melanie Brazzell</span>
         </div>
       </div>
-      <div id="TheWebsite" class="about-title">The Website</div>
+      <div id="TheWebsite" class="title">The Website</div>
       <div class="accardion accardion-about">
         <div id="Different approach: Vertical, instead of horizontal" class="title">Vertical, not horizontal approach</div>
         <div class="question">
@@ -77,7 +79,6 @@
         <div class="question">
           To access these questions, you can navigate through various “chapters”:
           <br>
-          <br>
           <ul>
             <li>
               <a routerLink="/detail/Game Changers">“Game Changers: Meet the Folks Doing the Work”</a> offer biographies and personal stories of the activists interviewed.
@@ -89,8 +90,6 @@
               <a routerLink="/detail/Movement">“From Carceral to Transformative Principles”</a> focuses on the principles behind the work.
             </li>
           </ul>
-          <br>
-          <br>
           These sections focus on interviewee’s praxis:
           <ul>
             <li>
@@ -105,11 +104,6 @@
           </ul>
           <br>
           <br>
-          <ul>
-            <li>
-              <a routerLink="/detail/Principles">“From Carceral to Transformative Principles”</a> focuses on the principles behind the work.
-            </li>
-          </ul>
         </div>
       </div>
     </div>
@@ -119,12 +113,15 @@
   <div class="question-blocks">
     <div class="question-content" id="CarceralTransformative">
       <div class="title title-font title-font-bg">
-        1. From Carceral To Transformative
+       From Carceral To Transformative Approaches
       </div>
       <div class="question">
-        <a target="_blank" href="/assets/pdf/chart.pdf">Chart</a><br> While the other sections of this site focus mainly on practice, this section offers a more theoretical view on community accountability. Drawing on both interview excerpts and other resources by movement activist-thinkers, this section proposes several main principles that unite various community accountability & transformative justice responses to violence.
+         While the other sections of this site focus mainly on practice, this section offers a more theoretical view on community accountability. Drawing on both interview excerpts and other resources by movement activist-thinkers, I propose several main principles that unite various community accountability & transformative justice responses to violence.
         <br>
+        Each of the following 5 principles compares a carceral approach to violence with a transformative one.  This chart gives a brief summary:
         <br>
+        <a target="_blank" href="/assets/pdf/chart.pdf">Chart</a><br>
+        The following video from Dean Spade and Reina Gossett, part of a series called “No One is Disposable: Everyday Practices of Prison Abolition”, provides a great explanation of the differences between a carceral and a transformative approach:
         <div class="video-frame">
           <img src="//img.youtube.com/vi/XDQlW1uJ8uQ/0.jpg" alt="What would really make us safe?" class='video-frame__img'>
           <iframe width="560" height="315" src="https://www.youtube.com/embed/XDQlW1uJ8uQ?ecver=1" frameborder="0" allowfullscreen class='video-frame__video'></iframe>
@@ -134,14 +131,14 @@
     </div>
     <div class="question-content" id="IndividualCollective">
       <div class="title title-font title-font-bg">
-        2. From Individual to Collective
+        1. Ethos
       </div>
       <div class="question">
       </div>
     </div>
     <div class="question-content accardion" id="Carceral Approach: Individual Response">
       <div class="title title-font unitalic">
-       Carceral Approach: Individual Response
+       carceral : individual response
       </div>
       <div class="question">
         Sexual violence is often pathologized in mainstream society as an individual problem caused by a few <span class="rollover" (click)="openRollover(rollover, 1)">‘ bad apples’</span>. The larger structures of oppression that teach <span class="rollover" (click)="openRollover(rollover, 2)">violence as an instrument for asserting power</span> fade into the background, and violence is blamed on moral weakness or mental ‘ illness.’
@@ -152,7 +149,7 @@
     </div>
     <div class="question-content accardion" id="Transformative Approach: Collective Response">
       <div class="title title-font unitalic">
-        Transformative Approach: Collective Response
+        transformative : collective response
       </div>
       <div class="question">
         Transformative approaches see individual acts of violence <span class="rollover" (click)="openRollover(rollover, 5)">as rooted in and reflections of structures of oppression</span> we all participate in: <span class="rollover" (click)="openRollover(rollover, 8)">“it’ s all of us, and some of us [...] act it out .”</span> If we believe harm is caused by ‘bad apples’ and intervention requires us to ‘fix’ individuals, <span class="rollover" (click)="openRollover(rollover, 6)">we overlook these structures</span> and miss the real <span class="rollover" (click)="openRollover(rollover, 7)">home of the problem.</span>
@@ -164,22 +161,20 @@
     </div>
     <div class="question-content" id="CriminalHuman">
       <div class="title title-font title-font-bg">
-        3. From Criminalization to Humanization
+        2. People Causing Violence
       </div>
       <div class="question">
       </div>
     </div>
     <div class="question-content accardion" id="Carceral Approach: Criminalization">
       <div class="title title-font unitalic">
-        Carceral Approach: Criminalization
+        carceral : criminalization
       </div>
       <div class="question">
         When sexual violence is seen as the immoral actions of a few evil monsters, the common response is to cast those who cause harm out of society. But this view leaves us in a bind when violence happens among our friends and family, as we are left with the choice to either <span class="rollover" (click)="openRollover(rollover, 13)">demonize or minimize</span> what perpetrators do.
         <br>
         <br>
         Many people minimize or even deny sexual violence because it can be <span class="rollover" (click)="openRollover(rollover, 14)">too painful to recognize acts of harm committed by those we love</span> and consider ‘ good people.’
-        <br>
-        <br>
         On the other hand, demonizing people who cause harm often plays out along histories of oppression. People of color, and African-Americans in particular, have long been represented by dominant society as <span class="rollover" (click)="openRollover(rollover, 15)">monsters or criminals</span>, queer and trans people <span class="rollover" (click)="openRollover(rollover, 16)">as sexual predators</span>, and people with disabilities and neurological diversity as less than human.
         <br>
         <br>
@@ -188,7 +183,7 @@
     </div>
     <div class="question-content accardion" id="Transformative Approach: Humanization">
       <div class="title title-font unitalic">
-        Transformative Approach: Humanization
+        transformative : humanization
       </div>
       <div class="question">
         In the face of these moral economies of good & bad guy, victim & perpetrator, a transformative approach offers a different principle that unites us and makes us human: <span class="rollover" (click)="openRollover(rollover, 20)">everyone both experiences and causes harm</span> (both interpersonal violence and structural oppression) to varying degrees in their lives. While structural positioning impacts how vulnerability to harm or be harmed is distributed, this still gives us a humble starting point for what we share.
@@ -205,14 +200,14 @@
     </div>
     <div class="question-content" id="BlameAccountability">
       <div class="title title-font title-font-bg">
-        4. From Blame & Punishment to Accountability for People Causing Harm
+        3. Concept of Responsibility
       </div>
       <div class="question">
       </div>
     </div>
     <div class="question-content accardion" id="Carceral Approach: Blame & Punishment">
       <div class="title title-font unitalic">
-        Carceral Approach: Blame & Punishment
+        carceral : blame and punishment
       </div>
       <div class="question">
         Because sexual violence is seen as an individual, moral issue, responsibility is framed as guilt or blame. The model of responsibility on which the prison industrial complex and other carceral institutions of society are built is what philosopher Iris Marion Young calls a “liability model” of responsibility, in which I am responsible for actions that I voluntarily, knowingly, and intentionally cause. This model is built on the ‘ sovereign’ subject of liberalist theory. It assumes an atomistic, autonomous individual who has free choice and whose intentions, actions, and their consequences are fully transparent to him (I say ‘ him’  because this free subject has traditionally been male). This concept of the human focuses more on the self and ignores the interpersonal relationships and social structures that co-create the self.
@@ -226,14 +221,14 @@
     </div>
     <div class="question-content accardion" id="Accountability">
       <div class="title title-font unitalic">
-        Transformative Approach: Accountability
+        transformative : accountability
       </div>
       <div class="question">
         In contrast, a community accountability model starts with a radically different concept of the subject: socially constructed both within relationships of intimacy and recognition and through relationships of power and oppression. Drawing on indigenous, disability, feminist, and postcolonial theories, it sees individuals as shaped by different levels of intersubjectivity, ranging from family to community to social structures.
         Violence does not originate in any one of those levels of inter subjectivity but is an interaction between all of them, as <span class="rollover" (click)="openRollover(rollover, 39)">violence at interpersonal levels is enabled and reinforced by violence at structural and State levels</span>.
         <br>
         <br>
-        In this model, responsibility for causing harm is less a <span class="rollover" (click)="openRollover(rollover, 95)">mathematical calculation of ‘taking account’</span>, than it is a mode of response to my relations with others, relations which constitute me and which I cannot fully master. Harm is understood not primarily as a violation of rights, but of particular human relationships. This calls for a <span class="rollover" (click)="openRollover(rollover, 382)">cycle of prevention, reparation, and transformation</span> in order to address <span class="rollover" (click)="openRollover(rollover, 39)">those relationships</span> and <span class="rollover" (click)="openRollover(rollover, 40)">behaviors</span>.  Rather than the application of universal laws to a particular case, accountability is <span class="rollover" (click)="openRollover(rollover, 41)">tailored to the specifics</span> of the situation and particular needs: <span class="rollover" (click)="openRollover(rollover, 42)">“contextual rather than prescriptive”</span>
+        In this model, responsibility for causing harm is less a <span class="rollover" (click)="openRollover(rollover, 95)">mathematical calculation of ‘taking account’</span>, than it is a mode of response to my relations with others, relations which constitute me and which I cannot fully master. Harm is understood not primarily as a violation of rights, but of particular human relationships. This calls for a <span class="rollover" (click)="openRollover(rollover, 382)">cycle of prevention, reparation, and transformation</span> in order to address <span class="rollover" (click)="openRollover(rollover, 39)">those relationships</span> and <span class="rollover" (click)="openRollover(rollover, 40)">behaviors</span>.  Rather than the application of universal laws to a particular case, accountability is <span class="rollover" (click)="openRollover(rollover, 41)">tailored to the specifics</span> of the situation and particular needs: <span class="rollover" (click)="openRollover(rollover, 42)">“contextual rather than prescriptive”</span>.
         <br>
         <br>
         In this form of response, I give <span class="rollover" (click)="openRollover(rollover, 43)">an account of myself</span> and my actions, a narrative, an explanation. My account of myself is also always an account of all the larger forces that shaped me, but being a social creature <span class="rollover" (click)="openRollover(rollover, 44)">doesn’ t limit my agency or take away my ability to be responsible</span>. Rather, being a social creature is the basis of my agency and the grounds of my response. In fact, responsibility as responding is only possible because I am connected to and shaped by others around me.
@@ -244,14 +239,14 @@
     </div>
     <div class="question-content" id="SecuritySafety">
       <div class="title title-font title-font-bg">
-        5. From Security to Safety for Survivors
+        4. Survivors of Violence
       </div>
       <div class="question">
       </div>
     </div>
     <div class="question-content accardion" id="Carceral Approach: Security">
       <div class="title title-font unitalic">
-        Carceral Approach: Security
+        carceral : security
       </div>
       <div class="question">
         The previous section explains why a carceral logic of blame and punishment can’ t end violence because it neither encourages individuals causing harm to change their behavior nor does it address the underlying conditions that promote violence. But that carceral logic doesn’ t even benefit those it claims to protect: survivors.
@@ -269,7 +264,7 @@
     </div>
     <div class="question-content accardion" id="Transformative Approach: Safety">
       <div class="title title-font unitalic">
-        Transformative Approach: Safety
+        transformative : safety
       </div>
       <div class="question">
         But what if survivors, and their surrounding communities, are seen as <span class="rollover" (click)="openRollover(rollover, 51)">powerful and full of resources</span>, rather than as ‘victims’ ? Rather than outsourcing protection, <span class="rollover" (click)="openRollover(rollover, 52)">safety is “self-generated”</span> by recognizing and building survivors’  and their allies’  own capacities to withstand and resist violence and oppression. When safety is understood not as avoidance but engagement with causes of harm, survivors can become advocates and activists, not only for themselves but also for wider social change.
@@ -281,17 +276,17 @@
     </div>
     <div class="question-content" id="DisposalConnection">
       <div class="title title-font title-font-bg">
-        6. From Containment & Disposal to Connection & Community
+        5. Response to Violence
       </div>
       <div class="question">
       </div>
     </div>
     <div class="question-content accardion" id="Carceral Approach: Containment & Disposal">
       <div class="title title-font unitalic">
-        Carceral Approach: Containment & Disposal
+        carceral : containment and disposal
       </div>
       <div class="question">
-        The strong moral division between perpetrators and survivors is often manifested physically and geographically in State responses to violence, where the solution to violence is isolating perpetrators and survivors from one another, as well as from their communities. This happens in carceral spaces like the prisons, the detention center, the mental health facility, or even <span class="rollover" (click)="openRollover(rollover, 55)">women’ s</span> <span class="rollover" (click)="openRollover(rollover, 56)">shelters</span>. Protection is understood as <span class="rollover" (click)="openRollover(rollover, 57)">the severing of connection</span> or <span class="rollover" (click)="openRollover(rollover, 58)">even the denial of human vulnerability</span>, a project as impossible as it is dangerous. Tragically, isolation tends to reinforce cycles of violence and leaves no one safer.
+        The strong moral division between perpetrators and survivors is often manifested physically and geographically in State responses to violence, where the solution to violence is isolating perpetrators and survivors from one another, as well as from their communities. This happens in carceral spaces like prisons, medical & mental health facilities, or even <span class="rollover" (click)="openRollover(rollover, 55)">women’ s</span> <span class="rollover" (click)="openRollover(rollover, 56)">shelters</span>. Protection is understood as <span class="rollover" (click)="openRollover(rollover, 57)">the severing of connection</span> or <span class="rollover" (click)="openRollover(rollover, 58)">even the denial of human vulnerability</span>, a project as impossible as it is dangerous. Tragically, isolation tends to reinforce cycles of violence and leaves no one safer.
         <br>
         <br>
         Rather than recognize the structural, collective sources that make us feel insecure (like precarious jobs, everyday oppression, or lack of participation in the decision that affect our lives), a sense of danger is projected onto specific scapegoats labeled as criminals and terrorists, which the military or police to try to remove or eliminate from society. Aggression is cast as self-defense (the inverse of how <span class="rollover" (click)="openRollover(rollover, 60)">marginalized women’ s self-defense against violence is often reframed as aggression</span>).
@@ -299,7 +294,7 @@
     </div>
     <div class="question-content accardion" id="Transformative Approach: Connection & Community">
       <div class="title title-font unitalic">
-        Transformative Approach: Connection & Community
+        transformative : connection and community
       </div>
       <div class="question">
         Some survivors are looking for ways to address violence <span class="rollover" (click)="openRollover(rollover, 61)">without they or their abuser having to leave the community</span>. So how can communities <span class="rollover" (click)="openRollover(rollover, 62)">embrace vulnerability</span> rather than denying it or turning it into a weapon used to criminalize and punish others?
@@ -324,7 +319,7 @@
         What are Community Accountability <br> & Transformative Justice?
       </div>
       <div class="question">
-        In general, ‘community accountability’ and ‘transformative justice’ describe self-organized responses to violence, particularly sexual violence and intimate partner violence, in community & cultural organizations, neighborhoods, political groups, and families. These experiments in community-based alternatives to prisons and policing look holistically at <a href="https://www.youtube.com/watch?v=XDQlW1uJ8uQ" target="_blank">“prevention, intervention, reparations, and transformation”</a>. They engage those most involved to support survivor and community safety, prevent future violence, and hold perpetrators accountable for their behaviors and communities accountable for the conditions which allowed violence to occur. Community accountability was first coined and developed by <a href="//www.incite-national.org/page/community-accountability" target='_blank'>INCITE!</a>, national network of feminist of color, and particularly by their member group CARA (<a href="//cara-seattle.blogspot.com/" target="_blank">Communities Against Rape and Abuse </a>) from Seattle. Their diagram explains these ‘zones’ where community accountability work takes place, ranging from the interpersonal to the structural:
+        In general, ‘community accountability’ and ‘transformative justice’ describe self-organized responses to violence, particularly sexual violence and intimate partner violence, in community & cultural organizations, neighborhoods, political groups, and families. These experiments in community-based alternatives to prisons and policing look holistically at <a href="https://www.youtube.com/watch?v=XDQlW1uJ8uQ" target="_blank">“prevention, intervention, reparations, and transformation”</a>. They engage those most involved to support survivor and community safety, prevent future violence, and hold perpetrators accountable for their behaviors and communities accountable for the conditions which allowed violence to occur. Community accountability was first coined and developed by <a href="//www.incite-national.org/page/community-accountability" target='_blank'>INCITE!</a>, national network of feminist of color, and particularly by their member group CARA (<a href="//cara-seattle.blogspot.com/" target="_blank">Communities Against Rape and Abuse</a>) from Seattle. Their diagram explains these ‘zones’ where community accountability work takes place, ranging from the interpersonal to the structural:
         <br>
         <br>
         <div class="img-container">
@@ -340,13 +335,10 @@
           <p>© generationFIVE</p>
         </div>
         <br>
-        I use these two terms together to describe approaches to harm that share a visionary core, even as they are applied in diverse concrete strategies. They go by various names (<span class="rollover" (click)="openModalFromOtherPage(content, 'Support', 6,'How do you support survivors?')">like healing circles</span>, solidarity teams, <span  class="rollover" (click)="openModalFromOtherPage(content, 'Support', 12,'How do you support survivors?')">the facilitated model </span>) focus on different harms (<a href="https://ywepchicago.files.wordpress.com/2011/06/girls-do-what-they-have-to-do-to-survive-a-study-of-resilience-and-resistance.pdf" target="_blank">violence against sex workers</a> , <a href="//www.project-nia.org/" target="_blank">youth criminalization</a> , <a href="https://www.youtube.com/watch?v=TlQ5rVghHuk" target="_blank">police violence</a> ) and are suited to different settings (institutions, families, etc.).
+        I use these two terms together to describe approaches to harm that share a visionary core, even as they are applied in diverse concrete strategies. They go by various names (<span class="rollover" (click)="openModalFromOtherPage(content, 'Support', 6,'How do you support survivors?')">like healing circles</span>, solidarity teams, <span  class="rollover" (click)="openModalFromOtherPage(content, 'Support', 12,'How do you support survivors?')">the facilitated model</span>) focus on different harms (<a href="https://ywepchicago.files.wordpress.com/2011/06/girls-do-what-they-have-to-do-to-survive-a-study-of-resilience-and-resistance.pdf" target="_blank">violence against sex workers</a>, <a href="//www.project-nia.org/" target="_blank">youth criminalization</a>, <a href="https://www.youtube.com/watch?v=TlQ5rVghHuk" target="_blank">police violence</a> ) and are suited to different settings (institutions, families, etc.).
+        My interviewees described work that ranged from reading groups to <span class="rollover" (click)="openModalFromOtherPage(content, 'Accountability', 7 , 'What are different models?', 'Work with survivors & perpetuators')">years-long accountability processes with perpetrators</span>, from <span class="rollover" (click)="openModalFromOtherPage(content, 'Community', 7 , 'How have communities been involved in your work?')">neighborhood organizing with local businesses for queer and trans safety </span> to survivor support to mediation processes between persons causing and persons experiencing harm. They told stories about what brought them into this work and the learning processes they've been through, including the questions they are still marinating on.
         <br>
-        My interviewees described work that ranged from reading groups to <span class="rollover" (click)="openModalFromOtherPage(content, 'Accountability', 7 , 'What are different models?', 'Work with survivors & perpetuators')">years-long accountability processes with perpetrators </span>, from <span class="rollover" (click)="openModalFromOtherPage(content, 'Community', 7 , 'How have communities been involved in your work?')"> neighborhood organizing with local businesses for queer and trans safety </span> to survivor support to mediation processes between persons causing and persons experiencing harm. They told stories about what brought them into this work and the learning processes they've been through, including the questions they are still marinating on.
         <br>
-        <br>
-        “So before all of our meetings as the BATJC [Bay Area Transformative Justice Collective] we do a collective grounding […] and light candles. So we light one candle for the people who came before us, and one candle for the people who are with us now, and one candle for the next generation or the people who are yet to come.”
-        <span class="fl">-Alix Johnson</span>
 
       </div>
     </div>
@@ -355,7 +347,9 @@
         Genealogies of the Movement
       </div>
       <div class="question">
-        Over the last twenty years, activists have worked to recover  <span class="rollover" (click)="openRollover(rollover, 72)">“kitchen table” stories</span> of their <span class="rollover" (click)="openRollover(rollover, 73)">communities’ responses to violence</span>  in times and places where there was no state or the state was not to be trusted. These have become inspirations for workable contemporary alternatives to prison and police. Many of these alternatives have been improvised in self-organized spaces under the radar of formal political organizations. And far too little has been documented or written down, which is why this project offers oral histories of that work.
+        “So before all of our meetings as the BATJC [Bay Area Transformative Justice Collective] we do a collective grounding […] and light candles. So we light one candle for the people who came before us, and one candle for the people who are with us now, and one candle for the next generation or the people who are yet to come.”
+        <span class="fl">-Alix Johnson</span> <br>
+        Over the last twenty years, activists have worked to recover  <span class="rollover" (click)="openRollover(rollover, 72)">“kitchen table” stories</span> of their <span class="rollover" (click)="openRollover(rollover, 73)">communities’ responses to violence</span> in times and places where there was no state or the state was not to be trusted. These have become inspirations for workable contemporary alternatives to prison and police. Many of these alternatives have been improvised in self-organized spaces under the radar of formal political organizations. And far too little has been documented or written down, which is why this project offers oral histories of that work.
         <br>
         <br>
         Though it's impossible to tell a single story about the movement, there are several roots out of which CA-TJ practices emerged: prison abolition organizing, critiques of the anti-violence sector, restorative justice practices, and discourses about transformation.”
@@ -380,7 +374,7 @@
         From Non-Profits to Community Organizing
       </div>
       <div class="question">
-        Critiques from within the anti-violence movement were another major strand that contributed to community accountability-transformative justice visions. Since the 1970s, the women’s movement has increasingly been institutionalized within what INCITE! has called a <a href="//www.incite-national.org/page/beyond-non-profit-industrial-complex" target='_blank'><em>non-profit industrial complex</em></a>, where <span class="rollover" (click)="openRollover(rollover, 79)">funding</span> from both private and State sources has <span class="rollover" (click)="openRollover(rollover, 80)"> influenced organizations’ political agendas.</span> Particularly women of color and other marginalized folks have criticized non-profits for <span class="rollover" (click)="openRollover(rollover, 81)">channeling energy for radical social change into social services</span>. Such services for survivors of sexual or partner violence can often only offer <span class="rollover" (click)="openRollover(rollover, 82)">limited, individualized, and carceral options</span> like therapy or restraining orders. While these options can be <span class="rollover" (click)="openRollover(rollover, 83)">unsatisfying even to the privileged women who can access them, for many marginalized women they are irrelevant or even harmful </span>. They can lead to negative outcomes for themselves or others in their communities, like arrest, deportation, commitment to psychiatric facilities, or increased surveillance in their neighborhood.
+        Critiques from within the anti-violence movement were another major strand that contributed to community accountability-transformative justice visions. Since the 1970s, the women’s movement has increasingly been institutionalized within what INCITE! has called a <a href="//www.incite-national.org/page/beyond-non-profit-industrial-complex" target='_blank'><em>non-profit industrial complex</em></a>, where <span class="rollover" (click)="openRollover(rollover, 79)">funding</span> from both private and State sources has <span class="rollover" (click)="openRollover(rollover, 80)"> influenced organizations’ political agendas.</span> Particularly women of color and other marginalized folks have criticized non-profits for <span class="rollover" (click)="openRollover(rollover, 81)">channeling energy for radical social change into social services</span>. Such services for survivors of sexual or partner violence can often only offer <span class="rollover" (click)="openRollover(rollover, 82)">limited, individualized, and carceral options</span> like therapy or restraining orders. While these options can be <span class="rollover" (click)="openRollover(rollover, 83)">unsatisfying even to the privileged women who can access them, for many marginalized women they are irrelevant or even harmful</span>. They can lead to negative outcomes for themselves or others in their communities, like arrest, deportation, commitment to psychiatric facilities, or increased surveillance in their neighborhood.
         <br>
         <br>
         This tendency to <span class="rollover" (click)="openRollover(rollover, 84)">turn to the State as a solution</span> to sexual and gender-based violence, for example by advocating for tougher punishments and more prosecution, has been labeled <a href="https://www.jacobinmag.com/2014/10/against-carceral-feminism/" target='_blank'><em>carceral feminism</em></a> to emphasize how whitestream approaches that appear progressive nevertheless often contribute to a more carceral society. Activists working with a community accountability lens emphasized, in contrast, how the State upholds systems of oppression that enable interpersonal violence; therefore, it cannot be the solution. Whereas INCITE! pushed abolitionists to consider interpersonal violence and not just state violence , here it did the reverse: it demanded that the anti-violence movement look beyond its focus on interpersonal violence to perceive its participation in State violence.
@@ -394,15 +388,17 @@
         From Restorative to Transformative Justice
       </div>
       <div class="question">
-        Abolitionists and anti-violence activists sought alternatives  to carceral responses to sexual and intimate partner violence in the justice practices of indigenous communities in North America and Australasia, as well as African philosophies of ubuntu that emphasize interconnection as the basis for justice practices.  These have been popularized in non-indigenous communities as <em>restorative justice</em>. Through methods of mediation and community circles, restorative justice models invites everyone closely connected to a harm to participate in repairing harm and formulating solutions.
+        Abolitionists and anti-violence activists sought alternatives  to carceral responses to sexual and intimate partner violence in the justice practices of indigenous communities in North America and Australasia, as well as African philosophies of ubuntu that emphasize interconnection as the basis for justice practices.  These have been popularized in non-indigenous communities as <em>restorative justice</em>. Through methods of mediation and community circles, restorative justice models invite everyone closely connected to a harm to participate in repairing harm and formulating solutions.
         <br>
         <br>
-        However, activists found themselves critical of some restorative justice principles. They seemed unsuited for the <span class="rollover" (click)="openRollover(rollover, 88)">asymmetries of power</span> between abusers and survivors and how bringing those two persons together in a mediation circle could be <span class="rollover" (click)="openRollover(rollover, 89)">potentially retraumatizing</span>. Perhaps these problems stemmed from an underlying failure of restorative justice work to analyze and critique <span class="rollover" (click)="openRollover(rollover, 90)">systems of oppression</span> and <span class="rollover" (click)="openRollover(rollover, 91)">the State</span>. Whereas the term ‘restorative’ suggests that a community needs to find harmony after it is disrupted by violence, these activists used the term transformative justice to show that <span class="rollover" (click)="openRollover(rollover, 92)">that status quo is one of ongoing violence and oppression  must itself be transformed</span>.
+        However, activists found themselves critical of some restorative justice principles. They seemed unsuited for the <span class="rollover" (click)="openRollover(rollover, 88)">asymmetries of power</span> between abusers and survivors and how bringing those two persons together in a mediation circle could be <span class="rollover" (click)="openRollover(rollover, 89)">potentially retraumatizing</span>. Perhaps these problems stemmed from an underlying failure of restorative justice work to analyze and critique <span class="rollover" (click)="openRollover(rollover, 90)">systems of oppression</span> and <span class="rollover" (click)="openRollover(rollover, 91)">the State</span>. Whereas the term ‘restorative’ suggests that a community needs to find harmony after it is disrupted by violence, these activists used the term transformative justice to show <span class="rollover" (click)="openRollover(rollover, 92)">that status quo of ongoing violence and oppression must itself be transformed</span>.
         <br>
         <br>
         The word transformation suggests looking at big picture system change rather than just 'cleaning up' after harm. Such deep metamorphosis requires more than just a change of mind, <span class="rollover" (click)="openRollover(rollover, 93)">but new embodied practices on emotional, spiritual, and physical levels</span>. The movement found resources for talking about transformation in various, sometimes unexpected places: <span class="rollover" (click)="openRollover(rollover, 94)">Black men’s work in ‘batterer intervention’</span>, spiritual traditions, and somatics and body-work practices.
       </div>
     </div>
+    <br>
+    <br>
     <div class="question-content" id="Futures">
       <div class="title title-font title-font-bg">
         Futures of the Movement
@@ -472,10 +468,10 @@
 <ng-template #content let-c="close">
   <div class="modal-header">
     <h4 class="modal-title title-font">
-      <div class="person-photo-container" *ngIf='selectedQuote.photo || selectedQuote.photo2' [class.person-photo-container_double]='selectedQuote.photo && selectedQuote.photo2'>
+      <!-- <div class="person-photo-container" *ngIf='selectedQuote.photo || selectedQuote.photo2' [class.person-photo-container_double]='selectedQuote.photo && selectedQuote.photo2'>
         <img src="/assets/images/persons/{{selectedQuote.photo}}" alt="{{ getPerson(selectedQuote.personId)?.name }}" class='person-photo' *ngIf='selectedQuote.photo'>
         <img src="/assets/images/persons/{{selectedQuote.photo2}}" alt="{{ getPerson(selectedQuote.personId)?.name }}" class='person-photo' *ngIf='selectedQuote.photo2'>
-      </div>
+      </div> -->
       <a href="{{ getPerson(selectedQuote.personId).link }}" target='_blank' *ngIf='getPerson(selectedQuote.personId).link'> {{ getPerson(selectedQuote.personId)?.name }}</a>
       <span *ngIf='!getPerson(selectedQuote.personId).link'> {{ getPerson(selectedQuote.personId)?.name }}</span>
       <!-- <span>: {{selectedQuote.tagline}}</span> -->
@@ -486,6 +482,10 @@
     </button>
   </div>
   <div class="modal-body">
+    <div class="person-photo-container" *ngIf='selectedQuote.photo || selectedQuote.photo2' [class.person-photo-container_double]='selectedQuote.photo && selectedQuote.photo2'>
+      <img src="/assets/images/persons/{{selectedQuote.photo}}" alt="{{ getPerson(selectedQuote.personId)?.name }}" class='person-photo' *ngIf='selectedQuote.photo'>
+      <img src="/assets/images/persons/{{selectedQuote.photo2}}" alt="{{ getPerson(selectedQuote.personId)?.name }}" class='person-photo' *ngIf='selectedQuote.photo2'>
+    </div>
     <p [innerHTML]="selectedQuote.quote"></p>
   </div>
 </ng-template>
