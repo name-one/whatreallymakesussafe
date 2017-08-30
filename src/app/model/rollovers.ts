@@ -622,7 +622,7 @@ export const ROLLOVERS: Rollover[] = [
     + '<br><br>' + 'My mom grew up in New Orleans in the 1940s, 1950s and 1960s. Her entire life was marked by <strong>experiences of state violence and Jim Crow segregation</strong>. The police, white citizens councils and the Klan intermingled and formed the backbone of a racist political and economic system. Her experiences were not unique. Historically and currently most marginalized communities - including Black people, poor people, queer and trans people, and people with disabilities - have experienced <strong>violence and discrimination from police, emergency services and the legal system</strong>.'
     + '<br><br>' + 'Just as the use of state violence against Black communities is <strong>not new</strong>, neither are the ideas of transformative justice or community accountability.'
     + '<br><br>' + '-Ejeris Dixon'
-    + '<\/br>' + '<a href="http://www.truth-out.org/opinion/item/32489-building-community-safety-practical-steps-toward-liberatory-transformation>\"Building Community Safety: Steps Towards Liberatory Transformation\"</a> in Truthout, Aug. 15, 2015'
+    + '<br>' + '<a href="http://www.truth-out.org/opinion/item/32489-building-community-safety-practical-steps-toward-liberatory-transformation>\"Building Community Safety: Steps Towards Liberatory Transformation\"</a> in Truthout, Aug. 15, 2015'
   },
   {
     id: 74,
