@@ -42,6 +42,7 @@ em{
 }
 .non-italic{
   /*font-style: normal !important;*/
-  color: #384645;
+  /*color: #384645;*/
   text-decoration: underline;
+  font-family: inherit;
 }
