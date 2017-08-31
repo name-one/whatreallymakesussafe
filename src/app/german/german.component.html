@@ -1,9 +1,26 @@
 <div class="wrapper">
   <div class="container">
+    <h2 class="title-font">Was macht uns <em>wirklich</em> sicher</h2>
+    <div class="frame__video-container frame__video-container_margin_b">
+      <img src="//img.youtube.com/vi/op_aSoFmcls/0.jpg" alt="What would really make us safe?" class='frame__video-img'>
+      <iframe src="https://www.youtube.com/embed/op_aSoFmcls" frameborder="0" allowfullscreen class='frame__video-player'></iframe>
+    </div>
+    <a href="https://www.youtube.com/watch?v=9aJLUA0iYFE" class='btn' target="_blank">Englische Version hier</a>
+  </div>
+  <div class="container">
     <div class="controll-buttons">
-      <button class="controll-button" (click)='currentFrame = "Podiumsdiskussion" '>Podiumsdiskussion</button>
-      <button class="controll-button" (click)='currentFrame = "Toolkit" '>Toolkit</button>
-      <button class="controll-button" (click)='currentFrame = "Labor" '>Labor für Alternativen</button>
+      <div class="controll-button" (click)='currentFrame = "Podiumsdiskussion" ' [class.controll-button_cur]='currentFrame == "Podiumsdiskussion"'>
+        <div class="controll-button__bg controll-button__bg_podium"></div>
+        <span class="controll-button__text">Podiumsdiskussion</span>
+      </div>
+      <div class="controll-button controll-button_toolkit" (click)='currentFrame = "Toolkit" ' [class.controll-button_cur]='currentFrame == "Toolkit"'>
+        <div class="controll-button__bg controll-button__bg_toolkit"></div>
+        <span class="controll-button__text">Toolkit</span>
+      </div>
+      <div class="controll-button controll-button_labor" (click)='currentFrame = "Labor" ' [class.controll-button_cur]='currentFrame == "Labor"'>
+        <div class="controll-button__bg controll-button__bg_labor"></div>
+        <span class="controll-button__text">Labor für Alternativen</span>
+      </div>
     </div>
   </div>
   <div class="container frames">

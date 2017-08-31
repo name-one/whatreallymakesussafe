@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {NgbModal, NgbActiveModal} from '@ng-bootstrap/ng-bootstrap';
 import { album, iAlbum } from '../model/album';
 @Component({
@@ -15,7 +15,7 @@ export class GermanComponent implements OnInit {
 
   ngOnInit() {
     this.photos = album;
-    document.body.classList.remove('nav-hidden')
+    document.body.classList.add('nav-hidden');
   }
   openModal(content: any, src: string){
     this.currentImg = src;

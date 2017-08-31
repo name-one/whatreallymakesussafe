@@ -39,8 +39,7 @@
    font-family: 'Ubuntu', sans-serif;
 }
 /deep/ app-german{
-  width: calc(100% - 300px);
-  margin-left: 300px;
+  width: 100%;
   max-width: 100%;
   display: block;
 }

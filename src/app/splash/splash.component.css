@@ -30,6 +30,11 @@ text-align: center;
 margin-bottom: 50px;
 transition: all .3s;
 text-transform: lowercase;
+text-decoration: none !important;
+}
+.container{
+  text-decoration: none !important;
+  color: #292b2c;
 }
 .splash-text em {
   /*color: #709a98;*/

@@ -5,7 +5,8 @@
     <span class="logo-author">© Andrea Marcos</span>
   </div>
 </div>
-<div class="container" (click)='goGermHome()' *ngIf='!subtitle'>
+<!-- (click)='goGermHome()' -->
+<a class="container" routerLink='/de' *ngIf='!subtitle' target="_blank">
   <div class="title-font splash-text splash-text-de">Was macht uns <em>wirklich</em> sicher?</div>
-</div>
+</a>
 <p class='subtitle' *ngIf='subtitle'>Interviews with activists about <br> community alternatives to the criminal legal system <br> for addressing sexual & intimate partner violence</p>
