@@ -1,4 +1,26 @@
 /*!* You can add global styles to this file, and also import other style files *!*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+.quote-box .initial,
+.quote-box .tagline{
+  font-family: 'Sedgwick Ave', cursive;
+}*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+.quote-box .initial,
+.quote-box .tagline{
+  font-family: 'Amatic SC', cursive;
+}*/
+/*@import url('https://fonts.googleapis.com/css?family=Fauna+One');
+.quote-box .initial,
+.quote-box .tagline{
+  font-family: 'Fauna One', serif;
+}*/
+@import url('https://fonts.googleapis.com/css?family=Slabo+13px');
+.quote-box .initial,
+.quote-box .tagline{
+  font-family: 'Slabo 13px', serif;
+}
 .modal-backdrop.fade {
   position: fixed;
   opacity: 0.8 !important;
@@ -13,6 +35,11 @@ html{
 }
 img{
   max-width: 100%;
+}
+.header-small{
+  font-size: .8em;
+  font-family: inherit;
+  display: block;
 }
 .modal {
   top: 5%;

@@ -53,10 +53,10 @@ export class DetailComponent implements OnInit, AfterViewInit {
   public makePageTitle(title:string){
     switch(title){
       case 'Support':
-        this.pageTitle = 'Support for Survivors of Violence';
+        this.pageTitle = 'Support <span class="header-small">for Survivors of Violence</span>';
         break;
       case 'Accountability':
-        this.pageTitle = 'Accountability for People Causing Violence';
+        this.pageTitle = 'Accountability <span class="header-small">for People Causing Violence</span>';
         break;
       default:
         this.pageTitle = title;

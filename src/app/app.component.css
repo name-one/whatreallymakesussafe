@@ -5,13 +5,39 @@
 /deep/ .title-font {
   font-family: 'Ubuntu', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
 
 /deep/ * {
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
+/*@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400');
+/deep/ * {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}*/
 
+/*@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,300i,400');
+/deep/ * {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}*/
+/*@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400');
+/deep/ * {
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+}*/
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400');
+/deep/ * {
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}*/
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400');
+/deep/ * {
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}*/
 /*@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 /deep/ * {
   font-family: 'PT Sans', sans-serif;
@@ -23,10 +49,10 @@
 }*/
 
 /*Oswald alt to Lorimer No 2*/
-@import url('https://fonts.googleapis.com/css?family=Oswald:300,400&subset=latin-ext');
+/*@import url('https://fonts.googleapis.com/css?family=Oswald:300,400&subset=latin-ext');
 /deep/ *{
   font-family: 'Oswald', sans-serif;
-}
+}*/
 
 /*Montserrat alt to Proxima nova*/
 /*@import url('https://fonts.googleapis.com/css?family=Montserrat&subset=latin-ext');

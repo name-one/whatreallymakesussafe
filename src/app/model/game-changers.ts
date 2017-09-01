@@ -2,7 +2,7 @@ export const GAME_CHANGERS_SECTION = [
   {
     title: 'Collaborator Biographies',
     nav: 'Bios',
-    question: 'The following activist-thinkers engaged in community accountability & transformative justice work were interviewed for the "What <em>really</em> makes us safe?" project. <br>Click on their bios below.',
+    question: 'The following activist-thinkers engaged in community accountability & transformative justice work were interviewed for the "What <em>really</em> makes us safe?" project. Click on their bios below. <br>',
     endingText: `Many interviewees have some background in anti-violence work within non-profits and/or self-organized groups. They also hold a range of other roles as community organizers, consultants, academics, and writers. Project participants identified with various communities, particularly queer communities and communities of color, though the project also included a fair number of white anti-racist allies. Most interviewees are from the U.S., with the East and West Coast strongly represented, and two who have worked in Canada, England, and Australia. Most interviews were carried out by Melanie, and several were conducted by comrades from the Transformative Justice Kollektiv Berlin.`,
     quotes: [
       {

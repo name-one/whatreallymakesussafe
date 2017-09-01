@@ -1,6 +1,6 @@
 <div #container class="container">
-  <div class="header title-font" >
-    {{ pageTitle }}
+  <div class="header title-font" [innerHTML]="pageTitle">
+    
   </div>
 
   <div class="detail-container" *ngIf="isBoxSection(selectedDetail?.navTitle)">
