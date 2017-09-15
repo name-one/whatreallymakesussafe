@@ -14,7 +14,10 @@
 .homepage-content, .question-content {
   /*margin: 0 1.25%;*/
 }
-
+.indented{
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
 .question-content > .about-title {
   font-size: 2em;
   font-family: 'Ubuntu', sans-serif;
