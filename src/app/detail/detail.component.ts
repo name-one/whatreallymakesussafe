@@ -32,7 +32,7 @@ export class DetailComponent implements OnInit, AfterViewInit {
               private rolloverService: RolloverService) {}
 
   public ngOnInit() {
-    document.body.classList.remove('nav-hidden');
+    document.body.classList.remove('nav-hidden','splash');
     this.route.params
       .map((params: Params): string => params['id'])
       .subscribe((sectionTitle: string): void => {

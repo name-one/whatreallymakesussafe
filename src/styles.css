@@ -53,6 +53,9 @@ body strong{
 *:not(.modal) a{
   color: #2f2fff;
 }
+.splash .nav-toggler{
+  display: none !important;
+}
 .modal-body a{
   /*color: black;
   text-decoration: underline;*/

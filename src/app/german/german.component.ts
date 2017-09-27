@@ -15,7 +15,7 @@ export class GermanComponent implements OnInit {
 
   ngOnInit() {
     this.photos = album;
-    document.body.classList.add('nav-hidden');
+    document.body.classList.add('nav-hidden','nav-un');
   }
   openModal(content: any, src: string){
     this.currentImg = src;

@@ -119,7 +119,9 @@
 }
  /deep/ .nav-hidden app-nav{
   transform: translateX(-100%);
-  display: none;
+ }
+ /deep/ .nav-un app-nav{
+   display: none;
  }
 /deep/ .modal-header-de{
   justify-content: flex-end;
@@ -183,6 +185,13 @@
  @media only screen and (max-width: 1200px){
   app-nav{
     transform: translateX(-100%);
+  }
+  .splash .nav-toggler{
+    display: none;
+  }
+  /deep/ app-splash{
+    width: 100%;
+    margin-left: 0;
   }
   app-nav.nav_visible{
     transform: translateX(0%);

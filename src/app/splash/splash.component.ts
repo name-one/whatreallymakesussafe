@@ -17,14 +17,17 @@ export class SplashComponent implements OnInit {
     this.router.navigate(['/de']);
   }
   public showNav(){
+    document.body.classList.toggle('nav-hidden')
     if(window.innerWidth <= 1200){
+      let nav = document.getElementsByTagName('app-nav')[0];
+      nav.classList.toggle('nav_visible');
       return false;
     }
-    document.body.classList.toggle('nav-hidden')
+
     this.subtitle = !this.subtitle;
   }
   public hideNav(){
-    document.body.classList.add('nav-hidden')
+    document.body.classList.add('nav-hidden', 'splash')
   }
   ngOnInit(){
     this.hideNav()
