@@ -3,9 +3,14 @@
   font-size: 4.5em;
   margin: 10px 0 12px 0;
 }
-.person-photo{
+/deep/ .person-photo{
   max-width: 250px;
   display: block;
+}
+/deep/ p .person-photo{
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
 }
 .detail-container {
   margin: 0 10vw 3% 2.5%;
@@ -200,10 +205,11 @@
 .modal-body > p {
   font-size: 1.3em;
   line-height: 1.8em;
-  padding: 0em 2em 1em 2em;
+
 }
 .modal-body{
   color: black;
+  padding: 1em 2em;
 }
 .modal-title {
   padding-left: 1em;
@@ -248,7 +254,7 @@ a:hover {
 }
 .person-photo-container_double{
   display: inline-block;
-  min-width: 310px;
+  min-width: 250px;
 }
 @media only screen and (max-width: 1200px){
   .new-quote-box,

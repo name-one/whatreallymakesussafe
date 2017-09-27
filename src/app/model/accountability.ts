@@ -61,6 +61,11 @@ export const ACCOUNTABILITY_SECTION = [
     question: '',
     quotes: [
       {
+        tagline: '0 to 1,000 to 6 Degrees of Wrongdoing?',
+        quote: '“A Zero to a Thousand to Six” is a model for engaging people to talk about accountability. <strong>A Zero to a Thousand to Six is a spectrum of the degree of wrongdoing.</strong> A frequent problem with accountability is that there is a <strong>gap between the degree of the wrongdoing</strong> and the degree of <strong>how the person who perpetrated it or was victim to it feels. </strong> <br><br> When we commit a hurt, we can take zero responsibility or feel a thousand times responsible for it. We can apologize to the hurt person, saying that we feel bad for doing the “one thousand,” but if the victim answers, “Oh, it was really nothing,” then we are not held accountable. <strong>The spectrum helps identify what we really did, then to take responsibility for it. If we did a “six,” then we should take responsibility for the “six”.</strong> This model works <strong>against the greater social tendency to polarize</strong> when holding someone accountable: <strong>We either let people free or send them to prison.</strong> Instead, we should acknowledge and take responsibility for our actions even when we think they tend to fall somewhere in the gray area.',
+        personId: 19
+      },
+      {
         tagline: 'Is CA the best fit?',
         quote: 'I think I have a lot of questions that are just core to when we\'re doing the work that seem to come up again and again, depending on the situation, that feel like <strong>big unresolved questions that community accountability never got to</strong>. Or you know, where it might actually not be appropriate.  Maybe not appropriate is the wrong word, but just like where it <strong>wouldn\'t be the best fit</strong> or isn\'t.  We need a <strong>different model</strong>.',
         personId: 4

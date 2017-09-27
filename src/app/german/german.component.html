@@ -1,11 +1,11 @@
 <div class="wrapper">
   <div class="container">
-    <h2 class="title-font">Was macht uns <em>wirklich</em> sicher</h2>
+    <h2 class="title-font">Was macht uns <em>wirklich</em> sicher? Projekt</h2>
     <div class="frame__video-container frame__video-container_margin_b">
       <img src="//img.youtube.com/vi/op_aSoFmcls/0.jpg" alt="What would really make us safe?" class='frame__video-img'>
       <iframe src="https://www.youtube.com/embed/op_aSoFmcls" frameborder="0" allowfullscreen class='frame__video-player'></iframe>
     </div>
-    <a href="https://www.youtube.com/watch?v=9aJLUA0iYFE" class='btn' target="_blank">Englische Version hier</a>
+    <a href="https://www.youtube.com/watch?v=9aJLUA0iYFE" class='btn' target="_blank">Englische Version des Videos hier</a>
   </div>
   <div class="container">
     <div class="controll-buttons">
@@ -38,7 +38,7 @@
         </li>
         <li class="thumbnail">
           <a href="/assets/pdf/1.pdf" target="_blank">
-            <img src="/assets/images/256x256.png" alt="" class='thumbnail__img'>
+            <img src="/assets/images/256x256.jpg" alt="" class='thumbnail__img'>
           </a>
         </li>
       </ul>
@@ -47,7 +47,7 @@
       <ul class="thumbnails">
         <li class="thumbnail_center">
           <a href="/assets/pdf/toolkit.pdf" target="_blank">
-            <img src="/assets/images/256x256.png" alt="" class='thumbnail__img'>
+            <img src="/assets/images/256x256.jpg" alt="" class='thumbnail__img'>
           </a>
         </li>
       </ul>
@@ -84,7 +84,7 @@
         </li>
         <li class="thumbnail">
           <a href="/assets/pdf/lab.pdf" target="_blank">
-            <img src="/assets/images/256x256.png" alt="" class='thumbnail__img'>
+            <img src="/assets/images/256x256.jpg" alt="" class='thumbnail__img'>
           </a>
         </li>
       </ul>
@@ -93,8 +93,11 @@
         <iframe src="https://www.youtube.com/embed/9aJLUA0iYFE?ecver=1" frameborder="0" allowfullscreen class='frame__video-player'></iframe>
       </div>
       <ul class="photos">
-        <li class="photo" *ngFor='let photo of photos' (click)="modalPhoto(photoWindow, photo.src, photo.text)">
-          <img src="/assets/images/{{photo.src}}" alt="{{photo.text}}">
+        <li class="photo" *ngFor='let photo of photos' >
+          <img src="/assets/images/{{photo.src}}" alt="{{photo.text}}" *ngIf="photo.type !='pdf' " (click)="modalPhoto(photoWindow, photo.src, photo.text)">
+          <a href="/assets/pdf/{{photo.href}}.pdf" target="_blank" *ngIf="photo.type =='pdf' ">
+            <img src="/assets/images/{{photo.src}}" alt="{{photo.text}}">
+          </a>
         </li>
       </ul>
     </div>

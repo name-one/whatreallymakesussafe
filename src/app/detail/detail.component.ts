@@ -32,6 +32,7 @@ export class DetailComponent implements OnInit, AfterViewInit {
               private rolloverService: RolloverService) {}
 
   public ngOnInit() {
+    document.body.classList.remove('nav-hidden');
     this.route.params
       .map((params: Params): string => params['id'])
       .subscribe((sectionTitle: string): void => {
@@ -57,6 +58,12 @@ export class DetailComponent implements OnInit, AfterViewInit {
         break;
       case 'Accountability':
         this.pageTitle = 'Accountability <span class="header-small">for People Causing Violence</span>';
+        break;
+      case 'About':
+        this.pageTitle = 'About <span class="header-small">the “What <em>really</em> makes us safe?” Project</span>';
+        break;
+      case 'Community':
+        this.pageTitle = 'Community <span class="header-small">What <i class="non-italic">is</i> a community?</span>';
         break;
       default:
         this.pageTitle = title;

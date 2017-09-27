@@ -35,7 +35,6 @@
 
   <div class="detail-container" *ngIf="selectedDetail?.navTitle === 'About'">
     <div class="question-content">
-      <div id="TheProject" class="title">the “What <em>really</em> makes us safe?” Project</div>
       <p (click)="showBio(0, content)" style="cursor:pointer; color: #709a98">-from Melanie Brazzell</p>
       <div class="accardion accardion-about">
         <div id="Beginnings" class="title">Process</div>
@@ -528,7 +527,6 @@
   <div class="modal-body">
     <div class="person-photo-container" *ngIf='selectedQuote.photo || selectedQuote.photo2' [class.person-photo-container_double]='selectedQuote.photo && selectedQuote.photo2'>
       <img src="/assets/images/persons/{{selectedQuote.photo}}" alt="{{ getPerson(selectedQuote.personId)?.name }}" class='person-photo' *ngIf='selectedQuote.photo'>
-      <img src="/assets/images/persons/{{selectedQuote.photo2}}" alt="{{ getPerson(selectedQuote.personId)?.name }}" class='person-photo' *ngIf='selectedQuote.photo2'>
     </div>
     <p [innerHTML]="selectedQuote.quote"></p>
   </div>

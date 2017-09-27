@@ -119,6 +119,7 @@
 }
  /deep/ .nav-hidden app-nav{
   transform: translateX(-100%);
+  display: none;
  }
 /deep/ .modal-header-de{
   justify-content: flex-end;
@@ -197,6 +198,9 @@
   .nav-toggler{
     display: block;
     z-index: 101;
+  }
+  /deep/ .nav-hidden .nav-toggler{
+    display: none;
   }
   .nav-toggler_visible .nav-toggler__line:nth-of-type(2){
     display: none;

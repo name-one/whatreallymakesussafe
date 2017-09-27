@@ -61,8 +61,9 @@ export const GAME_CHANGERS_SECTION = [
       },
       {
         tagline: 'Melanie Brazzell',
-        quote: 'initiated and designed the "What really makes us safe?" research project, serving as primary interviewer, researcher, and creator of this website. She has worked in the field of anti-sexual violence education for over a decade. Inspired by the visionary work of the community accountability and transformative justice movement, she co-founded the <a href="https://www.transformativejustice.eu/en/">Transformative Justice Kollektiv</a> in Berlin. Currently, she is exploring participatory action research as a movement building tool as a graduate student in sociology at University of California, Santa Barbara.',
-        personId: 0
+        quote: 'Initiated and designed the “What really makes us safe?” research project, serving as primary interviewer, researcher, and creator of this website. She has worked in the field of anti-sexual violence education for over a decade as a white person commited to ending white supremacy. Inspired by the visionary work of the community accountability and transformative justice movement, she co-founded the <a href="https://www.transformativejustice.eu/en/">Transformative Justice Kollektiv</a> in Berlin. Currently, she is exploring participatory action research as a movement building tool as a graduate student in sociology at the university of California, Santa Barbara.',
+        personId: 0,
+        photo: 'melanie.jpg'
       },
       {
         tagline: 'Melissa Spatz',
@@ -78,7 +79,7 @@ export const GAME_CHANGERS_SECTION = [
       {
         tagline: 'Qui Alexander & Jenna Peters-Golden',
         quote: '<strong>Jenna Peters-Golden<strong> is a queer anti-zionist Jew based in Philadelphia. She was a member of the <a href="https://phillystandsup.wordpress.com/">Philly Stands Up Collective</a> for 8 years and continues to be inspired by transformative justice that envisions community safety without police or prisons. Jenna is a founding worker-owner of <a href="http://aorta.coop/">AORTA [the Anti Oppression Resource and Training Alliance]</a> and also is a lover of science fiction and comic books.'
-        + '<br><br>' +'<strong>Qui Alexander<strong> is a queer, trans, Black Latinx educator, organizer, yoga teacher and consultant based in Philadelphia. His work centers the intersections of gender, sexuality and racial justice; healing justice and transformative/restorative justice anti-violence work. Believing the personal is political, his work strives to focus on personal liberation and healing to make movement work more sustainable.'
+        + '<br><br>' +'<img src="/assets/images/persons/Qui.png" class="person-photo" ><strong>Qui Alexander<strong> is a queer, trans, Black Latinx educator, organizer, yoga teacher and consultant based in Philadelphia. His work centers the intersections of gender, sexuality and racial justice; healing justice and transformative/restorative justice anti-violence work. Believing the personal is political, his work strives to focus on personal liberation and healing to make movement work more sustainable.'
         + '<br><br>' +'Qui and Jenna are members of the <a href="https://phillystandsup.wordpress.com/">Philly Stands Up Collective</a>, a small collective of individuals working in Philadelphia to confront sexual assault in our various communities using a transformative justice framework. We believe in restoring trust and justice within our community by working with both survivors and perpetrators of sexual assault. We work with people who have assaulted others to hold them accountable to the survivor(s) and restore their relationships within their communities.',
         photo: 'jenna.jpg',
         photo2: 'Qui.png',

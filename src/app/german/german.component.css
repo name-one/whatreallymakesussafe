@@ -9,9 +9,20 @@
   text-align: center;
   margin-bottom: 50px;
 }
+.modal-title{
+  font-size: 22px;
+  margin-bottom: 0;
+}
 .controll-buttons{
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 50px;
+  max-width: 700px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .controll-button{
   display: inline-flex;
@@ -36,7 +47,8 @@
 .controll-button__text{
   position: relative;
   z-index: 2;
-  font-size: 18px;
+  font-size: 16px;
+  text-align: center;
   width: 100%;
   color: #fff;
   background-color: rgba(0,0,0,.7);
@@ -72,7 +84,7 @@
 }
 .btn{
   display: block;
-  max-width: 210px;
+  max-width: 300px;
   margin: 20px auto;
   text-align: center;
   background-color: #709a98;
@@ -145,7 +157,8 @@ footer{
 .thumbnails{
   margin: 20px auto;
   list-style: none;
-  max-width: 60%;
+  max-width: 700px;
+  width: 100%;
   padding: 0;
   display: flex;
   flex-direction: row;
@@ -172,7 +185,7 @@ footer{
   margin: 0 auto;
 }
 .thumbnails_center{
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .organisations{
   display: flex;
@@ -195,24 +208,24 @@ footer{
 .photos{
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-flow: row wrap;
-  margin: 20px 0;
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0;
 }
 .photo{
-  width: 310px;
+  width: 210px;
   max-width: 100%;
-  margin-right: 20px;
-  height: 180px;
+  height: 120px;
+  margin-bottom: 20px;
   overflow: hidden;
   cursor: pointer;
   box-shadow: -1px 0px 1px 1px rgba(0,0,0,.3);
 }
-.photo:nth-of-type(n+4){
-  margin-top: 20px;
-}
 .photo img{
-  max-width: 100%;
+  width: 210px;
 }
 .modal-body-de img{
   display: block;
@@ -229,7 +242,6 @@ footer{
   }
   .photo{
     margin-bottom: 20px;
-    height: auto;
   }
   .modal-header .modal-title{
     font-size: 16px;
@@ -251,5 +263,21 @@ footer{
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .controll-buttons{
+    display: block;
+  }
+  .controll-button{
+    display: flex;
+    margin-bottom: 20px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+}
+@media only screen and (max-width: 560px){
+  .photos{
+    justify-content: center;
   }
 }

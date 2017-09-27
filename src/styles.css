@@ -36,10 +36,16 @@ html{
 img{
   max-width: 100%;
 }
+body strong{
+  font-weight: bold;
+}
 .header-small{
-  font-size: .8em;
+  font-size: .6em;
   font-family: inherit;
-  display: block;
+  display: inline-block;
+}
+.container{
+  width: 100%;
 }
 .modal {
   top: 5%;

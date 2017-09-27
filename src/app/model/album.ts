@@ -1,6 +1,8 @@
 export interface iAlbum {
   src: string,
-  text: string
+  text: string,
+  type?: string,
+  href?: string
 }
 export const album: iAlbum[] = [
   {
@@ -12,6 +14,13 @@ export const album: iAlbum[] = [
     text: 'Ausstellung „Heilungsarchiven“/ Zoya Honarmands Film „yes“ (2014)'
   },
   {
+    src: '256x256.jpg',
+    text: 'Ausstellung „Heilungsarchiven“/ Olivia Oyama\`s Audioinstallation „Inward Broadcast/affirmations“',
+    type: 'pdf',
+    href: 'Inward-Broadcast'
+
+  },
+  {
     src: 'pic3.jpg',
     text: 'Transformative Justice Kollektiv war mit seinem Zine dabei'
   },
@@ -21,7 +30,7 @@ export const album: iAlbum[] = [
   },
   {
     src: 'pic5.jpg',
-    text: '...und auch das Toolkit verteilt'
+    text: 'Das Toolkit wurde auch verteilt'
   },
   {
     src: 'pic6.jpg',

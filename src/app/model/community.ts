@@ -1,6 +1,6 @@
 export const COMMUNITY_SECTION = [
   {
-    title: 'What <i class="non-italic">is</i> a community?',
+    title: '',
     nav: 'Definitions',
     question: '',
     quotes: [
@@ -94,6 +94,11 @@ export const COMMUNITY_SECTION = [
     nav: 'Involvement',
     question: '',
     quotes: [
+      {
+        tagline: 'Stop the stalker! It works!',
+        quote: 'Another meeting participant [in the “Transforming Silence into Action: A National Gathering to Address Intimate Partner Violence in Queer Asian Pacific Islander Women’s Communities” gathering] described a situation where a queer API woman stalked her ex-partner. Her <strong>ex-partner emailed the stalker and cc’ed her message to 18 other people in the community</strong>, essentially saying: “Please stop doing this, this is not healthy”. <br><br> One person from the 18 on the e-mail list wrote directly to the stalker, telling her that she herself had been a stalker before: "<strong>I did a similar thing to what you are doing right now. Please stop, it’s not worth it</strong>. You are losing friends." <br><br> The <strong>ex-stalker offered some strong support to the stalker </strong>, while friends of the stalker did the same, for instance by telling her to call one of them when she started wanting to call her ex-partner. <br><br><strong>It worked! She stopped</strong>.<br><br> The participant noted that a new challenge emerged from this strategy: How do we <strong>build strong ties</strong> that will enable people to feel safe to inform each other and seek support?',
+        personId: 19
+      },
       {
         tagline: 'Women & Girls Community Action Network',
         quote: 'We [Women and Girls Community Action Network] started without an agenda, by and large. I mean there was an agenda of challenging the women\'s movement and building a different thing. But our agenda didn\'t include doing media justice work or healing organizing or community accountability even. It started with: <strong>"What would it look like if a different group of people other than the people who have traditionally run the women\'s movement got to define what the issue was, how they would want to respond to it, and got to take action and be the leaders?"<strong> Instead of having the ED of the local organization be the leader. We weren\'t even sure it would be around violence against women at first. It was like, what if a group of younger women got to just define the issues for themselves. Maybe we do reproductive justice work, maybe it\'s economic justice work, maybe it\'s something none of us have thought about. It was supposed to be a one year exploratory project.'
